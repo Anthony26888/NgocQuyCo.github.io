@@ -2,116 +2,79 @@
     <v-app id="inspire">
         <v-main class="bg-light">
             <v-container>
-                <v-row>
-                    <v-col class="mt-2" cols="12">
-                        <strong>Máy In Linx CIJ</strong>
-                    </v-col>
+                <div>
+                    <strong>Máy In Linx CIJ</strong>
+                    <div class="d-flex flex-wrap gap-3">
+                        <v-card class="card mt-3" v-for="value in store.Linx" :key="value">
+                            <v-img class="w-100" height="200" :src="'/src/assets/Image/Product/' + value.img" fill>
 
-                    <v-col cols="12" class=" ">
-                        <div class="d-flex flex-wrap justify-content-start align-items-center">
-                            <v-card class="mx-auto card" v-for="value in Linx" :key="value">
-                                <v-img class="w-100" height="200" :src="'/src/assets/Image/Product/' + value.img" fill>
+                            </v-img>
 
-                                </v-img>
+                            <v-card-subtitle class="pt-4">
+                                {{ value.model }}
+                            </v-card-subtitle>
 
-                                <v-card-subtitle class="pt-4">
-                                    {{ value.model }}
-                                </v-card-subtitle>
+                            <v-card-text>
+                                <h6>{{ value.name }}</h6>
 
-                                <v-card-text>
-                                    <h6>{{ value.name }}</h6>
+                            </v-card-text>
 
-                                </v-card-text>
-
-                                <v-card-actions>
-                                    <v-btn color="info" class="mx-auto" @click="Detail(value.name)">
-                                            Xem chi tiết
-                                        </v-btn>
-                                </v-card-actions>
-                            </v-card>
-                        </div>
-                    </v-col>
-                </v-row>
-
-                <v-row>
-                    <v-col class="mt-2" cols="12">
-                        <strong>Máy In Hitachi CIJ</strong>
-                    </v-col>
-
-                    <v-col cols="12" class="">
-                        <div class="d-flex flex-wrap justify-content-start align-items-center">
-                            <v-card class="mx-auto card" v-for="value in Hitachi" :key="value">
-                                <v-img class="w-100 image" height="200" :src="'/src/assets/Image/Product/' + value.img"
-                                    fill>
-
-                                </v-img>
-
-                                <v-card-subtitle class="pt-4">
-                                    {{ value.model }}
-                                </v-card-subtitle>
-
-                                <v-card-text>
-                                    <h6>{{ value.name }}</h6>
-
-                                </v-card-text>
-
-                                <v-card-actions>
-                                    <v-btn color="info" class="mx-auto">
+                            <v-card-actions>
+                                <router-link to="/Thong-tin-san-pham" class="mx-auto">
+                                    <v-btn color="info"  @click="store.GetInfo(value.id)">
                                         Xem chi tiết
                                     </v-btn>
+                                </router-link>
 
-                                </v-card-actions>
-                            </v-card>
-                        </div>
-                    </v-col>
-                </v-row>
+                            </v-card-actions>
+                        </v-card>
+                    </div>
+                </div>
+
+                <div class="mt-3">
+                    <strong>Máy In Hitachi CIJ</strong>
+                    <div class="d-flex flex-wrap gap-3">
+                        <v-card class="card mt-3" v-for="value in store.Hitachi" :key="value">
+                            <v-img class="w-100" height="200" :src="'/src/assets/Image/Product/' + value.img" fill>
+
+                            </v-img>
+
+                            <v-card-subtitle class="pt-4">
+                                {{ value.model }}
+                            </v-card-subtitle>
+
+                            <v-card-text>
+                                <h6>{{ value.name }}</h6>
+
+                            </v-card-text>
+
+                            <v-card-actions>
+                                <router-link to="/Thong-tin-san-pham" class="mx-auto">
+                                    <v-btn color="info"  @click="store.GetInfo(value.id)">
+                                        Xem chi tiết
+                                    </v-btn>
+                                </router-link>
+                            </v-card-actions>
+                        </v-card>
+                    </div>
+                </div>
+
             </v-container>
         </v-main>
     </v-app>
 </template>
 
 <script setup>
-import { ref } from "vue";
+import { useAppStore } from "@/store/app";
+const store = useAppStore();
 
-const drawer = ref(null);
 
 </script>
 
 <script>
-import axios from 'axios';
+
 export default {
-    data: () => ({
-        drawer: null,
-        Linx: [],
-        Hitachi: [],
-        stt:null
-    }),
-    mounted() {
-        this.FetchLinx()
-        this.FetchHitachi()
-    },
-    methods: {
-        FetchLinx() {
-            const url = "http://localhost:3000/product?model=Linx"
-            axios.get(url).then((response) => {
-                const data = response.data;
-                this.Linx = data
 
-            })
-        },
-        FetchHitachi() {
-            const url = "http://localhost:3000/product?model=Hitachi"
-            axios.get(url).then((response) => {
-                const data = response.data;
-                this.Hitachi = data
-
-            })
-        },
-        Detail(data){
-            this.stt = data
-        }
-
-    }
 }
 </script>
 <style scoped>

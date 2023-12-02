@@ -1,76 +1,74 @@
-{
-  "product": [
-    {
-      "id": "1",
-      "model": "Linx",
-      "name": "Máy in Linx 8900",
-      "img": "Linx8900.png",
-      "description": "Hoạt động 24/7 | Mã vạch | Mã hóa hàng loạt | Ma trận dữ liệu và mã QR | Sản xuất tốc độ cao | Bao bì bán lẻ | In tối đa 6 dòng",
-      "benefit1": "Truy cập, điều khiển và hỗ trợ từ xa với Linx PrinterNet.",
-      "benefit2": "Được thiết kế để hỗ trợ mã hóa không có lỗi.",
-      "benefit3": "Thao tác nhanh chóng với giao diện màn hình cảm ứng đơn giản.",
-      "benefit4": "Bao bì chính và phụ với một máy in.",
-      "Ink": "1039",
-      "Solution": "ádada"
-    },
-    {
-      "id": "2",
-      "model": "Linx",
-      "name": "Máy in Linx 8830",
-      "img": "Linx8830.jpg",
-      "description": "Linx 8830 là sản phẩm tâm huyết của chúng tôi, được thiết kế chuẩn mực, duy nhất cho thị trường Việt Nam. Chúng tôi mong rằng với Linx 8830, khách hàng sẽ dễ dàng tiếp cận công nghệ in phun tiên tiến Châu Âu với giá thành Việt Nam",
-      "benefit1": "ruy cập, điều khiển và hỗ trợ từ xa với Linx PrinterNet.",
-      "benefit2": "Được thiết kế để hỗ trợ mã hóa không có lỗi.",
-      "benefit3": "Thao tác nhanh chóng với giao diện màn hình cảm ứng đơn giản.",
-      "benefit4": "Bao bì chính và phụ với một máy in.",
-      "Ink": "1039",
-      "Solution": "ádada"
-    },
-    {
-      "id": "3",
-      "model": "Linx",
-      "name": "Máy in Linx 7900",
-      "img": "Linx7900.webp",
-      "description": "1231",
-      "benefit": "ưdqdw",
-      "Ink": "1039",
-      "Solution": "ádada"
-    },
-    {
-      "id": "4",
-      "model": "Linx",
-      "name": "Máy in Linx 5900",
-      "img": "Linx5900.webp",
-      "description": "Máy in phun công nghiệp Linx 5900 là dòng máy chuyên dụng và phổ thông của Linx. Đảm bảo tính hiệu quả in luôn tốt nhất với chi phí vận hành thấp nhất.",
-      "benefit": "ưdqdw",
-      "Ink": "1039",
-      "Solution": "ádada"
-    },
-    {
-      "id": "5",
-      "model": "Hitachi",
-      "name": "Máy in Hitachi RX2 - SD",
-      "img": "HitachiRX.jpg",
-      "description": "Máy in phun ngày sản xuất hạn sử dụng RX2-SD chính là giải pháp vượt trội dùng in phun date, mã số công nghiệp, ngày sản xuất hạn sử dụng, barcode…trực tiếp lên sản phẩm. Đây chính là sản phẩm ưu việt với độ tin cậy cao với công nghệ tiên tiến của Nhật Bản. ",
-      "benefit1": "Dễ dàng thay thế màng lọc mực chính thông qua hệ thống “ngắt kết nối nhanh",
-      "benefit2": "Giải pháp hoàn hảo cho các ứng dụng in phức tạp và tiêu chuẩn",
-      "benefit3": "Đầu in có thể dễ dàng lắp đặt nội tuyến hoặc ở 90 độ và được sản xuất từ nhôm đúc để sử dụng trong môi trường khắc nghiệt",
-      "benefit4": "Vỏ máy làm từ thép không gỉ chống bụi & nước nhỏ giọt IP55",
-      "Ink": "1039",
-      "Solution": "ádada"
-    },
-    {
-      "id": "6",
-      "model": "Hitachi",
-      "name": "Máy in Hitachi UX2 - SERIES",
-      "img": "HitachiUX.jpg",
-      "description": "Máy in phun công nghiệp Hitachi UX2 cung cấp giải pháp mã hóa và đánh dấu hiệu quả để in ngày sản xuất, hạn sử dụng, Qr Code và các thông tin khác lên các chất liệu khác nhau của nhiều sản phẩm như chai, lọ, lon nước, thùng carton, nắp chai, bao bì PP, PE, Ống nhựa,….",
-      "benefit1": "Dòng máy in date này dựa trên mô hình tiêu chuẩn máy in phun date code Hitachi UX Series và có tất cả các tính năng được liệt kê ở trên nhưng bao gồm một tính năng bổ sung để cải thiện quy trình làm sạch đầu in.",
-      "benefit2": "Máy có nhiều chế độ làm sạch và các video hướng dẫn khắc phục sự cố có sẵn",
-      "benefit3": "Trong tất cả các máy in phun, đầu nắp đầu in có nhiều khả năng bị bám dính mực và để đảm bảo hiệu suất tối ưu, nó nên được làm sạch thường xuyên.",
-      "benefit4": "Chuyển đổi đường dây nhanh chóng – Di chuyển máy in phun từ dây chuyền sản xuất sang dây chuyền dễ dàng sử dụng đầu nối I / O được cấu hình sẵn, loại bỏ những sai lầm tốn thời gian.",
-      "Ink": "1039",
-      "Solution": "ádada"
-    }
-  ]
-}
+[
+  {
+    "id": "1",
+    "model": "Linx",
+    "name": "Máy in Linx 8900",
+    "img": "Linx8900.png",
+    "description": "Hoạt động 24/7 | Mã vạch | Mã hóa hàng loạt | Ma trận dữ liệu và mã QR | Sản xuất tốc độ cao | Bao bì bán lẻ | In tối đa 6 dòng",
+    "benefit1": "Truy cập, điều khiển và hỗ trợ từ xa với Linx PrinterNet.",
+    "benefit2": "Được thiết kế để hỗ trợ mã hóa không có lỗi.",
+    "benefit3": "Thao tác nhanh chóng với giao diện màn hình cảm ứng đơn giản.",
+    "benefit4": "Bao bì chính và phụ với một máy in.",
+    "Ink": "1039",
+    "Solution": "ádada"
+  },
+  {
+    "id": "2",
+    "model": "Linx",
+    "name": "Máy in Linx 8830",
+    "img": "Linx8830.jpg",
+    "description": "Linx 8830 là sản phẩm tâm huyết của chúng tôi, được thiết kế chuẩn mực, duy nhất cho thị trường Việt Nam. Chúng tôi mong rằng với Linx 8830, khách hàng sẽ dễ dàng tiếp cận công nghệ in phun tiên tiến Châu Âu với giá thành Việt Nam",
+    "benefit1": "ruy cập, điều khiển và hỗ trợ từ xa với Linx PrinterNet.",
+    "benefit2": "Được thiết kế để hỗ trợ mã hóa không có lỗi.",
+    "benefit3": "Thao tác nhanh chóng với giao diện màn hình cảm ứng đơn giản.",
+    "benefit4": "Bao bì chính và phụ với một máy in.",
+    "Ink": "1039",
+    "Solution": "ádada"
+  },
+  {
+    "id": "3",
+    "model": "Linx",
+    "name": "Máy in Linx 7900",
+    "img": "Linx7900.webp",
+    "description": "1231",
+    "benefit": "ưdqdw",
+    "Ink": "1039",
+    "Solution": "ádada"
+  },
+  {
+    "id": "4",
+    "model": "Linx",
+    "name": "Máy in Linx 5900",
+    "img": "Linx5900.webp",
+    "description": "Máy in phun công nghiệp Linx 5900 là dòng máy chuyên dụng và phổ thông của Linx. Đảm bảo tính hiệu quả in luôn tốt nhất với chi phí vận hành thấp nhất.",
+    "benefit": "ưdqdw",
+    "Ink": "1039",
+    "Solution": "ádada"
+  },
+  {
+    "id": "5",
+    "model": "Hitachi",
+    "name": "Máy in Hitachi RX2 - SD",
+    "img": "HitachiRX.jpg",
+    "description": "Máy in phun ngày sản xuất hạn sử dụng RX2-SD chính là giải pháp vượt trội dùng in phun date, mã số công nghiệp, ngày sản xuất hạn sử dụng, barcode…trực tiếp lên sản phẩm. Đây chính là sản phẩm ưu việt với độ tin cậy cao với công nghệ tiên tiến của Nhật Bản. ",
+    "benefit1": "Dễ dàng thay thế màng lọc mực chính thông qua hệ thống “ngắt kết nối nhanh",
+    "benefit2": "Giải pháp hoàn hảo cho các ứng dụng in phức tạp và tiêu chuẩn",
+    "benefit3": "Đầu in có thể dễ dàng lắp đặt nội tuyến hoặc ở 90 độ và được sản xuất từ nhôm đúc để sử dụng trong môi trường khắc nghiệt",
+    "benefit4": "Vỏ máy làm từ thép không gỉ chống bụi & nước nhỏ giọt IP55",
+    "Ink": "1039",
+    "Solution": "ádada"
+  },
+  {
+    "id": "6",
+    "model": "Hitachi",
+    "name": "Máy in Hitachi UX2 - SERIES",
+    "img": "HitachiUX.jpg",
+    "description": "Máy in phun công nghiệp Hitachi UX2 cung cấp giải pháp mã hóa và đánh dấu hiệu quả để in ngày sản xuất, hạn sử dụng, Qr Code và các thông tin khác lên các chất liệu khác nhau của nhiều sản phẩm như chai, lọ, lon nước, thùng carton, nắp chai, bao bì PP, PE, Ống nhựa,….",
+    "benefit1": "Dòng máy in date này dựa trên mô hình tiêu chuẩn máy in phun date code Hitachi UX Series và có tất cả các tính năng được liệt kê ở trên nhưng bao gồm một tính năng bổ sung để cải thiện quy trình làm sạch đầu in.",
+    "benefit2": "Máy có nhiều chế độ làm sạch và các video hướng dẫn khắc phục sự cố có sẵn",
+    "benefit3": "Trong tất cả các máy in phun, đầu nắp đầu in có nhiều khả năng bị bám dính mực và để đảm bảo hiệu suất tối ưu, nó nên được làm sạch thường xuyên.",
+    "benefit4": "Chuyển đổi đường dây nhanh chóng – Di chuyển máy in phun từ dây chuyền sản xuất sang dây chuyền dễ dàng sử dụng đầu nối I / O được cấu hình sẵn, loại bỏ những sai lầm tốn thời gian.",
+    "Ink": "1039",
+    "Solution": "ádada"
+  }
+]
