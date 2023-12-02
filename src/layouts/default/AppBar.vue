@@ -3,7 +3,7 @@
     <div class="d-flex">
       
       <router-link to="/" style="text-decoration: none">
-        <v-img src="../../assets/Image/logoNG.png" :width="80"></v-img>
+        <v-img src="../../assets/Image/logoNG.png" :width="120" :height="80"></v-img>
       </router-link>
     </div>
         
