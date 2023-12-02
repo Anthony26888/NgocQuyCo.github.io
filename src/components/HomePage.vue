@@ -1,14 +1,16 @@
 <template>
-    <section class="about-us">
+    <section class="about-us" >
         <div class="row p-4">
             <div class="col-6">
-                <img class=" z-3 float-lg-right" src="../assets/Image/product-homepage.png">
-                <img class="z-1 position-absolute" src="../assets/Image/Shadow-Bg.png" alt="" srcset="">
+                <img class=" z-3 float-lg-left" src="../assets/Image/product-homepage.webp">                
             </div>
             <div class="col-12 col-sm-6 mb-3">
-                <h1 class="text-primary">Các sản phẩm</h1>
+                <h1 class="text-primary ">Các sản phẩm</h1>
                 <span class="text-muted">{{ title1 }}</span><br>
-                <v-btn color="info" class="mt-3">Tìm sản phẩm</v-btn>
+                <router-link to="/San-pham">
+                    <v-btn color="info" class="mt-3">Tìm sản phẩm</v-btn>
+                </router-link>
+                
             </div>
         </div>
         <div class="row p-4 mt-3">
@@ -23,7 +25,7 @@
         </div>
         <div class="row p-4 mt-3">
             <div class="col-6">
-                <img class="float-lg-right" src="../assets/Image/muc-homepage.jpg">
+                <img class="float-lg-left" src="../assets/Image/muc-homepage.jpg">
             </div>
             <div class="col-12 col-sm-6 mb-3">
                 <h1 class="text-primary">Các sản phẩm</h1>

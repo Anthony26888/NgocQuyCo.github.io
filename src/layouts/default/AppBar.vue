@@ -1,9 +1,9 @@
 <template>
-  <v-toolbar color="light">
+  <v-toolbar color="grey-lighten-3">
     <div class="d-flex">
       
       <router-link to="/" style="text-decoration: none">
-        <v-img src="../../assets/Image/logoNG.png" :width="120" :height="80"></v-img>
+        <v-img class="m-4" src="../../assets/Image/logoNG.png" :width="120" :height="70"></v-img>
       </router-link>
     </div>
         
