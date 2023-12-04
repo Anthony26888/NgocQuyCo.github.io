@@ -5,19 +5,19 @@
                 <img class=" z-3 float-lg-left" src="../assets/Image/product-homepage.webp">                
             </div>
             <div class="col-12 col-sm-6 mb-3">
-                <h1 class="text-primary ">Các sản phẩm</h1>
+                <h1 class="text-teal-accent-4">Các sản phẩm</h1>
                 <span class="text-muted">{{ title1 }}</span><br>
                 <router-link to="/San-pham">
-                    <v-btn color="info" class="mt-3">Tìm sản phẩm</v-btn>
+                    <v-btn class="bg-teal-accent-4 mt-3">Tìm sản phẩm</v-btn>
                 </router-link>
                 
             </div>
         </div>
         <div class="row p-4 mt-3">
             <div class="col-12 col-sm-6 mb-3">
-                <h1 class="text-primary">Các giải pháp ứng dụng</h1>
+                <h1 class="text-teal-accent-4">Các giải pháp ứng dụng</h1>
                 <span class="text-muted">{{ title2 }}</span><br>
-                <v-btn color="info" class="mt-3">Xem chi tiết</v-btn>
+                <v-btn class="bg-teal-accent-4 mt-3">Xem chi tiết</v-btn>
             </div>
             <div class="col-6">
                 <img class="float-lg-right" src="../assets/Image/solution-homepage.webp">
@@ -28,16 +28,16 @@
                 <img class="float-lg-left" src="../assets/Image/muc-homepage.jpg">
             </div>
             <div class="col-12 col-sm-6 mb-3">
-                <h1 class="text-primary">Các sản phẩm</h1>
+                <h1 class="text-teal-accent-4">Các sản phẩm</h1>
                 <span class="text-muted">{{ title3 }}</span><br>
-                <v-btn color="info" class="mt-3">Xem chi tiết</v-btn>
+                <v-btn class="bg-teal-accent-4 mt-3">Xem chi tiết</v-btn>
             </div>
         </div>
         <div class="row p-4 mt-3">
             <div class="col-12 col-sm-6 mb-3">
-                <h1 class="text-primary">BẢO TRÌ MÁY IN</h1>
+                <h1 class="text-teal-accent-4">BẢO TRÌ MÁY IN</h1>
                 <span class="text-muted">{{ title4 }}</span><br>
-                <v-btn color="info" class="mt-3">Xem chi tiết</v-btn>
+                <v-btn class="bg-teal-accent-4 mt-3">Xem chi tiết</v-btn>
             </div>
             <div class="col-6">
                 <img class="float-lg-right" src="../assets/Image/maintenance-homepage.png">

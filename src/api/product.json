@@ -4,11 +4,32 @@
     "model": "Linx",
     "name": "Máy in Linx 8900",
     "img": "Linx8900.png",
-    "description": "Hoạt động 24/7 | Mã vạch | Mã hóa hàng loạt | Ma trận dữ liệu và mã QR | Sản xuất tốc độ cao | Bao bì bán lẻ | In tối đa 6 dòng",
-    "benefit1": "Truy cập, điều khiển và hỗ trợ từ xa với Linx PrinterNet.",
-    "benefit2": "Được thiết kế để hỗ trợ mã hóa không có lỗi.",
-    "benefit3": "Thao tác nhanh chóng với giao diện màn hình cảm ứng đơn giản.",
-    "benefit4": "Bao bì chính và phụ với một máy in.",
+    "description": "Linx 8900 hoạt động đơn giản hơn so với các dòng máy in phun thông thường khác, giúp gia tăng hiệu quả sản xuất hơn so với trước đó. Công nghệ in không tiếp xúc trực tiếp lên bề mặt sản phẩm trên hệ thống dây chuyền sản xuất.",
+    "feature": [
+      "Số dòng in: 1, 2, 3",
+      "Chiều cao ký tự: 2.1 mm đến 10.7 mm",
+      "Tốc độ in tối đa: 2.92 m/ giây (theo tiêu chuẩn in 1 dòng, với ký tự cao 5 chấm)",
+      "Tốc độ in tối đa: 1.46 m/ giây (in 2 dòng, với ký tự cao 7 chấm)",
+      "Khoảng cách từ đầu in đến sản phẩm: từ 12mm đến 20mm"
+    ],
+    "tech": [
+      "Đầu in bền với thiết kế kín, nhằm hạn chế sự ma sát và các tác động từ yếu tố bên ngoài môi trường. Đầu in súc rửa tự đông, định kỳ chu kỳ từ 3 tháng đến 6 tháng.",
+      "Màn hình điều khiển cảm ứng 10 inches, kháng nước và một số loại dung môi.",
+      "Vỏ bọc tiêu chuẩn IP55 – phù hợp với môi trường dội nước.",
+      "Máy có tính năng báo khi chuẩn bị hết mực hoặc dung môi. Khả năng tiếp liệu trực tiếp khi đang in, không cần ngừng dây chuyền in."
+    ],
+    "control": [
+      "Tạo và chỉnh sửa bản tin đơn giản",
+      "Cổng USB để sao lưu và chuyển bản tin, kết nối wifi cho Linx PrinterNet",
+      "Trình chỉnh sửa ngày và giờ, với chức năng nhảy ngày tự động",
+      "Có thể lưu trữ đến 1000 bản tin bằng bộ nhớ trong máy"
+    ],
+    "special": [
+      "Màn hình cảm ứng đủ màu 7 inch có tấm che polymer chắc chắn, chống dung môi",
+      "Vỏ máy làm bằng thép không gỉ cao cấp, đáp ứng tiêu chuẩn kháng bụi nước IP55",
+      "Dây đầu in dài 2m & 4m cho khách hàng lựa chọn",
+      "Dễ dàng tích hợp dây chuyền sản xuất"
+    ],
     "Ink": "1039",
     "Solution": "ádada"
   },
@@ -18,10 +39,30 @@
     "name": "Máy in Linx 8830",
     "img": "Linx8830.jpg",
     "description": "Linx 8830 là sản phẩm tâm huyết của chúng tôi, được thiết kế chuẩn mực, duy nhất cho thị trường Việt Nam. Chúng tôi mong rằng với Linx 8830, khách hàng sẽ dễ dàng tiếp cận công nghệ in phun tiên tiến Châu Âu với giá thành Việt Nam",
-    "benefit1": "ruy cập, điều khiển và hỗ trợ từ xa với Linx PrinterNet.",
-    "benefit2": "Được thiết kế để hỗ trợ mã hóa không có lỗi.",
-    "benefit3": "Thao tác nhanh chóng với giao diện màn hình cảm ứng đơn giản.",
-    "benefit4": "Bao bì chính và phụ với một máy in.",
+    "feature": [
+      "In từ 3 đến 6 dòng, gồm: văn bản, ký hiệu và số, mã barcoders.",
+      "Chiều cao ký tự: 1.8mm đến 20 mm",
+      "Tốc độ in tối đa: 9.1m/ giây (theo tiêu chuẩn in 1 dòng, với ký tự cao 5 chấm)",
+      "In ký tự in đậm (lên đến 9 lần) và xoay chiều ký tự in (xoay theo góc 90 độ)"
+    ],
+    "tech": [
+      "Đầu in bền với thiết kế kín, nhằm hạn chế sự ma sát và các tác động từ yếu tố bên ngoài môi trường. Đầu in súc rửa tự đông, định kỳ chu kỳ từ 3 tháng đến 6 tháng.",
+      "Màn hình điều khiển cảm ứng 10 inches, kháng nước và một số loại dung môi.",
+      "Vỏ bọc tiêu chuẩn IP55 – phù hợp với môi trường dội nước.",
+      "Máy có tính năng báo khi chuẩn bị hết mực hoặc dung môi. Khả năng tiếp liệu trực tiếp khi đang in, không cần ngừng dây chuyền in."
+    ],
+    "control": [
+      "Tạo và chỉnh sửa bản tin đơn giản",
+      "Cổng USB để sao lưu và chuyển bản tin, kết nối wifi cho Linx PrinterNet",
+      "Trình chỉnh sửa ngày và giờ, với chức năng nhảy ngày tự động",
+      "Có thể lưu trữ đến 1000 bản tin bằng bộ nhớ trong máy"
+    ],
+    "special": [
+      "Màn hình cảm ứng đủ màu 7 inch có tấm che polymer chắc chắn, chống dung môi",
+      "Vỏ máy làm bằng thép không gỉ cao cấp, đáp ứng tiêu chuẩn kháng bụi nước IP55",
+      "Dây đầu in dài 2m & 4m cho khách hàng lựa chọn",
+      "Dễ dàng tích hợp dây chuyền sản xuất"
+    ],
     "Ink": "1039",
     "Solution": "ádada"
   },
@@ -41,7 +82,35 @@
     "name": "Máy in Linx 5900",
     "img": "Linx5900.webp",
     "description": "Máy in phun công nghiệp Linx 5900 là dòng máy chuyên dụng và phổ thông của Linx. Đảm bảo tính hiệu quả in luôn tốt nhất với chi phí vận hành thấp nhất.",
-    "benefit": "ưdqdw",
+    "feature": [
+      "In 3 dòng văn bản và logo là tiêu chuẩn có sẵn",
+      "Tốc độ in tối đa 7.28m/s (in 1 dòng)",
+      "Tốc độ in tối đa: 2.92 m/ giây (theo tiêu chuẩn in 1 dòng, với ký tự cao 5 chấm)",
+      "Độ cao chữ từ 1.4mm tới 10.7mm",
+      "In ký tự xoay (dạng hình tháp)"
+    ],
+    "tech": [
+      "In date code, Ngày sản xuất – Hạn sử dụng, số lô, số ca, mã vạch, logo, Quy cách sản phẩm.",
+      "Chất liệu in đa dạng như: nhựa, kim loại, giấy, thủy tinh,….",
+      "Tốc độ in tối đa 7.28m/s (in 1 dòng)",
+      "Độ cao chữ từ 1.4mm tới 10.7mm",
+      "In ký tự xoay (dạng hình tháp)"
+    ],
+    "control": [
+      "Màn hình màu WYSIWYG (1/4 VGA size)",
+      "Bàn phím QWERTY dạng cơ",
+      "Sử dụng phím nóng (Hot key) nên thao tác rất nhanh và tiện lợi.",
+      "Ngôn ngữ hiển thị TIẾNG VIỆT và 20 ngôn ngữ khác nhau, có thể GÕ CHỮ VIỆT.",
+      "Có thể giám sát máy Linx 5900 từ xa thông qua Smart phone, Laptop, PC.",
+      "Máy Linx 5900 có cổng USB và kết nối máy tính qua cống RS232, Enternet, Parallel I/O"
+    ],
+    "special": [
+      "Vỏ máy bằng thép không gỉ, được thiết kế cong để hạn chế sự bám bụi",
+      "Kết cấu IP55 là tiêu chuẩn có sẵn",
+      "Trọng lượng chỉ 21kg",
+      "Không yêu cầu khí nén",
+      "Nút khởi động và tắt máy đơn giản"
+    ],
     "Ink": "1039",
     "Solution": "ádada"
   },

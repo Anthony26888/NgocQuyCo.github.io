@@ -9,9 +9,9 @@
         
     <v-spacer></v-spacer>
     <v-toolbar-items>      
-      <v-btn color="primary">Giới Thiệu</v-btn>
-      <v-btn color="primary">Sản Phẩm</v-btn>
-      <v-btn color="primary">Liên Hệ</v-btn>
+      <v-btn class="text-teal-accent-4">Giới Thiệu</v-btn>
+      <v-btn class="text-teal-accent-4">Sản Phẩm</v-btn>
+      <v-btn class="text-teal-accent-4">Liên Hệ</v-btn>
     </v-toolbar-items>
   </v-toolbar>
 </template>
