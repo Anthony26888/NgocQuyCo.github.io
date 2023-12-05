@@ -1,5 +1,5 @@
 <template>
-  <v-toolbar color="grey-lighten-3">
+  <v-toolbar class="bg-light">
     <div class="d-flex">
       
       <router-link to="/" style="text-decoration: none">

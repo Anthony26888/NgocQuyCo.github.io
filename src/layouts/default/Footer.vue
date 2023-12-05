@@ -1,92 +1,45 @@
 <template>
-    <footer class="footer_area bg-grey-lighten-3">
-        <div class="container">
-            <div class="row justify-content-between">
-                <div class="col-3 col-xl-2 col-lg-3 col-md-3 col-sm-3">
-                    <div class="footer-widget">
-                        <div class="footer-title">Navigate</div>
-                        <ul class="list-unstyled">
-                            <router-link to="/">
-                                <li>About Us</li>
-                            </router-link>
-                            <router-link to="/">
-                                <li>Blog</li>
-                            </router-link>
-                            <router-link to="/">
-                                <li>Contact Us</li>
-                            </router-link>
-                            <router-link to="/">
-                                <li>Sitemap</li>
-                            </router-link>
-                        </ul>
-                    </div>
-                </div>
+    <footer class="bg-body-tertiary text-center text-lg-start">
+        <!-- Grid container -->
+        <div class="container p-4">
+            <!--Grid row-->
+            <div class="row">
+                <!--Grid column-->
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <img src="../../assets/Image/logoNG.png" alt="" srcset="">
+                    <h5 class="text-uppercase">NGỌC QUÝ TECHNOLOGY</h5>
 
-                <div class="col-3 col-xl-2 col-lg-3 col-md-3 col-sm-3">
-                    <div class="footer-widget">
-                        <div class="footer-title">Collection</div>
-                        <ul class="list-unstyled">
-                            <router-link to="/products">
-                                <li>New arrivals</li>
-                            </router-link>
-                            <router-link to="/products">
-                                <li>Featured</li>
-                            </router-link>
-                            <router-link to="/products">
-                                <li>Catalog</li>
-                            </router-link>
-                            <router-link to="/products">
-                                <li>Brands</li>
-                            </router-link>
-                        </ul>
-                    </div>
+                    <p>
+                        Chúng tôi luôn sẵn sàng khi bạn cần!
+                    </p>
                 </div>
+                <!--Grid column-->
 
-                <div class="col-3 col-xl-2 col-lg-3 col-md-3 col-sm-3">
-                    <div class="footer-widget">
-                        <div class="footer-title">Catagories</div>
-                        <ul class="list-unstyled">
-                            <router-link to="/products">
-                                <li>Tables</li>
-                            </router-link>
-                            <router-link to="/products">
-                                <li>Lamps</li>
-                            </router-link>
-                            <router-link to="/products">
-                                <li>Chairs</li>
-                            </router-link>
-                            <router-link to="/products">
-                                <li>Sofas</li>
-                            </router-link>
-                        </ul>
+                <!--Grid column-->
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Trụ sở</h5>
+
+                    <p>
+                        102/1 Hẻm 102 Bình Thới, Phường 14, Quận 11, Thành phố Hồ Chí Minh
+                    </p>
+                    <div class="d-flex">
+                        <v-icon size="large" color="green-darken-2" icon="mdi-phone"></v-icon>
+                        <p class="ms-2">Mr.Hải (0918504086 )</p>
                     </div>
+                    
                 </div>
-
-                <div class="col-12 col-xl-6 col-lg-3 col-md-3 col-sm-12 text-left text-md-right pb-5">
-                    <div class="footer-widget">
-                        <h4>399 Crowfield Road,</h4>
-                        <h4>Phoenix, Arizona 85012</h4>
-                        <a href="mailto:#">asff@fdsfsdc.com</a>
-                        <h6>+602-926-5809</h6>
-                    </div>
-                </div>
-
+                <!--Grid column-->
             </div>
-
-            <div class="row justify-content-between">
-                <div class="col-xl-7 col-lg-6 col-md-6 col-sm-6 col-6">
-                    <div class="tiny-footer">
-                        <p>Copyright © All Rights Reserved 2020 </p>
-                    </div>
-                </div>
-                <div class="col-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 text-right">
-                    <div class="social-info">
-                        <strong>Get social</strong>
-                       
-                    </div>
-                </div>
-            </div>
+            <!--Grid row-->
         </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2023 Copyright:
+            <a class="text-body" href="https://ngocquycompany.onrender.com/">ngocquyco.com.vn</a>
+        </div>
+        <!-- Copyright -->
     </footer>
 </template>
   
@@ -94,39 +47,10 @@
 export default {
     name: 'Footer'
 }
-</script>
-  
+</script>  
 <style scoped>
-.footer_area {
-    position: relative;
-    z-index: 1;
-    color: #2c3539;
-    background-color: #fefefe;
+img {
+    width: 100px;
+    height: 100px;
 }
-
-.footer-widget {
-    padding-top: 60px;
-}
-
-.footer-title {
-    padding-bottom: 20px;
-    font-weight: bold;
-}
-
-.list-unstyled a {
-    text-decoration: none;
-}
-
-.list-unstyled a li {
-    color: #2c3e50;
-    margin-bottom: 10px;
-}
-
-.social-info>img {
-    padding-left: 10px;
-}
-
-.social-info>img:hover {
-    opacity: 0.7;
-}</style>
-  
+</style>
