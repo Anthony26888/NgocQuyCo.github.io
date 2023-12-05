@@ -2,6 +2,7 @@
   <v-app id="inspire">
     <v-main>
       <div class="container">
+        <v-breadcrumbs :items="['Trang chủ', 'Sản Phẩm', `${Info.name}`]"></v-breadcrumbs>
         <v-row>
           <v-col>
             <img
