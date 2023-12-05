@@ -3,7 +3,7 @@
     <div class="col-12">
       <carousels />
     </div>
-    <div class="col-12 mt-5">
+    <div class="col-12">
       <div class="container">
         <Home/>
       </div>

@@ -71,8 +71,32 @@
     "model": "Linx",
     "name": "Máy in Linx 7900",
     "img": "Linx7900.webp",
-    "description": "1231",
-    "benefit": "ưdqdw",
+    "description": "Máy in date Linx 7900 là một dòng máy in mạnh mẽ, phù hợp để in trên nhiều dòng sản phẩm, ứng dụng trong nhiều ngành công nghiệp. Các tính năng tự động của máy in Linx 7900 giúp tăng năng suất và giảm lỗi in – nâng cao hiệu quả và giảm chi phí cho doanh nghiệp.",
+    "feature": [
+      "Số dòng in: Từ 1 – 5 dòng",
+      "Tốc độ in tối đa: 8.41 m/s",
+      "Số ký tự in tối đa: 2667",
+      "In nghịch đảo cho những dòng in đối xứng"
+    ],
+    "tech": [
+      "Khoảng thời gian dịch vụ định kỳ lên tới 18 tháng hoặc 9000 giờ",
+      "Bảo hành 18 tháng ",
+      "Vỏ bọc tiêu chuẩn IP55 – phù hợp với môi trường dội nước.",
+      "Các thiết bị cấu thành có tuổi thọ cao, tiêu chuẩn Anh Quốc, hạn chế tối đa phát sinh lỗi vặt, tiết kiệm chi phí bảo trì và sửa chữa"
+    ],
+    "control": [
+      "Linx Insight điều khiển máy in từ xa và theo dõi trạng thái hoạt động của máy",
+      "Giao diện menu WYSIWYG đơn giản, dễ dàng tạo và chỉnh sửa bản tin",
+      "QuickSwitch Plus có thể tự do lựa chọn và chỉnh sửa bản tin sử dụng Barcode Scanner",
+      "PrintSync lựa chọn Format in tự động",
+      "Print History Log lưu trữ nhật ký in",
+      "Cổng USB thuận tiện Copy và Back up dữ liệu bản tin và bản cài đặt, dễ dàng sao lưu bản tin giữa các máy in với nhau."
+    ],
+    "special": [
+      "Bề mặt bằng thép không gỉ, kết  cấu cong chống lại các tác nhân bụi bẩn",
+      "Tiêu chuẩn IP55, IP65 (7900 Spectrum)",
+      "Gọn nhẹ chỉ 21kg"      
+    ],
     "Ink": "1039",
     "Solution": "ádada"
   },

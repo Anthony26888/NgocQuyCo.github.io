@@ -1,7 +1,7 @@
 <template>
-    <InfoProduct />
+  <InfoProduct />
 </template>
-  
+
 <script setup>
 import InfoProduct from "@/components/InfoProduct";
 </script>

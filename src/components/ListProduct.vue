@@ -1,20 +1,15 @@
 <template>
   <v-app id="inspire">
-    <v-main class="bg-light">
+    <v-main>
       <v-container>
         <div>
-          <v-sheet :elevation="10" class="p-2 bg-teal-accent-4">
+          <v-sheet :elevation="2" class="p-2 bg-teal-accent-4">
             <strong>Máy In Linx CIJ</strong>
           </v-sheet>
 
-          <div class="d-flex flex-wrap gap-3">
-            <v-card class="card mt-3" v-for="value in store.Linx" :key="value">
-              <v-img
-                class="w-100"
-                height="200"
-                :src="'/src/assets/Image/Product/' + value.img"
-                fill
-              >
+          <div class="d-flex flex-wrap gap-3 mt-3">
+            <v-card class="card mt-3" v-for="value in store.Linx" :key="value" elevation="16">
+              <v-img class="w-100" height="200" :src="'/src/assets/Image/Product/' + value.img" fill>
               </v-img>
 
               <v-card-subtitle class="pt-4">
@@ -27,10 +22,7 @@
 
               <v-card-actions>
                 <router-link to="/Thong-tin-san-pham" class="mx-auto">
-                  <v-btn
-                    class="text-teal-accent-4 mt-5"
-                    @click="store.GetInfo(value.id)"
-                  >
+                  <v-btn class="text-teal-accent-4 mt-5" @click="store.GetInfo(value.id)">
                     Xem chi tiết
                   </v-btn>
                 </router-link>
@@ -40,21 +32,12 @@
         </div>
 
         <div class="mt-3">
-            <v-sheet :elevation="10" class="p-2 bg-teal-accent-4">
+          <v-sheet :elevation="2" class="p-2 bg-teal-accent-4">
             <strong>Máy In Hitachi CIJ</strong>
           </v-sheet>
-          <div class="d-flex flex-wrap gap-3">
-            <v-card
-              class="card mt-3"
-              v-for="value in store.Hitachi"
-              :key="value"
-            >
-              <v-img
-                class="w-100"
-                height="200"
-                :src="'/src/assets/Image/Product/' + value.img"
-                fill
-              >
+          <div class="d-flex flex-wrap gap-3 mt-3">
+            <v-card class="card mt-3" v-for="value in store.Hitachi" :key="value" elevation="16">
+              <v-img class="w-100" height="200" :src="'/src/assets/Image/Product/' + value.img" fill>
               </v-img>
 
               <v-card-subtitle class="pt-4">
@@ -67,10 +50,7 @@
 
               <v-card-actions>
                 <router-link to="/Thong-tin-san-pham" class="mx-auto">
-                  <v-btn
-                    class="text-teal-accent-4 mt-5"
-                    @click="store.GetInfo(value.id)"
-                  >
+                  <v-btn class="text-teal-accent-4 mt-5" @click="store.GetInfo(value.id)">
                     Xem chi tiết
                   </v-btn>
                 </router-link>
