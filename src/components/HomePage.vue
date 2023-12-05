@@ -4,7 +4,7 @@
             <div class="col-6">
                 <img class=" z-3 float-lg-left" src="../assets/Image/product-homepage.webp">                
             </div>
-            <div class="col-12 col-sm-6 mb-3">
+            <div class="col-12 col-sm-6 mb-3 float-lg-right">
                 <h1 class="text-teal-accent-4">Các sản phẩm</h1>
                 <span class="text-muted">{{ title1 }}</span><br>
                 <router-link to="/San-pham">

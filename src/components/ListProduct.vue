@@ -9,7 +9,7 @@
 
           <div class="d-flex flex-wrap gap-3 mt-3">
             <v-card class="card mt-3" v-for="value in store.Linx" :key="value" elevation="16">
-              <v-img class="w-100" height="200" :src="'/src/assets/Image/Product/' + value.img" fill>
+              <v-img class="w-100" height="200" :src="value.img" fill>
               </v-img>
 
               <v-card-subtitle class="pt-4">
@@ -37,7 +37,7 @@
           </v-sheet>
           <div class="d-flex flex-wrap gap-3 mt-3">
             <v-card class="card mt-3" v-for="value in store.Hitachi" :key="value" elevation="16">
-              <v-img class="w-100" height="200" :src="'/src/assets/Image/Product/' + value.img" fill>
+              <v-img class="w-100" height="200" :src="value.img" fill>
               </v-img>
 
               <v-card-subtitle class="pt-4">

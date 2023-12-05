@@ -7,7 +7,7 @@
                 <!--Grid column-->
                 <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
                     <img src="../../assets/Image/logoNG.png" alt="" srcset="">
-                    <h5 class="text-uppercase">NGỌC QUÝ TECHNOLOGY</h5>
+                    <h5 class="text-uppercase text-teal-accent-4">NGỌC QUÝ TECHNOLOGY</h5>
 
                     <p>
                         Chúng tôi luôn sẵn sàng khi bạn cần!
@@ -17,7 +17,7 @@
 
                 <!--Grid column-->
                 <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-                    <h5 class="text-uppercase">Trụ sở</h5>
+                    <h5 class="text-uppercase text-teal-accent-4">Trụ sở</h5>
 
                     <p>
                         102/1 Hẻm 102 Bình Thới, Phường 14, Quận 11, Thành phố Hồ Chí Minh

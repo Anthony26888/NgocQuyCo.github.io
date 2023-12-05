@@ -5,7 +5,7 @@
         <v-row>
           <v-col>
             <img
-              src="../assets/Image/Product/Linx8900.png"
+              :src="Info.img"
               alt=""
               srcset=""
               class=""
