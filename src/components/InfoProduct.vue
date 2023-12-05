@@ -51,7 +51,7 @@
                 </v-list>
               </v-window-item>
 
-              <v-window-item value="two">
+              <v-window-item value="two" class="text-wrap">
                 <VRow>
                   <VCol>
                     <h6 class="text-center">KHẢ NĂNG IN</h6>
@@ -67,7 +67,7 @@
                   </VCol>
                   <VCol>
                     <h6 class="text-center">ĐIỀU KHIỂN IN</h6>
-                    <v-list :items="Info.control">
+                    <v-list :items="Info.control" class="text-wrap">
                       <template v-slot:prepend>
                         <v-icon
                           size="large"
