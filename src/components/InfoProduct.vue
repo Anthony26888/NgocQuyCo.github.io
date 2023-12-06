@@ -2,18 +2,14 @@
   <v-app id="inspire">
     <v-main>
       <div class="container">
-        <v-breadcrumbs :items="['Trang chủ', 'Sản Phẩm', `${Info.name}`]"></v-breadcrumbs>
-        <v-row>
-          <v-col>
-            <img              
-              :src="Info.img"
-              alt=""
-              srcset=""
-              class="float-right"
-              cover
-            />
-          </v-col>
-          <v-col>
+        <v-breadcrumbs
+          :items="['Trang chủ', 'Sản Phẩm', `${Info.name}`]"
+        ></v-breadcrumbs>
+        <div class="row justify-content-center align-items-center g-2">
+          <div class="col-sm-6 col-xs-12">
+            <img :src="Info.img" alt="" srcset="" class="" cover />
+          </div>
+          <div class="col-sm-6 col-xs-12">
             <v-card class="w-100 mt-5 card mx-auto container p-5">
               <v-card-item class="mx-auto" elevation="16">
                 <h1 class="text-teal-accent-4">{{ Info.name }}</h1>
@@ -27,10 +23,18 @@
                 <span>{{ Info.description }}</span>
                 <VSpacer />
                 <VBtn class="bg-teal-accent-4 mt-5">Liên hệ ngay</VBtn>
+                <p class="mt-3">
+                  <v-icon
+                    size="large"
+                    color="green-darken-2"
+                    icon="mdi-phone"
+                  ></v-icon>
+                  0918504086 (Mr Hải)
+                </p>
               </v-card-text>
             </v-card>
-          </v-col>
-        </v-row>
+          </div>
+        </div>
 
         <div class="mt-3">
           <v-card>
@@ -132,5 +136,9 @@ img {
 .card {
   max-width: 100%;
   height: auto;
+}
+
+p{
+  font-size: 15px;
 }
 </style>

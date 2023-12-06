@@ -1,11 +1,11 @@
 <template>
   <v-carousel>
     <v-carousel-item>
-      <img class="mx-auto d-block h-100" src="../assets/Image/banner1.png" alt="" srcset=""/>     
+      <img class="mx-auto d-block" src="../assets/Image/banner1.png" alt="" srcset=""/>     
     </v-carousel-item>
 
     <v-carousel-item>
-      <img class="mx-auto d-block img-fluid" src="../assets/Image/banner2.png" alt="" srcset="" />
+      <img class="mx-auto d-block" src="../assets/Image/banner2.png" alt="" srcset="" />
     </v-carousel-item>
 
     <v-carousel-item>
@@ -24,12 +24,14 @@ export default {
 @media only screen and (max-width: 800px) {
   img {
     width: 700px;
+  
   }
 }
 @media only screen and (max-width: 600px) {
   img {
-    width: 400px;
-    height: 100%;
+    margin-top: 100px;
+    width: 380px;
+    height: 300px;
   }
 }
 </style>
