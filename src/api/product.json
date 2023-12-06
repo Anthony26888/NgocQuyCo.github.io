@@ -95,7 +95,7 @@
     "special": [
       "Bề mặt bằng thép không gỉ, kết  cấu cong chống lại các tác nhân bụi bẩn",
       "Tiêu chuẩn IP55, IP65 (7900 Spectrum)",
-      "Gọn nhẹ chỉ 21kg"      
+      "Gọn nhẹ chỉ 21kg"
     ],
     "Ink": "1039",
     "Solution": "ádada"
@@ -141,26 +141,24 @@
   {
     "id": "5",
     "model": "Hitachi",
-    "name": "Máy in Hitachi RX2 - SD",
-    "img": "HitachiRX.jpg",
-    "description": "Máy in phun ngày sản xuất hạn sử dụng RX2-SD chính là giải pháp vượt trội dùng in phun date, mã số công nghiệp, ngày sản xuất hạn sử dụng, barcode…trực tiếp lên sản phẩm. Đây chính là sản phẩm ưu việt với độ tin cậy cao với công nghệ tiên tiến của Nhật Bản. ",
-    "benefit1": "Dễ dàng thay thế màng lọc mực chính thông qua hệ thống “ngắt kết nối nhanh",
-    "benefit2": "Giải pháp hoàn hảo cho các ứng dụng in phức tạp và tiêu chuẩn",
-    "benefit3": "Đầu in có thể dễ dàng lắp đặt nội tuyến hoặc ở 90 độ và được sản xuất từ nhôm đúc để sử dụng trong môi trường khắc nghiệt",
-    "benefit4": "Vỏ máy làm từ thép không gỉ chống bụi & nước nhỏ giọt IP55",
-    "Ink": "1039",
-    "Solution": "ádada"
-  },
-  {
-    "id": "6",
-    "model": "Hitachi",
-    "name": "Máy in Hitachi UX2 - SERIES",
-    "img": "HitachiUX.jpg",
-    "description": "Máy in phun công nghiệp Hitachi UX2 cung cấp giải pháp mã hóa và đánh dấu hiệu quả để in ngày sản xuất, hạn sử dụng, Qr Code và các thông tin khác lên các chất liệu khác nhau của nhiều sản phẩm như chai, lọ, lon nước, thùng carton, nắp chai, bao bì PP, PE, Ống nhựa,….",
-    "benefit1": "Dòng máy in date này dựa trên mô hình tiêu chuẩn máy in phun date code Hitachi UX Series và có tất cả các tính năng được liệt kê ở trên nhưng bao gồm một tính năng bổ sung để cải thiện quy trình làm sạch đầu in.",
-    "benefit2": "Máy có nhiều chế độ làm sạch và các video hướng dẫn khắc phục sự cố có sẵn",
-    "benefit3": "Trong tất cả các máy in phun, đầu nắp đầu in có nhiều khả năng bị bám dính mực và để đảm bảo hiệu suất tối ưu, nó nên được làm sạch thường xuyên.",
-    "benefit4": "Chuyển đổi đường dây nhanh chóng – Di chuyển máy in phun từ dây chuyền sản xuất sang dây chuyền dễ dàng sử dụng đầu nối I / O được cấu hình sẵn, loại bỏ những sai lầm tốn thời gian.",
+    "name": "Máy in Hitachi PXR Series",
+    "img": "https://scontent.fsgn19-1.fna.fbcdn.net/v/t1.18169-9/10314599_900332720018335_2468519855930964348_n.jpg?stp=cp0_dst-jpg_e15_p320x320_q65&_nc_cat=111&ccb=1-7&_nc_sid=abdf32&_nc_ohc=7ghFNsBJ8k4AX-Pca18&_nc_oc=AQn8ykViItTQ7lXPtZ_TbhQIptsCPa0o3ZleScxg1ja0zeHqF2uZguykroaY-LXEZHvlDIq0REw_jAdVg57iwKu2&_nc_ht=scontent.fsgn19-1.fna&oh=00_AfDPHfUbtC-ZEheI_HoXWnJJDi3v7lITRZHBGL2g-7CluQ&oe=6597A54F",
+    "description": "Máy in phun liên tục từ công nghiệp đến dòng PXR-D của Hitachi được trang bị các tính năng cao cấp, bao gồm màn hình cảm ứng LCD TFT màu 10,4, khung nhôm đúc, thiết kế rốn linh hoạt dài 4m, v.v. Máy in phun mực phù hợp cho việc in ký tự vi mô cũng như lớn hơn và là lựa chọn tốt nhất cho các nhà lãnh đạo công nghiệp.",
+    "feature": [
+      
+    ],
+    "tech": [
+      "Vận hành dễ dàng và nhanh chóng bằng màn hình cảm ứng LCD TFT màu 10,4 inch lớn.",
+      "Hệ thống kiểm soát độ rơi tiên tiến đảm bảo chất lượng in ổn định trong mọi điều kiện môi trường.",
+      "Hệ thống hồi mực độc đáo giúp giảm sự bay hơi dung môi, giúp giảm thiểu sự trộn lẫn giữa không khí và mực.",
+      "RoHS 304 SS IP55.",
+      "Có thể in trên các sản phẩm có diện tích đánh dấu cực nhỏ.",
+      "Những mẫu này phù hợp để in trên các linh kiện nhỏ, dây điện, v.v. trong lĩnh vực điện và điện tử."
+    ],
+    "control": [
+    ],
+    "special": [
+    ],
     "Ink": "1039",
     "Solution": "ádada"
   }

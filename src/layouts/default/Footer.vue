@@ -5,7 +5,7 @@
             <!--Grid row-->
             <div class="row">
                 <!--Grid column-->
-                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                <div class="col-md-6 col-sm-12 mb-4 mb-md-0 mb-sm-0">
                     <img src="../../assets/Image/logoNG.png" alt="" srcset="">
                     <h5 class="text-uppercase text-teal-accent-4">NGỌC QUÝ TECHNOLOGY</h5>
 
@@ -16,16 +16,16 @@
                 <!--Grid column-->
 
                 <!--Grid column-->
-                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                <div class="col-md-6 col-sm-12 mb-4 mb-md-0 mb-sm-0">
                     <h5 class="text-uppercase text-teal-accent-4">Trụ sở</h5>
 
                     <p>
                         102/1 Hẻm 102 Bình Thới, Phường 14, Quận 11, Thành phố Hồ Chí Minh
                     </p>
-                    <div class="d-flex">
+                    <p class="ms-2">
                         <v-icon size="large" color="green-darken-2" icon="mdi-phone"></v-icon>
-                        <p class="ms-2">Mr.Hải (0918504086 )</p>
-                    </div>
+                        Mr.Hải 0918504086 
+                    </p>
                     
                 </div>
                 <!--Grid column-->

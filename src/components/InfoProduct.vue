@@ -5,11 +5,11 @@
         <v-breadcrumbs :items="['Trang chủ', 'Sản Phẩm', `${Info.name}`]"></v-breadcrumbs>
         <v-row>
           <v-col>
-            <img
+            <img              
               :src="Info.img"
               alt=""
               srcset=""
-              class=""
+              class="float-right"
               cover
             />
           </v-col>

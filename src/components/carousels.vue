@@ -1,33 +1,37 @@
 <template>
   <v-carousel>
     <v-carousel-item>
-      <img class="w-100" src="../assets/Image/banner1.jpg" alt="" srcset="">
+      <img class="mx-auto d-block h-100" src="../assets/Image/banner1.png" alt="" srcset=""/>     
     </v-carousel-item>
 
-    <v-carousel-item scover>
-      <img src="../assets/Image/banner3.webp" alt="" srcset="">
+    <v-carousel-item>
+      <img class="mx-auto d-block img-fluid" src="../assets/Image/banner2.png" alt="" srcset="" />
     </v-carousel-item>
 
-    <v-carousel-item fill-height>
-      <img src="../assets/Image/Product/Linx7900.png" alt="" srcset="">
+    <v-carousel-item>
+      <img class="mx-auto d-block" src="../assets/Image/banner3.png" alt="" srcset="" />
     </v-carousel-item>
   </v-carousel>
 </template>
 <script>
 export default {
   data() {
-    return {
-
-    }
+    return {};
   },
-}
+};
 </script>
 <style scoped>
-  img{
-    width: 500px;
-    height: 500px;
-    margin: 0 auto;
+@media only screen and (max-width: 800px) {
+  img {
+    width: 700px;
   }
+}
+@media only screen and (max-width: 600px) {
+  img {
+    width: 400px;
+    height: 100%;
+  }
+}
 </style>
 <script setup>
 //
