@@ -1,5 +1,5 @@
 <template>
-    <section class="about-us">
+    <v-container>
         <div class="row p-4 justify-item-center">
             <div class="col-12 col-sm-6">
                 <img class="float-left" src="../assets/Image/product-homepage.webp" />
@@ -50,7 +50,7 @@
                 <img class="float-lg-right" src="../assets/Image/maintenance-homepage.png" />
             </div>
         </div>
-    </section>
+    </v-container>   
 </template>
 
 <script>
@@ -72,7 +72,7 @@ export default {
 </script>
 
 <style scoped>
-.about-us img {
+img {
     width: 100%;
 }
 
