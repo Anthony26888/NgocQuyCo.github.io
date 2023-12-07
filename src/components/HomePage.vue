@@ -19,7 +19,9 @@
             <div class="col-12 col-sm-6 mb-3">
                 <h1 class="text-teal-accent-4">Các giải pháp ứng dụng</h1>
                 <span class="text-muted">{{ title2 }}</span><br />
-                <v-btn class="bg-teal-accent-4 mt-3">Xem chi tiết</v-btn>
+                <router-link to="/Giai-phap">
+                    <v-btn class="bg-teal-accent-4 mt-3 mx-auto">Xem chi tiết</v-btn>
+                </router-link>
             </div>
             <div class="col-12 col-sm-6 d-none d-sm-block">
                 <img class="float-right" src="../assets/Image/solution-homepage.webp" />

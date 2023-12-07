@@ -62,7 +62,7 @@
         </div>
 
 
-        <div class="">
+        <div class="d-lg-none">
           <v-sheet :elevation="2" class="p-2 bg-teal-accent-4">
             <strong>Máy In Linx CIJ</strong>
           </v-sheet>

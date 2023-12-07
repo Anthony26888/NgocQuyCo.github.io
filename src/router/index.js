@@ -20,7 +20,12 @@ const routes = [
         path: '/Thong-tin-san-pham',
         name: 'InfoProduct',       
         component: () => import(/* webpackChunkName: "home" */ '@/views/InfoProduct.vue'),
-      }
+      },
+      {
+        path: '/Giai-phap',
+        name: 'Solution',       
+        component: () => import(/* webpackChunkName: "home" */ '@/views/Solution.vue'),
+      },
     ],
   },
 ]

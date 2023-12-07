@@ -141,4 +141,10 @@ img {
 p{
   font-size: 15px;
 }
+@media only screen and (max-width: 600px) {
+  img {    
+    width: 100%;
+    height: 300px;
+  }
+}
 </style>
