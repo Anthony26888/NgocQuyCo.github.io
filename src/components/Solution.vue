@@ -101,11 +101,9 @@
                 ></textarea>
               </div>
               <div class="col-12 mt-3">
-                <VBtn class="w-100">Gửi thông tin</VBtn>
+                <VBtn class="w-100 bg-teal-accent-4">Gửi thông tin</VBtn>
               </div>
             </div>
-            
-            
           </form>
         </div>
       </div>

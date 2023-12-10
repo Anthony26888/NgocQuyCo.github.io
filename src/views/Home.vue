@@ -3,10 +3,8 @@
     <div class="col-12">
       <carousels />
     </div>
-    <div class="col-12">
-      <div class="container">
-        <Home/>
-      </div>
+    <div class="col-12 p-3">
+      <Home/>
     </div>    
   </div>
   
