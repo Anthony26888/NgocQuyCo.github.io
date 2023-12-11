@@ -5,7 +5,7 @@ import { useLocalStorage } from "@vueuse/core"
 export const useAppStore = defineStore('app', {
   state: () => {
     return {
-      products, 
+      products,       
       Info:useLocalStorage("Info", []),
     }
   }, 
@@ -20,8 +20,7 @@ export const useAppStore = defineStore('app', {
   },
   actions:{
     GetInfo(id){
-      this.Info = this.products.find(value => value.id === id)
-      
+      this.Info = this.products.find(value => value.id === id)      
     }
   }
 })

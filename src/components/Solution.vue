@@ -16,7 +16,7 @@
           <v-img
             class="align-end text-white"
             height="200"
-            :src="'/src/assets/Image/Solution/' + value.image"
+            :src="value.image"
             cover
           >
           </v-img>
@@ -29,6 +29,7 @@
           </v-card-text>
         </v-card>
       </div>
+
       <div class="row justify-content-center align-items-center mt-5">
         <div class="col p-5 bg-teal-accent-4">
           <h1>Hãy để lại thông tin</h1>
@@ -58,7 +59,7 @@
           </div>
         </div>
         <div class="col">
-          <form>
+          <form @submit.prevent="sendComplaint">
             <div class="mb-3 row p-5">
               <div class="col-6">
                 <input
@@ -67,6 +68,7 @@
                   name="inputName"
                   id="inputName"
                   placeholder="Họ tên"
+                  v-model="LastName"
                 />
 
                 <input
@@ -75,6 +77,7 @@
                   name="inputName"
                   id="inputName"
                   placeholder="Email"
+                  v-model="Email"
                 />
               </div>
               <div class="col-6">
@@ -84,6 +87,7 @@
                   name="inputName"
                   id="inputName"
                   placeholder="Số điện thoại"
+                  v-model="Phone"
                 />
                 <input
                   type="text"
@@ -91,6 +95,7 @@
                   name="inputName"
                   id="inputName"
                   placeholder="Tên công ty"
+                  v-model="Company"
                 />
               </div>
               <div class="col-12 mt-3">
@@ -98,10 +103,14 @@
                   class="form-control"
                   id="exampleFormControlTextarea1"
                   rows="4"
+                  placeholder="Nội dung"
+                  v-model="Description"
                 ></textarea>
               </div>
               <div class="col-12 mt-3">
-                <VBtn class="w-100 bg-teal-accent-4">Gửi thông tin</VBtn>
+                <VBtn type="submit" class="w-100 bg-teal-accent-4"
+                  >Gửi thông tin</VBtn
+                >
               </div>
             </div>
           </form>
@@ -110,8 +119,34 @@
     </div>
   </v-main>
 </template>
+<script setup>
+import { defineComponent, ref } from 'vue'
+import { useAppStore } from "@/store/complaint.js";
+</script>
 <script>
 export default {
+  components: "Solution",
+  setup() {
+    const store = useAppStore();
+    const LastName = ref("");
+    const Email = ref("");
+    const Phone = ref("");
+    const Company = ref("");
+    const Description = ref("");
+
+    function sendComplaint(){
+
+      store.AddComplaint({
+        name: LastName.value,
+        email: Email.value,
+        phone: Phone.value,
+        company: Company.value,
+        description: Description.value
+      })
+
+    }
+    return{sendComplaint}
+  },
   data() {
     return {
       item: [
@@ -119,58 +154,63 @@ export default {
           title: "XE HƠI",
           description:
             "Giải pháp in và truy vết thông tin lên các chi tiết, linh kiện của xe hơi, xe máy",
-          image: "xehoi.webp",
+          image:
+            "https://linx.com.vn/wp-content/uploads/2020/11/linx-in-len-thiet-bi-phu-tung-xe-hoi-2.webp",
         },
         {
           title: "ĐỒ UỐNG",
           description:
             "Máy mã hóa đồ uống chuyên dụng với xếp hạng IP55 và IP65.",
-          image: "douong.png",
+          image: "https://linx.com.vn/wp-content/uploads/2020/11/softdrink.png",
         },
         {
           title: "HÓA CHẤT",
           description:
             "Hoạt động hoàn hảo cho các doanh nghiệp sản xuất sản phẩm ngành Hóa chất.",
-          image: "hoachat.webp",
+          image:
+            "https://linx.com.vn/wp-content/uploads/2020/11/ung-dung-linx-8-scaled.webp",
         },
         {
           title: "XÂY DỰNG",
           description: "Các giải pháp mã hóa và đánh dấu cho ngành xây dựng.",
-          image: "xaydung.webp",
+          image:
+            "https://linx.com.vn/wp-content/uploads/2020/11/in-len-ong-thep-01.webp",
         },
         {
           title: "MỸ PHẨM",
           description:
             "Các giải pháp của chúng tôi giúp giảm chi phí sản xuất.",
-          image: "mypham.png",
+          image: "https://linx.com.vn/wp-content/uploads/2020/11/my-pham.png",
         },
         {
           title: "THIẾT BỊ ĐIỆN TỬ",
           description: "Các giải pháp phù hợp cho sản xuất bảng mạch.",
-          image: "thietbidientu.png",
+          image:
+            "https://linx.com.vn/wp-content/uploads/2022/09/thietbidientu.png",
         },
         {
           title: "DƯỢC PHẨM",
           description:
             "Mã chính xác và dễ đọc cho dây chuyền sản xuất tốc độ cao.",
-          image: "duocpham.png",
+          image: "https://linx.com.vn/wp-content/uploads/2022/09/duocpham.png",
         },
         {
           title: "DÂY VÀ CÁP ĐIỆN",
           description:
             "In thông số chính xác với tốc độ cao lên các loại dây và cáp điện.",
-          image: "daydien.webp",
+          image:
+            "https://linx.com.vn/wp-content/uploads/2022/09/in-thong-tin-len-day-cap-linx-11.webp",
         },
         {
           title: "THỰC PHẨM",
           description:
             "Giải pháp cho nhãn giấy, bìa cứng và bao bì nhựa, chai lọ.",
-          image: "thucpham.png",
+          image: "https://linx.com.vn/wp-content/uploads/2022/09/thupham.png",
         },
       ],
     };
   },
-};
+}
 </script>
 <style scoped>
 .banner {
