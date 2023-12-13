@@ -59,7 +59,7 @@
           </div>
         </div>
         <div class="col">
-          <form @submit.prevent="sendComplaint">
+          <form @submit.prevent="addItem">
             <div class="mb-3 row p-5">
               <div class="col-6">
                 <input
@@ -77,7 +77,6 @@
                   name="inputName"
                   id="inputName"
                   placeholder="Email"
-                  v-model="Email"
                 />
               </div>
               <div class="col-6">
@@ -87,7 +86,6 @@
                   name="inputName"
                   id="inputName"
                   placeholder="Số điện thoại"
-                  v-model="Phone"
                 />
                 <input
                   type="text"
@@ -95,7 +93,6 @@
                   name="inputName"
                   id="inputName"
                   placeholder="Tên công ty"
-                  v-model="Company"
                 />
               </div>
               <div class="col-12 mt-3">
@@ -104,13 +101,12 @@
                   id="exampleFormControlTextarea1"
                   rows="4"
                   placeholder="Nội dung"
-                  v-model="Description"
                 ></textarea>
               </div>
               <div class="col-12 mt-3">
-                <VBtn type="submit" class="w-100 bg-teal-accent-4"
-                  >Gửi thông tin</VBtn
-                >
+                <button type="submit" class="w-100 bg-teal-accent-4">
+                  Gửi thông tin
+                </button>
               </div>
             </div>
           </form>
@@ -119,33 +115,22 @@
     </div>
   </v-main>
 </template>
-<script setup>
-import { defineComponent, ref } from 'vue'
-import { useAppStore } from "@/store/complaint.js";
-</script>
+
 <script>
+import { ref } from "vue";
+import { useAppStore } from "@/store/complaint.js";
 export default {
   components: "Solution",
   setup() {
     const store = useAppStore();
     const LastName = ref("");
-    const Email = ref("");
-    const Phone = ref("");
-    const Company = ref("");
-    const Description = ref("");
 
-    function sendComplaint(){
-
-      store.AddComplaint({
-        name: LastName.value,
-        email: Email.value,
-        phone: Phone.value,
-        company: Company.value,
-        description: Description.value
-      })
-
+    function addItem() {
+      if (!LastName) {
+        store.AddComplaint(LastName.value);
+      }
     }
-    return{sendComplaint}
+    return { addItem, LastName };
   },
   data() {
     return {
@@ -210,7 +195,7 @@ export default {
       ],
     };
   },
-}
+};
 </script>
 <style scoped>
 .banner {
