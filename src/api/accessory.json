@@ -1,9 +1,60 @@
 [
     {
         "id":"1",
-        "name":"Bộ lọc 4900 5900 7900",
+        "name":"Bộ lọc chính Linx",
+        "model":"Linh kiện Linx",
         "img":"https://s.alicdn.com/@sc04/kf/H38f4a39fa0374344ad87a35aa3df5b9fT.jpg_220x220.jpg",
-        "description":"Sử dụng tương thích cho máy in Linx"
-
+        "description":"Sử dụng tương thích cho máy in Linx 4900, 5900, 7900"
+    },
+    {
+        "id":"2",
+        "name":"Lọc mực Linx",
+        "model":"Linh kiện Linx",
+        "img":"https://sc04.alicdn.com/kf/He7cf3d44be1541f3957384f3ff0f4578K.jpg_1200x1200.jpg",
+        "description":"Sử dụng tương thích cho máy in Linx 4900, 5900, 7900"
+    },
+    {
+        "id":"3",
+        "name":"Lọc dung môi Linx",
+        "model":"Linh kiện Linx",
+        "img":"https://s.alicdn.com/@sc04/kf/H4bfadaa0b47d421fa9ca933f066c3101c.jpg_720x720q50.jpg?hasNWGrade=1",
+        "description":"Sử dụng tương thích cho máy in Linx 4900, 5900, 7900"
+    },
+    {
+        "id":"3",
+        "name":"Lọc 3 nhánh Linx",
+        "model":"Linh kiện Linx",
+        "img":"https://s.alicdn.com/@sc04/kf/Ha709097926344963a8eee591cff0a35eO.png_720x720q50.jpg?hasNWGrade=1",
+        "description":"Sử dụng tương thích cho máy in Linx 4900, 5900, 7900"   
+    },
+    {
+        
+        "id":"4",
+        "name":"Damper Linx",
+        "model":"Linh kiện Linx",
+        "img":"https://sc04.alicdn.com/kf/HTB1pwZDKxTpK1RjSZR0q6zEwXXaY.jpg_1200x1200.jpg",
+        "description":"Sử dụng tương thích cho máy in Linx 4900, 5900, 7900"
+    },
+    {
+        "id":"5",
+        "name":"Van 3 chiều Linx",
+        "model":"Linh kiện Linx",
+        "img":"https://s.alicdn.com/@sc04/kf/H59c2ff916d3843af9194df26d3a3c6d9A.jpg_220x220.jpg",
+        "description":"Sử dụng tương thích cho máy in Linx 4900, 5900, 7900"
+    },
+    {
+        "id":"6",
+        "name":"Mặt bàn phím Linx 4900",
+        "model":"Linh kiện Linx",
+        "img":"https://s.alicdn.com/@sc04/kf/H2a5a140a105b4e5193862f08e1a315fai.jpg_220x220.jpg",
+        "description":"Sử dụng tương thích cho máy in Linx 4900"
+    },
+    {
+        "id":"7",
+        "name":"Mặt bàn phím Linx 5900",
+        "model":"Linh kiện Linx",
+        "img":"https://s.alicdn.com/@sc04/kf/HTB19A4haZrrK1RjSspaq6AREXXap.jpg_220x220.jpg",
+        "description":"Sử dụng tương thích cho máy in Linx 5900"
     }
+
 ]
