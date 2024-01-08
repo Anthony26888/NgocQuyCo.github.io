@@ -1,64 +1,64 @@
 <template>
-  <div class="container">
-    <div class="row p-4 justify-item-center">
-      <div class="col-12 col-sm-6">
+  <div class="row p-4 justify-item-center">
+    <div class="col-12 col-sm-6">
+      <router-link to="/San-pham">
         <img class="float-left" src="../assets/Image/product-homepage.webp" />
-      </div>
-      <div class="col-12 col-sm-6 mb-3 float-lg-right">
-        <h1 class="text-teal-accent-4">Các sản phẩm</h1>
-        <span class="text-muted">{{ title1 }}</span
-        ><br />
-        <router-link to="/San-pham">
-          <v-btn class="bg-teal-accent-4 mt-3 mx-auto">Tìm sản phẩm</v-btn>
-        </router-link>
-      </div>
+      </router-link>      
     </div>
-    <div class="row p-4 mt-3">
-      <div class="col-12 col-sm-6 d-block d-sm-none">
-        <img class="float-right" src="../assets/Image/solution-homepage.webp" />
-      </div>
-      <div class="col-12 col-sm-6 mb-3">
-        <h1 class="text-teal-accent-4">Các giải pháp ứng dụng</h1>
-        <span class="text-muted">{{ title2 }}</span
-        ><br />
-        <router-link to="/Giai-phap">
-          <v-btn class="bg-teal-accent-4 mt-3 mx-auto">Xem chi tiết</v-btn>
-        </router-link>
-      </div>
-      <div class="col-12 col-sm-6 d-none d-sm-block">
-        <img class="float-right" src="../assets/Image/solution-homepage.webp" />
-      </div>
+    <div class="col-12 col-sm-6 mb-3 float-lg-right">
+      <h1 class="text-teal-accent-4">Các sản phẩm</h1>
+      <span class="text-muted">{{ title1 }}</span><br />
+      <router-link to="/San-pham">
+        <v-btn class="bg-teal-accent-4 mt-3 mx-auto">Tìm sản phẩm</v-btn>
+      </router-link>
     </div>
-    <div class="row p-4 mt-3">
-      <div class="col-12 col-sm-6">
+  </div>
+  <div class="row p-4 mt-3">
+    <div class="col-12 col-sm-6 d-block d-sm-none">
+      <router-link to="/San-pham">
+        <img class="float-right" src="../assets/Image/solution-homepage.webp" />
+      </router-link>      
+    </div>
+    <div class="col-12 col-sm-6 mb-3">
+      <h1 class="text-teal-accent-4">Các giải pháp ứng dụng</h1>
+      <span class="text-muted">{{ title2 }}</span><br />
+      <router-link to="/Giai-phap">
+        <v-btn class="bg-teal-accent-4 mt-3 mx-auto">Xem chi tiết</v-btn>
+      </router-link>
+    </div>
+    <div class="col-12 col-sm-6 d-none d-sm-block">
+      <router-link to="/San-pham">
+        <img class="float-right" src="../assets/Image/solution-homepage.webp" />
+      </router-link>      
+    </div>
+  </div>
+  <div class="row p-4 mt-3">
+    <div class="col-12 col-sm-6">
+      <router-link to="/San-pham">
         <img class="float-lg-left" src="../assets/Image/muc-homepage.jpg" />
-      </div>
-      <div class="col-12 col-sm-6 mb-3">
-        <h1 class="text-teal-accent-4">Các sản phẩm</h1>
-        <span class="text-muted">{{ title3 }}</span
-        ><br />
-        <v-btn class="bg-teal-accent-4 mt-3">Xem chi tiết</v-btn>
-      </div>
+      </router-link>      
     </div>
-    <div class="row p-4 mt-3">
-      <div class="col-12 col-sm-6 d-block d-sm-none">
-        <img
-          class="float-lg-right"
-          src="../assets/Image/maintenance-homepage.png"
-        />
-      </div>
-      <div class="col-12 col-sm-6 mb-3">
-        <h1 class="text-teal-accent-4">BẢO TRÌ MÁY IN</h1>
-        <span class="text-muted">{{ title4 }}</span
-        ><br />
-        <v-btn class="bg-teal-accent-4 mt-3">Xem chi tiết</v-btn>
-      </div>
-      <div class="col-12 col-sm-6 d-none d-sm-block">
-        <img
-          class="float-lg-right"
-          src="../assets/Image/maintenance-homepage.png"
-        />
-      </div>
+    <div class="col-12 col-sm-6 mb-3">
+      <h1 class="text-teal-accent-4">Các sản phẩm</h1>
+      <span class="text-muted">{{ title3 }}</span><br />
+      <v-btn class="bg-teal-accent-4 mt-3">Xem chi tiết</v-btn>
+    </div>
+  </div>
+  <div class="row p-4 mt-3">
+    <div class="col-12 col-sm-6 d-block d-sm-none">
+      <router-link to="/San-pham">
+        <img class="float-lg-right" src="../assets/Image/maintenance-homepage.png" />
+      </router-link>      
+    </div>
+    <div class="col-12 col-sm-6 mb-3">
+      <h1 class="text-teal-accent-4">BẢO TRÌ MÁY IN</h1>
+      <span class="text-muted">{{ title4 }}</span><br />
+      <v-btn class="bg-teal-accent-4 mt-3">Xem chi tiết</v-btn>
+    </div>
+    <div class="col-12 col-sm-6 d-none d-sm-block">
+      <router-link to="/San-pham">
+        <img class="float-lg-right" src="../assets/Image/maintenance-homepage.png" />
+      </router-link>      
     </div>
   </div>
 </template>

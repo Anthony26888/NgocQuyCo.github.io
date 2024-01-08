@@ -1,16 +1,13 @@
 <template>
-  <div class="row justify-content-center align-items-center g-2">
-    <div class="col-12">
+  <vContainer>
+    <v-app>
       <carousels />
-    </div>
-    <div class="col-12 p-3">
-      <Home/>
-    </div>    
-  </div>
-  
+      <Home />      
+    </v-app>
+  </vContainer>
 </template>
 
 <script setup>
-  import carousels from '@/components/carousels'
-  import Home from '@/components/HomePage'
+import carousels from "@/components/carousels";
+import Home from "@/components/HomePage";
 </script>

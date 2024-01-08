@@ -1,5 +1,9 @@
 <template>
-  <ListProduct/>
+  <vContainer>
+    <v-app>
+      <ListProduct />
+    </v-app>
+  </vContainer>
 </template>
 
 <script setup>
