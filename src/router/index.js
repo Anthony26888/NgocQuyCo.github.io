@@ -26,6 +26,11 @@ const routes = [
         name: 'Solution',       
         component: () => import(/* webpackChunkName: "home" */ '@/views/Solution.vue'),
       },
+      {
+        path: '/Danh-sach',
+        name: 'FilterProduct',       
+        component: () => import(/* webpackChunkName: "home" */ '@/views/FilterProduct.vue'),
+      },
     ],
   },
 ]

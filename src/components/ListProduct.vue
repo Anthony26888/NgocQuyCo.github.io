@@ -2,9 +2,11 @@
   <v-breadcrumbs :items="['Trang chủ', 'Sản Phẩm']"></v-breadcrumbs>
 
   <div class="">
-    <v-sheet :elevation="2" class="p-2 bg-sheet">
-      <strong>Máy In CIJ</strong>
-    </v-sheet>
+    <v-toolbar density="comfortable">
+      <v-toolbar-title><strong>Máy in CIJ</strong></v-toolbar-title>
+      <v-spacer></v-spacer>
+      <strong class="p-2">Xem tất cả</strong>
+    </v-toolbar>
     <div class="d-flex justify-content-sm-center justify-content-lg-start flex-wrap p-4 ">
       <v-card class="m-3 bg-grey-lighten-4" width="300" v-for="value in store.products" :key="value">
         <router-link to="/Thong-tin-san-pham">
@@ -23,11 +25,15 @@
       </v-card>
     </div>
 
-    <v-sheet :elevation="2" class="p-2 bg-sheet mt-3">
-      <strong>Linh kiện máy in</strong>
-    </v-sheet>
+    <v-toolbar density="comfortable">
+      <v-toolbar-title><strong>Linh kiện lọc máy in CIJ</strong></v-toolbar-title>
+      <v-spacer></v-spacer>
+      <router-link to="/Danh-sach">
+        <strong class="p-2">Xem tất cả</strong>
+      </router-link>      
+    </v-toolbar>
     <div class="d-flex justify-content-sm-center justify-content-lg-start flex-wrap p-4">
-      <v-card class="m-3" width="300" v-for="value in store.accessory" :key="value">
+      <v-card class="m-3" width="300" v-for="value in store.accessory.slice(0, 5)" :key="value">
         <v-img class="align-end" height="250" width="300" :src="value.img" cover></v-img>
         <v-card-subtitle class="pt-4">
           {{ value.model }}
@@ -52,24 +58,10 @@ const store = useAppStore();
 export default {
   data() {
     return {
-      items: [
-        { text: 'Real-Time', icon: 'mdi-clock' },
-        { text: 'Audience', icon: 'mdi-account' },
-        { text: 'Conversions', icon: 'mdi-flag' },
-      ],
+      
     }
   },
 };
 </script>
 <style scoped>
-.bg-sheet {
-  color: white;
-  background: #808080;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #3fada8, #808080);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #3fada8, #808080);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
-}</style>
+</style>
