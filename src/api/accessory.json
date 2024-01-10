@@ -3,7 +3,7 @@
         "id":"1",
         "name":"Bộ lọc chính Linx",
         "model":"Linh kiện Linx",
-        "img":"https://s.alicdn.com/@sc04/kf/H38f4a39fa0374344ad87a35aa3df5b9fT.jpg_220x220.jpg",
+        "img":"https://sc01.alicdn.com/kf/H699904237ebe4fd5a72cd7e6213e7ffcH/221307957/H699904237ebe4fd5a72cd7e6213e7ffcH.jpg",
         "description":"Sử dụng tương thích cho máy in Linx 4900, 5900, 7900"
     },
     {
@@ -53,8 +53,63 @@
         "id":"7",
         "name":"Mặt bàn phím Linx 5900",
         "model":"Linh kiện Linx",
-        "img":"https://s.alicdn.com/@sc04/kf/HTB19A4haZrrK1RjSspaq6AREXXap.jpg_220x220.jpg",
+        "img":"https://s.alicdn.com/@sc04/kf/Hcc8393fa71184e68a44ea2c3b02a9879X.jpg",
         "description":"Sử dụng tương thích cho máy in Linx 5900"
+    },
+    {
+        "id":"8",
+        "name":"Board nguồn Linx",
+        "model":"Linh kiện Linx",
+        "img":"https://s.alicdn.com/@sc04/kf/H29cea0e19cda4f10960f42f5539802bdF.jpg_220x220.jpg",
+        "description":"Sử dụng tương thích cho máy in Linx 5900"
+    },
+    {
+        "id":"9",
+        "name":"Mainifold Linx",
+        "model":"Linh kiện Linx",
+        "img":"https://s.alicdn.com/@sc04/kf/H60b027dc68e04084b997257fb8187a7dE.jpg",
+        "description":"Sử dụng tương thích cho máy in Linx 4900 5900 5900"
+    },
+    {
+        "id":"10",
+        "name":"Mặt bàn phím Linx 7900",
+        "model":"Linh kiện Linx",
+        "img":"https://sc04.alicdn.com/kf/H8c17a6b3590f41c0accec14ba11e2041u.jpg_1200x1200.jpg",
+        "description":"Sử dụng tương thích cho máy in Linx 7900"
+    },
+    {
+        "id":"11",
+        "name":"Pin Cmos",
+        "model":"Linh kiện Linx",
+        "img":"https://s.alicdn.com/@sc04/kf/Hd56f4636e8c54171b9116c4527a342f2G.jpg",
+        "description":"Sử dụng tương thích cho máy in Linx 4900 5900 7900"
+    },
+    {
+        "id":"12",
+        "name":"Màn hình Linx 5900",
+        "model":"Linh kiện Linx",
+        "img":"https://s.alicdn.com/@sc04/kf/H054c82dc468a41869307ab24da4e28e2o.jpg_720x720q50.jpg",
+        "description":"Sử dụng tương thích cho máy in Linx 5900"
+    },
+    {
+        "id":"13",
+        "name":"Bơm Linx",
+        "model":"Linh kiện Linx",
+        "img":"https://sc04.alicdn.com/kf/He9783cc359314fd89afe53745405d71bQ.jpg_1200x1200.jpg",
+        "description":"Sử dụng tương thích cho máy in Linx 4900 5900 7900"
+    },
+    {
+        "id":"14",
+        "name":"Damper Linx 5900 7900",
+        "model":"Linh kiện Linx",
+        "img":"https://sc04.alicdn.com/kf/H568cfaf3978845cfb3c6b665dc9d9cacQ.jpg_1200x1200.jpg",
+        "description":"Sử dụng tương thích cho máy in Linx 5900 7900"
+    },
+    {
+        "id":"15",
+        "name":"Board chính Linx",
+        "model":"Linh kiện Linx",
+        "img":"https://s.alicdn.com/@sc04/kf/H0f7abe6492314b19a47a1f930c377b5bb.jpg",
+        "description":"Sử dụng tương thích cho máy in Linx 5900 7900"
     }
-
 ]

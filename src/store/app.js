@@ -23,6 +23,9 @@ export const useAppStore = defineStore('app', {
   actions:{
     GetInfo(id){
       this.Info = this.products.find(value => value.id === id)      
+    },
+    GetDetail(id){
+      this.Info = this.accessory.find(value => value.id === id)
     }
   }
 })

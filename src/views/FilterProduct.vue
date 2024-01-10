@@ -2,11 +2,12 @@
     <vContainer>
         <v-breadcrumbs :items="['Trang chủ', 'Sản Phẩm', 'Danh sách sản phẩm']"></v-breadcrumbs>
         <v-app>            
-            <Filter />
+            <List/>                  
         </v-app>
     </vContainer>
 </template>
   
 <script setup>
-import Filter from "@/components/FilterProduct.vue";
+
+import List from "@/components/ListAccessory.vue";
 </script>
