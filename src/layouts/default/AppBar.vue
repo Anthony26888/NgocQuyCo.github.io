@@ -1,8 +1,9 @@
 <template>
   <v-toolbar border density="comfortable">
-
     <v-toolbar-title class="p-3">
-      <v-img src="../../assets/Image/logoNG.png" width="80" height="80"></v-img>
+      <router-link to="/">
+        <v-img src="../../assets/Image/logoNG.png" width="80" height="80"></v-img>
+      </router-link>      
     </v-toolbar-title>
 
     <v-spacer></v-spacer>
@@ -18,7 +19,7 @@
         </v-btn>
       </template>
 
-      <v-list>
+      <v-list width="300">
         <v-list-item v-for="(item, index) in items" :key="index">
           <v-list-item-title>{{ item.title }}</v-list-item-title>
         </v-list-item>

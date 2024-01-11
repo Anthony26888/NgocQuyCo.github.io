@@ -14,7 +14,7 @@ const routes = [
       {
         path: '/San-pham',
         name: 'ListProduct',       
-        component: () => import(/* webpackChunkName: "home" */ '@/views/ListProduct.vue'),
+        component: () => import(/* webpackChunkName: "home" */ '@/views/AllList.vue'),
       },
       {
         path: '/Thong-tin-san-pham',
@@ -27,9 +27,9 @@ const routes = [
         component: () => import(/* webpackChunkName: "home" */ '@/views/Solution.vue'),
       },
       {
-        path: '/Danh-sach',
-        name: 'FilterProduct',       
-        component: () => import(/* webpackChunkName: "home" */ '@/views/FilterProduct.vue'),
+        path: '/Danh-sach-linh-kien',
+        name: 'FilterAccessory',       
+        component: () => import(/* webpackChunkName: "home" */ '@/views/FilterAccessory.vue'),
       },
     ],
   },

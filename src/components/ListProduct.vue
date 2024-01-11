@@ -5,10 +5,12 @@
       <v-spacer></v-spacer>
       <strong class="p-2">Xem thêm</strong>
     </v-toolbar>
-    <div class="d-flex justify-content-center flex-wrap p-4 ">
-      <v-card class="m-3 bg-grey-lighten-4" width="300" v-for="value in store.products" :key="value">
+
+    <v-slide-group v-model="model" class="pa-4" center-active show-arrows>
+      <v-slide-group-item>
+        <v-card class="m-2 bg-grey-lighten-4" width="300" v-for="value in store.products" :key="value">
         <router-link to="/Thong-tin-san-pham">
-          <v-img class="align-end" height="250" width="300" :src="value.img" cover
+          <v-img class="align-center" height="250" width="300" :src="value.img" cover
             @click="store.GetInfo(value.id)"></v-img>
         </router-link>
 
@@ -17,52 +19,58 @@
         </v-card-subtitle>
 
         <v-card-text>
-          <h5>{{ value.name }}</h5><br>
+          <h5>{{ value.name }}</h5>
+          <br />
           <h6 class="text-red-lighten-1">Giá: Liên hệ</h6>
         </v-card-text>
       </v-card>
-    </div>
+      </v-slide-group-item>
+    </v-slide-group>
+
 
     <v-toolbar density="comfortable">
       <v-toolbar-title><strong>Linh kiện</strong></v-toolbar-title>
       <v-spacer></v-spacer>
-      <router-link to="/Danh-sach">
+      <router-link to="/Danh-sach-linh-kien">
         <strong class="p-2">Xem thêm</strong>
-      </router-link>      
+      </router-link>
     </v-toolbar>
-    <div class="d-flex justify-content-center flex-wrap p-4">
-      <v-card class="m-3" width="300" v-for="value in store.accessory.slice(0, 5)" :key="value">
+    
+    <v-slide-group v-model="model" class="pa-4" center-active show-arrows>
+      <v-slide-group-item>
+        <v-card class="m-2 bg-grey-lighten-4" width="300" v-for="value in store.accessory.slice(0,10)" :key="value">
         <router-link to="/Thong-tin-san-pham">
-          <v-img class="align-end" height="250" width="300" :src="value.img" cover @click="store.GetDetail(value.id)"></v-img>
-        </router-link>        
+          <v-img class="align-center" height="250" width="300" :src="value.img" cover
+            @click="store.GetInfo(value.id)"></v-img>
+        </router-link>
+
         <v-card-subtitle class="pt-4">
           {{ value.model }}
         </v-card-subtitle>
 
         <v-card-text>
-          <h5>{{ value.name }}</h5><br>
+          <h5>{{ value.name }}</h5>
+          <br />
           <h6 class="text-red-lighten-1">Giá: Liên hệ</h6>
         </v-card-text>
       </v-card>
-    </div>
-    
+      </v-slide-group-item>
+    </v-slide-group>
   </div>
 </template>
 
 <script setup>
 import { useAppStore } from "@/store/app";
 const store = useAppStore();
-
 </script>
 
 <script>
 export default {
   data() {
     return {
-      
-    }
+      model: null,
+    };
   },
 };
 </script>
-<style scoped>
-</style>
+<style scoped></style>
