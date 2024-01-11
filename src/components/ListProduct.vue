@@ -1,11 +1,9 @@
 <template>
-  <v-breadcrumbs :items="['Trang chủ', 'Sản Phẩm']"></v-breadcrumbs>
-
   <div class="">
     <v-toolbar density="comfortable">
       <v-toolbar-title><strong>Máy in CIJ</strong></v-toolbar-title>
       <v-spacer></v-spacer>
-      <strong class="p-2">Xem tất cả</strong>
+      <strong class="p-2">Xem thêm</strong>
     </v-toolbar>
     <div class="d-flex justify-content-center flex-wrap p-4 ">
       <v-card class="m-3 bg-grey-lighten-4" width="300" v-for="value in store.products" :key="value">
@@ -29,7 +27,7 @@
       <v-toolbar-title><strong>Linh kiện</strong></v-toolbar-title>
       <v-spacer></v-spacer>
       <router-link to="/Danh-sach">
-        <strong class="p-2">Xem tất cả</strong>
+        <strong class="p-2">Xem thêm</strong>
       </router-link>      
     </v-toolbar>
     <div class="d-flex justify-content-center flex-wrap p-4">

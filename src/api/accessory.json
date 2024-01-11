@@ -1,10 +1,10 @@
 [
     {
         "id":"1",
-        "name":"Bộ lọc chính Linx",
+        "name":"Bộ lọc chính Linx 4900 5900",
         "model":"Linh kiện Linx",
         "img":"https://sc01.alicdn.com/kf/H699904237ebe4fd5a72cd7e6213e7ffcH/221307957/H699904237ebe4fd5a72cd7e6213e7ffcH.jpg",
-        "description":"Sử dụng tương thích cho máy in Linx 4900, 5900, 7900"
+        "description":"Sử dụng tương thích cho máy in Linx 4900, 5900"
     },
     {
         "id":"2",
@@ -107,9 +107,65 @@
     },
     {
         "id":"15",
-        "name":"Board chính Linx",
+        "name":"Board chính Linx 5900 7900",
         "model":"Linh kiện Linx",
         "img":"https://s.alicdn.com/@sc04/kf/H0f7abe6492314b19a47a1f930c377b5bb.jpg",
         "description":"Sử dụng tương thích cho máy in Linx 5900 7900"
+    },
+    {
+        "id":"16",
+        "name":"Lọc chính Linx 89xx",
+        "model":"Linh kiện Linx",
+        "img":"https://sc04.alicdn.com/kf/H026726390f7c43a6946c9da4ff5fe7a4B.jpg_1200x1200.jpg",
+        "description":"Sử dụng tương thích cho máy in Linx 88xx 89xx"
+    },
+    {
+        "id":"17",
+        "name":"Board cao áp Linx",
+        "model":"Linh kiện Linx",
+        "img":"https://sc04.alicdn.com/kf/Ha37e7ad5d8b54b449694173183fdfea28.jpg_1200x1200.jpg",
+        "description":"Sử dụng tương thích cho máy in Linx 4900 5900 7900"
+    },
+    {
+        "id":"18",
+        "name":"Nắp đầu in Linx",
+        "model":"Linh kiện Linx",
+        "img":"https://s.alicdn.com/@sc04/kf/He48fb18409234ab7a89bd8a3e26e9c4bE.jpg",
+        "description":"Sử dụng tương thích cho máy in Linx 4900 5900 7900"
+    },
+    {
+        "id":"19",
+        "name":"Màn hình 89xx",
+        "model":"Linh kiện Linx",
+        "img":"https://sc04.alicdn.com/kf/Hc84180b478724a18a04aaf17f2b80eb4j.jpg_1200x1200.jpg",
+        "description":"Sử dụng tương thích cho máy in Linx 89xx"
+    },
+    {
+        "id":"20",
+        "name":"Béc phun 88xx 89xx",
+        "model":"Linh kiện Linx",
+        "img":"https://s.alicdn.com/@sc04/kf/H9ac5c6c592664e32baf965d0276341eem.jpg",
+        "description":"Sử dụng tương thích cho máy in Linx 88xx 89xx"
+    },
+    {
+        "id":"21",
+        "name":"Board chính 88xx 89xx",
+        "model":"Linh kiện Linx",
+        "img":"https://s.alicdn.com/@sc04/kf/H7f78041d2b314717a7a92e4f959c409b3.jpg",
+        "description":"Sử dụng tương thích cho máy in Linx 88xx 89xx"
+    },
+    {
+        "id":"22",
+        "name":"Bộ lọc chính Spectrum",
+        "model":"Linh kiện Linx",
+        "img":"https://s.alicdn.com/@sc04/kf/Hb54ade7db581431bbfc720bc8bb5aba0s.jpg",
+        "description":"Sử dụng tương thích cho máy in Linx 7900 Spectrum"
+    },
+    {
+        "id":"23",
+        "name":"Màn hình 4900",
+        "model":"Linh kiện Linx",
+        "img":"https://s.alicdn.com/@sc04/kf/Hb80d5b36f9ae438a9f4b58e6ac1243d8E.jpg",
+        "description":"Sử dụng tương thích cho máy in Linx 4900"
     }
 ]

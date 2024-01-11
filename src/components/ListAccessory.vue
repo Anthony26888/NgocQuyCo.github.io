@@ -94,6 +94,7 @@ export default {
         {title:"Màn hình"},
         {title:"Bàn phím"},
         {title:"Van"},
+        {title:"Khác"}
       ]
     };
   },
