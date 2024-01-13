@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex flex-wrap justify-center gap-3 mt-5">
+  <div class="d-flex flex-wrap justify-center gap-3">
     <router-link to="/San-pham">
       <v-sheet elevation="8" height="200" width="200" border rounded>
         <div class="d-flex align-center justify-center flex-wrap text-center mx-auto p-4">

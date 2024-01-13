@@ -1,9 +1,15 @@
 <template>
   <vContainer>
     <v-app>
-      <carousels />
-      <Home/>
-      
+      <VRow>
+        <VCol>
+          <Title/>
+        </VCol>
+        <VCol>
+          <carousels />
+        </VCol>
+      </VRow>      
+      <Select/>      
       <List class="mt-5"/>
     </v-app>
   </vContainer>
@@ -11,6 +17,7 @@
 
 <script setup>
 import carousels from "@/components/carousels";
-import Home from "@/components/HomePage";
+import Select from "@/components/SelectPage.vue";
 import List from "@/components/ListProduct.vue";
+import Title from "@/components/TitleHomePage.vue";
 </script>

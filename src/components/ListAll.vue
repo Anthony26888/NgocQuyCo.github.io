@@ -1,98 +1,67 @@
 <template lang="">
-  <v-card>
-    <v-data-iterator
-      :items="store.accessory"
-      :items-per-page="12"
-      :search="search"
-    >
-      <template v-slot:header>
-        <v-toolbar class="p-2">
-          <v-chip-group mandatory selected-class="text-success">
-            <v-chip
-              v-for="item in tag"
-              :key="item"
-              @click="this.search = item.title"
-              >{{ item.title }}</v-chip
-            >
-          </v-chip-group>
-          <VSpacer />
-          <v-text-field
-            v-model="search"
-            clearable
-            density="comfortable"
-            hide-details
-            placeholder="Search"
-            prepend-inner-icon="mdi-magnify"
-            variant="solo"
-            style="max-width: 300px"
-          ></v-text-field>
-        </v-toolbar>
-      </template>
+  <div>
+    <VRow>
+      <VCol>
+        <carousels/>
+      </VCol>
+      <VCol>
+        <h3>Máy in phun CIJ Linx</h3>
+        <p class="text-muted">
+          Hệ thống Máy phun mực liên tục (CIJ) được sử dụng để in thông tin thay
+          đổi, chẳng hạn như ngày tháng, lô hoặc mã vạch, trên các sản phẩm
+          riêng lẻ khi chúng di chuyển dọc theo dây chuyền sản xuất – bất kể độ
+          xốp, kích thước, hình dạng hoặc kết cấu.
+        </p>
+        <VBtn>Xem thêm</VBtn>
+      </VCol>
+    </VRow>
+  </div>
 
-      <template v-slot:default="{ items }">
-        <v-container class="pa-2" fluid>
-          <div class="d-flex flex-wrap justify-lg-center algin-center">
-            <v-card class="m-3" width="250" v-for="value in items" :key="value">
-              <v-img
-                class="align-end"
-                height="250"
-                width="250"
-                :src="value.raw.img"
-                cover
-              ></v-img>
-              <v-card-subtitle class="pt-4">
-                {{ value.raw.model }}
-              </v-card-subtitle>
+  <v-divider></v-divider>
+  <div class="mt-5">
+    <VRow>
+      <VCol>
+        <v-img src="https://sc04.alicdn.com/kf/Hf0b9121dbb2b4d64bad71abaace22973Y.jpg_1200x1200.jpg" height="400"></v-img>
+      </VCol>
+      <VCol>
+        <h3>Linh kiện Linx</h3>
+        <p class="text-muted">
+          Chuyên cung cấp tất cả các linh kiện máy in Linx. Bao gồm lọc, Board, Màn hình,....
+        </p>
+        <VBtn>Xem thêm</VBtn>
+      </VCol>
+    </VRow>
+  </div>
 
-              <v-card-text>
-                <h5>{{ value.raw.name }}</h5>
-                <br />
-                <h6 class="text-red-lighten-1">Giá: Liên hệ</h6>
-              </v-card-text>
-            </v-card>
-          </div>
-        </v-container>
-      </template>
-
-      <template v-slot:footer="{ page, pageCount, prevPage, nextPage }">
-        <div class="d-flex align-center justify-center pa-4">
-          <v-btn
-            :disabled="page === 1"
-            icon="mdi-arrow-left"
-            density="comfortable"
-            variant="tonal"
-            rounded
-            @click="prevPage"
-          ></v-btn>
-
-          <div class="mx-2 text-caption">
-            Page {{ page }} of {{ pageCount }}
-          </div>
-
-          <v-btn
-            :disabled="page >= pageCount"
-            icon="mdi-arrow-right"
-            density="comfortable"
-            variant="tonal"
-            rounded
-            @click="nextPage"
-          ></v-btn>
-        </div>
-      </template>
-    </v-data-iterator>
-  </v-card>
+  <v-divider></v-divider>
+  <div class="mt-5">
+    <VRow>
+      <VCol>
+        <v-img src="../assets/Image/dungmoi.png" height="400"></v-img>
+      </VCol>
+      <VCol>
+        <h3>Nguyên liệu</h3>
+        <p class="text-muted">
+          Chuyên cung cấp tất cả sản phẩm mực và dung môi cho máy in Linx.
+        </p>
+        <VBtn>Xem thêm</VBtn>
+      </VCol>
+    </VRow>
+  </div>
 </template>
 <script setup>
+import carousels from "@/components/carousels.vue";
 import { useAppStore } from "@/store/app";
 const store = useAppStore();
 </script>
 <script>
+
 export default {
-    data() {
-        return {
-            search: "",
-        }
-    },
+  data() {
+    return {
+      
+    };
+  },
 };
 </script>
 <style lang=""></style>

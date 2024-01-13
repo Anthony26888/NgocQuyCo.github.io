@@ -10,4 +10,5 @@
 <script setup>
 
 import List from "@/components/ListAll.vue";
+
 </script>
