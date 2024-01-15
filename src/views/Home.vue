@@ -9,7 +9,7 @@
           <carousels />
         </VCol>
       </VRow>      
-      <Select/>      
+      <Select class="mt-5"/>      
       <List class="mt-5"/>
     </v-app>
   </vContainer>

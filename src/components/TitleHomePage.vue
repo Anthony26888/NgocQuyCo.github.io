@@ -38,13 +38,7 @@ export default {
     line-height: normal;
 }
 
-.title-img {
-    margin-left: 200px;
-    width: 500px;
-    height: 400px;
 
-    flex-shrink: 0;
-}
 
 .box-detail {
     width: 200px;

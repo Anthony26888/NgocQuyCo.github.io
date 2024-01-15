@@ -86,21 +86,21 @@ export default {
   data() {
     return {
       search: "",
-      tag:[
-        {title:"Linx"},
-        {title:"Lọc"},
-        {title:"Board"},
-        {title:"Bơm"},
-        {title:"Màn hình"},
-        {title:"Bàn phím"},
-        {title:"Van"},
-        {title:"Khác"}
+      tag: [
+        { title: "Linx" },
+        { title: "Lọc" },
+        { title: "Board" },
+        { title: "Bơm" },
+        { title: "Màn hình" },
+        { title: "Bàn phím" },
+        { title: "Van" },
+        { title: "Khác" }
       ]
     };
   },
   methods: {
-    filter(){
-        this.search = 'Lọc'
+    filter() {
+      this.search = 'Lọc'
     }
   },
 };

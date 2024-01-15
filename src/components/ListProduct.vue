@@ -8,9 +8,9 @@
 
     <v-slide-group v-model="model" class="pa-4" center-active show-arrows>
       <v-slide-group-item>
-        <v-card class="m-2 bg-grey-lighten-4" width="300" v-for="value in store.products" :key="value">
+        <v-card class="m-2 bg-grey-lighten-4" width="350" v-for="value in store.products" :key="value">
         <router-link to="/Thong-tin-san-pham">
-          <v-img class="align-center" height="250" width="300" :src="value.img" cover
+          <v-img class="align-center" height="250" width="350" :src="value.img" cover
             @click="store.GetInfo(value.id)"></v-img>
         </router-link>
 
@@ -31,16 +31,16 @@
     <v-toolbar density="comfortable">
       <v-toolbar-title><strong>Linh kiện</strong></v-toolbar-title>
       <v-spacer></v-spacer>
-      <router-link to="/Danh-sach-linh-kien">
+      <router-link to="/Danh-sach-linh-kien" style="text-decoration: none; color: inherit;">
         <strong class="p-2">Xem thêm</strong>
       </router-link>
     </v-toolbar>
     
     <v-slide-group v-model="model" class="pa-4" center-active show-arrows>
       <v-slide-group-item>
-        <v-card class="m-2 bg-grey-lighten-4" width="300" v-for="value in store.accessory.slice(0,10)" :key="value">
+        <v-card class="m-2 bg-grey-lighten-4" width="350" v-for="value in store.accessory.slice(0,10)" :key="value">
         <router-link to="/Thong-tin-san-pham">
-          <v-img class="align-center" height="250" width="300" :src="value.img" cover
+          <v-img class="align-center" height="250" width="350" :src="value.img" cover
             @click="store.GetInfo(value.id)"></v-img>
         </router-link>
 
