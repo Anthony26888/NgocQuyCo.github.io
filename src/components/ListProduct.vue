@@ -3,7 +3,9 @@
     <v-toolbar density="comfortable">
       <v-toolbar-title><strong>Máy in CIJ</strong></v-toolbar-title>
       <v-spacer></v-spacer>
-      <strong class="p-2">Xem thêm</strong>
+      <router-link to="/Danh-sach-may-in" style="text-decoration: none; color: inherit;">
+        <strong class="p-2">Xem thêm</strong>
+      </router-link>
     </v-toolbar>
 
     <v-slide-group v-model="model" class="pa-4" center-active show-arrows>

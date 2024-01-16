@@ -5,7 +5,7 @@
         <carousels/>
       </VCol>
       <VCol>
-        <h3>Máy in phun CIJ Linx</h3>
+        <h3 class="text-teal-darken-1">Máy in phun CIJ Linx</h3>
         <p class="text-muted">
           Hệ thống Máy phun mực liên tục (CIJ) được sử dụng để in thông tin thay
           đổi, chẳng hạn như ngày tháng, lô hoặc mã vạch, trên các sản phẩm
@@ -24,7 +24,7 @@
         <v-img src="https://sc04.alicdn.com/kf/Hf0b9121dbb2b4d64bad71abaace22973Y.jpg_1200x1200.jpg" height="400"></v-img>
       </VCol>
       <VCol>
-        <h3>Linh kiện Linx</h3>
+        <h3 class="text-teal-darken-1">Linh kiện Linx</h3>
         <p class="text-muted">
           Chuyên cung cấp tất cả các linh kiện máy in Linx. Bao gồm lọc, Board, Màn hình,....
         </p>
@@ -40,7 +40,7 @@
         <v-img src="../assets/Image/dungmoi.png" height="400"></v-img>
       </VCol>
       <VCol>
-        <h3>Nguyên liệu</h3>
+        <h3 class="text-teal-darken-1">Nguyên liệu</h3>
         <p class="text-muted">
           Chuyên cung cấp tất cả sản phẩm mực và dung môi cho máy in Linx.
         </p>

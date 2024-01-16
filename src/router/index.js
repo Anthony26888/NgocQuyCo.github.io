@@ -31,6 +31,11 @@ const routes = [
         name: 'FilterAccessory',       
         component: () => import(/* webpackChunkName: "home" */ '@/views/FilterAccessory.vue'),
       },
+      {
+        path: '/Danh-sach-may-in',
+        name: 'FilterMachine',       
+        component: () => import(/* webpackChunkName: "home" */ '@/views/FilterMachine.vue'),
+      }
     ],
   },
 ]
