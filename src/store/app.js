@@ -8,23 +8,23 @@ export const useAppStore = defineStore('app', {
     return {
       products,    
       accessory,   
-      Info:useLocalStorage("Info", []),
+      Info:useLocalStorage("Info", []),  
+      filter:"Linx"
     }
   }, 
-  getters:{
-    Linx(){
-      return this.products.filter(value => value.model=="Linx")
-    },
-    Hitachi(){
-      return this.products.filter(value => value.model=="Hitachi")
-    }  
-
+  getters:{   
+    Filter(){    
+      return this.accessory.filter(value => value.model== this.filter)
+    }
   },
-  actions:{
-    GetInfo(id){
+  actions:{ 
+    GetFilter(title){
+      this.filter = title
+    },
+    GetMachine(id){
       this.Info = this.products.find(value => value.id === id)      
     },
-    GetDetail(id){
+    GetAccessory(id){
       this.Info = this.accessory.find(value => value.id === id)
     }
   }

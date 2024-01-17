@@ -9,5 +9,5 @@
   
 <script setup>
 
-import List from "@/components/ListAccessory.vue";
+import List from "@/components/FilterAccessory.vue";
 </script>

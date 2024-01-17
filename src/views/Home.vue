@@ -1,16 +1,17 @@
 <template>
+  
   <vContainer>
     <v-app>
       <VRow>
         <VCol>
-          <Title/>
+          <Title />
         </VCol>
         <VCol>
           <carousels />
         </VCol>
-      </VRow>      
-      <Select class="mt-5"/>      
-      <List class="mt-5"/>
+      </VRow>
+      <Select class="mt-5" />
+      <List class="mt-5" />
     </v-app>
   </vContainer>
 </template>
@@ -21,3 +22,6 @@ import Select from "@/components/SelectPage.vue";
 import List from "@/components/ListProduct.vue";
 import Title from "@/components/TitleHomePage.vue";
 </script>
+<style scoped>
+
+</style>

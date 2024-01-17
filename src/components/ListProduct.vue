@@ -1,7 +1,7 @@
 <template>
   <div class="">
-    <v-toolbar density="comfortable">
-      <v-toolbar-title><strong>Máy in CIJ</strong></v-toolbar-title>
+    <v-toolbar density="comfortable" class="bg-transparent">
+      <v-toolbar-title><h2>Máy in CIJ</h2></v-toolbar-title>
       <v-spacer></v-spacer>
       <router-link to="/Danh-sach-may-in" style="text-decoration: none; color: inherit;">
         <strong class="p-2">Xem thêm</strong>
@@ -13,7 +13,7 @@
         <v-card class="m-2 bg-grey-lighten-4" width="350" v-for="value in store.products" :key="value">
         <router-link to="/Thong-tin-san-pham">
           <v-img class="align-center" height="250" width="350" :src="value.img" cover
-            @click="store.GetInfo(value.id)"></v-img>
+            @click="store.GetMachine(value.id)"></v-img>
         </router-link>
 
         <v-card-subtitle class="pt-4">
@@ -30,8 +30,8 @@
     </v-slide-group>
 
 
-    <v-toolbar density="comfortable">
-      <v-toolbar-title><strong>Linh kiện</strong></v-toolbar-title>
+    <v-toolbar density="comfortable" class="bg-transparent">
+      <v-toolbar-title><h2>Linh kiện</h2></v-toolbar-title>
       <v-spacer></v-spacer>
       <router-link to="/Danh-sach-linh-kien" style="text-decoration: none; color: inherit;">
         <strong class="p-2">Xem thêm</strong>
@@ -43,7 +43,7 @@
         <v-card class="m-2 bg-grey-lighten-4" width="350" v-for="value in store.accessory.slice(0,10)" :key="value">
         <router-link to="/Thong-tin-san-pham">
           <v-img class="align-center" height="250" width="350" :src="value.img" cover
-            @click="store.GetInfo(value.id)"></v-img>
+            @click="store.GetAccessory(value.id)"></v-img>
         </router-link>
 
         <v-card-subtitle class="pt-4">
@@ -75,4 +75,9 @@ export default {
   },
 };
 </script>
-<style scoped></style>
+<style scoped>
+  h2{
+    font-weight: 700;
+  }
+</style>
+

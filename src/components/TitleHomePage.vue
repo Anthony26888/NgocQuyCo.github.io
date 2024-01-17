@@ -1,5 +1,5 @@
 <template lang="">
-  <div class="d-flex flex-column justify-content-center algin-item-center mt-5">
+  <div class="d-flex flex-column justify-content-center algin-item-center p-4">
     <span class="title-name text-teal-darken-1"
       >{{ titleLarge}}</span
     ><br />

@@ -9,5 +9,5 @@
   
 <script setup>
 
-import List from "@/components/ListMachine";
+import List from "@/components/FilterMachine";
 </script>
