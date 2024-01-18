@@ -1,7 +1,6 @@
-<template>
-  
-  <vContainer>
-    <v-app>
+<template>  
+  <vContainer >
+    <v-app >
       <VRow>
         <VCol>
           <Title />
@@ -19,7 +18,7 @@
 <script setup>
 import carousels from "@/components/carousels";
 import Select from "@/components/SelectPage.vue";
-import List from "@/components/ListProduct.vue";
+import List from "@/components/ListHomePage.vue";
 import Title from "@/components/TitleHomePage.vue";
 </script>
 <style scoped>

@@ -103,6 +103,39 @@
   {
     "id": "4",
     "model": "Linx",
+    "name": "Máy in Linx 7300",
+    "img": "https://ngannhantech.com/source/san-pham/may-in-ma-ngay/Linx-7300-Spectrum.jpg",
+    "description": "Dòng máy in phun hạn sử dụng Linx 7300 có đầy đủ các yếu tố cấu thành của 1 máy in date hiện đại, kết cấu gọn nhẹ, có độ tiết kiệm về chi phí đầu tư và cũng như khấu hao trong quá trình vận hành sản xuất. Máy được kết cấu từ các thiết bị cấu thành với tuổi thọ cao, tiêu chuẩn Anh Quốc và quốc tế – máy hạn chế tối đa phát sinh lỗi vặt – tiết kiệm chi phí bảo trì, sửa chữa trong quá trình vận hành.",
+    "feature": [
+      "Tốc độ in: tối đa là 8.41m/s (in 1 dòng)",
+      "Độ cao chữ: từ 1.1-12mm",
+      "In tới 5 dòng văn bản, đồ họa, logo, mã vạch, in 3 dòng, in ma trận thông tin 2D, in nghịch đảo cho các dòng in đối xứng"
+      
+    ],
+    "tech": [
+      "Giao diện người sử dụng bằng màn hình màu rất dễ sử dụng",
+      "In 3 dòng và ma trận thông tin được cung cấp như tiêu chuẩn có sẵn",
+      "In 5 dòng được hỗ trợ như là tiêu chuẩn lựa chọn thêm",
+      "Tốc độ in nhanh hơn và công cụ truyền thông từ xa có thể được thêm vào khi khách hàng có nhu cầu"
+    ],
+    "control": [
+      "Lưu được đến 50 bảng tin và 100 logo",
+      "Số lần trộn mực có thể được thiết lập chương trình trước",
+      "Tạo và biên tập bản tin theo danh mục hướng dẫn WYSIWYG",
+      "Phần mềm biên tập và lựa chọn bản tin bằng cách sử dụng máy quét mã vạch,Giao diện truyền thông từ xa"
+    ],
+    "special": [
+      "Vỏ máy bằng thép không gỉ được thiết kế cong để hạn chế bụi",
+      "Kết cấu IP55 (chống nước) được cung cấp như tiêu chuẩn có sẵn",
+      "Trọng lượng 21kg",
+      "Thiết lập giao diện người sử dụng, với sự lựa chọn hệ thống điều khiển từ xa."
+    ],
+    "Ink": "1039",
+    "Solution": "ádada"
+  },
+  {
+    "id": "5",
+    "model": "Linx",
     "name": "Máy in Linx 5900",
     "img": "https://linx.com.vn/wp-content/uploads/2022/12/may-in-phun-linx-5900-1024x769.webp",
     "description": "Máy in phun công nghiệp Linx 5900 là dòng máy chuyên dụng và phổ thông của Linx. Đảm bảo tính hiệu quả in luôn tốt nhất với chi phí vận hành thấp nhất.",
@@ -137,27 +170,38 @@
     ],
     "Ink": "1039",
     "Solution": "ádada"
-  },
+  },  
   {
-    "id": "5",
+    "id": "6",
     "model": "Linx",
     "name": "Máy in Linx 4900",
     "img": "https://www.foxjet.com/portals/0/Gallery/Album/13/Linx4900_1.jpg",
-    "description": "Máy in phun liên tục từ công nghiệp đến dòng PXR-D của Hitachi được trang bị các tính năng cao cấp, bao gồm màn hình cảm ứng LCD TFT màu 10,4, khung nhôm đúc, thiết kế rốn linh hoạt dài 4m, v.v. Máy in phun mực phù hợp cho việc in ký tự vi mô cũng như lớn hơn và là lựa chọn tốt nhất cho các nhà lãnh đạo công nghiệp.",
+    "description": "Dòng máy in phun hạn sử dụng Linx 4900 có đầy đủ các yếu tố cấu thành của 1 máy in date hiện đại, kết cấu gọn nhẹ, có độ tiết kiệm về chi phí đầu tư và cũng như khấu hao trong quá trình vận hành sản xuất. Máy được kết cấu từ các thiết bị cấu thành với tuổi thọ cao, tiêu chuẩn Anh Quốc và quốc tế – máy hạn chế tối đa phát sinh lỗi vặt – tiết kiệm chi phí bảo trì, sửa chữa trong quá trình vận hành.",
     "feature": [
-      
+      "Tốc độ in tối đa 7.28m/s ( in 1 hàng)",
+      "Độ cao của chữ từ 2.1 – 8.8 mm",
+      "In các ký tự vừa có chữ vừa có số ( 1 hoặc 2 hàng) và logo",
+      "Có nhiều màu mực và loại mực để lựa chọn"
     ],
     "tech": [
-      "Vận hành dễ dàng và nhanh chóng bằng màn hình cảm ứng LCD TFT màu 10,4 inch lớn.",
-      "Hệ thống kiểm soát độ rơi tiên tiến đảm bảo chất lượng in ổn định trong mọi điều kiện môi trường.",
-      "Hệ thống hồi mực độc đáo giúp giảm sự bay hơi dung môi, giúp giảm thiểu sự trộn lẫn giữa không khí và mực.",
-      "RoHS 304 SS IP55.",
-      "Có thể in trên các sản phẩm có diện tích đánh dấu cực nhỏ.",
-      "Những mẫu này phù hợp để in trên các linh kiện nhỏ, dây điện, v.v. trong lĩnh vực điện và điện tử."
+      "In lên đến 2 dòng văn bản và logo với tốc độ in tối đa 6.25m/s",
+      "Vỏ máy được thiết kế cong với kết cấu IP55 chống bụi và chống nước.",
+      "Bộ nhớ lưu trữ đến 50 tin, ngày tháng tự động thay đổi giúp giảm thiểu sự cần thiết phải chỉnh sửa.",
+      "Đầu in được thiết kế đặc biệt siêu chắc không yêu cầu phải điều chỉnh thủ công.",
+      "Không cần phải ngưng hoặc mở máy in để nạp thêm mực, dung môi.",
+      "Thiết kế nhỏ gọn không cần hệ thống khí nén."
     ],
     "control": [
+      "Lưu được đến 50 bảng tin và 100 logo",
+      "In ngày tháng tự động thay đổi",
+      "Số đếm liên tiếp",
+      "Duyệt bản tin và hiển thị tương tác tức thời"
     ],
     "special": [
+      "Vỏ máy làm bằng thép không rỉ",
+      "Kết cấu IP55 thích hợp đáp ứng các môi trường khắc nghiệt",
+      "Trọng lượng 20 kg",
+      "Thiết lập giao diện người sử dụng, với sự lựa chọn hệ thống điều khiển từ xa."
     ],
     "Ink": "1039",
     "Solution": "ádada"

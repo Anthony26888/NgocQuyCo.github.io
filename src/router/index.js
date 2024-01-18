@@ -35,6 +35,11 @@ const routes = [
         path: '/Danh-sach-may-in',
         name: 'FilterMachine',       
         component: () => import(/* webpackChunkName: "home" */ '@/views/FilterMachine.vue'),
+      },
+      {
+        path: '/Lien-he',
+        name: 'Contact',       
+        component: () => import(/* webpackChunkName: "home" */ '@/views/Contact.vue'),
       }
     ],
   },

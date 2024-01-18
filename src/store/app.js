@@ -9,12 +9,20 @@ export const useAppStore = defineStore('app', {
       products,    
       accessory,   
       Info:useLocalStorage("Info", []),  
-      filter:"Linx"
+      filter:null
     }
   }, 
   getters:{   
-    Filter(){    
+    Filter(){   
+      if(this.filter == null){
+        return this.accessory
+      }
+      if(this.filter == "Tất cả"){
+        return this.accessory
+      }
+
       return this.accessory.filter(value => value.model== this.filter)
+      
     }
   },
   actions:{ 

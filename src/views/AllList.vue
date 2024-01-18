@@ -9,6 +9,6 @@
   
 <script setup>
 
-import List from "@/components/ListAll.vue";
+import List from "@/components/ListProduct.vue";
 
 </script>

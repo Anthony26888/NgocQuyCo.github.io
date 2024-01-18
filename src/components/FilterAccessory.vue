@@ -8,20 +8,9 @@
           @click="store.GetFilter(item.title)"
           >{{ item.title }}</v-chip
         >
-      </v-chip-group>
-      <VSpacer />
-      <v-text-field
-        v-model="search"
-        clearable
-        density="comfortable"
-        hide-details
-        placeholder="Search"
-        prepend-inner-icon="mdi-magnify"
-        variant="solo"
-        style="max-width: 300px"
-      ></v-text-field>
+      </v-chip-group>      
     </v-toolbar>
-    <v-container class="pa-2" fluid>
+    <v-container class="pa-2" fluid>      
       <div class="d-flex flex-wrap justify-lg-center algin-center">
         <v-card class="m-3 bg-grey-lighten-4" width="250" v-for="item in store.Filter" :key="item">
           <router-link to="/Thong-tin-san-pham">
@@ -50,14 +39,15 @@
 <script setup>
 import { useAppStore } from "@/store/app";
 const store = useAppStore();
+
 </script>
 <script>
-export default {
+export default {  
   data() {
-    return {
-      search: "",
+    return {     
+      
       tag: [
-        { title: "Linx" },
+        { title: "Tất cả" },
         { title: "Lọc" },
         { title: "Board" },
         { title: "Bơm" },

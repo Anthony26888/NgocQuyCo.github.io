@@ -13,7 +13,9 @@
 
       <v-spacer></v-spacer>
 
-      <v-btn> Giới thiệu </v-btn>
+      <router-link to="/Lien-he" style="text-decoration: none; color: inherit;">
+        <v-btn> Giới thiệu </v-btn>
+      </router-link>      
 
       <v-menu open-on-hover>
         <template v-slot:activator="{ props }">
