@@ -1,5 +1,5 @@
 <template>
-  <v-carousel :continuous="false" :show-arrows="false" hide-delimiter-background delimiter-icon="mdi-square" width="500" height="400" cycle>
+  <v-carousel :continuous="false" :show-arrows="false" hide-delimiter-background delimiter-icon="mdi-square" class="slide" cycle>
     <v-carousel-item v-for="value in item" :key="value">
       <v-img class="title-img mx-auto" :src="value.image" cover></v-img>
     </v-carousel-item>
@@ -38,7 +38,16 @@ export default {
 
     flex-shrink: 0;
 }
+@media only screen and (max-width: 600px) {
+  .title-img{
+    width: 250px;
+    height: 250px;
+  }
+  .slide{
+    width: 100%;
+    height: 100px;
+  }
+}
+
 </style>
-<script setup>
-//
-</script>
+

@@ -2,22 +2,21 @@
   <vContainer>
     <v-toolbar density="comfortable" class="bg-transparent d-none d-sm-flex">
       <v-toolbar-title>
-        <router-link to="/">
+        <div class="d-flex">
+          <router-link to="/">          
           <v-img
             src="../../assets/Image/logoNG.png"
             width="80"
-            height="80"
-          ></v-img>
+            height="80"           
+          ></v-img>          
         </router-link>
+        <h4 class="mt-4 text-teal-darken-1">Ngọc Quý</h4>
+        </div>
+        
       </v-toolbar-title>
 
       <v-spacer></v-spacer>
-
-<<<<<<< HEAD
-      <router-link to="/" style="text-decoration: none; color: inherit;">
-=======
       <router-link to="" style="text-decoration: none; color: inherit;">
->>>>>>> f891346abf0729033df464abf2e73ed77c1e0df0
         <v-btn> Giới thiệu </v-btn>
       </router-link>      
 
@@ -35,12 +34,7 @@
 
       <router-link to="/Lien-he" style="text-decoration: none; color: inherit;">
         <v-btn> Liên hệ </v-btn>
-<<<<<<< HEAD
-      </router-link>        
-=======
-      </router-link>
->>>>>>> f891346abf0729033df464abf2e73ed77c1e0df0
-      
+      </router-link>  
     </v-toolbar>
 
     <v-toolbar density="comfortable" class="d-flex d-sm-none bg-transparent">
@@ -48,8 +42,8 @@
         ><router-link to="/">
           <v-img
             src="../../assets/Image/logoNG.png"
-            width="50"
-            height="50"
+            width="70"
+            height="70"
           ></v-img> </router-link
       ></v-toolbar-title>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>

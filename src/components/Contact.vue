@@ -48,9 +48,8 @@
 import Form from "./Form.vue"
 </script>
 <script>
-export default ({
-  
-});
+
+
 
 </script>
 <style scoped>
