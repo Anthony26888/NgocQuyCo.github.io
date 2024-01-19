@@ -13,7 +13,11 @@
 
       <v-spacer></v-spacer>
 
+<<<<<<< HEAD
       <router-link to="/" style="text-decoration: none; color: inherit;">
+=======
+      <router-link to="" style="text-decoration: none; color: inherit;">
+>>>>>>> f891346abf0729033df464abf2e73ed77c1e0df0
         <v-btn> Giới thiệu </v-btn>
       </router-link>      
 
@@ -31,7 +35,11 @@
 
       <router-link to="/Lien-he" style="text-decoration: none; color: inherit;">
         <v-btn> Liên hệ </v-btn>
+<<<<<<< HEAD
       </router-link>        
+=======
+      </router-link>
+>>>>>>> f891346abf0729033df464abf2e73ed77c1e0df0
       
     </v-toolbar>
 
