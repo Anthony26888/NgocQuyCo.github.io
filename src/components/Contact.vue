@@ -41,24 +41,15 @@
     <v-card class="mt-5 bg-teal-lighten-5">
       <Form/>
     </v-card>
-    
-    
   </div>
 
-  
->>>>>>> f891346abf0729033df464abf2e73ed77c1e0df0
 </template>
 <script setup>
 import Form from "./Form.vue"
 </script>
 <script>
-export default defineComponent({
-  components: { GoogleMap, Marker },
-  setup() {
-    const center = { lat: 40.689247, lng: -74.044502 };
-
-    return { center };
-  },
+export default ({
+  
 });
 
 </script>
