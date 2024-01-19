@@ -1,5 +1,9 @@
 <template>
-  <Solution />
+  <vContainer>
+    <v-app>
+      <Solution />
+    </v-app>
+  </vContainer>
 </template>
 
 <script setup>

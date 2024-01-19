@@ -1,124 +1,78 @@
 <template lang="">
-  <v-main>
-    <div class="container-fluid">
-      <div class="banner">
-        <img
-          src="../assets/Image/solution.webp"
-          alt="Cinque Terre"
-          class="banner-img"
-        />
-        <div class="center text-teal-accent-4"><strong>Giải pháp</strong></div>
-      </div>
+  <div>
+    <div class="banner">
+      <img
+        src="../assets/Image/solution.webp"
+        alt="Cinque Terre"
+        class="banner-img"
+      />
+      <div class="center text-teal-accent-4"><strong>Giải pháp</strong></div>
     </div>
-    <div class="container">
-      <div class="d-flex justify-content-center p-3 flex-wrap">
-        <v-card class="mx-auto mt-3" max-width="300" v-for="value in item">
-          <v-img
-            class="align-end text-white"
-            height="200"
-            :src="value.image"
-            cover
-          >
-          </v-img>
+  </div>
+  <div>
+    <div class="d-flex justify-content-center p-3 flex-wrap">
+      <v-card class="mx-auto mt-3 bg-grey-lighten-4" max-width="300" v-for="value in item">
+        <v-img
+          class="align-end text-white"
+          height="200"
+          :src="value.image"
+          cover
+        >
+        </v-img>
 
-          <v-card-text class="text-center text-teal-accent-4"
-            ><h4>{{ value.title }}</h4>
-          </v-card-text>
-          <v-card-text>
-            <div class="w-100 text-center">{{ value.description }}</div>
-          </v-card-text>
+        <v-card-text class="text-center text-teal-accent-4"
+          ><h4>{{ value.title }}</h4>
+        </v-card-text>
+        <v-card-text>
+          <div class="w-100 text-center">{{ value.description }}</div>
+        </v-card-text>
+      </v-card>
+    </div>
+
+    <div class="row justify-content-center align-items-center mt-5">
+      <div class="col col-sm-12 col-md-6 p-5 bg-teal-accent-4">
+        <h1>Hãy để lại thông tin</h1>
+        <div class="d-flex mt-3">
+          <v-icon
+            size="large"
+            color="light"
+            icon="mdi-phone"
+            class="mt-3"
+          ></v-icon>
+          <div class="d-flex flex-column ms-3">
+            <span class="fs-5">Mr.Hải</span>
+            <span class="fs-5">0918504086</span>
+          </div>
+        </div>
+        <div class="d-flex mt-3">
+          <v-icon
+            size="large"
+            color="light"
+            icon="mdi-clock"
+            class="mt-3"
+          ></v-icon>
+          <div class="d-flex flex-column ms-3">
+            <span class="fs-5">Thời gian làm việc</span>
+            <span class="fs-5">8:00 - 17:00 (Thứ 2 - Thứ 6)</span>
+          </div>
+        </div>
+      </div>
+      <div class="col col-sm-12 col-md-6">
+        <!--Form Contact-->
+        <v-card class="mt-5 bg-teal-lighten-5">
+          <Form />
         </v-card>
       </div>
-
-      <div class="row justify-content-center align-items-center mt-5">
-        <div class="col p-5 bg-teal-accent-4">
-          <h1>Hãy để lại thông tin</h1>
-          <div class="d-flex mt-3">
-            <v-icon
-              size="large"
-              color="light"
-              icon="mdi-phone"
-              class="mt-3"
-            ></v-icon>
-            <div class="d-flex flex-column ms-3">
-              <span class="fs-5">Mr.Hải</span>
-              <span class="fs-5">0918504086</span>
-            </div>
-          </div>
-          <div class="d-flex mt-3">
-            <v-icon
-              size="large"
-              color="light"
-              icon="mdi-clock"
-              class="mt-3"
-            ></v-icon>
-            <div class="d-flex flex-column ms-3">
-              <span class="fs-5">Thời gian làm việc</span>
-              <span class="fs-5">8:00 - 17:00 (Thứ 2 - Thứ 6)</span>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <form @submit.prevent="addItem">
-            <div class="mb-3 row p-5">
-              <div class="col-6">
-                <input
-                  type="text"
-                  class="form-control"
-                  name="inputName"
-                  id="inputName"
-                  placeholder="Họ tên"
-                  v-model="LastName"
-                />
-
-                <input
-                  type="email"
-                  class="form-control mt-3"
-                  name="inputName"
-                  id="inputName"
-                  placeholder="Email"
-                />
-              </div>
-              <div class="col-6">
-                <input
-                  type="num"
-                  class="form-control"
-                  name="inputName"
-                  id="inputName"
-                  placeholder="Số điện thoại"
-                />
-                <input
-                  type="text"
-                  class="form-control mt-3"
-                  name="inputName"
-                  id="inputName"
-                  placeholder="Tên công ty"
-                />
-              </div>
-              <div class="col-12 mt-3">
-                <textarea
-                  class="form-control"
-                  id="exampleFormControlTextarea1"
-                  rows="4"
-                  placeholder="Nội dung"
-                ></textarea>
-              </div>
-              <div class="col-12 mt-3">
-                <button type="submit" class="w-100 bg-teal-accent-4">
-                  Gửi thông tin
-                </button>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
     </div>
-  </v-main>
+  </div>
 </template>
-
+<script setup>
+import Form from "./Form.vue";
+</script>
 <script>
 import { ref } from "vue";
 import { useAppStore } from "@/store/complaint.js";
+
 export default {
   components: "Solution",
   setup() {
@@ -192,6 +146,12 @@ export default {
             "Giải pháp cho nhãn giấy, bìa cứng và bao bì nhựa, chai lọ.",
           image: "https://linx.com.vn/wp-content/uploads/2022/09/thupham.png",
         },
+        {
+          title: "THIẾT BỊ Y TẾ",
+          description:
+            "Đáp ứng các yêu cầu quy định với mã số.",
+          image: "https://linx.com.vn/wp-content/uploads/2022/09/thietbiyte.png",
+        }
       ],
     };
   },

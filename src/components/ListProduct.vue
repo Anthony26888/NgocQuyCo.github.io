@@ -12,7 +12,10 @@
           riêng lẻ khi chúng di chuyển dọc theo dây chuyền sản xuất – bất kể độ
           xốp, kích thước, hình dạng hoặc kết cấu.
         </p>
-        <VBtn>Xem thêm</VBtn>
+        <router-link to="/Danh-sach-may-in">
+          <VBtn class="bg-teal-darken-1">Xem thêm</VBtn>
+        </router-link>
+        
       </VCol>
     </VRow>
   </div>
@@ -28,7 +31,9 @@
         <p class="text-muted">
           Chuyên cung cấp tất cả các linh kiện máy in Linx. Bao gồm lọc, Board, Màn hình,....
         </p>
-        <VBtn>Xem thêm</VBtn>
+        <router-link to="/Danh-sach-linh-kien">
+          <VBtn class="bg-teal-darken-1">Xem thêm</VBtn>
+        </router-link>
       </VCol>
     </VRow>
   </div>
@@ -44,7 +49,9 @@
         <p class="text-muted">
           Chuyên cung cấp tất cả sản phẩm mực và dung môi cho máy in Linx.
         </p>
-        <VBtn>Xem thêm</VBtn>
+        <router-link to="">
+          <VBtn class="bg-teal-darken-1">Xem thêm</VBtn>
+        </router-link>
       </VCol>
     </VRow>
   </div>

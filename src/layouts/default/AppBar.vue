@@ -13,7 +13,7 @@
 
       <v-spacer></v-spacer>
 
-      <router-link to="/Lien-he" style="text-decoration: none; color: inherit;">
+      <router-link to="/" style="text-decoration: none; color: inherit;">
         <v-btn> Giới thiệu </v-btn>
       </router-link>      
 
@@ -28,7 +28,11 @@
           </v-list-item>
         </v-list>
       </v-menu>
-      <v-btn> Liên hệ </v-btn>
+
+      <router-link to="/Lien-he" style="text-decoration: none; color: inherit;">
+        <v-btn> Liên hệ </v-btn>
+      </router-link>        
+      
     </v-toolbar>
 
     <v-toolbar density="comfortable" class="d-flex d-sm-none bg-transparent">

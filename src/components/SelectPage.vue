@@ -37,7 +37,7 @@
       </v-sheet>
     </router-link>
 
-    <router-link to="/" style="text-decoration: none; color: inherit;">
+    <router-link to="/Lien-he" style="text-decoration: none; color: inherit;">
       <v-sheet elevation="8" height="200" width="200" border rounded>
         <div class="d-flex align-center justify-center flex-wrap text-center mx-auto p-4">
           <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24">
