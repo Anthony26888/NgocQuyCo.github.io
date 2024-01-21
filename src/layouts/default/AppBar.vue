@@ -1,58 +1,97 @@
 <template>
   <vContainer>
-    <v-toolbar density="comfortable" class="bg-transparent d-none d-sm-flex">
-      <v-toolbar-title>
+    <v-app-bar :elevation="2" density="comfortable" class="p-2" transition="fade-transition">
+      <v-app-bar-title>
         <div class="d-flex">
-          <router-link to="/">          
-          <v-img
-            src="../../assets/Image/logoNG.png"
-            width="80"
-            height="80"           
-          ></v-img>          
-        </router-link>
-        <h4 class="mt-4 text-teal-darken-1">Ngọc Quý</h4>
+          <router-link to="/">
+            <v-img src="../../assets/Image/logoNG.png" width="80" height="80"></v-img>
+          </router-link>
+          <h4 class="mt-4 text-teal-darken-1">Ngọc Quý</h4>
         </div>
-        
-      </v-toolbar-title>
 
+      </v-app-bar-title>
       <v-spacer></v-spacer>
       <router-link to="" style="text-decoration: none; color: inherit;">
-        <v-btn> Giới thiệu </v-btn>
-      </router-link>      
+        <v-btn class=" d-none d-sm-flex"> Giới thiệu </v-btn>
+      </router-link>
 
       <v-menu open-on-hover>
         <template v-slot:activator="{ props }">
-          <v-btn v-bind="props"> Sản phẩm </v-btn>
+          <v-btn v-bind="props" class=" d-none d-sm-flex"> Sản phẩm </v-btn>
         </template>
 
-        <v-list>
-          <v-list-item v-for="(item, index) in items" :key="index">
-            <v-list-item-title>{{ item.title }}</v-list-item-title>
+        <v-list width="200" density="compact">
+          <v-list-item>
+            <router-link to="/Danh-sach-may-in" style="text-decoration: none; color: inherit;">
+              <v-list-item-title color="primary">Máy in CIJ</v-list-item-title>
+            </router-link>
           </v-list-item>
+
+          <v-divider></v-divider>
+
+          <v-list-item>
+            <router-link to="/Danh-sach-linh-kien" style="text-decoration: none; color: inherit;">
+              <v-list-item-title><span>Linh kiện</span></v-list-item-title>
+            </router-link>
+          </v-list-item>
+
+          <v-divider></v-divider>
+
+          <v-list-item>
+            <router-link to="/" style="text-decoration: none; color: inherit;">
+              <v-list-item-title><span>Nguyên liệu</span></v-list-item-title>
+            </router-link>
+          </v-list-item>
+
+          <v-divider></v-divider>
+
+          <v-list-item>
+            <router-link to="/" style="text-decoration: none; color: inherit;">
+              <v-list-item-title><span>Thuê máy</span></v-list-item-title>
+            </router-link>
+          </v-list-item>
+
         </v-list>
       </v-menu>
 
       <router-link to="/Lien-he" style="text-decoration: none; color: inherit;">
-        <v-btn> Liên hệ </v-btn>
-      </router-link>  
-    </v-toolbar>
+        <v-btn class=" d-none d-sm-flex"> Liên hệ </v-btn>
+      </router-link>
 
-    <v-toolbar density="comfortable" class="d-flex d-sm-none bg-transparent">
-      <v-toolbar-title
-        ><router-link to="/">
-          <v-img
-            src="../../assets/Image/logoNG.png"
-            width="70"
-            height="70"
-          ></v-img> </router-link
-      ></v-toolbar-title>
-      <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
-    </v-toolbar>
+      <v-app-bar-nav-icon class="d-flex d-sm-none" @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
+    </v-app-bar>
 
-    <v-navigation-drawer v-model="drawer" temporary>
+
+    <v-navigation-drawer class="mt-3" v-model="drawer" location="right" temporary>
       <v-list>
-        <v-list-item v-for="(item, index) in items" :key="index">
-          <v-list-item-title>{{ item.title }}</v-list-item-title>
+        <v-list-item>
+          <router-link to="/Danh-sach-may-in" style="text-decoration: none; color: inherit;">
+            <v-list-item-title color="primary">Máy in CIJ</v-list-item-title>
+          </router-link>
+        </v-list-item>
+
+        <v-divider></v-divider>
+
+        <v-list-item>
+          <router-link to="/Danh-sach-linh-kien" style="text-decoration: none; color: inherit;">
+            <v-list-item-title><span>Linh kiện</span></v-list-item-title>
+          </router-link>
+        </v-list-item>
+
+        <v-divider></v-divider>
+
+        <v-list-item>
+          <router-link to="/" style="text-decoration: none; color: inherit;">
+            <v-list-item-title><span>Nguyên liệu</span></v-list-item-title>
+          </router-link>
+        </v-list-item>
+
+        <v-divider></v-divider>
+
+        <v-list-item>
+          <router-link to="/" style="text-decoration: none; color: inherit;">
+            <v-list-item-title><span>Thuê máy</span></v-list-item-title>
+          </router-link>
         </v-list-item>
       </v-list>
     </v-navigation-drawer>

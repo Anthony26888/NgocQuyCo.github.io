@@ -11,21 +11,20 @@
     </v-toolbar>
 
 
-    <v-slide-group v-model="model" class="" center-active show-arrows>
-      <v-slide-group-item>
-        <v-card class="bg-grey-lighten-4 card m-2" v-for="value in store.products" :key="value">
+    <v-slide-group v-model="model" center-active show-arrows>
+      <v-slide-group-item >
+        <v-card class="bg-grey-lighten-4 card m-1" v-for="value in store.products" :key="value">
           <router-link to="/Thong-tin-san-pham">
-            <v-img class="align-center img" :src="value.img" cover @click="store.GetMachine(value.id)"></v-img>
+            <v-img class="img" :src="value.img" @click="store.GetMachine(value.id)"></v-img>
           </router-link>
 
-          <v-card-subtitle class="pt-4">
+          <v-card-subtitle class="pt-2">
             {{ value.model }}
           </v-card-subtitle>
 
           <v-card-text>
-            <h5>{{ value.name }}</h5>
-            <br />
-            <h6 class="text-red-lighten-1">Giá: Liên hệ</h6>
+            <h5 class="title-name">{{ value.name }}</h5>            
+            <h6 class="text-red-lighten-1 title-price">Giá: Liên hệ</h6>
           </v-card-text>
         </v-card>
       </v-slide-group-item>
@@ -43,9 +42,9 @@
 
     <v-slide-group v-model="model" class="" center-active show-arrows>
       <v-slide-group-item>
-        <v-card class="m-2 bg-grey-lighten-4 card" v-for="value in store.accessory.slice(0, 10)" :key="value">
+        <v-card class="bg-grey-lighten-4 card m-1" v-for="value in store.accessory.slice(0, 10)" :key="value">
           <router-link to="/Thong-tin-san-pham">
-            <v-img class="align-center img" :src="value.img" cover @click="store.GetAccessory(value.id)"></v-img>
+            <v-img class=" img" :src="value.img" @click="store.GetAccessory(value.id)"></v-img>
           </router-link>
 
           <v-card-subtitle class="pt-4">
@@ -53,9 +52,9 @@
           </v-card-subtitle>
 
           <v-card-text>
-            <h5>{{ value.name }}</h5>
+            <h5 class="title-name">{{ value.name }}</h5>
             <br />
-            <h6 class="text-red-lighten-1">Giá: Liên hệ</h6>
+            <h6 class="text-red-lighten-1 title-price">Giá: Liên hệ</h6>
           </v-card-text>
         </v-card>
       </v-slide-group-item>
@@ -82,48 +81,68 @@ h2 {
   font-weight: 700;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (min-width: 300px) {
   .card {
-    width: 200px;
-
+    max-width: 118px; 
   }
 
   .img {
-    width: 200px;
-    height: 250px;
+    width: 118px;    
+  }
+
+  .title-name{
+    font-size: 15px;
+  }
+
+  .title-price{
+    font-size: 12px;
   }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 400px) {
   .card {
-    width: 300px;
+    max-width: 130px; 
   }
 
   .img {
-    width: 300px;
-    height: 250px;
+    width: 130px;    
+  }
+
+  .title-name{
+    font-size: 15px;
+  }
+
+  .title-price{
+    font-size: 12px;
   }
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 420px) {
   .card {
-    width: 250px;
+    max-width: 140px; 
   }
 
   .img {
-    width: 250px;
-    height: 250px;
+    width: 140px;    
+  }
+
+  .title-name{
+    font-size: 15px;
+  }
+
+  .title-price{
+    font-size: 12px;
   }
 }
 
-@media only screen and (min-width: 1700px) {
+@media only screen and (min-width: 500px) {
   .card {
-    width: 300px;
+    width: 350px;
   }
 
   .img {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    
   }
 }
 </style>

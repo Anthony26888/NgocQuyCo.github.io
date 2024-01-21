@@ -1,33 +1,19 @@
 <template>
-  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active" ata-bs-interval="2000">
-        <img src="https://linx.com.vn/wp-content/uploads/2022/12/may-in-phun-cao-cap-linx-8900-1024x768.webp"
-          class="d-block w-100" alt="..." d>
-      </div>
-      <div class="carousel-item" ata-bs-interval="2000">
-        <img src="https://linx.com.vn/wp-content/uploads/2023/02/may-in-phun-linx-7900-1024x769.jpg" class="d-block w-100"
-          alt="...">
-      </div>
-      <div class="carousel-item" ata-bs-interval="2000">
-        <img src="https://linx.com.vn/wp-content/uploads/2022/12/may-in-phun-linx-5900-1024x769.webp"
-          class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item" ata-bs-interval="2000">
-        <img src="https://www.foxjet.com/portals/0/Gallery/Album/13/Linx4900_1.jpg" class="d-block w-100" alt="...">
-      </div>
-    </div>
-  </div>
+  <v-carousel show-arrows="hover" cycle hide-delimiters>
+    <v-carousel-item :src="item"  v-for="item in items" :key="item"></v-carousel-item>   
+  </v-carousel>
 </template>
 <script>
 export default {
   data() {
     return {
-      item: [
-        "https://linx.com.vn/wp-content/uploads/2022/12/may-in-phun-cao-cap-linx-8900-1024x768.webp",
-        "https://linx.com.vn/wp-content/uploads/2023/02/may-in-phun-linx-7900-1024x769.jpg",
-        "https://linx.com.vn/wp-content/uploads/2022/12/may-in-phun-linx-5900-1024x769.webp",
-        "https://www.foxjet.com/portals/0/Gallery/Album/13/Linx4900_1.jpg",
+      items: [
+        "https://i.ibb.co/DtrwDjY/3.png",
+        "https://i.ibb.co/hFQF21Q/6.png",
+        "https://i.ibb.co/4dLBWcn/5.png",
+        "https://i.ibb.co/FnyrhmB/1.png",
+        "https://i.ibb.co/r01c1R9/2.png",
+        "https://i.ibb.co/K64xx49/4.png"
       ],
     };
   },

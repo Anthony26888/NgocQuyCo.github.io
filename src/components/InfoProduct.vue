@@ -2,49 +2,16 @@
   <VRow>
     <VCol cols xs="12" md="6">
       <v-img :src="Info.imgDetail" v-if="(Info.slide = 'false')"></v-img>
-      <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true" v-if="Info.slide='true'">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <v-img :src="Info.imgDetail[0]" class="img" alt="..." cover></v-img>
-          </div>
-          <div class="carousel-item">
-            <v-img :src="Info.imgDetail[1]" class="img" alt="..." cover></v-img>
-          </div>
-          <div class="carousel-item">
-            <v-img :src="Info.imgDetail[2]" class="img" alt="..." cover></v-img>
-          </div>
-          <div class="carousel-item">
-            <v-img :src="Info.imgDetail[3]" class="img" alt="..." cover></v-img>
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleRide"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleRide"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
+      <v-carousel show-arrows="hover" cycle hide-delimiters v-if="(Info.slide = 'true')">
+        <v-carousel-item :src="item"  v-for="item in Info.imgDetail" :key="item"></v-carousel-item>   
+      </v-carousel>    
     </VCol>
     <VCol cols xs="12" md="6">
       <v-card class="w-100 card mx-auto container p-5 card-info">
         <v-card-item class="mx-auto" elevation="16">
           <h1 class="text-teal-accent-4">{{ Info.name }}</h1>
 
-          <v-card-subtitle
-            ><span>{{ Info.model }}</span></v-card-subtitle
-          >
+          <v-card-subtitle><span>{{ Info.model }}</span></v-card-subtitle>
         </v-card-item>
 
         <v-card-text>
@@ -89,10 +56,11 @@ p {
 
 .img {
   width: 100%;
-  height: 700px;
+  height: 500px;
 }
+
 .card {
   width: 100%;
-  height: 700px;
+  height: 500px;
 }
 </style>

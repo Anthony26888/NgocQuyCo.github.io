@@ -1,11 +1,11 @@
 <template>  
   <vContainer >
     <v-app >
-      <VRow>
-        <VCol sm="12" md="6" justify="center" align="center">
+      <VRow justify="center" align="center">
+        <VCol cols xs="12" md="6"> 
           <carousels />
         </VCol>
-        <VCol sm="12" md="6">
+        <VCol cols xs="12" md="6">
           <Title />
         </VCol>        
       </VRow>
