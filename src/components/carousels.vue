@@ -1,53 +1,49 @@
 <template>
-  <v-carousel :continuous="false" :show-arrows="false" hide-delimiter-background delimiter-icon="mdi-square" class="slide" cycle>
-    <v-carousel-item v-for="value in item" :key="value">
-      <v-img class="title-img mx-auto" :src="value.image" cover></v-img>
-    </v-carousel-item>
-  </v-carousel>
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" ata-bs-interval="2000">
+        <img src="https://linx.com.vn/wp-content/uploads/2022/12/may-in-phun-cao-cap-linx-8900-1024x768.webp"
+          class="d-block w-100" alt="..." d>
+      </div>
+      <div class="carousel-item" ata-bs-interval="2000">
+        <img src="https://linx.com.vn/wp-content/uploads/2023/02/may-in-phun-linx-7900-1024x769.jpg" class="d-block w-100"
+          alt="...">
+      </div>
+      <div class="carousel-item" ata-bs-interval="2000">
+        <img src="https://linx.com.vn/wp-content/uploads/2022/12/may-in-phun-linx-5900-1024x769.webp"
+          class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" ata-bs-interval="2000">
+        <img src="https://www.foxjet.com/portals/0/Gallery/Album/13/Linx4900_1.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+  </div>
 </template>
 <script>
 export default {
   data() {
     return {
       item: [
-        {
-          image:
-            "https://linx.com.vn/wp-content/uploads/2022/12/may-in-phun-cao-cap-linx-8900-1024x768.webp",
-        },
-        {
-          image:
-            "https://linx.com.vn/wp-content/uploads/2023/02/may-in-phun-linx-7900-1024x769.jpg",
-        },
-        {
-          image:
-            "https://linx.com.vn/wp-content/uploads/2022/12/may-in-phun-linx-5900-1024x769.webp",
-        },
-        {
-          image:
-            "https://www.foxjet.com/portals/0/Gallery/Album/13/Linx4900_1.jpg",
-        }
+        "https://linx.com.vn/wp-content/uploads/2022/12/may-in-phun-cao-cap-linx-8900-1024x768.webp",
+        "https://linx.com.vn/wp-content/uploads/2023/02/may-in-phun-linx-7900-1024x769.jpg",
+        "https://linx.com.vn/wp-content/uploads/2022/12/may-in-phun-linx-5900-1024x769.webp",
+        "https://www.foxjet.com/portals/0/Gallery/Album/13/Linx4900_1.jpg",
       ],
     };
   },
 };
 </script>
 <style scoped>
-  .title-img {    
-    width: 500px;
-    height: 400px;
+.img {
+  width: 700px;
+  height: 500px;
 
-    flex-shrink: 0;
 }
+
+
 @media only screen and (max-width: 600px) {
-  .title-img{
-    width: 250px;
-    height: 250px;
-  }
-  .slide{
-    width: 100%;
-    height: 100px;
+  .slide {
+    width: 350px;
   }
 }
-
 </style>
-

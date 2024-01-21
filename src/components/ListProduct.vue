@@ -3,7 +3,7 @@
     <VRow>
       <VCol cols xs="12" md="6">
         <v-img
-          src="https://static.wixstatic.com/media/8c3fb9_fb7179d98c0a424f9f8184c0f23dc824~mv2.jpg/v1/fill/w_602,h_263,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Picture1_edited.jpg"
+          src="https://www.codeplus.co.th/uploads/4240/photos/202205/202205-19-095927_N53W-0.jpg"
           height="400"
         ></v-img>
       </VCol>

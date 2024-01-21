@@ -1,30 +1,21 @@
 <template>
   <div class="">
     <v-toolbar density="comfortable" class="bg-transparent">
-      <v-toolbar-title><h2>Máy in CIJ</h2></v-toolbar-title>
+      <v-toolbar-title>
+        <h2>Máy in CIJ</h2>
+      </v-toolbar-title>
       <v-spacer></v-spacer>
-      <router-link
-        to="/Danh-sach-may-in"
-        style="text-decoration: none; color: inherit"
-      >
+      <router-link to="/Danh-sach-may-in" style="text-decoration: none; color: inherit">
         <strong class="p-2">Xem thêm</strong>
       </router-link>
     </v-toolbar>
 
+
     <v-slide-group v-model="model" class="" center-active show-arrows>
       <v-slide-group-item>
-        <v-card
-          class="bg-grey-lighten-4 card m-2"
-          v-for="value in store.products"
-          :key="value"
-        >
+        <v-card class="bg-grey-lighten-4 card m-2" v-for="value in store.products" :key="value">
           <router-link to="/Thong-tin-san-pham">
-            <v-img
-              class="align-center img"              
-              :src="value.img"
-              cover
-              @click="store.GetMachine(value.id)"
-            ></v-img>
+            <v-img class="align-center img" :src="value.img" cover @click="store.GetMachine(value.id)"></v-img>
           </router-link>
 
           <v-card-subtitle class="pt-4">
@@ -41,30 +32,20 @@
     </v-slide-group>
 
     <v-toolbar density="comfortable" class="bg-transparent mt-3">
-      <v-toolbar-title><h2>Linh kiện</h2></v-toolbar-title>
+      <v-toolbar-title>
+        <h2>Linh kiện</h2>
+      </v-toolbar-title>
       <v-spacer></v-spacer>
-      <router-link
-        to="/Danh-sach-linh-kien"
-        style="text-decoration: none; color: inherit"
-      >
+      <router-link to="/Danh-sach-linh-kien" style="text-decoration: none; color: inherit">
         <strong class="p-2">Xem thêm</strong>
       </router-link>
     </v-toolbar>
 
     <v-slide-group v-model="model" class="" center-active show-arrows>
       <v-slide-group-item>
-        <v-card
-          class="m-2 bg-grey-lighten-4 card"
-          v-for="value in store.accessory.slice(0, 10)"
-          :key="value"
-        >
+        <v-card class="m-2 bg-grey-lighten-4 card" v-for="value in store.accessory.slice(0, 10)" :key="value">
           <router-link to="/Thong-tin-san-pham">
-            <v-img
-              class="align-center img"             
-              :src="value.img"
-              cover
-              @click="store.GetAccessory(value.id)"
-            ></v-img>
+            <v-img class="align-center img" :src="value.img" cover @click="store.GetAccessory(value.id)"></v-img>
           </router-link>
 
           <v-card-subtitle class="pt-4">
@@ -100,38 +81,46 @@ export default {
 h2 {
   font-weight: 700;
 }
+
 @media only screen and (max-width: 400px) {
   .card {
-    width: 238px;
-    
+    width: 200px;
+
   }
+
   .img {
-    width: 238px;
+    width: 200px;
     height: 250px;
   }
 }
+
 @media only screen and (min-width: 600px) {
   .card {
     width: 300px;
   }
+
   .img {
     width: 300px;
     height: 250px;
   }
 }
+
 @media only screen and (min-width: 800px) {
   .card {
     width: 250px;
   }
+
   .img {
     width: 250px;
     height: 250px;
   }
 }
+
 @media only screen and (min-width: 1700px) {
   .card {
     width: 300px;
   }
+
   .img {
     width: 300px;
     height: 300px;

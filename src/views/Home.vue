@@ -2,15 +2,12 @@
   <vContainer >
     <v-app >
       <VRow>
-        <VCol sm="12" md="6" class="d-none d-sm-flex d-flex d-sm-none d-md-flex d-lg-none">
+        <VCol sm="12" md="6" justify="center" align="center">
           <carousels />
         </VCol>
         <VCol sm="12" md="6">
           <Title />
-        </VCol>
-        <VCol sm="12" md="6" class="d-none d-sm-flex d-sm-none d-md-flex d-sm-flex d-md-none d-md-none d-lg-flex">
-          <carousels />
-        </VCol>
+        </VCol>        
       </VRow>
       <Select class="mt-5" />
       <List class="mt-5" />

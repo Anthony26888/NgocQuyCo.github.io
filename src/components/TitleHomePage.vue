@@ -1,5 +1,5 @@
 <template lang="">
-  <div class="d-flex flex-column justify-content-center algin-item-center p-4">
+  <div class="d-flex flex-column justify-content-center algin-item-center">
     <span class="title-name text-teal-darken-1">{{ titleLarge }}</span
     ><br />
     <span class="title-model text-red">{{ year }}</span

@@ -2,7 +2,9 @@
   <div v-for="item in store.products" :key="item">
     <VRow>
       <VCol align="center" justify="center">
-        <v-img :src="item.img" width="500" height="500"></v-img>
+        <router-link to="/Thong-tin-san-pham">
+          <v-img :src="item.img" width="500" height="500" @click="store.GetMachine(item.id)"></v-img>
+        </router-link>        
       </VCol>
       <VCol>
         <v-sheet class="p-md-5 p-sm-2">
@@ -10,10 +12,7 @@
           <p class="text-muted">Model: {{ item.model }}</p>
           <v-list lines="one">
             <v-list-item v-for="value in item.tech"  prepend-icon="mdi-check-bold">{{ value }}</v-list-item>
-          </v-list>
-          <router-link to="/Thong-tin-san-pham">
-            <VBtn class="bg-teal-darken-1" @click="store.GetMachine(item.id)">Xem thêm</VBtn>
-          </router-link>
+          </v-list>       
           
         </v-sheet>
       </VCol>
