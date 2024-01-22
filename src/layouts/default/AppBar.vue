@@ -6,57 +6,59 @@
           <router-link to="/">
             <v-img src="../../assets/Image/logoNG.png" width="80" height="80"></v-img>
           </router-link>
-          <h4 class="mt-4 text-teal-darken-1">Ngọc Quý</h4>
+          <h4 class="mt-4 text-teal-darken-1 logoTitle">Ngọc Quý</h4>
         </div>
 
       </v-app-bar-title>
       <v-spacer></v-spacer>
-      <router-link to="" style="text-decoration: none; color: inherit;">
-        <v-btn class=" d-none d-sm-flex"> Giới thiệu </v-btn>
-      </router-link>
+      <div class="d-none d-sm-flex">
+        <router-link to="" style="text-decoration: none; color: inherit;">
+          <v-btn> Giới thiệu </v-btn>
+        </router-link>
 
-      <v-menu open-on-hover>
-        <template v-slot:activator="{ props }">
-          <v-btn v-bind="props" class=" d-none d-sm-flex"> Sản phẩm </v-btn>
-        </template>
+        <v-menu open-on-hover>
+          <template v-slot:activator="{ props }">
+            <v-btn v-bind="props"> Sản phẩm </v-btn>
+          </template>
 
-        <v-list width="200" density="compact">
-          <v-list-item>
-            <router-link to="/Danh-sach-may-in" style="text-decoration: none; color: inherit;">
-              <v-list-item-title color="primary">Máy in CIJ</v-list-item-title>
-            </router-link>
-          </v-list-item>
+          <v-list width="200" density="compact">
+            <v-list-item>
+              <router-link to="/Danh-sach-may-in" style="text-decoration: none; color: inherit;">
+                <v-list-item-title color="primary">Máy in CIJ</v-list-item-title>
+              </router-link>
+            </v-list-item>
 
-          <v-divider></v-divider>
+            <v-divider></v-divider>
 
-          <v-list-item>
-            <router-link to="/Danh-sach-linh-kien" style="text-decoration: none; color: inherit;">
-              <v-list-item-title><span>Linh kiện</span></v-list-item-title>
-            </router-link>
-          </v-list-item>
+            <v-list-item>
+              <router-link to="/Danh-sach-linh-kien" style="text-decoration: none; color: inherit;">
+                <v-list-item-title><span>Linh kiện</span></v-list-item-title>
+              </router-link>
+            </v-list-item>
 
-          <v-divider></v-divider>
+            <v-divider></v-divider>
 
-          <v-list-item>
-            <router-link to="/" style="text-decoration: none; color: inherit;">
-              <v-list-item-title><span>Nguyên liệu</span></v-list-item-title>
-            </router-link>
-          </v-list-item>
+            <v-list-item>
+              <router-link to="/" style="text-decoration: none; color: inherit;">
+                <v-list-item-title><span>Nguyên liệu</span></v-list-item-title>
+              </router-link>
+            </v-list-item>
 
-          <v-divider></v-divider>
+            <v-divider></v-divider>
 
-          <v-list-item>
-            <router-link to="/" style="text-decoration: none; color: inherit;">
-              <v-list-item-title><span>Thuê máy</span></v-list-item-title>
-            </router-link>
-          </v-list-item>
+            <v-list-item>
+              <router-link to="/" style="text-decoration: none; color: inherit;">
+                <v-list-item-title><span>Thuê máy</span></v-list-item-title>
+              </router-link>
+            </v-list-item>
+          </v-list>          
+        </v-menu>
 
-        </v-list>
-      </v-menu>
+        <router-link to="/Lien-he" style="text-decoration: none; color: inherit;">
+          <v-btn> Liên hệ </v-btn>
+        </router-link>
+      </div>
 
-      <router-link to="/Lien-he" style="text-decoration: none; color: inherit;">
-        <v-btn class=" d-none d-sm-flex"> Liên hệ </v-btn>
-      </router-link>
 
       <v-app-bar-nav-icon class="d-flex d-sm-none" @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
     </v-app-bar>
@@ -65,24 +67,24 @@
     <v-navigation-drawer class="mt-3" v-model="drawer" location="right" temporary>
       <v-list>
         <v-list-item>
-          <router-link to="/Danh-sach-may-in" style="text-decoration: none; color: inherit;">
-            <v-list-item-title color="primary">Máy in CIJ</v-list-item-title>
-          </router-link>
-        </v-list-item>
-
-        <v-divider></v-divider>
-
-        <v-list-item>
-          <router-link to="/Danh-sach-linh-kien" style="text-decoration: none; color: inherit;">
-            <v-list-item-title><span>Linh kiện</span></v-list-item-title>
-          </router-link>
-        </v-list-item>
-
-        <v-divider></v-divider>
-
-        <v-list-item>
           <router-link to="/" style="text-decoration: none; color: inherit;">
-            <v-list-item-title><span>Nguyên liệu</span></v-list-item-title>
+            <v-list-item-title color="primary">Giới thiệu</v-list-item-title>
+          </router-link>
+        </v-list-item>
+
+        <v-divider></v-divider>
+
+        <v-list-item>
+          <router-link to="/San-pham" style="text-decoration: none; color: inherit;">
+            <v-list-item-title><span>Sản phẩm</span></v-list-item-title>
+          </router-link>
+        </v-list-item>
+
+        <v-divider></v-divider>
+
+        <v-list-item>
+          <router-link to="/Lien-he" style="text-decoration: none; color: inherit;">
+            <v-list-item-title><span>Liên hệ</span></v-list-item-title>
           </router-link>
         </v-list-item>
 
@@ -100,6 +102,12 @@
 <style scoped>
 .logo {
   font-family: Inter;
+}
+
+@media only screen and (max-width: 500px) {
+  .logoTitle {
+    font-size: 16px;
+  }
 }
 </style>
 <script>

@@ -1,10 +1,11 @@
 <template>
   <v-carousel show-arrows="hover" cycle hide-delimiters>
     <v-carousel-item :src="item"  v-for="item in items" :key="item"></v-carousel-item>   
-  </v-carousel>
+  </v-carousel>  
 </template>
 <script>
-export default {
+
+export default {  
   data() {
     return {
       items: [

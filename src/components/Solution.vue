@@ -1,68 +1,54 @@
 <template lang="">
-  <div>
-    <div class="banner">
-      <img
-        src="../assets/Image/solution.webp"
-        alt="Cinque Terre"
-        class="banner-img"
-      />
-      <div class="center text-teal-accent-4"><strong>Giải pháp</strong></div>
-    </div>
+  <div class="d-flex justify-content-center flex-wrap">
+    <v-card
+      class="mx-auto mt-3 bg-grey-lighten-4 card"      
+      v-for="value in item"
+    >
+      <v-img class="align-end text-white img" height="200" :src="value.image" cover>
+      </v-img>
+
+      <v-card-text class="text-center text-teal-accent-4 title-name"
+        ><h4>{{ value.title }}</h4>
+      </v-card-text>
+      <v-card-text>
+        <div class="w-100 text-center">{{ value.description }}</div>
+      </v-card-text>
+    </v-card>
   </div>
-  <div>
-    <div class="d-flex justify-content-center p-3 flex-wrap">
-      <v-card class="mx-auto mt-3 bg-grey-lighten-4" max-width="300" v-for="value in item">
-        <v-img
-          class="align-end text-white"
-          height="200"
-          :src="value.image"
-          cover
-        >
-        </v-img>
 
-        <v-card-text class="text-center text-teal-accent-4"
-          ><h4>{{ value.title }}</h4>
-        </v-card-text>
-        <v-card-text>
-          <div class="w-100 text-center">{{ value.description }}</div>
-        </v-card-text>
-      </v-card>
+  <div class="row justify-content-center align-items-center mt-5">
+    <div class="col col-sm-12 col-md-6 p-5 bg-teal-accent-4">
+      <h1>Hãy để lại thông tin</h1>
+      <div class="d-flex mt-3">
+        <v-icon
+          size="large"
+          color="light"
+          icon="mdi-phone"
+          class="mt-3"
+        ></v-icon>
+        <div class="d-flex flex-column ms-3">
+          <span class="fs-5">Mr.Hải</span>
+          <span class="fs-5">0918504086</span>
+        </div>
+      </div>
+      <div class="d-flex mt-3">
+        <v-icon
+          size="large"
+          color="light"
+          icon="mdi-clock"
+          class="mt-3"
+        ></v-icon>
+        <div class="d-flex flex-column ms-3">
+          <span class="fs-5">Thời gian làm việc</span>
+          <span class="fs-5">8:00 - 17:00 (Thứ 2 - Thứ 6)</span>
+        </div>
+      </div>
     </div>
-
-    <div class="row justify-content-center align-items-center mt-5">
-      <div class="col col-sm-12 col-md-6 p-5 bg-teal-accent-4">
-        <h1>Hãy để lại thông tin</h1>
-        <div class="d-flex mt-3">
-          <v-icon
-            size="large"
-            color="light"
-            icon="mdi-phone"
-            class="mt-3"
-          ></v-icon>
-          <div class="d-flex flex-column ms-3">
-            <span class="fs-5">Mr.Hải</span>
-            <span class="fs-5">0918504086</span>
-          </div>
-        </div>
-        <div class="d-flex mt-3">
-          <v-icon
-            size="large"
-            color="light"
-            icon="mdi-clock"
-            class="mt-3"
-          ></v-icon>
-          <div class="d-flex flex-column ms-3">
-            <span class="fs-5">Thời gian làm việc</span>
-            <span class="fs-5">8:00 - 17:00 (Thứ 2 - Thứ 6)</span>
-          </div>
-        </div>
-      </div>
-      <div class="col col-sm-12 col-md-6">
-        <!--Form Contact-->
-        <v-card class="mt-5 bg-teal-lighten-5">
-          <Form />
-        </v-card>
-      </div>
+    <div class="col col-sm-12 col-md-6">
+      <!--Form Contact-->
+      <v-card class="mt-5 bg-teal-lighten-5">
+        <Form />
+      </v-card>
     </div>
   </div>
 </template>
@@ -148,37 +134,56 @@ export default {
         },
         {
           title: "THIẾT BỊ Y TẾ",
-          description:
-            "Đáp ứng các yêu cầu quy định với mã số.",
-          image: "https://linx.com.vn/wp-content/uploads/2022/09/thietbiyte.png",
-        }
+          description: "Đáp ứng các yêu cầu quy định với mã số.",
+          image:
+            "https://linx.com.vn/wp-content/uploads/2022/09/thietbiyte.png",
+        },
       ],
     };
   },
 };
 </script>
 <style scoped>
-.banner {
-  position: relative;
+@media only screen and (min-width: 300px) {
+  .card {
+    max-width: 170px;
+  }
+
+  .img {
+    width: 170px;
+    height: 200px;
+  }
+
+  .title-name {
+    font-size: 15px;
+  }
+
+  .title-price {
+    font-size: 12px;
+  }
 }
 
-.center {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 35px;
+
+
+@media only screen and (min-width: 500px) {
+  .card {
+    max-width: 310px;
+  }
+
+  .img {
+    width: 310px;
+
+  }
 }
 
-.banner-img {
-  width: 100%;
-  height: 300px;
-  filter: grayscale(100%);
-  object-fit: cover;
-}
+@media only screen and (min-width: 800px) {
+  .card {
+    max-width: 325px;
+  }
 
-strong {
-  font-weight: 700;
-  font-size: 50px;
+  .img {
+    width: 325px;
+
+  }
 }
 </style>

@@ -1,13 +1,13 @@
 <template lang="">
   <VRow>
-    <VCol cols xs="12" md="6">
-      <v-img :src="Info.imgDetail" v-if="(Info.slide = 'false')"></v-img>
-      <v-carousel show-arrows="hover" cycle hide-delimiters v-if="(Info.slide = 'true')">
-        <v-carousel-item :src="item"  v-for="item in Info.imgDetail" :key="item"></v-carousel-item>   
+    <VCol cols xs="12" md="6">      
+      <v-carousel show-arrows="hover" cycle hide-delimiters v-if="(Info.slide == 'true')">
+        <v-carousel-item class="img" :src="item"  v-for="item in Info.imgDetail" :key="item"></v-carousel-item>   
       </v-carousel>    
+      <v-img class="img" :src="Info.imgDetail" v-if="(Info.slide == 'false')" ></v-img>
     </VCol>
     <VCol cols xs="12" md="6">
-      <v-card class="w-100 card mx-auto container p-5 card-info">
+      <v-card class="w-100 card mx-auto container p-5">
         <v-card-item class="mx-auto" elevation="16">
           <h1 class="text-teal-accent-4">{{ Info.name }}</h1>
 

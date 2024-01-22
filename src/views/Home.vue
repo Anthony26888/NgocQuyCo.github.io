@@ -1,6 +1,6 @@
 <template>  
   <vContainer >
-    <v-app >
+    <v-app >      
       <VRow justify="center" align="center">
         <VCol cols xs="12" md="6"> 
           <carousels />

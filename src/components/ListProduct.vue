@@ -25,7 +25,7 @@
   <div class="">
     <VRow>
       <VCol cols xs="12" md="6">
-        <router-link to="/Danh-sach-may-in">
+        <router-link to="/Danh-sach-linh-kien">
           <v-img
             src="https://sc04.alicdn.com/kf/Hf0b9121dbb2b4d64bad71abaace22973Y.jpg_1200x1200.jpg"
             height="400"
@@ -46,7 +46,7 @@
   <div class="">
     <VRow>
       <VCol cols xs="12" md="6">
-        <router-link to="/Danh-sach-may-in">
+        <router-link to="/">
           <v-img src="../assets/Image/dungmoi.png" height="400"></v-img>
         </router-link>
       </VCol>

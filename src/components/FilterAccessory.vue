@@ -2,38 +2,25 @@
   <v-card>
     <v-toolbar class="p-2">
       <v-chip-group mandatory selected-class="text-success">
-        <v-chip
-          v-for="item in tag"
-          :key="item"
-          @click="store.GetFilter(item.title)"
-          >{{ item.title }}</v-chip
-        >
-      </v-chip-group>      
+        <v-chip v-for="item in tag" :key="item" @click="store.GetFilter(item.title)">{{ item.title }}</v-chip>
+      </v-chip-group>
     </v-toolbar>
-    <v-container class="pa-2" fluid>      
-      <div class="d-flex flex-wrap justify-lg-center algin-center">
-        <v-card class="m-3 bg-grey-lighten-4" width="250" v-for="item in store.Filter" :key="item">
-          <router-link to="/Thong-tin-san-pham">
-            <v-img
-              class="align-end img-card p-2"              
-              :src="item.img"
-              cover
-              @click="store.GetAccessory(item.id)"
-            ></v-img>
-          </router-link>
+    <div class="d-flex flex-wrap justify-center algin-center">
+      <v-card class="m-1 bg-grey-lighten-4 card" v-for="item in store.Filter" :key="item">
+        <router-link to="/Thong-tin-san-pham">
+          <v-img class="align-end img" :src="item.img" cover @click="store.GetAccessory(item.id)"></v-img>
+        </router-link>
 
-          <v-card-subtitle class="pt-4">
-            {{ item.model }}
-          </v-card-subtitle>
+        <v-card-subtitle class="pt-4">
+          {{ item.model }}
+        </v-card-subtitle>
 
-          <v-card-text>
-            <h5>{{ item.name }}</h5>
-            <br />
-            <h6 class="text-red-lighten-1">Giá: Liên hệ</h6>
-          </v-card-text>
-        </v-card>
-      </div>
-    </v-container>
+        <v-card-text>
+          <h5 class="title-name">{{ item.name }}</h5>          
+          <h6 class="text-red-lighten-1 title-price">Giá: Liên hệ</h6>
+        </v-card-text>
+      </v-card>
+    </div>
   </v-card>
 </template>
 <script setup>
@@ -42,10 +29,10 @@ const store = useAppStore();
 
 </script>
 <script>
-export default {  
+export default {
   data() {
-    return {     
-      
+    return {
+
       tag: [
         { title: "Tất cả" },
         { title: "Lọc" },
@@ -59,13 +46,51 @@ export default {
     };
   },
   methods: {
-  
+
   },
 };
 </script>
 <style scoped>
-  .img-card{
-    width: 250px;
-    height: 250px;
+@media only screen and (min-width: 300px) {
+  .card {
+    max-width: 170px;
   }
+
+  .img {
+    width: 170px;
+    height: 200px;
+  }
+
+  .title-name {
+    font-size: 15px;
+  }
+
+  .title-price {
+    font-size: 12px;
+  }
+}
+
+
+
+@media only screen and (min-width: 500px) {
+  .card {
+    max-width: 310px;
+  }
+
+  .img {
+    width: 310px;
+
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .card {
+    max-width: 325px;
+  }
+
+  .img {
+    width: 325px;
+
+  }
+}
 </style>

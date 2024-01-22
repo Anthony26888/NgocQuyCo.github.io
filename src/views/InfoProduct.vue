@@ -2,7 +2,7 @@
   <vContainer >
     <v-app >
       <InfoProduct/>
-      <Description class="mt-5"/>
+      <Description/>
     </v-app>
   </vContainer>
 </template>
@@ -11,3 +11,6 @@
 import InfoProduct from "@/components/InfoProduct";
 import Description from "@/components/DescriptionDetail";
 </script>
+<style scoped>
+
+</style>
