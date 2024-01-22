@@ -1,14 +1,14 @@
 <template lang="">
   <VRow>
-    <VCol cols xs="12" md="6">      
+    <VCol cols xs="12" sm="6">      
       <v-carousel show-arrows="hover" cycle hide-delimiters v-if="(Info.slide == 'true')">
         <v-carousel-item class="img" :src="item"  v-for="item in Info.imgDetail" :key="item"></v-carousel-item>   
-      </v-carousel>    
-      <v-img class="img" :src="Info.imgDetail" v-if="(Info.slide == 'false')" ></v-img>
+      </v-carousel>
+      <v-img class="img " :src="Info.imgDetail"></v-img>      
     </VCol>
-    <VCol cols xs="12" md="6">
-      <v-card class="w-100 card mx-auto container p-5">
-        <v-card-item class="mx-auto" elevation="16">
+    <VCol cols xs="12" sm="6">
+      <v-card class="card" variant="flat">
+        <v-card-item class="">
           <h1 class="text-teal-accent-4">{{ Info.name }}</h1>
 
           <v-card-subtitle><span>{{ Info.model }}</span></v-card-subtitle>
@@ -29,7 +29,10 @@
         </v-card-text>
       </v-card>
     </VCol>
+    
   </VRow>
+
+
 </template>
 
 <script>
@@ -55,12 +58,8 @@ p {
 }
 
 .img {
-  width: 100%;
-  height: 500px;
+  width: 400px;
+  height: 400px; 
 }
 
-.card {
-  width: 100%;
-  height: 500px;
-}
 </style>

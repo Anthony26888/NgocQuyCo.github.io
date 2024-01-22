@@ -1,10 +1,11 @@
 <template>
-  <vContainer >
-    <v-app >
-      <InfoProduct/>
-      <Description/>
-    </v-app>
-  </vContainer>
+  <vContainer>
+        <v-breadcrumbs :items="['Trang chủ', 'Sản Phẩm', 'Liên hệ']"></v-breadcrumbs>
+        <v-app>            
+            <InfoProduct/>  
+            <Description/>                
+        </v-app>
+    </vContainer>
 </template>
 
 <script setup>
