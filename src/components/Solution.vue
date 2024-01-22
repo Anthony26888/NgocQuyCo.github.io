@@ -57,8 +57,6 @@ import Form from "./Form.vue";
 </script>
 <script>
 import { ref } from "vue";
-import { useAppStore } from "@/store/complaint.js";
-
 export default {
   components: "Solution",
   setup() {
