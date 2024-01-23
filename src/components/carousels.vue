@@ -1,5 +1,5 @@
 <template>
-  <v-carousel show-arrows="hover" cycle hide-delimiters>
+  <v-carousel show-arrows="hover" cycle hide-delimiters width="400">
     <v-carousel-item :src="item"  v-for="item in items" :key="item"></v-carousel-item>   
   </v-carousel>  
 </template>
@@ -22,9 +22,8 @@ export default {
 </script>
 <style scoped>
 .img {
-  width: 700px;
-  height: 500px;
-
+  width: 500px;
+  height: 400px;
 }
 
 

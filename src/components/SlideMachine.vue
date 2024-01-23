@@ -1,72 +1,34 @@
 <template>
-  <div class="">
-    <v-toolbar density="comfortable" class="bg-transparent">
-      <v-toolbar-title>
-        <h2>Máy in CIJ</h2>
-      </v-toolbar-title>
-      <v-spacer></v-spacer>
-      <router-link to="/Danh-sach-may-in" style="text-decoration: none; color: inherit">
-        <strong class="p-2">Xem thêm</strong>
-      </router-link>
-    </v-toolbar>
+  <v-toolbar density="comfortable" class="bg-transparent mt-3">
+    <v-toolbar-title>
+      <h2 class="text-teal-darken-1">Máy in CIJ</h2>
+    </v-toolbar-title>
+    <v-spacer></v-spacer>
+    <router-link to="/Danh-sach-may-in" style="text-decoration: none; color: inherit">
+      <strong class="text-teal-darken-1 p-2">Xem thêm</strong>
+    </router-link>
+  </v-toolbar>
 
 
-    <Carousel v-bind="settings" :breakpoints="breakpoints">
-      <Slide v-for="value in store.products" :key="value">
+  <Carousel v-bind="settings" :breakpoints="breakpoints">
+    <Slide v-for="value in store.products" :key="value">
+      <router-link to="/Thong-tin-san-pham" style="text-decoration: none; color: inherit;">
         <v-card class="bg-grey-lighten-4 card">
-          <router-link to="/Thong-tin-san-pham">
-            <v-img class="img" :src="value.img" @click="store.GetMachine(value.id)"></v-img>
-          </router-link>
-
+          <v-img class="img" :src="value.img" @click="store.GetMachine(value.id)"></v-img>
           <v-card-subtitle class="pt-2">
             {{ value.model }}
           </v-card-subtitle>
-
           <v-card-text>
             <h5 class="title-name">{{ value.name }}</h5>
             <h6 class="text-red-lighten-1 title-price">Giá: Liên hệ</h6>
           </v-card-text>
         </v-card>
-      </Slide>
-
-      <template #addons>
-        <Navigation />
-      </template>
-    </Carousel>
-
-    <v-toolbar density="comfortable" class="bg-transparent mt-3">
-      <v-toolbar-title>
-        <h2>Linh kiện</h2>
-      </v-toolbar-title>
-      <v-spacer></v-spacer>
-      <router-link to="/Danh-sach-linh-kien" style="text-decoration: none; color: inherit">
-        <strong class="p-2">Xem thêm</strong>
       </router-link>
-    </v-toolbar>
-    
-    <Carousel v-bind="settings" :breakpoints="breakpoints">
-      <Slide v-for="value in store.accessory.slice(0, 10)" :key="value">
-        <v-card class="bg-grey-lighten-4 card">
-          <router-link to="/Thong-tin-san-pham">
-            <v-img class="img" :src="value.img" @click="store.GetAccessory(value.id)"></v-img>
-          </router-link>
-
-          <v-card-subtitle class="pt-2">
-            {{ value.model }}
-          </v-card-subtitle>
-
-          <v-card-text>
-            <h5 class="title-name">{{ value.name }}</h5>
-            <h6 class="text-red-lighten-1 title-price">Giá: Liên hệ</h6>
-          </v-card-text>
-        </v-card>
-      </Slide>
-
-      <template #addons>
-        <Navigation />
-      </template>
-    </Carousel>
-  </div>
+    </Slide>
+    <template #addons>
+      <Navigation />
+    </template>
+  </Carousel>
 </template>
 
 <script setup>
@@ -172,6 +134,7 @@ h2 {
     width: 300px;
 
   }
+
   .title-name {
     font-size: 20px;
   }

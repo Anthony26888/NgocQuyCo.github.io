@@ -1,6 +1,6 @@
 <template>
   <vContainer>
-    <v-app-bar :elevation="2" density="comfortable" class="p-2" transition="fade-transition">
+    <v-app-bar  density="comfortable" class="p-2 bg-teal-lighten-5" transition="fade-transition">
       <v-app-bar-title>
         <div class="d-flex">
           <router-link to="/">

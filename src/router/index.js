@@ -40,6 +40,11 @@ const routes = [
         path: '/Lien-he',
         name: 'Contact',       
         component: () => import(/* webpackChunkName: "home" */ '@/views/Contact.vue'),
+      },
+      {
+        path: '/Thue-may',
+        name: 'Service',       
+        component: () => import(/* webpackChunkName: "home" */ '@/views/Service.vue'),
       }
     ],
   },

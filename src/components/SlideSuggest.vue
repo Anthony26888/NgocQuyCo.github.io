@@ -1,0 +1,144 @@
+<template>
+  <v-toolbar density="comfortable" class="bg-transparent mt-5">
+    <v-toolbar-title>
+      <h2 class="text-teal-darken-1">Sản phẩm khác</h2>
+    </v-toolbar-title>    
+  </v-toolbar>
+
+  <Carousel v-bind="settings" :breakpoints="breakpoints">
+    <Slide v-for="value in store.accessory.slice(10,20)" :key="value">
+      <v-card class="bg-grey-lighten-4 card">
+        <router-link to="/Thong-tin-san-pham">
+          <v-img class="img" :src="value.img" @click="store.GetAccessory(value.id)"></v-img>
+        </router-link>
+
+        <v-card-subtitle class="pt-2">
+          {{ value.model }}
+        </v-card-subtitle>
+
+        <v-card-text>
+          <h5 class="title-name">{{ value.name }}</h5>
+          <h6 class="text-red-lighten-1 title-price">Giá: Liên hệ</h6>
+        </v-card-text>
+      </v-card>
+    </Slide>
+
+    <template #addons>
+      <Navigation />
+    </template>
+  </Carousel>  
+</template>
+
+<script setup>
+
+import { useAppStore } from "@/store/app";
+const store = useAppStore();
+</script>
+
+<script>
+import { defineComponent } from 'vue'
+import { Carousel, Navigation, Slide } from 'vue3-carousel'
+
+import 'vue3-carousel/dist/carousel.css'
+
+export default defineComponent({
+  name: 'Breakpoints',
+  components: {
+    Carousel,
+    Slide,
+    Navigation,
+  },
+  data: () => ({
+    // carousel settings
+    settings: {
+      itemsToShow: 2,
+      snapAlign: 'start',
+    },
+    // breakpoints are mobile first
+    // any settings not specified will fallback to the carousel settings
+    breakpoints: {
+      // 700px and up
+      700: {
+        itemsToShow: 3,
+        snapAlign: 'center',
+      },
+      // 1024 and up
+      1024: {
+        itemsToShow: 5,
+        snapAlign: 'center',
+      },
+    },
+  }),
+})
+</script>
+<style scoped>
+h2 {
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 300px) {
+  .card {
+    max-width: 170px;
+  }
+
+  .img {
+    width: 170px;
+  }
+
+  .title-name {
+    font-size: 15px;
+  }
+
+  .title-price {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 400px) {
+  .card {
+    max-width: 180px;
+  }
+
+  .img {
+    width: 180px;
+  }
+
+  .title-name {
+    font-size: 15px;
+  }
+
+  .title-price {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .card {
+    max-width: 280px;
+  }
+
+  .img {
+    width: 280px;
+
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .card {
+    max-width: 300px;
+  }
+
+  .img {
+    width: 300px;
+
+  }
+
+  .title-name {
+    font-size: 20px;
+  }
+
+  .title-price {
+    font-size: 18px;
+  }
+}
+</style>
