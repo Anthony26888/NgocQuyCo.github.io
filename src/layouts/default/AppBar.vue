@@ -12,7 +12,7 @@
       </v-app-bar-title>
       <v-spacer></v-spacer>
       <div class="d-none d-sm-flex">
-        <router-link to="" style="text-decoration: none; color: inherit;">
+        <router-link to="/Gioi-thieu" style="text-decoration: none; color: inherit;">
           <v-btn> Giới thiệu </v-btn>
         </router-link>
 
@@ -21,7 +21,7 @@
             <v-btn v-bind="props"> Sản phẩm </v-btn>
           </template>
 
-          <v-list width="200" density="compact">
+          <v-list width="300" density="compact">
             <v-list-item>
               <router-link to="/Danh-sach-may-in" style="text-decoration: none; color: inherit;">
                 <v-list-item-title color="primary">Máy in CIJ</v-list-item-title>
@@ -47,7 +47,7 @@
             <v-divider></v-divider>
 
             <v-list-item>
-              <router-link to="/" style="text-decoration: none; color: inherit;">
+              <router-link to="/Thue-may" style="text-decoration: none; color: inherit;">
                 <v-list-item-title><span>Thuê máy</span></v-list-item-title>
               </router-link>
             </v-list-item>
@@ -91,7 +91,7 @@
         <v-divider></v-divider>
 
         <v-list-item>
-          <router-link to="/" style="text-decoration: none; color: inherit;">
+          <router-link to="/Thue-may" style="text-decoration: none; color: inherit;">
             <v-list-item-title><span>Thuê máy</span></v-list-item-title>
           </router-link>
         </v-list-item>

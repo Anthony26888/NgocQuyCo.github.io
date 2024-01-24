@@ -8,7 +8,7 @@
       <v-list-item>
         <span
           >Máy in phun công nghiệp giá rẻ dùng để in ngày sản xuất, hạn sử dụng,
-          NSX, HSD, lot, code, date...thương hiệu DOCOD - C300 với các ưu điểm
+          NSX, HSD, lot, code, date...thương hiệu Linx, Hitachi với các ưu điểm
           vượt trội sau:
         </span>
       </v-list-item>

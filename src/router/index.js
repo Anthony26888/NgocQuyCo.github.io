@@ -37,6 +37,11 @@ const routes = [
         component: () => import(/* webpackChunkName: "home" */ '@/views/FilterMachine.vue'),
       },
       {
+        path: '/Danh-sach-nguyen-lieu',
+        name: 'FilterInk',       
+        component: () => import(/* webpackChunkName: "home" */ '@/views/FilterInk.vue'),
+      },
+      {
         path: '/Lien-he',
         name: 'Contact',       
         component: () => import(/* webpackChunkName: "home" */ '@/views/Contact.vue'),
@@ -45,6 +50,11 @@ const routes = [
         path: '/Thue-may',
         name: 'Service',       
         component: () => import(/* webpackChunkName: "home" */ '@/views/Service.vue'),
+      },
+      {
+        path: '/Gioi-thieu',
+        name: 'Intro',       
+        component: () => import(/* webpackChunkName: "home" */ '@/views/Intro.vue'),
       }
     ],
   },

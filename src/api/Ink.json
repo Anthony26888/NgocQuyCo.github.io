@@ -1,0 +1,103 @@
+[
+    {
+        "id":"1",
+        "name":"Mựa đen - 500ml",
+        "model":"Mực đen",
+        "type":"500ml",
+        "img":"https://i.ibb.co/1qTW6p6/1014-500-59.jpg",
+        "imgDetail":"https://i.ibb.co/1qTW6p6/1014-500-59.jpg",
+        "description":"Sử dụng tương thích cho máy in Linx 4900, 5900, 7300, 7900",       
+        "slide":"false"
+    },
+    {
+        "id":"2",
+        "name":"Mực đen - 1000ml",
+        "model":"Mực đen",
+        "capacity":"1000ml",
+        "img":"https://i.ibb.co/dbvy6xG/1014-1000-59.jpg",
+        "imgDetail":"https://i.ibb.co/dbvy6xG/1014-1000-59.jpg",
+        "description":"Sử dụng tương thích cho máy in Linx 4900, 5900, 7300, 7900",
+        "slide":"false"
+    },
+    {
+        "id":"3",
+        "name":"Mực đen - 500ml",
+        "model":"Mực vàng",
+        "capacity":"500ml",
+        "img":"https://i.ibb.co/wcc6wzK/1039-500-59.jpg",
+        "imgDetail":"https://i.ibb.co/wcc6wzK/1039-500-59.jpg",
+        "description":"Sử dụng tương thích cho máy in Linx 4900, 5900, 7300, 7900",
+        "slide":"false"
+    },
+    {
+        "id":"3",
+        "name":"Mực vàng - 1000ml",
+        "model":"Mực vàng",
+        "capacity":"500ml",
+        "img":"https://i.ibb.co/4dfSdG0/1039-1000-59.jpg",
+        "imgDetail":"https://i.ibb.co/4dfSdG0/1039-1000-59.jpg",
+        "description":"Sử dụng tương thích cho máy in Linx 4900, 5900, 7300, 7900",
+        "slide":"false"   
+    },
+    {
+        
+        "id":"4",
+        "name":"Mực vàng - 500ml",
+        "model":"Mực vàng",
+        "capacity":"500ml",
+        "img":"https://i.ibb.co/7RYPWy9/1059-500-59.jpg",
+        "imgDetail":"https://i.ibb.co/7RYPWy9/1059-500-59.jpg",
+        "description":"Sử dụng tương thích cho máy in Linx 4900, 5900, 7300, 7900",
+        "slide":"false"
+    },
+    {
+        "id":"5",
+        "name":"Mực trắng - 1000ml",
+        "model":"Mực trắng",
+        "capacity":"1000ml",
+        "img":"https://i.ibb.co/M5Z2Fpn/1059-100-59.jpg",
+        "imgDetail":"https://i.ibb.co/M5Z2Fpn/1059-100-59.jpg",
+        "description":"Sử dụng tương thích cho máy in Linx 4900, 5900, 7300, 7900",
+        "slide":"false"
+    },
+    {
+        "id":"6",
+        "name":"Mực đen máy 89 - 500ml",
+        "model":"Mực đen",
+        "capacity":"500ml",
+        "img":"https://i.ibb.co/Gsf2w5H/1014-89.jpg",
+        "imgDetail":"https://i.ibb.co/Gsf2w5H/1014-89.jpg",
+        "description":"Sử dụng tương thích cho máy in Linx 8800, 8900",
+        "slide":"false"
+    },
+    {
+        "id":"7",
+        "name":"Dung môi máy 89 - 1000ml",
+        "model":"Dung môi",
+        "capacity":"1000ml",
+        "img":"https://i.ibb.co/F7f1mb2/1505-89.jpg",
+        "imgDetail":"https://i.ibb.co/F7f1mb2/1505-89.jpg",
+        "description":"Sử dụng tương thích cho máy in Linx 8800, 8900",
+        "slide":"false"
+    },
+    {
+        "id":"8",
+        "name":"Dung môi - 1000ml",
+        "model":"Dung môi",
+        "capacity":"1000ml",
+        "img":"https://i.ibb.co/s2gk6vW/1505-500-59.jpg",
+        "imgDetail":"https://i.ibb.co/s2gk6vW/1505-500-59.jpg",
+        "description":"Sử dụng tương thích cho máy in Linx 4900, 5900, 7300, 7900",
+        "slide":"false"
+    },
+    {
+        "id":"9",
+        "name":"Mực và Dung môi máy 89",
+        "model":"Mực và dung môi",
+        "capacity":"1000ml",
+        "img":"https://i.ibb.co/6YkJCVb/combo-1014-89.jpg",
+        "imgDetail":"https://i.ibb.co/6YkJCVb/combo-1014-89.jpg",
+        "description":"Sử dụng tương thích cho máy in Linx 4900 5900 5900",
+        "slide":"false"
+    }
+]

@@ -1,28 +1,31 @@
 <template>
-  <v-toolbar density="comfortable" class="bg-transparent mt-5">
+  <v-toolbar density="comfortable" class="bg-transparent mt-3">
     <v-toolbar-title>
-      <h2 class="text-teal-darken-1">Sản phẩm khác</h2>
-    </v-toolbar-title>    
+      <h2 class="text-teal-darken-1">Nguyên liệu</h2>
+    </v-toolbar-title>
+    <v-spacer></v-spacer>
+    <router-link to="/Danh-sach-nguyen-lieu" style="text-decoration: none; color: inherit">
+      <strong class="text-teal-darken-1 p-2">Xem thêm</strong>
+    </router-link>
   </v-toolbar>
 
   <Carousel v-bind="settings" :breakpoints="breakpoints">
-    <Slide v-for="value in store.accessory.slice(10,20)" :key="value">
-      <v-card class="bg-grey-lighten-4 card">
-        <router-link to="/Thong-tin-san-pham">
-          <v-img class="img" :src="value.img" @click="store.GetAccessory(value.id)"></v-img>
-        </router-link>
-
-        <v-card-text>
-          <h5 class="title-name">{{ value.name }}</h5>
-          <h6 class="text-red-lighten-1 title-price">Giá: Liên hệ</h6>
-        </v-card-text>
-      </v-card>
+    <Slide v-for="value in store.ink.slice(0, 10)" :key="value">
+      <router-link to="/Thong-tin-san-pham" style="text-decoration: none; color: inherit;">
+        <v-card class="bg-grey-lighten-4 card">
+          <v-img class="img" :src="value.img" @click="store.GetInk(value.id)"></v-img>          
+          <v-card-text>
+            <h5 class="title-name">{{ value.name }}</h5>
+            <h6 class="text-red-lighten-1 title-price">Giá: Liên hệ</h6>
+          </v-card-text>
+        </v-card>
+      </router-link>
     </Slide>
 
     <template #addons>
       <Navigation />
     </template>
-  </Carousel>  
+  </Carousel>
 </template>
 
 <script setup>
@@ -98,7 +101,7 @@ h2 {
   }
 
   .img {
-    width: 180px;    
+    width: 180px;
   }
 
   .title-name {
@@ -113,7 +116,7 @@ h2 {
 @media only screen and (min-width: 700px) {
   .card {
     max-width: 230px;
-    height:300px
+    height:300px;
   }
 
   .img {
@@ -125,11 +128,12 @@ h2 {
 @media only screen and (min-width: 1024px) {
   .card {
     max-width: 300px;
-    height: 380px;
+    height: 410px;
   }
 
   .img {
     width: 300px;
+    height: 300px;
 
   }
 

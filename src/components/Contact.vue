@@ -12,7 +12,7 @@
       <div class="d-flex">
         <v-icon icon="mdi-map-marker" color="primary" size="50"></v-icon>
         <h4 class="mt-2 ms-2">
-          102/1 Hẻm 102 Bình Thới, Phường 14, Quận 11, Thành phố Hồ Chí Minh
+          102/9/2D Đường 100 Bình Thới, Phường 14, Quận 11, Thành phố Hồ Chí Minh
         </h4>
       </div>
     </div>
@@ -33,7 +33,7 @@
       </div>
       <div class="d-flex">
         <v-icon icon="mdi-cellphone" color="primary" size="50"></v-icon>
-        <h4 class="mt-2 ms-2">Mr.Long 0327001191</h4>
+        <h4 class="mt-2 ms-2">Mr.Long 0941049190</h4>
       </div>
     </div>
 

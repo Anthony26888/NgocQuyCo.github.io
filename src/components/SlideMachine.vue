@@ -14,10 +14,7 @@
     <Slide v-for="value in store.products" :key="value">
       <router-link to="/Thong-tin-san-pham" style="text-decoration: none; color: inherit;">
         <v-card class="bg-grey-lighten-4 card">
-          <v-img class="img" :src="value.img" @click="store.GetMachine(value.id)"></v-img>
-          <v-card-subtitle class="pt-2">
-            {{ value.model }}
-          </v-card-subtitle>
+          <v-img class="img" :src="value.img" @click="store.GetMachine(value.id)"></v-img>         
           <v-card-text>
             <h5 class="title-name">{{ value.name }}</h5>
             <h6 class="text-red-lighten-1 title-price">Giá: Liên hệ</h6>
@@ -80,7 +77,8 @@ h2 {
 
 @media only screen and (min-width: 300px) {
   .card {
-    max-width: 170px;
+    max-width: 160px;
+    height:250px;
   }
 
   .img {
@@ -99,6 +97,7 @@ h2 {
 @media only screen and (min-width: 400px) {
   .card {
     max-width: 180px;
+    height:280px;
   }
 
   .img {
@@ -116,11 +115,12 @@ h2 {
 
 @media only screen and (min-width: 700px) {
   .card {
-    max-width: 280px;
+    max-width: 230px;
+    height:300px
   }
 
   .img {
-    width: 280px;
+    width: 230px;
 
   }
 }
@@ -128,6 +128,7 @@ h2 {
 @media only screen and (min-width: 1024px) {
   .card {
     max-width: 300px;
+    height:410px
   }
 
   .img {

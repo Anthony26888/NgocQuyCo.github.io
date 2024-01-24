@@ -12,6 +12,7 @@
       <Select class="mt-5" />
       <SlideMachine />
       <SlideAccessory />
+      <SlideInk/>
     </v-app>
   </vContainer>
 </template>
@@ -22,6 +23,7 @@ import Select from "@/components/SelectPage.vue";
 import SlideMachine from "@/components/SlideMachine.vue";
 import SlideAccessory from "@/components/SlideAccessory.vue";
 import Title from "@/components/TitleHomePage.vue";
+import SlideInk from "@/components/SlideInk.vue";
 </script>
 <style scoped>
 

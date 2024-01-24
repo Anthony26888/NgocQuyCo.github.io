@@ -4,15 +4,15 @@
       <v-slide-group show-arrows>
         <v-slide-group-item>
           <v-chip-group mandatory selected-class="text-success">
-            <v-chip v-for="item in tag" :key="item" @click="store.GetFilter(item.title)">{{ item.title }}</v-chip>
+            <v-chip v-for="item in tag" :key="item" @click="store.GetFilterInk(item.title)">{{ item.title }}</v-chip>
           </v-chip-group>
         </v-slide-group-item>
       </v-slide-group>
     </v-toolbar>
     <div class="d-flex flex-wrap justify-center algin-center p-3">
-      <v-card class="bg-grey-lighten-4 card m-1" v-for="item in store.FilterAccessory" :key="item">
+      <v-card class="bg-grey-lighten-4 card m-1" v-for="item in store.FilterInk" :key="item">
         <router-link to="/Thong-tin-san-pham" style="text-decoration: none; color: inherit;">
-          <v-img class="img" :src="item.img" @click="store.GetAccessory(item.id)"></v-img>
+          <v-img class="img" :src="item.img" @click="store.GetInk(item.id)"></v-img>
           <v-card-text>
             <h5 class="title-name text-center">{{ item.name }}</h5>
             <h6 class="text-red-lighten-1 title-price text-center">Giá: Liên hệ</h6>
@@ -34,13 +34,11 @@ export default {
 
       tag: [
         { title: "Tất cả" },
-        { title: "Lọc" },
-        { title: "Board" },
-        { title: "Bơm" },
-        { title: "Màn hình" },
-        { title: "Bàn phím" },
-        { title: "Van" },
-        { title: "Khác" },
+        { title: "Mực đen" },
+        { title: "Mực vàng" },
+        { title: "Mực trắng" },
+        { title: "Dung môi" },
+        { title: "Mực và dung môi" }
       ],
     };
   },

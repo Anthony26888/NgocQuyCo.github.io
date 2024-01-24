@@ -1,0 +1,75 @@
+<template lang="">
+  <div class="mx-auto">
+    <h1 class="text-center text-teal-darken-1">
+      CÔNG TY TNHH NGỌC QUÝ TECHNOLOGY
+    </h1>
+    <div class="mt-5">
+      <p>
+        Lời nói đầu, Công ty TNHH Ngọc Quý Technology xin gửi lời cảm ơn chân
+        thành tới quý khách hàng đã và đang đồng hành cùng chúng tôi trong suốt
+        thời gian qua. Là một công ty hoạt động về lĩnh vực in phun mã hóa công
+        nghiệp, với mong muốn phục vụ khách hàng tốt nhất. Với đội ngũ kỹ thuật
+        chuyên sâu, chuyên viên trong ngành in phun lâu năm được đào tạo từ
+        chuyên gia nước ngoài. Công ty T.V.N luôn đưa ra giải pháp tốt - tiết
+        kiệm - bền bỉ lâu dài nhất.
+      </p>
+      <p>
+        Đến với chúng tôi, quý khách hàng sẽ được trải nghiệm những dịch vụ tốt
+        nhất, hoàn hảo nhất với giá cạnh tranh nhất. Quý khách hàng có thể hoàn
+        yên tâm với dịch vụ 24/7 của chúng tôi. Với sứ mệnh đáp ứng mọi nhu cầu
+        in date code…. nhằm nâng cao giá trị sản phẩm của quý khách hàng, chúng
+        tôi sẽ mang đến cho khách hàng những gì tốt nhất.
+      </p>
+
+      <v-timeline align="start">
+        <v-timeline-item
+          v-for="(item, i) in items"
+          :key="i"
+          :dot-color="item.color"
+          :icon="item.icon"
+          fill-dot
+        >
+          <v-card>
+            <v-card-title :class="['text-h6', `bg-${item.color}`]">
+              Lorem Ipsum Dolor
+            </v-card-title>
+            <v-card-text class="bg-white text--primary">
+              <p>
+                Lorem ipsum dolor sit amet, no nam oblique veritus. Commune
+                scaevola imperdiet nec ut, sed euismod convenire principes at.
+                Est et nobis iisque percipit, an vim zril disputando
+                voluptatibus, vix an salutandi sententiae.
+              </p>
+              <v-btn :color="item.color" variant="outlined"> Button </v-btn>
+            </v-card-text>
+          </v-card>
+        </v-timeline-item>
+      </v-timeline>
+    </div>
+  </div>
+</template>
+<script>
+export default {
+  data: () => ({
+    items: [
+      {
+        color: "red-lighten-2",
+        icon: "mdi-star",
+      },
+      {
+        color: "purple-lighten-2",
+        icon: "mdi-book-variant",
+      },
+      {
+        color: "green-lighten-1",
+        icon: "mdi-airballoon",
+      },
+      {
+        color: "indigo-lighten-2",
+        icon: "mdi-layers-triple",
+      },
+    ],
+  }),
+};
+</script>
+<style lang=""></style>

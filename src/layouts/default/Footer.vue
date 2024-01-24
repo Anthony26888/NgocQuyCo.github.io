@@ -18,14 +18,14 @@
                 <!--Grid column-->
                 <div class="col-md-6 col-sm-12 mb-4 mb-md-0 mb-sm-0">
                     <h5 class="text-uppercase text-teal-accent-4">Trụ sở</h5>
-
-                    <p>
-                        102/1 Hẻm 102 Bình Thới, Phường 14, Quận 11, Thành phố Hồ Chí Minh
-                    </p>
-                    <p class="ms-2">
+                    <div class="d-flex">
+                        <v-icon size="large" color="green-darken-2" icon="mdi-map-marker"></v-icon>
+                        <p class="ms-2">102/9/2D Đường 100 Bình Thới, Phường 14, Quận 11, TP.Hồ Chí Minh</p>                         
+                    </div>
+                    <div class="d-flex">
                         <v-icon size="large" color="green-darken-2" icon="mdi-phone"></v-icon>
-                        Mr.Hải 0918504086 
-                    </p>
+                        <p class="ms-2">0918504086 - 0941049190</p>                         
+                    </div>
                     
                 </div>
                 <!--Grid column-->
