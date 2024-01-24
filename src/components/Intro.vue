@@ -21,26 +21,50 @@
         tôi sẽ mang đến cho khách hàng những gì tốt nhất.
       </p>
 
-      <v-timeline align="start">
-        <v-timeline-item
-          v-for="(item, i) in items"
-          :key="i"
-          :dot-color="item.color"
-          :icon="item.icon"
-          fill-dot
-        >
-          <v-card>
-            <v-card-title :class="['text-h6', `bg-${item.color}`]">
-              Lorem Ipsum Dolor
+      <!--Timeline-->
+      <v-timeline width="500">
+        <v-timeline-item dot-color="purple-lighten-2" fill-dot>
+          <v-card width="400">
+            <v-card-title class="bg-purple-lighten-2">              
+              <h2 class="font-weight-light">Chất lượng</h2>
             </v-card-title>
-            <v-card-text class="bg-white text--primary">
-              <p>
-                Lorem ipsum dolor sit amet, no nam oblique veritus. Commune
-                scaevola imperdiet nec ut, sed euismod convenire principes at.
-                Est et nobis iisque percipit, an vim zril disputando
-                voluptatibus, vix an salutandi sententiae.
-              </p>
-              <v-btn :color="item.color" variant="outlined"> Button </v-btn>
+            <v-card-text>
+              Trải nghiệm dòng sản phẩm chất lượng cao.
+            </v-card-text>
+          </v-card>
+        </v-timeline-item>
+
+        <v-timeline-item dot-color="amber-lighten-1" fill-dot size="x-small">
+          <v-card width="400">
+            <v-card-title class="bg-amber-lighten-1 justify-end">
+              <h2 class="me-4 font-weight-light">Giá cả hợp lý</h2>              
+            </v-card-title>
+            <v-card-text>
+              Được sử dụng sản phẩm với mức giá tiết siêu kiệm.
+            </v-card-text>
+          </v-card>
+        </v-timeline-item>
+
+        <v-timeline-item dot-color="cyan-lighten-1" fill-dot>
+          <v-card width="400">
+            <v-card-title class="bg-cyan-lighten-1">             
+              <h2 class="font-weight-light">Giải pháp</h2>
+            </v-card-title>
+            <v-card-text>
+              Luôn hướng đến những giải pháp tối ưu nhất cho khách hàng
+            </v-card-text>
+          </v-card>
+        </v-timeline-item>
+
+        <v-timeline-item dot-color="red-lighten-1" fill-dot size="x-small">
+          <v-card width="400">
+            <v-card-title class="bg-red-lighten-1 justify-end">
+              <h2 class="me-4 font-weight-light">Dịch vụ</h2>
+              <v-icon size="large" icon="mdi-account-multiple-outline"></v-icon>
+            </v-card-title>
+            <v-card-text>
+              Đội ngũ nhân viên tư vấn, giải đáp nhiệt tình. Hỗ trợ kỹ thuật
+              24/7
             </v-card-text>
           </v-card>
         </v-timeline-item>
