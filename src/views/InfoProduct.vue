@@ -20,7 +20,7 @@
 import InfoProduct from "@/components/InfoProduct";
 import Description from "@/components/DescriptionDetail";
 import SlideSuggest from "@/components/SlideSuggest.vue";
-import Slide from "@/components/SlideInfo.vue"
+import Slide from "@/components/SlideDetail.vue"
 </script>
 
 <style scoped>
