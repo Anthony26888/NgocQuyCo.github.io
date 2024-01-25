@@ -1,11 +1,19 @@
 <template>
   <v-carousel show-arrows="hover" cycle hide-delimiters width="400">
-    <v-carousel-item :src="item"  v-for="item in items" :key="item"></v-carousel-item>   
-  </v-carousel>  
+    <v-carousel-item v-for="item in store.products" :key="item">
+      <router-link to="/Thong-tin-san-pham">
+        <v-img :src="item.img"  @click="store.GetMachine(item.id)"></v-img>
+      </router-link>
+    </v-carousel-item>
+  </v-carousel>
 </template>
-<script>
+<script setup>
 
-export default {  
+import { useAppStore } from "@/store/app";
+const store = useAppStore();
+</script>
+<script>
+export default {
   data() {
     return {
       items: [
@@ -14,7 +22,8 @@ export default {
         "https://i.ibb.co/4dLBWcn/5.png",
         "https://i.ibb.co/FnyrhmB/1.png",
         "https://i.ibb.co/r01c1R9/2.png",
-        "https://i.ibb.co/K64xx49/4.png"
+        "https://i.ibb.co/K64xx49/4.png",
+        "https://i.ibb.co/VvD7tzZ/vt180.jpg"
       ],
     };
   },

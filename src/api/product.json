@@ -235,5 +235,47 @@
       "Thiết lập giao diện người sử dụng, với sự lựa chọn hệ thống điều khiển từ xa."
     ],
     "slide":"true"
+  },
+  {
+    "id": "7",
+    "model": "TIJ",
+    "name": "Máy in TIJ VT180",
+    "img": "https://i.ibb.co/VvD7tzZ/vt180.jpg",
+    "imgDetail":[
+      "https://i.ibb.co/VvD7tzZ/vt180.jpg",
+      "https://i.ibb.co/YfqYpn8/vt180-1.webp",
+      "https://i.ibb.co/jMpQxz9/vt180-2.webp",
+      "https://i.ibb.co/P4s4ZvH/vt180-3.webp"
+    ],
+    "description": "Máy in date tự động TIJ VT180 là loại máy in được  kết hợp với băng tải và dây chuyền sản xuất để tối ưu hóa việc in mã code và hạn sữ dụng lên sản phẩm.",
+    "feature": [
+      "Phạm vi lên đến 12.7mm với một đầu phun",
+      "In barcode thời gian thực",
+      "Có phạm vi in 360 độ",
+      "Hỗ trợ lên tới 10 ngôn ngữ khác nhau"
+    ],
+    "tech": [
+      "Hệ thống sử dụng hệ điều hành Linux, hỗ trợ cổng USB để nhập dữ liệu in ấn, hỗ trợ thời gian thực.",
+      "Thiết kế thân máy tách rời, dễ dàng lắp đặt, in xoay 360 độ, có thể điều chỉnh góc in tùy ý và thiết bị tinh chỉnh chống va chạm.",
+      "Màn hình 7 inch cảm ứng điện dung siêu rõ nét, chống nhiễu, thân máy hoàn toàn bằng nhôm.",
+      "Máy in phun nhiều đầu trực tuyến, 1-6 đầu phun có thể được sử dụng theo ý muốn.",
+      "Thân máy thon gọn, toàn bộ bằng nhôm, tản nhiệt tốt, thích hợp cho việc in ấn trong thời gian dài.",
+      "Máy vận hành đơn giản và dễ bảo trì."
+    ],
+    "control": [
+      "Tốc độ in 40m/phút.",
+      "Độ phân giải 600 DPI.",
+      "Bộ đếm số 1-15 số.",
+      "Khoảng cách in 3-5m.",
+      "Chiều cao in 1-12.7mm.",
+      "Các loại hình in: văn bản, mã vạch, hình ảnh, mã hai chiều."
+    ],
+    "special": [
+      "Kích thước: 210*110*40mm.",
+      "Cổng giao tiếp: Cổng nguồn và quang điện, cổng HDMI, cổng USB.",
+      "Nhiệt độ môi trường từ 0-40 độ, độ ẩm 10-80%",
+      "Hỗ trợ lên tới 10 ngôn ngữ."
+    ],
+    "slide":"true"
   }
 ]

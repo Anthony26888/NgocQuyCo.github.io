@@ -1,7 +1,7 @@
 <template>
   <v-toolbar density="comfortable" class="bg-transparent mt-3">
     <v-toolbar-title>
-      <h2 class="text-teal-darken-1">Nguyên liệu</h2>
+      <h2 class="text-teal-darken-1 title-slide">Nguyên liệu</h2>
     </v-toolbar-title>
     <v-spacer></v-spacer>
     <router-link to="/Danh-sach-nguyen-lieu" style="text-decoration: none; color: inherit">
@@ -92,6 +92,9 @@ h2 {
   .title-price {
     font-size: 12px;
   }
+  .title-slide{
+    font-size: 20px;
+  }
 }
 
 @media only screen and (min-width: 400px) {
@@ -122,6 +125,9 @@ h2 {
   .img {
     width: 230px;
 
+  }
+  .title-slide{
+    font-size: 27px;
   }
 }
 
