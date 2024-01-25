@@ -1,7 +1,7 @@
 [
     {
         "id":"1",
-        "name":"Mựa đen - 500ml",
+        "name":"Mực đen - 500ml",
         "model":"Mực đen",
         "type":"500ml",
         "img":"https://i.ibb.co/1qTW6p6/1014-500-59.jpg",
@@ -42,8 +42,8 @@
     {
         
         "id":"4",
-        "name":"Mực vàng - 500ml",
-        "model":"Mực vàng",
+        "name":"Mực trắng - 500ml",
+        "model":"Mực trắng",
         "capacity":"500ml",
         "img":"https://i.ibb.co/7RYPWy9/1059-500-59.jpg",
         "imgDetail":"https://i.ibb.co/7RYPWy9/1059-500-59.jpg",
@@ -62,7 +62,7 @@
     },
     {
         "id":"6",
-        "name":"Mực đen máy 89 - 500ml",
+        "name":"Mực đen máy 8900 - 500ml",
         "model":"Mực đen",
         "capacity":"500ml",
         "img":"https://i.ibb.co/Gsf2w5H/1014-89.jpg",
@@ -72,7 +72,7 @@
     },
     {
         "id":"7",
-        "name":"Dung môi máy 89 - 1000ml",
+        "name":"Dung môi máy 8900 - 1000ml",
         "model":"Dung môi",
         "capacity":"1000ml",
         "img":"https://i.ibb.co/F7f1mb2/1505-89.jpg",

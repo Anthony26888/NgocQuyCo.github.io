@@ -67,7 +67,7 @@
     <v-navigation-drawer class="mt-3" v-model="drawer" location="right" temporary>
       <v-list>
         <v-list-item>
-          <router-link to="/" style="text-decoration: none; color: inherit;">
+          <router-link to="/Gioi-thieu" style="text-decoration: none; color: inherit;">
             <v-list-item-title color="primary">Giới thiệu</v-list-item-title>
           </router-link>
         </v-list-item>
