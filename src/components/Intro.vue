@@ -64,4 +64,9 @@ export default {
   }),
 };
 </script>
-<style lang=""></style>
+<style scoped>
+h1,
+h6 {
+  font-weight: 700;
+}
+</style>

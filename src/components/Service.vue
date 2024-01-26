@@ -1,6 +1,9 @@
 <template lang="">
   <div class="mx-auto">
-    <h1 class="text-teal-darken-1 text-center">DỊCH VỤ CHO THUÊ MÁY IN PHUN CÔNG NGHIỆP</h1>
+    <h1 class="text-center text-teal-darken-1">
+      DỊCH VỤ CHO THUÊ MÁY IN PHUN CÔNG NGHIỆP
+    </h1>
+    <h1 class="text-teal-darken-1 text-center"></h1>
     <v-list lines="one">
       <v-list-item>
         <span>Công ty chúng tôi chuyên cung cấp:</span>
@@ -27,7 +30,7 @@
             color="green-darken-2"
             icon="mdi-circle-small"
           ></v-icon>
-          <b>Chi phí nguyên liệu chỉ hợp lí.</b>
+          <b>Chi phí nguyên liệu hợp lí.</b>
         </v-list-item>
         <v-list-item>
           <v-icon
@@ -55,4 +58,9 @@
 <script>
 export default {};
 </script>
-<style lang=""></style>
+<style scoped>
+h1,
+h6 {
+  font-weight: 700;
+}
+</style>

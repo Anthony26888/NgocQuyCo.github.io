@@ -1,6 +1,6 @@
 <template>
     <vContainer>
-        <v-breadcrumbs :items="['Trang chủ', 'Sản Phẩm', 'Danh sách sản phẩm']"></v-breadcrumbs>
+        <v-breadcrumbs :items="['Trang chủ', 'Sản Phẩm']"></v-breadcrumbs>
         <v-app>            
             <List/>                  
         </v-app>

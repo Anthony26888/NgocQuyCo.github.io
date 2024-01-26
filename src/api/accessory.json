@@ -27,7 +27,7 @@
         "slide":"false"
     },
     {
-        "id":"3",
+        "id":"24",
         "name":"Lọc 3 nhánh Linx",
         "model":"Lọc",
         "img":"https://i.ibb.co/ngpVtj0/1.png",
@@ -94,8 +94,8 @@
         "id":"10",
         "name":"Mặt bàn phím Linx 7900",
         "model":"Bàn phím",
-        "img":"https://sc04.alicdn.com/kf/H8c17a6b3590f41c0accec14ba11e2041u.jpg_1200x1200.jpg",
-        "imgDetail":"https://sc04.alicdn.com/kf/H8c17a6b3590f41c0accec14ba11e2041u.jpg_1200x1200.jpg",
+        "img":"https://i.ibb.co/zSb0G68/banphim79.png",
+        "imgDetail":"https://i.ibb.co/zSb0G68/banphim79.png",
         "description":"Sử dụng tương thích cho máy in Linx 7900",
         "slide":"false"
     },
@@ -103,8 +103,8 @@
         "id":"11",
         "name":"Pin Cmos",
         "model":"Khác",
-        "img":"https://s.alicdn.com/@sc04/kf/Hd56f4636e8c54171b9116c4527a342f2G.jpg",
-        "imgDetail":"https://s.alicdn.com/@sc04/kf/Hd56f4636e8c54171b9116c4527a342f2G.jp",
+        "img":"https://i.ibb.co/4sDxGfV/pin59.png",
+        "imgDetail":"https://i.ibb.co/4sDxGfV/pin59.png",
         "description":"Sử dụng tương thích cho máy in Linx 4900 5900 7900",
         "slide":"false"
     },
@@ -112,8 +112,8 @@
         "id":"12",
         "name":"Màn hình Linx 5900",
         "model":"Màn hình",
-        "img":"https://s.alicdn.com/@sc04/kf/H054c82dc468a41869307ab24da4e28e2o.jpg_720x720q50.jpg",
-        "imgDetail":"https://s.alicdn.com/@sc04/kf/H054c82dc468a41869307ab24da4e28e2o.jpg_720x720q50.jpg",
+        "img":"https://i.ibb.co/Jt0TVHZ/manhinh59.png",
+        "imgDetail":"https://i.ibb.co/Jt0TVHZ/manhinh59.png",
         "description":"Sử dụng tương thích cho máy in Linx 5900",
         "slide":"false"
     },
@@ -121,8 +121,8 @@
         "id":"13",
         "name":"Bơm Linx",
         "model":"Bơm",
-        "img":"https://sc04.alicdn.com/kf/He9783cc359314fd89afe53745405d71bQ.jpg_1200x1200.jpg",
-        "imgDetail":"https://sc04.alicdn.com/kf/He9783cc359314fd89afe53745405d71bQ.jpg_1200x1200.jpgg",
+        "img":"https://i.ibb.co/KbqX2Ck/bom.png",
+        "imgDetail":"https://i.ibb.co/KbqX2Ck/bom.png",
         "description":"Sử dụng tương thích cho máy in Linx 4900 5900 7900",
         "slide":"false"
     },
@@ -130,8 +130,8 @@
         "id":"14",
         "name":"Damper Linx 7900",
         "model":"Lọc",
-        "img":"https://sc04.alicdn.com/kf/H568cfaf3978845cfb3c6b665dc9d9cacQ.jpg_1200x1200.jpg",
-        "imgDetail":"https://sc04.alicdn.com/kf/H568cfaf3978845cfb3c6b665dc9d9cacQ.jpg_1200x1200.jpg",
+        "img":"https://i.ibb.co/4VjdDH7/damper79.png",
+        "imgDetail":"https://i.ibb.co/4VjdDH7/damper79.png",
         "description":"Sử dụng tương thích cho máy in Linx 5900 7900",
         "slide":"false"
     },
@@ -139,8 +139,8 @@
         "id":"15",
         "name":"Board chính Linx 5900 7900",
         "model":"Board",
-        "img":"https://s.alicdn.com/@sc04/kf/H0f7abe6492314b19a47a1f930c377b5bb.jpg",
-        "imgDetail":"https://s.alicdn.com/@sc04/kf/H0f7abe6492314b19a47a1f930c377b5bb.jpg",
+        "img":"https://i.ibb.co/6Ph7dJk/board59.png",
+        "imgDetail":"https://i.ibb.co/6Ph7dJk/board59.png",
         "description":"Sử dụng tương thích cho máy in Linx 5900 7900",
         "slide":"false"
     },
@@ -148,8 +148,8 @@
         "id":"16",
         "name":"Lọc chính Linx 89xx",
         "model":"Lọc",
-        "img":"https://sc04.alicdn.com/kf/H026726390f7c43a6946c9da4ff5fe7a4B.jpg_1200x1200.jpg",
-        "imgDetail":"https://sc04.alicdn.com/kf/H026726390f7c43a6946c9da4ff5fe7a4B.jpg_1200x1200.jpg",
+        "img":"https://i.ibb.co/51zwFKD/loc89.png",
+        "imgDetail":"https://i.ibb.co/51zwFKD/loc89.png",
         "description":"Sử dụng tương thích cho máy in Linx 88xx 89xx",
         "slide":"false"
     },
@@ -157,8 +157,8 @@
         "id":"17",
         "name":"Board cao áp Linx",
         "model":"Board",
-        "img":"https://sc04.alicdn.com/kf/Ha37e7ad5d8b54b449694173183fdfea28.jpg_1200x1200.jpg",
-        "imgDetail":"https://sc04.alicdn.com/kf/Ha37e7ad5d8b54b449694173183fdfea28.jpg_1200x1200.jpg",
+        "img":"https://i.ibb.co/qgxXn4H/boardcaoap.png",
+        "imgDetail":"https://i.ibb.co/qgxXn4H/boardcaoap.png",
         "description":"Sử dụng tương thích cho máy in Linx 4900 5900 7900",
         "slide":"false"
     },
@@ -175,8 +175,8 @@
         "id":"19",
         "name":"Màn hình 89xx",
         "model":"Màn hình",
-        "img":"https://sc04.alicdn.com/kf/Hc84180b478724a18a04aaf17f2b80eb4j.jpg_1200x1200.jpg",
-        "imgDetail":"https://sc04.alicdn.com/kf/Hc84180b478724a18a04aaf17f2b80eb4j.jpg_1200x1200.jpg",
+        "img":"https://i.ibb.co/1Zy9Nsx/manhinh89.png",
+        "imgDetail":"https://i.ibb.co/1Zy9Nsx/manhinh89.png",
         "description":"Sử dụng tương thích cho máy in Linx 89xx",
         "slide":"false"
     },
@@ -184,8 +184,8 @@
         "id":"20",
         "name":"Béc phun 88xx 89xx",
         "model":"Khác",
-        "img":"https://s.alicdn.com/@sc04/kf/H9ac5c6c592664e32baf965d0276341eem.jpg",
-        "imgDetail":"https://s.alicdn.com/@sc04/kf/H9ac5c6c592664e32baf965d0276341eem.jpg",
+        "img":"https://i.ibb.co/1MB2jVG/bec89.png",
+        "imgDetail":"https://i.ibb.co/1MB2jVG/bec89.png",
         "description":"Sử dụng tương thích cho máy in Linx 88xx 89xx",
         "slide":"false"
     },
@@ -193,8 +193,8 @@
         "id":"21",
         "name":"Board chính 88xx 89xx",
         "model":"Board",
-        "img":"https://s.alicdn.com/@sc04/kf/H7f78041d2b314717a7a92e4f959c409b3.jpg",
-        "imgDetail":"https://s.alicdn.com/@sc04/kf/H7f78041d2b314717a7a92e4f959c409b3.jpg",
+        "img":"https://i.ibb.co/LhbdmK2/board79.png",
+        "imgDetail":"https://i.ibb.co/LhbdmK2/board79.png",
         "description":"Sử dụng tương thích cho máy in Linx 88xx 89xx",
         "slide":"false"
     },
@@ -202,8 +202,8 @@
         "id":"22",
         "name":"Bộ lọc chính Spectrum",
         "model":"Lọc",
-        "img":"https://s.alicdn.com/@sc04/kf/Hb54ade7db581431bbfc720bc8bb5aba0s.jpg",
-        "imgDetail":"https://s.alicdn.com/@sc04/kf/Hb54ade7db581431bbfc720bc8bb5aba0s.jpgg",
+        "img":"https://i.ibb.co/khF7N7m/locspectrum.png",
+        "imgDetail":"https://i.ibb.co/khF7N7m/locspectrum.png",
         "description":"Sử dụng tương thích cho máy in Linx 7900 Spectrum",
         "slide":"false"
     },
@@ -211,8 +211,8 @@
         "id":"23",
         "name":"Màn hình 4900",
         "model":"Màn hình",
-        "img":"https://s.alicdn.com/@sc04/kf/Hb80d5b36f9ae438a9f4b58e6ac1243d8E.jpg",
-        "imgDetail":"https://s.alicdn.com/@sc04/kf/Hb80d5b36f9ae438a9f4b58e6ac1243d8E.jpg",
+        "img":"https://i.ibb.co/YPfCWsb/manhinh49.png",
+        "imgDetail":"https://i.ibb.co/YPfCWsb/manhinh49.png",
         "description":"Sử dụng tương thích cho máy in Linx 4900",
         "slide":"false"
     }

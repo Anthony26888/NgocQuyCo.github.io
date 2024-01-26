@@ -10,12 +10,12 @@
 
     <v-card-text>
       <span>{{ Info.description }}</span>
-      <VSpacer />
-      <VBtn class="bg-teal-accent-4 mt-5">Liên hệ ngay</VBtn>
-      <p class="mt-3">
-        <v-icon size="large" color="green-darken-2" icon="mdi-phone"></v-icon>
-        0918504086 (Mr Hải)
-      </p>
+      <VSpacer />      
+      <div class="mt-5 d-flex">
+        <h4 class="text-red">Liên hệ ngay: </h4>
+        <a href="tel:+" class="ms-2"><h4>0918504086</h4></a>
+        <h4 class="ms-2">Mr.Hải</h4>
+      </div>
     </v-card-text>
   </v-card>
 </template>

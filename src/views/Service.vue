@@ -2,7 +2,7 @@
   <vContainer>
     <v-app>
       <v-breadcrumbs
-        :items="['Trang chủ', 'Sản Phẩm', 'Thuê máy']"
+        :items="['Trang chủ', 'Thuê máy']"
       ></v-breadcrumbs>
       <Service />
       <v-card class="mt-5 bg-teal-lighten-5">

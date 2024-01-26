@@ -1,7 +1,7 @@
 <template>
   <vContainer>
     <v-app>
-      <v-breadcrumbs :items="['Trang chủ', 'Sản Phẩm', 'Giải pháp']"></v-breadcrumbs>
+      <v-breadcrumbs :items="['Trang chủ', 'Giải pháp']"></v-breadcrumbs>
       <Solution />
     </v-app>
   </vContainer>
