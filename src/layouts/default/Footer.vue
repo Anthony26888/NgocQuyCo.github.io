@@ -24,7 +24,13 @@
                     </div>
                     <div class="d-flex">
                         <v-icon size="large" color="green-darken-2" icon="mdi-phone"></v-icon>
-                        <p class="ms-2">0918504086 - 0941049190</p>                         
+                        <div class="d-flex ms-2">
+                            <a href="tel:+84918504086">0918504086</a>                            
+                        </div>                                              
+                    </div>
+                    <div class="d-flex mt-2">
+                        <v-icon size="large" color="green-darken-2" icon="mdi-web"></v-icon>
+                        <a class="ms-2" href="http://www.ngocquyco.com.vn">http://www.ngocquyco.com.vn</a>                                            
                     </div>
                     
                 </div>

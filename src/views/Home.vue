@@ -1,19 +1,21 @@
-<template>  
-  <vContainer >
-    <v-app >      
-      <VRow justify="center" align="center">
-        <VCol cols xs="12" md="6"> 
-          <carousels />
-        </VCol>
-        <VCol cols xs="12" md="6">
-          <Title />
-        </VCol>        
-      </VRow>
-      <Select class="mt-5" />
-      <SlideMachine />
-      <SlideAccessory />
-      <SlideInk/>
-    </v-app>
+<template>
+  <vContainer>
+    <v-lazy :min-height="200" :options="{ 'threshold': 0.5 }" transition="fade-transition">
+      <v-app>
+        <VRow justify="center" align="center">
+          <VCol cols xs="12" md="6">
+            <carousels />
+          </VCol>
+          <VCol cols xs="12" md="6">
+            <Title />
+          </VCol>
+        </VRow>
+        <Select class="mt-5" />
+        <SlideMachine />
+        <SlideAccessory />
+        <SlideInk />
+      </v-app>
+    </v-lazy>
   </vContainer>
 </template>
 
@@ -25,6 +27,4 @@ import SlideAccessory from "@/components/SlideAccessory.vue";
 import Title from "@/components/TitleHomePage.vue";
 import SlideInk from "@/components/SlideInk.vue";
 </script>
-<style scoped>
-
-</style>
+<style scoped></style>

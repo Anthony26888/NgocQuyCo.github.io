@@ -23,7 +23,10 @@
       </div>
       <div class="d-flex">
         <v-icon icon="mdi-cellphone" color="primary" size="50"></v-icon>
-        <h4 class="mt-2 ms-2">Mr.Hải 0918504086</h4>
+        <div class="d-flex">
+          <h4 class="mt-2 ms-2">Mr.Hải: </h4>
+          <a href="tel:+84918504086" class="mt-2 ms-2"><h4>0918504086</h4></a>
+        </div>        
       </div>
     </div>
     <div class="mt-5">
@@ -33,7 +36,12 @@
       </div>
       <div class="d-flex">
         <v-icon icon="mdi-cellphone" color="primary" size="50"></v-icon>
-        <h4 class="mt-2 ms-2">Mr.Long 0941049190</h4>
+        
+        <div class="d-flex">
+          <h4 class="mt-2 ms-2">Mr.Long: </h4>
+          <a href="tel:+84941049190" class="mt-2 ms-2"><h4>0941049190</h4></a>
+        </div>
+        
       </div>
     </div>
 
