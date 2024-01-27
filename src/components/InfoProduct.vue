@@ -41,11 +41,19 @@ export default {
 p {
   font-size: 15px;
 }
+@media only screen and (min-width: 300px) {
+  h4 {
+    font-size: 15px;
+  }
+}
 
 @media only screen and (min-width: 700px) {
   .slide {
     width: 500px;
     height: 100px;
+  }
+  h4 {
+    font-size: 22px;
   }
 }
 </style>
