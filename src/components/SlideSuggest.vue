@@ -60,9 +60,17 @@ export default defineComponent({
       },
       // 1024 and up
       1024: {
+        itemsToShow: 3,
+        snapAlign: 'center',
+      },
+      1280: {
         itemsToShow: 5,
         snapAlign: 'center',
       },
+      1920: {
+        itemsToShow: 7,
+        snapAlign: 'center',
+      }
     },
   }),
 })
@@ -89,6 +97,9 @@ h2 {
   .title-price {
     font-size: 12px;
   }
+  .title-slide{
+    font-size: 20px;
+  }
 }
 
 @media only screen and (min-width: 400px) {
@@ -98,7 +109,7 @@ h2 {
   }
 
   .img {
-    width: 180px;    
+    width: 180px;
   }
 
   .title-name {
@@ -120,16 +131,71 @@ h2 {
     width: 230px;
 
   }
+  .title-slide{
+    font-size: 27px;
+  }
+}
+@media only screen and (min-width: 850px) {
+  .card {
+    max-width: 280px;
+    height:350px
+  }
+
+  .img {
+    width: 280px;
+
+  }
+  .title-slide{
+    font-size: 27px;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
   .card {
-    max-width: 300px;
-    height: 380px;
+    max-width: 280px;
+    height:380px
   }
 
   .img {
-    width: 300px;
+    width: 280px;
+
+  }
+
+  .title-name {
+    font-size: 20px;
+  }
+
+  .title-price {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .card {
+    max-width: 220px;
+    height:320px
+  }
+
+  .img {
+    width: 220px;
+
+  }
+
+  .title-name {
+    font-size: 20px;
+  }
+
+  .title-price {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .card {
+    max-width: 240px;
+    height:350px
+  }
+
+  .img {
+    width: 240px;
 
   }
 
