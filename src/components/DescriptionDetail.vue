@@ -17,7 +17,7 @@
 
       <v-window-item value="two" class="">
         <VRow>
-          <VCol cols xs="12" md="4">
+          <VCol cols xs="12" md="6">
             <div class="feature">
               <h5 class="text-center text-teal-accent-4">KHẢ NĂNG IN</h5>
               <v-list v-for="item in Info.feature" :key="item">
@@ -27,19 +27,8 @@
                 </v-list-item>
               </v-list>
             </div>
-          </VCol>
-          <VCol cols xs="12" md="4">
-            <div class="control">
-              <h5 class="text-center text-teal-accent-4">ĐIỀU KHIỂN IN</h5>
-              <v-list v-for="item in Info.control" :key="item">
-                <v-list-item>
-                  <v-icon size="large" color="green-darken-2" icon="mdi-circle-small"></v-icon>
-                  {{ item }}
-                </v-list-item>
-              </v-list>
-            </div>
-          </VCol>
-          <VCol cols xs="12" md="4">
+          </VCol>          
+          <VCol cols xs="12" md="6">
             <div class="special">
               <h5 class="text-center text-teal-accent-4">ĐẶC TÍNH</h5>
               <v-list v-for="item in Info.special" :key="item">

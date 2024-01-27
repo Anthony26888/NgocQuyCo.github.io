@@ -24,12 +24,6 @@
       "Vỏ bọc tiêu chuẩn IP55 – phù hợp với môi trường dội nước.",
       "Máy có tính năng báo khi chuẩn bị hết mực hoặc dung môi. Khả năng tiếp liệu trực tiếp khi đang in, không cần ngừng dây chuyền in."
     ],
-    "control": [
-      "Tạo và chỉnh sửa bản tin đơn giản",
-      "Cổng USB để sao lưu và chuyển bản tin, kết nối wifi cho Linx PrinterNet",
-      "Trình chỉnh sửa ngày và giờ, với chức năng nhảy ngày tự động",
-      "Có thể lưu trữ đến 1000 bản tin bằng bộ nhớ trong máy"
-    ],
     "special": [
       "Màn hình cảm ứng đủ màu 7 inch có tấm che polymer chắc chắn, chống dung môi",
       "Vỏ máy làm bằng thép không gỉ cao cấp, đáp ứng tiêu chuẩn kháng bụi nước IP55",
@@ -61,12 +55,6 @@
       "Màn hình điều khiển cảm ứng 10 inches, kháng nước và một số loại dung môi.",
       "Vỏ bọc tiêu chuẩn IP55 – phù hợp với môi trường dội nước.",
       "Máy có tính năng báo khi chuẩn bị hết mực hoặc dung môi. Khả năng tiếp liệu trực tiếp khi đang in, không cần ngừng dây chuyền in."
-    ],
-    "control": [
-      "Tạo và chỉnh sửa bản tin đơn giản",
-      "Cổng USB để sao lưu và chuyển bản tin, kết nối wifi cho Linx PrinterNet",
-      "Trình chỉnh sửa ngày và giờ, với chức năng nhảy ngày tự động",
-      "Có thể lưu trữ đến 1000 bản tin bằng bộ nhớ trong máy"
     ],
     "special": [
       "Màn hình cảm ứng đủ màu 7 inch có tấm che polymer chắc chắn, chống dung môi",
@@ -100,14 +88,6 @@
       "Vỏ bọc tiêu chuẩn IP55 – phù hợp với môi trường dội nước.",
       "Các thiết bị cấu thành có tuổi thọ cao, tiêu chuẩn Anh Quốc, hạn chế tối đa phát sinh lỗi vặt, tiết kiệm chi phí bảo trì và sửa chữa"
     ],
-    "control": [
-      "Linx Insight điều khiển máy in từ xa và theo dõi trạng thái hoạt động của máy",
-      "Giao diện menu WYSIWYG đơn giản, dễ dàng tạo và chỉnh sửa bản tin",
-      "QuickSwitch Plus có thể tự do lựa chọn và chỉnh sửa bản tin sử dụng Barcode Scanner",
-      "PrintSync lựa chọn Format in tự động",
-      "Print History Log lưu trữ nhật ký in",
-      "Cổng USB thuận tiện Copy và Back up dữ liệu bản tin và bản cài đặt, dễ dàng sao lưu bản tin giữa các máy in với nhau."
-    ],
     "special": [
       "Bề mặt bằng thép không gỉ, kết  cấu cong chống lại các tác nhân bụi bẩn",
       "Tiêu chuẩn IP55, IP65 (7900 Spectrum)",
@@ -138,12 +118,6 @@
       "In 3 dòng và ma trận thông tin được cung cấp như tiêu chuẩn có sẵn",
       "In 5 dòng được hỗ trợ như là tiêu chuẩn lựa chọn thêm",
       "Tốc độ in nhanh hơn và công cụ truyền thông từ xa có thể được thêm vào khi khách hàng có nhu cầu"
-    ],
-    "control": [
-      "Lưu được đến 50 bảng tin và 100 logo",
-      "Số lần trộn mực có thể được thiết lập chương trình trước",
-      "Tạo và biên tập bản tin theo danh mục hướng dẫn WYSIWYG",
-      "Phần mềm biên tập và lựa chọn bản tin bằng cách sử dụng máy quét mã vạch,Giao diện truyền thông từ xa"
     ],
     "special": [
       "Vỏ máy bằng thép không gỉ được thiết kế cong để hạn chế bụi",
@@ -180,14 +154,6 @@
       "Độ cao chữ từ 1.4mm tới 10.7mm",
       "In ký tự xoay (dạng hình tháp)"
     ],
-    "control": [
-      "Màn hình màu WYSIWYG (1/4 VGA size)",
-      "Bàn phím QWERTY dạng cơ",
-      "Sử dụng phím nóng (Hot key) nên thao tác rất nhanh và tiện lợi.",
-      "Ngôn ngữ hiển thị TIẾNG VIỆT và 20 ngôn ngữ khác nhau, có thể GÕ CHỮ VIỆT.",
-      "Có thể giám sát máy Linx 5900 từ xa thông qua Smart phone, Laptop, PC.",
-      "Máy Linx 5900 có cổng USB và kết nối máy tính qua cống RS232, Enternet, Parallel I/O"
-    ],
     "special": [
       "Vỏ máy bằng thép không gỉ, được thiết kế cong để hạn chế sự bám bụi",
       "Kết cấu IP55 là tiêu chuẩn có sẵn",
@@ -222,12 +188,6 @@
       "Không cần phải ngưng hoặc mở máy in để nạp thêm mực, dung môi.",
       "Thiết kế nhỏ gọn không cần hệ thống khí nén."
     ],
-    "control": [
-      "Lưu được đến 50 bảng tin và 100 logo",
-      "In ngày tháng tự động thay đổi",
-      "Số đếm liên tiếp",
-      "Duyệt bản tin và hiển thị tương tác tức thời"
-    ],
     "special": [
       "Vỏ máy làm bằng thép không rỉ",
       "Kết cấu IP55 thích hợp đáp ứng các môi trường khắc nghiệt",
@@ -261,14 +221,6 @@
       "Máy in phun nhiều đầu trực tuyến, 1-6 đầu phun có thể được sử dụng theo ý muốn.",
       "Thân máy thon gọn, toàn bộ bằng nhôm, tản nhiệt tốt, thích hợp cho việc in ấn trong thời gian dài.",
       "Máy vận hành đơn giản và dễ bảo trì."
-    ],
-    "control": [
-      "Tốc độ in 40m/phút.",
-      "Độ phân giải 600 DPI.",
-      "Bộ đếm số 1-15 số.",
-      "Khoảng cách in 3-5m.",
-      "Chiều cao in 1-12.7mm.",
-      "Các loại hình in: văn bản, mã vạch, hình ảnh, mã hai chiều."
     ],
     "special": [
       "Kích thước: 210*110*40mm.",

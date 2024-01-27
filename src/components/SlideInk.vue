@@ -1,7 +1,7 @@
 <template>
-  <v-toolbar density="comfortable" class="bg-transparent mt-3">
+  <v-toolbar density="comfortable" class="bg-grey-lighten-2 mt-5">
     <v-toolbar-title>
-      <h2 class="text-teal-darken-1 title-slide">Nguyên liệu</h2>
+      <h2 class="text-teal-darken-1 title-slide bg-amber p-3 mt-2">NGUYÊN LIỆU</h2>
     </v-toolbar-title>
     <v-spacer></v-spacer>
     <router-link to="/Danh-sach-nguyen-lieu" style="text-decoration: none; color: inherit">
@@ -9,7 +9,7 @@
     </router-link>
   </v-toolbar>
 
-  <Carousel v-bind="settings" :breakpoints="breakpoints">
+  <Carousel v-bind="settings" :breakpoints="breakpoints" class="mt-3">
     <Slide v-for="value in store.ink.slice(0, 10)" :key="value">
       <router-link to="/Thong-tin-san-pham" style="text-decoration: none; color: inherit;">
         <v-card class="bg-grey-lighten-4 card">
@@ -81,6 +81,9 @@ export default defineComponent({
 <style scoped>
 h2 {
   font-weight: 700;
+}
+.title-slide{
+  width: 200px;
 }
 
 @media only screen and (min-width: 300px) {

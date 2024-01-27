@@ -10,7 +10,7 @@
             <Title />
           </VCol>
         </VRow>
-        <Select class="mt-5" />
+        <Select class="mt-3" />
         <SlideMachine />
         <SlideAccessory />
         <SlideInk />

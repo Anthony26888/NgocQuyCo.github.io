@@ -1,30 +1,34 @@
 <template>
   <vContainer>
-    <v-app-bar  density="comfortable" class="p-2 bg-teal-lighten-5" transition="fade-transition">
-      <v-app-bar-title>
+    <v-app-bar density="prominent">
+      <div class="mx-auto mt-3" >
         <div class="d-flex">
           <router-link to="/">
-            <v-img src="../../assets/Image/logoNG.png" width="80" height="80"></v-img>
+            <v-img src="../../assets/Image/logoNG.png" width="100" height="100"></v-img>
           </router-link>
-          <h4 class="mt-4 text-teal-darken-1 logoTitle">Ngọc Quý</h4>
+          <h1 class="mt-3 text-teal-darken-1 logoTitle">NGỌC QUÝ</h1>
         </div>
+      </div>
+    </v-app-bar>
+    <v-app-bar  density="comfortable" class="bg-amber" transition="fade-transition"> 
+      <div class="d-none d-sm-flex mx-auto">
+        <router-link to="/" style="text-decoration: none; color: inherit;">
+          <v-btn class="title-app"> TRANG CHỦ </v-btn>
+        </router-link>
 
-      </v-app-bar-title>
-      <v-spacer></v-spacer>
-      <div class="d-none d-sm-flex">
         <router-link to="/Gioi-thieu" style="text-decoration: none; color: inherit;">
-          <v-btn> Giới thiệu </v-btn>
+          <v-btn class="title-app"> GIỚI THIỆU </v-btn>
         </router-link>
 
         <v-menu open-on-hover>
           <template v-slot:activator="{ props }">
-            <v-btn v-bind="props"> Sản phẩm </v-btn>
+            <v-btn v-bind="props" class="title-app"> SẢN PHẨM </v-btn>
           </template>
 
           <v-list width="300" density="compact">
             <v-list-item>
               <router-link to="/Danh-sach-may-in" style="text-decoration: none; color: inherit;">
-                <v-list-item-title color="primary">Máy in CIJ</v-list-item-title>
+                <v-list-item-title color="primary">MÁY IN DATE</v-list-item-title>
               </router-link>
             </v-list-item>
 
@@ -32,7 +36,7 @@
 
             <v-list-item>
               <router-link to="/Danh-sach-linh-kien" style="text-decoration: none; color: inherit;">
-                <v-list-item-title><span>Linh kiện</span></v-list-item-title>
+                <v-list-item-title><span>LINH KIỆN</span></v-list-item-title>
               </router-link>
             </v-list-item>
 
@@ -40,7 +44,7 @@
 
             <v-list-item>
               <router-link to="/" style="text-decoration: none; color: inherit;">
-                <v-list-item-title><span>Nguyên liệu</span></v-list-item-title>
+                <v-list-item-title><span>NGUYÊN LIỆU</span></v-list-item-title>
               </router-link>
             </v-list-item>
 
@@ -48,14 +52,14 @@
 
             <v-list-item>
               <router-link to="/Thue-may" style="text-decoration: none; color: inherit;">
-                <v-list-item-title><span>Thuê máy</span></v-list-item-title>
+                <v-list-item-title><span>THUÊ MÁY</span></v-list-item-title>
               </router-link>
             </v-list-item>
           </v-list>          
         </v-menu>
 
         <router-link to="/Lien-he" style="text-decoration: none; color: inherit;">
-          <v-btn> Liên hệ </v-btn>
+          <v-btn class="title-app"> LIÊN HỆ</v-btn>
         </router-link>
       </div>
 
@@ -68,7 +72,7 @@
       <v-list>
         <v-list-item>
           <router-link to="/Gioi-thieu" style="text-decoration: none; color: inherit;">
-            <v-list-item-title color="primary">Giới thiệu</v-list-item-title>
+            <v-list-item-title color="primary">GIỚI THIỆU</v-list-item-title>
           </router-link>
         </v-list-item>
 
@@ -76,7 +80,7 @@
 
         <v-list-item>
           <router-link to="/San-pham" style="text-decoration: none; color: inherit;">
-            <v-list-item-title><span>Sản phẩm</span></v-list-item-title>
+            <v-list-item-title><span>SẢN PHẨM</span></v-list-item-title>
           </router-link>
         </v-list-item>
 
@@ -84,7 +88,7 @@
 
         <v-list-item>
           <router-link to="/Lien-he" style="text-decoration: none; color: inherit;">
-            <v-list-item-title><span>Liên hệ</span></v-list-item-title>
+            <v-list-item-title><span>LIÊN HỆ</span></v-list-item-title>
           </router-link>
         </v-list-item>
 
@@ -92,7 +96,7 @@
 
         <v-list-item>
           <router-link to="/Thue-may" style="text-decoration: none; color: inherit;">
-            <v-list-item-title><span>Thuê máy</span></v-list-item-title>
+            <v-list-item-title><span>TTHUÊ MÁY</span></v-list-item-title>
           </router-link>
         </v-list-item>
       </v-list>
@@ -100,8 +104,15 @@
   </vContainer>
 </template>
 <style scoped>
-.logo {
+
+.logoTitle{
   font-family: Inter;
+  font-weight: 700;
+}
+.title-app{
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 @media only screen and (max-width: 500px) {

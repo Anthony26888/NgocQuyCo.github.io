@@ -9,7 +9,7 @@
 export default {
   data() {
     return {
-      titleLarge: "Chuyên cung cấp các sản phẩm máy in công nghiệp",
+      titleLarge: "CHUYÊN CUNG CẤP MÁY IN CÔNG NGHIỆP",
       year: "since 2015",
       logan: "Ngọc Quý Technology - Chúng tôi luôn sẵn sàng khi bạn cần!",
       collab:"Linx - Hitachi -TIJ INKJET"
