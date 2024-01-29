@@ -1,11 +1,11 @@
 <template>
-  <v-carousel show-arrows="hover" cycle hide-delimiters width="400" class="animate__animated animate__backInLeft">
+  <v-carousel show-arrows="hover" cycle hide-delimiters width="400" class="animate__animated animate__backInLeft slide">
     <v-carousel-item v-for="item in store.products" :key="item">
       <router-link to="/Thong-tin-san-pham">
-        <v-img :src="item.img"  @click="store.GetMachine(item.id)"></v-img>
+        <v-img :src="item.img" class="align-center mt-3" @click="store.GetMachine(item.id)"></v-img>
       </router-link>
     </v-carousel-item>
-  </v-carousel>
+  </v-carousel> 
 </template>
 <script setup>
 
@@ -25,7 +25,21 @@ export default {
         "https://i.ibb.co/K64xx49/4.png",
         "https://i.ibb.co/VvD7tzZ/vt180.jpg"
       ],
+      length: 3,
+      onboarding: 1,
     };
+  },
+  methods: {
+    next() {
+      this.onboarding = this.onboarding + 1 > this.length
+        ? 1
+        : this.onboarding + 1
+    },
+    prev() {
+      this.onboarding = this.onboarding - 1 <= 0
+        ? this.length
+        : this.onboarding - 1
+    },
   },
 };
 </script>
@@ -36,9 +50,10 @@ export default {
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 300px) {
   .slide {
-    width: 350px;
+    height: 200px;
   }
+
 }
 </style>

@@ -1,29 +1,25 @@
 <template lang="">
   <v-window v-model="onboarding">
     <v-window-item v-for="n in Info.imgDetail" :key="`card-${n}`" :value="n">
-      <v-card height="200" class="d-flex justify-center align-center">
+      <v-card height="400" class="d-flex justify-center align-center">
         <v-img :src="n"></v-img>
       </v-card>
     </v-window-item>
   </v-window>
 
-  <v-card-actions class="justify-space-between">
-    <v-btn variant="plain" icon="mdi-chevron-left" @click="prev"></v-btn>
+  <v-card-actions class="justify-center">
     <v-item-group v-model="onboarding" class="text-center" mandatory>
       <v-item
-        v-for="n in length"
+        v-for="n in Info.imgDetail"
         :key="`btn-${n}`"
         v-slot="{ isSelected, toggle }"
         :value="n"
       >
-        <v-btn
-          :variant="isSelected ? 'outlined' : 'text'"
-          icon="mdi-record"
-          @click="toggle"
-        ></v-btn>
+        <v-btn variant="outlined" @click="toggle" class="slide-btn">
+          <v-img :src="n" class="slide" ></v-img>
+        </v-btn>
       </v-item>
     </v-item-group>
-    <v-btn variant="plain" icon="mdi-chevron-right" @click="next"></v-btn>
   </v-card-actions>
   <v-img
     class="img mx-auto"
@@ -45,8 +41,8 @@ export default {
   data() {
     return {
       tab: null,
-      length: 3,
-      onboarding: 1,
+      length: 4,
+      onboarding: 0,
     };
   },
 
@@ -63,8 +59,26 @@ export default {
 };
 </script>
 <style scoped>
-.img {
-  width: 500px;
-  height: 400px;
+@media only screen and (min-width: 300px) {
+  .slide-btn {
+    width: 70px;
+    height: 70px;
+  }
+  .slide{
+    width: 60px;
+    height: 60px;
+  }
+
+}
+@media only screen and (min-width: 700px) {
+  .slide-btn {
+    width: 150px;
+    height: 150px;
+  }
+  .slide{
+    width: 140px;
+    height: 140px;
+  }
+
 }
 </style>

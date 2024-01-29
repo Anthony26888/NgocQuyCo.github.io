@@ -1,10 +1,6 @@
 <template>
   <v-toolbar density="comfortable" class="bg-grey-lighten-2 mt-5">
-    <h2 class="text-teal-darken-1 title-slide bg-amber-lighten-2 p-3 text-center mt-2">MÁY IN DATE</h2>
-    <v-spacer></v-spacer>
-    <router-link to="/Danh-sach-may-in" style="text-decoration: none; color: inherit">
-      <strong class="text-teal-darken-1 p-2">Xem thêm</strong>
-    </router-link>
+    <h2 class="text-teal-darken-1 p-3 text-center mt-2 mx-auto">MÁY IN DATE</h2>
   </v-toolbar>
 
 
@@ -23,7 +19,12 @@
     <template #addons>
       <Navigation />
     </template>
-  </Carousel>
+  </Carousel>  
+  <router-link to="/Danh-sach-may-in" style="text-decoration: none; color: inherit">
+    <v-btn class="bg-teal-light-1 mt-3 float-right">
+      <strong class="p-2 mx-auto">Xem thêm >></strong>
+    </v-btn>    
+  </router-link>
 </template>
 
 <script setup>
@@ -81,9 +82,7 @@ h2 {
   font-weight: 700;
 }
 
-.title-slide {
-  width: 250px;
-}
+
 
 @media only screen and (min-width: 300px) {
   .card {
@@ -103,9 +102,6 @@ h2 {
     font-size: 12px;
   }
 
-  .title-slide {
-    font-size: 20px;
-  }
 }
 
 @media only screen and (min-width: 400px) {
