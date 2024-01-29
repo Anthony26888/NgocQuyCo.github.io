@@ -1,8 +1,6 @@
 <template>
   <v-toolbar density="comfortable" class="bg-grey-lighten-2 mt-5">
-    <v-toolbar-title>
-      <h2 class="text-teal-darken-1 title-slide bg-amber p-3 mt-2">NGUYÊN LIỆU</h2>
-    </v-toolbar-title>
+    <h2 class="text-teal-darken-1 title-slide bg-amber-lighten-2 p-3 text-center mt-2">NGUYÊN LIỆU</h2>
     <v-spacer></v-spacer>
     <router-link to="/Danh-sach-nguyen-lieu" style="text-decoration: none; color: inherit">
       <strong class="text-teal-darken-1 p-2">Xem thêm</strong>
@@ -12,7 +10,7 @@
   <Carousel v-bind="settings" :breakpoints="breakpoints" class="mt-3">
     <Slide v-for="value in store.ink.slice(0, 10)" :key="value">
       <router-link to="/Thong-tin-san-pham" style="text-decoration: none; color: inherit;">
-        <v-card class="bg-grey-lighten-4 card">
+        <v-card class="bg-grey-lighten-4 card animate__flipInX">
           <v-img class="img" :src="value.img" @click="store.GetInk(value.id)"></v-img>          
           <v-card-text>
             <h5 class="title-name">{{ value.name }}</h5>
@@ -83,7 +81,7 @@ h2 {
   font-weight: 700;
 }
 .title-slide{
-  width: 200px;
+  width: 250px;
 }
 
 @media only screen and (min-width: 300px) {

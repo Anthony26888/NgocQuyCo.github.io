@@ -1,18 +1,19 @@
 <template lang="">
-  <div class="d-flex flex-column justify-content-center algin-item-center text-center">
-    <span class="title-name text-teal-darken-1">{{ titleLarge }}</span><br/>    
-    <span class="title-collab text-deep-orange-lighten-2">{{ collab }}</span><br/> 
-    <span class="text-muted title-logan">{{ logan }}</span>
+  <div class="d-flex flex-column justify-content-center algin-item-center text-center animate__animated animate__backInRight">
+    <span class="title-name text-teal-darken-1 ">{{ titleLarge }}</span><br/>    
+    <span class="title-collab text-deep-orange-lighten-2">{{ colab }}</span><br/> 
+    <span class="text-muted title-logan">{{ logan }}</span>    
   </div>
 </template>
 <script>
+import 'animate.css';
 export default {
   data() {
     return {
       titleLarge: "CHUYÊN CUNG CẤP MÁY IN CÔNG NGHIỆP",
       year: "since 2015",
       logan: "Ngọc Quý Technology - Chúng tôi luôn sẵn sàng khi bạn cần!",
-      collab:"Linx - Hitachi -TIJ INKJET"
+      colab:"Linx - Hitachi -TIJ INKJET"
     };
   },
 };

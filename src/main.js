@@ -14,7 +14,7 @@ import { createApp } from "vue";
 import { registerPlugins } from "@/plugins";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.bundle.js";
-
+import 'animate.css';
 
 const app = createApp(App);
 

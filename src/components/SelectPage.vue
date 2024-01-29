@@ -1,7 +1,7 @@
 <template>
   <div class="d-flex flex-wrap justify-center gap-3">
     <router-link to="/San-pham" style="text-decoration: none; color: inherit;">
-      <v-sheet elevation="8" class="sheet" border rounded>
+      <v-sheet elevation="8" class="sheet animate__animated animate__backInLeft animate__delay-1s" border rounded>
         <div class="d-flex align-center justify-center flex-wrap text-center mx-auto p-4">
           <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24" class="text-teal-darken-1">
             <path fill="currentColor"
@@ -14,7 +14,7 @@
 
 
     <router-link to="/Giai-phap" style="text-decoration: none; color: inherit;">
-      <v-sheet elevation="8" class="sheet" border rounded>
+      <v-sheet elevation="8" class="sheet animate__animated animate__backInLeft animate__delay-1s" border rounded>
         <div class="d-flex align-center justify-center flex-wrap text-center mx-auto p-4">
           <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24" class="text-teal-darken-1">
             <path fill="currentColor"
@@ -26,7 +26,7 @@
     </router-link>
 
     <router-link to="/Thue-may" style="text-decoration: none; color: inherit;">
-      <v-sheet elevation="8"  class="sheet" border rounded>
+      <v-sheet elevation="8"  class="sheet animate__animated animate__backInRight animate__delay-1s" border rounded>
         <div class="d-flex align-center justify-center flex-wrap text-center mx-auto p-4">
           <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24" class="text-teal-darken-1">
             <path fill="currentColor"
@@ -38,7 +38,7 @@
     </router-link>
 
     <router-link to="/Lien-he" style="text-decoration: none; color: inherit;">
-      <v-sheet elevation="8"  class="sheet" border rounded>
+      <v-sheet elevation="8"  class="sheet animate__animated animate__backInRight animate__delay-1s" border rounded>
         <div class="d-flex align-center justify-center flex-wrap text-center mx-auto p-4">
           <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24" class="text-teal-darken-1">
             <path fill="currentColor"

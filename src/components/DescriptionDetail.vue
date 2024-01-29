@@ -1,11 +1,11 @@
 <template>
-  <v-card>
+  <v-card :elevation="7">
     <v-tabs v-model="tab" class="text-teal-accent-4" align-tabs="center">
       <v-tab value="one">Tính năng nổi bật</v-tab>
       <v-tab value="two">Đặc điểm kĩ thuật</v-tab>
     </v-tabs>
 
-    <v-window v-model="tab" class="p-5 p-xs-2">
+    <v-window v-model="tab" class="p-5 p-xs-2 container">
       <v-window-item value="one">
         <v-list v-for="item in Info.tech" :key="item">
           <v-list-item>
@@ -15,15 +15,15 @@
         </v-list>
       </v-window-item>
 
-      <v-window-item value="two" class="">
-        <VRow>
+      <v-window-item value="two" class="">        
+        <VRow class="container mx-auto">
           <VCol cols xs="12" md="6">
             <div class="feature">
               <h5 class="text-center text-teal-accent-4">KHẢ NĂNG IN</h5>
               <v-list v-for="item in Info.feature" :key="item">
                 <v-list-item>
                   <v-icon size="large" color="green-darken-2" icon="mdi-circle-small"></v-icon>
-                  {{ item }}
+                  <span >{{ item }}</span>
                 </v-list-item>
               </v-list>
             </div>

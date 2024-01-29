@@ -1,8 +1,6 @@
 <template>
   <v-toolbar density="comfortable" class="bg-grey-lighten-2 mt-5">
-    <v-toolbar-title>
-      <h2 class="text-teal-darken-1 title-slide bg-amber p-3 mt-2">MÁY IN DATE</h2>
-    </v-toolbar-title>
+    <h2 class="text-teal-darken-1 title-slide bg-amber-lighten-2 p-3 text-center mt-2">MÁY IN DATE</h2>
     <v-spacer></v-spacer>
     <router-link to="/Danh-sach-may-in" style="text-decoration: none; color: inherit">
       <strong class="text-teal-darken-1 p-2">Xem thêm</strong>
@@ -13,8 +11,8 @@
   <Carousel v-bind="settings" :breakpoints="breakpoints" class="mt-3">
     <Slide v-for="value in store.products" :key="value">
       <router-link to="/Thong-tin-san-pham" style="text-decoration: none; color: inherit;">
-        <v-card class="bg-grey-lighten-4 card">
-          <v-img class="img" :src="value.img" @click="store.GetMachine(value.id)"></v-img>         
+        <v-card class="bg-grey-lighten-4 card animate__animated animate__flipInX">
+          <v-img class="img" :src="value.img" @click="store.GetMachine(value.id)"></v-img>
           <v-card-text>
             <h5 class="title-name">{{ value.name }}</h5>
             <h6 class="text-red-lighten-1 title-price">Giá: Liên hệ</h6>
@@ -82,14 +80,15 @@ export default defineComponent({
 h2 {
   font-weight: 700;
 }
-.title-slide{
-  width: 200px;
+
+.title-slide {
+  width: 250px;
 }
 
 @media only screen and (min-width: 300px) {
   .card {
     max-width: 160px;
-    height:250px;
+    height: 250px;
   }
 
   .img {
@@ -103,7 +102,8 @@ h2 {
   .title-price {
     font-size: 12px;
   }
-  .title-slide{
+
+  .title-slide {
     font-size: 20px;
   }
 }
@@ -111,7 +111,7 @@ h2 {
 @media only screen and (min-width: 400px) {
   .card {
     max-width: 180px;
-    height:280px;
+    height: 280px;
   }
 
   .img {
@@ -130,28 +130,31 @@ h2 {
 @media only screen and (min-width: 700px) {
   .card {
     max-width: 230px;
-    height:300px
+    height: 300px
   }
 
   .img {
     width: 230px;
 
   }
-  .title-slide{
+
+  .title-slide {
     font-size: 27px;
   }
 }
+
 @media only screen and (min-width: 850px) {
   .card {
     max-width: 280px;
-    height:350px
+    height: 350px
   }
 
   .img {
     width: 280px;
 
   }
-  .title-slide{
+
+  .title-slide {
     font-size: 27px;
   }
 }
@@ -159,7 +162,7 @@ h2 {
 @media only screen and (min-width: 1024px) {
   .card {
     max-width: 280px;
-    height:380px
+    height: 380px
   }
 
   .img {
@@ -175,10 +178,11 @@ h2 {
     font-size: 18px;
   }
 }
+
 @media only screen and (min-width: 1280px) {
   .card {
     max-width: 220px;
-    height:320px
+    height: 320px
   }
 
   .img {
@@ -194,10 +198,11 @@ h2 {
     font-size: 18px;
   }
 }
+
 @media only screen and (min-width: 1920px) {
   .card {
     max-width: 240px;
-    height:350px
+    height: 350px
   }
 
   .img {

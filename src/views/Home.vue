@@ -1,6 +1,5 @@
 <template>
   <vContainer>
-    <v-lazy :min-height="200" :options="{ 'threshold': 0.5 }" transition="fade-transition">
       <v-app>
         <VRow justify="center" align="center">
           <VCol cols xs="12" md="6">
@@ -15,7 +14,7 @@
         <SlideAccessory />
         <SlideInk />
       </v-app>
-    </v-lazy>
+    
   </vContainer>
 </template>
 
