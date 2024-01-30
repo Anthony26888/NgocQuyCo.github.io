@@ -1,6 +1,12 @@
 <template>
-  <v-toolbar density="comfortable" class="bg-grey-lighten-2 mt-5">
-    <h2 class="text-teal-darken-1 p-3 text-center mt-2 mx-auto">LINH KIỆN</h2>
+  <v-toolbar density="comfortable" class="bg-amber-lighten-3 mt-5">
+    <h2 class="text-teal-darken-1 p-3 text-center mt-2">LINH KIỆN</h2>
+    <VSpacer />
+    <router-link to="/Danh-sach-linh-kien" style="text-decoration: none; color: inherit">
+      <v-btn class="bg-teal-darken-1 me-3">
+        <strong class="mx-auto">Xem thêm >></strong>
+      </v-btn>
+    </router-link>
   </v-toolbar>
 
   <Carousel v-bind="settings" :breakpoints="breakpoints" class="mt-3">
@@ -19,10 +25,7 @@
     <template #addons>
       <Navigation />
     </template>
-  </Carousel>
-  <router-link to="/Danh-sach-linh-kien" style="text-decoration: none; color: inherit">
-    <strong class="text-teal-darken-1 p-2">Xem thêm</strong>
-  </router-link>
+  </Carousel>  
 </template>
 
 <script setup>

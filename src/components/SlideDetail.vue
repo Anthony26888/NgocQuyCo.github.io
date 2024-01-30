@@ -1,5 +1,5 @@
 <template lang="">
-  <v-window v-model="onboarding">
+  <v-window v-model="onboarding" v-if="Info.slide == 'true'">
     <v-window-item v-for="n in Info.imgDetail" :key="`card-${n}`" :value="n">
       <v-card height="400" class="d-flex justify-center align-center">
         <v-img :src="n"></v-img>
@@ -7,7 +7,7 @@
     </v-window-item>
   </v-window>
 
-  <v-card-actions class="justify-center">
+  <v-card-actions class="justify-center"  v-if="Info.slide == 'true'">
     <v-item-group v-model="onboarding" class="text-center" mandatory>
       <v-item
         v-for="n in Info.imgDetail"
@@ -24,6 +24,7 @@
   <v-img
     class="img mx-auto"
     :src="Info.imgDetail"
+    height="400"
     v-if="Info.slide == 'false'"
   ></v-img>
 </template>
@@ -64,21 +65,23 @@ export default {
     width: 70px;
     height: 70px;
   }
-  .slide{
+
+  .slide {
     width: 60px;
     height: 60px;
   }
 
 }
+
 @media only screen and (min-width: 700px) {
   .slide-btn {
     width: 150px;
     height: 150px;
   }
-  .slide{
+
+  .slide {
     width: 140px;
     height: 140px;
   }
 
-}
-</style>
+}</style>

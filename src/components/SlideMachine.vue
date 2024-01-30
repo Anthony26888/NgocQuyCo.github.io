@@ -1,6 +1,12 @@
 <template>
-  <v-toolbar density="comfortable" class="bg-grey-lighten-2 mt-5">
-    <h2 class="text-teal-darken-1 p-3 text-center mt-2 mx-auto">MÁY IN DATE</h2>
+  <v-toolbar density="comfortable" class="bg-amber-lighten-3 mt-5">
+    <h2 class="text-teal-darken-1 p-3 text-center mt-2">MÁY IN DATE</h2>
+    <VSpacer />
+    <router-link to="/Danh-sach-may-in" style="text-decoration: none; color: inherit">
+      <v-btn class="bg-teal-darken-1 me-3">
+        <strong class="mx-auto">Xem thêm >></strong>
+      </v-btn>
+    </router-link>
   </v-toolbar>
 
 
@@ -19,12 +25,7 @@
     <template #addons>
       <Navigation />
     </template>
-  </Carousel>  
-  <router-link to="/Danh-sach-may-in" style="text-decoration: none; color: inherit">
-    <v-btn class="bg-teal-light-1 mt-3 float-right">
-      <strong class="p-2 mx-auto">Xem thêm >></strong>
-    </v-btn>    
-  </router-link>
+  </Carousel>
 </template>
 
 <script setup>

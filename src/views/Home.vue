@@ -13,8 +13,7 @@
         <SlideMachine />
         <SlideAccessory />
         <SlideInk />
-      </v-app>
-    
+      </v-app>    
   </vContainer>
 </template>
 
