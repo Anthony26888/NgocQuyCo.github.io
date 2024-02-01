@@ -12,8 +12,7 @@
           <p class="text-muted">Model: {{ item.model }}</p>
           <v-list lines="one"  v-for="value in item.tech" :key="value">
             <v-list-item  prepend-icon="mdi-check-bold">{{ value }}</v-list-item>
-          </v-list>       
-          
+          </v-list>
         </v-sheet>
       </VCol>
     </VRow>

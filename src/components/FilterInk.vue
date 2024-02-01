@@ -10,7 +10,7 @@
       </v-slide-group>
     </v-toolbar>
     <div class="d-flex flex-wrap justify-center algin-center p-3">
-      <v-card class="bg-grey-lighten-4 card m-1" v-for="item in store.FilterInk" :key="item">
+      <v-card class="bg-grey-lighten-4 card m-1 animate__animated animate__bounceInUp" v-for="item in store.FilterInk" :key="item">
         <router-link to="/Thong-tin-san-pham" style="text-decoration: none; color: inherit;">
           <v-img class="img" :src="item.img" @click="store.GetInk(item.id)"></v-img>
           <v-card-text>

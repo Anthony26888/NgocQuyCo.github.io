@@ -21,39 +21,19 @@
 
         <v-menu open-on-hover>
           <template v-slot:activator="{ props }">
-            <v-btn v-bind="props" class="title-app"> SẢN PHẨM </v-btn>
+            <router-link to="/San-pham" style="text-decoration: none; color: inherit;">
+              <v-btn v-bind="props" class="title-app"> SẢN PHẨM </v-btn>
+            </router-link>            
           </template>
 
-          <v-list width="300" density="compact">
-            <v-list-item>
-              <router-link to="/Danh-sach-may-in" style="text-decoration: none; color: inherit;">
-                <v-list-item-title color="primary">MÁY IN DATE</v-list-item-title>
-              </router-link>
-            </v-list-item>
-
+          <v-list width="300">
             <v-divider></v-divider>
-
-            <v-list-item>
-              <router-link to="/Danh-sach-linh-kien" style="text-decoration: none; color: inherit;">
-                <v-list-item-title><span>LINH KIỆN</span></v-list-item-title>
+            <div v-for="value in items" :key="value">
+              <router-link :to="value.router" style="text-decoration: none; color: inherit;">
+                <v-list-item class="title-app">{{ value.title }}</v-list-item>
               </router-link>
-            </v-list-item>
-
-            <v-divider></v-divider>
-
-            <v-list-item>
-              <router-link to="/" style="text-decoration: none; color: inherit;">
-                <v-list-item-title><span>NGUYÊN LIỆU</span></v-list-item-title>
-              </router-link>
-            </v-list-item>
-
-            <v-divider></v-divider>
-
-            <v-list-item>
-              <router-link to="/Thue-may" style="text-decoration: none; color: inherit;">
-                <v-list-item-title><span>THUÊ MÁY</span></v-list-item-title>
-              </router-link>
-            </v-list-item>
+              <v-divider></v-divider>
+            </div>
           </v-list>
         </v-menu>
 
@@ -67,30 +47,32 @@
 
     <v-navigation-drawer class="mt-4" v-model="drawer" location="right" temporary>
       <v-list>
-        <v-list-item title="GIỚI THIỆU">
-          <template v-slot:append>
-            <v-btn size="small" variant="text" icon="mdi-menu-down"></v-btn>
-          </template>
-        </v-list-item>
-      
+        <router-link to="/Gioi-thieu" style="text-decoration: none; color: inherit;">
+          <v-list-item title="GIỚI THIỆU"></v-list-item>
+        </router-link>
 
         <v-divider></v-divider>
 
         <router-link to="/San-pham" style="text-decoration: none; color: inherit;">
-          <v-list-item link title="SẢN PHẨM"></v-list-item>
+          <v-list-group value="Actions">
+            <template v-slot:activator="{ props }">
+              <v-list-item v-bind="props" title="SẢN PHẨM"></v-list-item>
+            </template>
+
+            <div v-for="value in items" :key="value">
+              <router-link :to="value.router" style="text-decoration: none; color: inherit;">
+                <v-list-item link :title="value.title"></v-list-item>
+              </router-link>
+            </div>
+          </v-list-group>
         </router-link>
 
         <v-divider></v-divider>
 
         <router-link to="/Lien-he" style="text-decoration: none; color: inherit;">
-          <v-list-item link title="LIÊN HỆ"></v-list-item>
+          <v-list-item link title="LIÊN THỆ"></v-list-item>
         </router-link>
 
-        <v-divider></v-divider>
-
-        <router-link to="/Thue-may" style="text-decoration: none; color: inherit;">
-          <v-list-item link title="THUÊ MÁY"></v-list-item>
-        </router-link>
       </v-list>
     </v-navigation-drawer>
   </vContainer>
@@ -120,16 +102,17 @@ export default {
     return {
       drawer: null,
       items: [
-        { text: "Men", icon: "mdi-folder" },
-        { text: "Women", icon: "mdi-account-multiple" },
-        { text: "Kids", icon: "mdi-star" },
-        { text: "Accessory", icon: "mdi-history" },
+        { title: "MÁY IN DATE", router: "/Danh-sach-may-in" },
+        { title: "LINH KIỆN", router: "/Danh-sach-linh-kien" },
+        { title: "NGUYÊN LIỆU", router: "/Danh-sach-nguyen-lieu" },
       ],
-      items: [
-        { title: "Máy in CIJ" },
-        { title: "Linh kiện" },
-        { title: "Nguyên iệu" },
-      ],
+      list: [
+        { title: "TRANG CHỦ", router: "/" },
+        { title: "GIỚI THIỆU", router: "/Gioi-thieu" },
+        { title: "SẢN PHẨM", router: "/San-pham" },
+        { title: "LIÊN HỆ", router: "/Lien-he" },
+        { title: "THUÊ MÁY", router: "/Thue-may" }
+      ]
     };
   },
 };
