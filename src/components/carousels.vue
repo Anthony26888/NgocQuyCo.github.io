@@ -1,6 +1,6 @@
 <template>
   <v-carousel show-arrows="hover" cycle hide-delimiters width="400" class="animate__animated animate__backInLeft slide">
-    <v-carousel-item v-for="item in store.products" :key="item">
+    <v-carousel-item v-for="item in store.CIJ" :key="item">
       <router-link to="/Thong-tin-san-pham">
         <v-img :src="item.img" class="align-center mt-3" @click="store.GetDetail(item.id)"></v-img>
       </router-link>
