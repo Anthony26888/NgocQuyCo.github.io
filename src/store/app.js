@@ -1,15 +1,11 @@
 // Utilities
 import { defineStore } from 'pinia'
 import products from "@/api/product.json"
-import accessory from "@/api/accessory.json"
-import ink from "@/api/Ink.json"
 import { useLocalStorage } from "@vueuse/core"
 export const useAppStore = defineStore('app', {
   state: () => {
     return {
-      products,    
-      accessory,   
-      ink,
+      products, 
       Info:useLocalStorage("Info", []),  
       filter:null,
       filterInk:null
