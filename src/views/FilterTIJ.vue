@@ -1,6 +1,6 @@
 <template>
     <vContainer>
-        <v-breadcrumbs :items="['Trang chủ', 'Sản Phẩm', 'Máy in date']"></v-breadcrumbs>
+        <v-breadcrumbs :items="['Trang chủ', 'Sản Phẩm', 'Máy in date thùng']"></v-breadcrumbs>
         <v-app>
             <List />
         </v-app>
@@ -9,7 +9,7 @@
   
 <script setup>
 
-import List from "@/components/FilterMachine";
+import List from "@/components/FilterTIJ";
 </script>
 <script>
 export default {

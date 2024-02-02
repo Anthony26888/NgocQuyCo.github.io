@@ -60,7 +60,7 @@ export default defineComponent({
         snapAlign: 'center',
       },
       1920: {
-        itemsToShow: 6,
+        itemsToShow: 5,
         snapAlign: 'center',
       }
     },
@@ -187,12 +187,12 @@ h2 {
 
 @media only screen and (min-width: 1920px) {
   .card {
-    max-width: 280px;
-    height: 370px
+    max-width: 330px;
+    height: 420px
   }
 
   .img {
-    width: 280px;
+    width: 330px;
 
   }
 

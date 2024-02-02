@@ -16,6 +16,7 @@
         <a href="tel:+84918504086" class="ms-2"><h4>0918504086</h4></a>
         <span class="text-muted ms-2">hoặc</span>
         <a href="tel:+84903062501" class="ms-2"><h4>0903062501</h4></a>
+        <span class="text-muted ms-2">(Mr.Hải)</span>
       </div>
     </v-card-text>
   </v-card>

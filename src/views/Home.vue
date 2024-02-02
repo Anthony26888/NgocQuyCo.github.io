@@ -27,7 +27,7 @@
       <v-toolbar density="comfortable" class="bg-amber-lighten-3 mt-5">
         <h2 class="text-teal-darken-1 p-3 text-center mt-2">MÁY IN DATE THÙNG</h2>
         <VSpacer />
-        <router-link to="/Danh-sach-may-in" style="text-decoration: none; color: inherit">
+        <router-link to="/Danh-sach-may-in-thung" style="text-decoration: none; color: inherit">
           <v-btn class="bg-teal-darken-1 me-3">
             <strong class="mx-auto">Xem thêm >></strong>
           </v-btn>
