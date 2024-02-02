@@ -104,6 +104,7 @@ export default {
         { title: "MÁY IN DATE", router: "/Danh-sach-may-in" },
         { title: "LINH KIỆN", router: "/Danh-sach-linh-kien" },
         { title: "NGUYÊN LIỆU", router: "/Danh-sach-nguyen-lieu" },
+        { title: "THUÊ MÁY", router: "/Thue-may" },
       ]
     };
   },
