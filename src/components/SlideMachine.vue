@@ -1,20 +1,9 @@
 <template>
-  <v-toolbar density="comfortable" class="bg-amber-lighten-3 mt-5">
-    <h2 class="text-teal-darken-1 p-3 text-center mt-2">MÁY IN DATE</h2>
-    <VSpacer />
-    <router-link to="/Danh-sach-may-in" style="text-decoration: none; color: inherit">
-      <v-btn class="bg-teal-darken-1 me-3">
-        <strong class="mx-auto">Xem thêm >></strong>
-      </v-btn>
-    </router-link>
-  </v-toolbar>
-
-
   <Carousel v-bind="settings" :breakpoints="breakpoints" class="mt-3">
-    <Slide v-for="value in store.products" :key="value">
+    <Slide v-for="value in store.CIJ" :key="value">
       <router-link to="/Thong-tin-san-pham" style="text-decoration: none; color: inherit;">
         <v-card class="bg-grey-lighten-4 card animate__animated animate__flipInX">
-          <v-img class="img" :src="value.img" @click="store.GetMachine(value.id)"></v-img>
+          <v-img class="img" :src="value.img" @click="store.GetDetail(value.id)"></v-img>
           <v-card-text>
             <h5 class="title-name">{{ value.name }}</h5>
             <h6 class="text-red-lighten-1 title-price">Giá: Liên hệ</h6>
@@ -51,7 +40,7 @@ export default defineComponent({
     // carousel settings
     settings: {
       itemsToShow: 2,
-      snapAlign: 'start',
+      snapAlign: 'center',
     },
     // breakpoints are mobile first
     // any settings not specified will fallback to the carousel settings
@@ -71,7 +60,7 @@ export default defineComponent({
         snapAlign: 'center',
       },
       1920: {
-        itemsToShow: 7,
+        itemsToShow: 6,
         snapAlign: 'center',
       }
     },
@@ -198,12 +187,12 @@ h2 {
 
 @media only screen and (min-width: 1920px) {
   .card {
-    max-width: 240px;
-    height: 350px
+    max-width: 280px;
+    height: 370px
   }
 
   .img {
-    width: 240px;
+    width: 280px;
 
   }
 

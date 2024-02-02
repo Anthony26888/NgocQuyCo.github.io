@@ -1,5 +1,5 @@
 <template lang="">
-  <v-card class="card p-3" variant="flat">
+  <v-card class="card p-3 animate__animated animate__backInRight animate__delay-0.5s" variant="flat">
     <v-card-item class="">
       <h1 class="text-teal-accent-4">{{ Info.name }}</h1>
 
@@ -12,9 +12,10 @@
       <span>{{ Info.description }}</span>
       <VSpacer />      
       <div class="mt-5 d-flex">
-        <h4 class="text-red">Liên hệ ngay: </h4>
-        <a href="tel:+" class="ms-2"><h4>0918504086</h4></a>
-        <h4 class="ms-2">Mr.Hải</h4>
+        <h4 class="text-red">LIÊN HỆ: </h4>
+        <a href="tel:+84918504086" class="ms-2"><h4>0918504086</h4></a>
+        <span class="text-muted ms-2">hoặc</span>
+        <a href="tel:+84903062501" class="ms-2"><h4>0903062501</h4></a>
       </div>
     </v-card-text>
   </v-card>

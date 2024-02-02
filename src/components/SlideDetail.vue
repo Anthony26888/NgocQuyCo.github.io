@@ -1,13 +1,13 @@
 <template lang="">
   <v-window v-model="onboarding" v-if="Info.slide == 'true'">
     <v-window-item v-for="n in Info.imgDetail" :key="`card-${n}`" :value="n">
-      <v-card height="400" class="d-flex justify-center align-center">
+      <v-card height="400" class="d-flex justify-center align-center animate__animated animate__bounceInDown animate__delay-0.25s">
         <v-img :src="n"></v-img>
       </v-card>
     </v-window-item>
   </v-window>
 
-  <v-card-actions class="justify-center"  v-if="Info.slide == 'true'">
+  <v-card-actions class="justify-center animate__animated animate__bounceInUp animate__delay-1s"  v-if="Info.slide == 'true'">
     <v-item-group v-model="onboarding" class="text-center" mandatory>
       <v-item
         v-for="n in Info.imgDetail"

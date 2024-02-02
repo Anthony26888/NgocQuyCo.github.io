@@ -1,6 +1,6 @@
 [
     {
-        "id":"1",
+        "id":"201",
         "name":"Mực đen - 500ml",
         "model":"Mực đen",
         "type":"500ml",
@@ -10,7 +10,7 @@
         "slide":"false"
     },
     {
-        "id":"2",
+        "id":"202",
         "name":"Mực đen - 1000ml",
         "model":"Mực đen",
         "capacity":"1000ml",
@@ -20,7 +20,7 @@
         "slide":"false"
     },
     {
-        "id":"3",
+        "id":"203",
         "name":"Mực vàng - 500ml",
         "model":"Mực vàng",
         "capacity":"500ml",
@@ -30,7 +30,7 @@
         "slide":"false"
     },
     {
-        "id":"4",
+        "id":"204",
         "name":"Mực vàng - 1000ml",
         "model":"Mực vàng",
         "capacity":"500ml",
@@ -41,7 +41,7 @@
     },
     {
         
-        "id":"5",
+        "id":"205",
         "name":"Mực trắng - 500ml",
         "model":"Mực trắng",
         "capacity":"500ml",
@@ -51,7 +51,7 @@
         "slide":"false"
     },
     {
-        "id":"6",
+        "id":"206",
         "name":"Mực trắng - 1000ml",
         "model":"Mực trắng",
         "capacity":"1000ml",
@@ -61,7 +61,7 @@
         "slide":"false"
     },
     {
-        "id":"7",
+        "id":"207",
         "name":"Mực đen máy 8900 - 500ml",
         "model":"Mực đen",
         "capacity":"500ml",
@@ -71,7 +71,7 @@
         "slide":"false"
     },
     {
-        "id":"8",
+        "id":"208",
         "name":"Dung môi máy 8900 - 1000ml",
         "model":"Dung môi",
         "capacity":"1000ml",
@@ -81,7 +81,7 @@
         "slide":"false"
     },
     {
-        "id":"9",
+        "id":"209",
         "name":"Dung môi - 1000ml",
         "model":"Dung môi",
         "capacity":"1000ml",
@@ -91,7 +91,7 @@
         "slide":"false"
     },
     {
-        "id":"10",
+        "id":"210",
         "name":"Mực và Dung môi máy 89",
         "model":"Mực và dung môi",
         "capacity":"1000ml",

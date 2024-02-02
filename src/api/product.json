@@ -1,10 +1,11 @@
 [
   {
-    "id": "1",
+    "id": "101",
+    "type": "CIJ",
     "model": "Linx",
     "name": "Máy in Linx 8900",
     "img": "https://i.ibb.co/DtrwDjY/3.png",
-    "imgDetail":[
+    "imgDetail": [
       "https://i.ibb.co/DtrwDjY/3.png",
       "https://i.ibb.co/r59LdxX/10.png",
       "https://i.ibb.co/mRqxW8b/9.png",
@@ -30,15 +31,16 @@
       "Dây đầu in dài 2m & 4m cho khách hàng lựa chọn",
       "Dễ dàng tích hợp dây chuyền sản xuất"
     ],
-    "slide":"true"
+    "slide": "true"
   },
   {
-    "id": "2",
+    "id": "102",
+    "type": "CIJ",
     "model": "Linx",
     "name": "Máy in Linx 8830",
     "img": "https://i.ibb.co/hFQF21Q/6.png",
     "description": "Linx 8830 là sản phẩm tâm huyết của chúng tôi, được thiết kế chuẩn mực, duy nhất cho thị trường Việt Nam. Chúng tôi mong rằng với Linx 8830, khách hàng sẽ dễ dàng tiếp cận công nghệ in phun tiên tiến Châu Âu với giá thành Việt Nam",
-    "imgDetail":[
+    "imgDetail": [
       "https://i.ibb.co/hFQF21Q/6.png",
       "https://i.ibb.co/r59LdxX/10.png",
       "https://i.ibb.co/yqSdjvg/8.png",
@@ -62,14 +64,15 @@
       "Dây đầu in dài 2m & 4m cho khách hàng lựa chọn",
       "Dễ dàng tích hợp dây chuyền sản xuất"
     ],
-    "slide":"true"
+    "slide": "true"
   },
   {
-    "id": "3",
+    "id": "103",
+    "type": "CIJ",
     "model": "Linx",
     "name": "Máy in Linx 7900",
     "img": "https://i.ibb.co/4dLBWcn/5.png",
-    "imgDetail":[
+    "imgDetail": [
       "https://i.ibb.co/4dLBWcn/5.png",
       "https://i.ibb.co/zJB9mvz/4.png",
       "https://i.ibb.co/L6SLkGb/7.png",
@@ -93,25 +96,25 @@
       "Tiêu chuẩn IP55, IP65 (7900 Spectrum)",
       "Gọn nhẹ chỉ 21kg"
     ],
-    "slide":"true"
+    "slide": "true"
   },
   {
-    "id": "4",
+    "id": "104",
+    "type": "CIJ",
     "model": "Linx",
     "name": "Máy in Linx 7300",
     "img": "https://i.ibb.co/FnyrhmB/1.png",
-    "imgDetail":[
+    "imgDetail": [
       "https://i.ibb.co/FnyrhmB/1.png",
       "https://i.ibb.co/Z1ZKH9V/5.png",
       "https://i.ibb.co/L6SLkGb/7.png",
-      "https://i.ibb.co/s3Qt3Vd/6.png"      
+      "https://i.ibb.co/s3Qt3Vd/6.png"
     ],
     "description": "Dòng máy in phun hạn sử dụng Linx 7300 có đầy đủ các yếu tố cấu thành của 1 máy in date hiện đại, kết cấu gọn nhẹ, có độ tiết kiệm về chi phí đầu tư và cũng như khấu hao trong quá trình vận hành sản xuất. Máy được kết cấu từ các thiết bị cấu thành với tuổi thọ cao, tiêu chuẩn Anh Quốc và quốc tế – máy hạn chế tối đa phát sinh lỗi vặt – tiết kiệm chi phí bảo trì, sửa chữa trong quá trình vận hành.",
     "feature": [
       "Tốc độ in: tối đa là 8.41m/s (in 1 dòng)",
       "Độ cao chữ: từ 1.1-12mm",
       "In tới 5 dòng văn bản, đồ họa, logo, mã vạch, in 3 dòng, in ma trận thông tin 2D, in nghịch đảo cho các dòng in đối xứng"
-      
     ],
     "tech": [
       "Giao diện người sử dụng bằng màn hình màu rất dễ sử dụng",
@@ -125,19 +128,19 @@
       "Trọng lượng 21kg",
       "Thiết lập giao diện người sử dụng, với sự lựa chọn hệ thống điều khiển từ xa."
     ],
-    "slide":"true"
+    "slide": "true"
   },
   {
-    "id": "5",
+    "id": "105",
+    "type": "CIJ",
     "model": "Linx",
     "name": "Máy in Linx 5900",
     "img": "https://i.ibb.co/r01c1R9/2.png",
-    "imgDetail":[
+    "imgDetail": [
       "https://i.ibb.co/r01c1R9/2.png",
       "https://i.ibb.co/3Y0V9NS/3.png",
       "https://i.ibb.co/L6SLkGb/7.png",
       "https://i.ibb.co/s3Qt3Vd/6.png"
-      
     ],
     "description": "Máy in phun công nghiệp Linx 5900 là dòng máy chuyên dụng và phổ thông của Linx. Đảm bảo tính hiệu quả in luôn tốt nhất với chi phí vận hành thấp nhất.",
     "feature": [
@@ -161,17 +164,18 @@
       "Không yêu cầu khí nén",
       "Nút khởi động và tắt máy đơn giản"
     ],
-    "slide":"true"
-  },  
+    "slide": "true"
+  },
   {
-    "id": "6",
+    "id": "106",
+    "type": "CIJ",
     "model": "Linx",
     "name": "Máy in Linx 4900",
     "img": "https://i.ibb.co/K64xx49/4.png",
-    "imgDetail":[
+    "imgDetail": [
       "https://i.ibb.co/K64xx49/4.png",
       "https://i.ibb.co/wwM492D/2.png",
-      "https://i.ibb.co/s3Qt3Vd/6.png"      
+      "https://i.ibb.co/s3Qt3Vd/6.png"
     ],
     "description": "Dòng máy in phun hạn sử dụng Linx 4900 có đầy đủ các yếu tố cấu thành của 1 máy in date hiện đại, kết cấu gọn nhẹ, có độ tiết kiệm về chi phí đầu tư và cũng như khấu hao trong quá trình vận hành sản xuất. Máy được kết cấu từ các thiết bị cấu thành với tuổi thọ cao, tiêu chuẩn Anh Quốc và quốc tế – máy hạn chế tối đa phát sinh lỗi vặt – tiết kiệm chi phí bảo trì, sửa chữa trong quá trình vận hành.",
     "feature": [
@@ -194,14 +198,15 @@
       "Trọng lượng 20 kg",
       "Thiết lập giao diện người sử dụng, với sự lựa chọn hệ thống điều khiển từ xa."
     ],
-    "slide":"true"
-  },
+    "slide": "true"
+  },  
   {
-    "id": "7",
+    "id": "107",
+    "type": "TIJ",
     "model": "TIJ INKJET",
     "name": "Máy in TIJ VT180",
     "img": "https://i.ibb.co/VvD7tzZ/vt180.jpg",
-    "imgDetail":[
+    "imgDetail": [
       "https://i.ibb.co/VvD7tzZ/vt180.jpg",
       "https://i.ibb.co/YfqYpn8/vt180-1.webp",
       "https://i.ibb.co/jMpQxz9/vt180-2.webp",
@@ -228,6 +233,371 @@
       "Nhiệt độ môi trường từ 0-40 độ, độ ẩm 10-80%",
       "Hỗ trợ lên tới 10 ngôn ngữ."
     ],
-    "slide":"true"
+    "slide": "true"
+  },
+
+
+
+
+
+
+
+
+  {
+    "id": "1",
+    "type":"accessory",
+    "name": "Bộ lọc chính Linx",
+    "model": "Lọc",
+    "img": "https://i.ibb.co/t8Lb9fC/4.png",
+    "imgDetail": "https://i.ibb.co/t8Lb9fC/4.png",
+    "description": "Sử dụng tương thích cho máy in Linx 4900, 5900",
+    "slide": "false"
+  },
+  {
+    "id": "2",
+    "type":"accessory",
+    "name": "Lọc mực Linx",
+    "model": "Lọc",
+    "img": "https://i.ibb.co/JQBSwdy/2.png",
+    "imgDetail": "https://i.ibb.co/JQBSwdy/2.png",
+    "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7900",
+    "slide": "false"
+  },
+  {
+    "id": "3",
+    "type":"accessory",
+    "name": "Lọc dung môi Linx",
+    "model": "Lọc",
+    "img": "https://i.ibb.co/99NTPmG/8.png",
+    "imgDetail": "https://i.ibb.co/99NTPmG/8.png",
+    "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7900",
+    "slide": "false"
+  },
+  {
+    "id": "24",
+    "type":"accessory",
+    "name": "Lọc 3 nhánh Linx",
+    "model": "Lọc",
+    "img": "https://i.ibb.co/ngpVtj0/1.png",
+    "imgDetail": "https://i.ibb.co/ngpVtj0/1.png",
+    "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7900",
+    "slide": "false"
+  },
+  {
+    "id": "4",
+    "type":"accessory",
+    "name": "Damper Linx",
+    "model": "Lọc",
+    "img": "https://i.ibb.co/J7vCwnv/3.png",
+    "imgDetail": "https://i.ibb.co/J7vCwnv/3.png",
+    "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7900",
+    "slide": "false"
+  },
+  {
+    "id": "5",
+    "type":"accessory",
+    "name": "Van 3 chiều Linx",
+    "model": "Van",
+    "img": "https://i.ibb.co/8cwJcBz/10.png",
+    "imgDetail": "https://i.ibb.co/8cwJcBz/10.png",
+    "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7900",
+    "slide": "false"
+  },
+  {
+    "id": "6",
+    "type":"accessory",
+    "name": "Mặt bàn phím Linx 4900",
+    "model": "Bàn phím",
+    "img": "https://i.ibb.co/WKkw36d/6.png",
+    "imgDetail": "https://i.ibb.co/WKkw36d/6.png",
+    "description": "Sử dụng tương thích cho máy in Linx 4900",
+    "slide": "false"
+  },
+  {
+    "id": "7",
+    "type":"accessory",
+    "name": "Mặt bàn phím Linx 5900",
+    "model": "Bàn phím",
+    "img": "https://i.ibb.co/mT1R1ss/5.png",
+    "imgDetail": "https://i.ibb.co/mT1R1ss/5.png",
+    "description": "Sử dụng tương thích cho máy in Linx 5900",
+    "slide": "false"
+  },
+  {
+    "id": "8",
+    "type":"accessory",
+    "name": "Board nguồn Linx",
+    "model": "Board",
+    "img": "https://i.ibb.co/G0H2Jxt/7.png",
+    "imgDetail": "https://i.ibb.co/G0H2Jxt/7.png",
+    "description": "Sử dụng tương thích cho máy in Linx 5900",
+    "slide": "false"
+  },
+  {
+    "id": "9",
+    "type":"accessory",
+    "name": "Mainifold Linx",
+    "model": "Khác",
+    "img": "https://i.ibb.co/MDm8XmP/9.png",
+    "imgDetail": "https://i.ibb.co/MDm8XmP/9.png",
+    "description": "Sử dụng tương thích cho máy in Linx 4900 5900 5900",
+    "slide": "false"
+  },
+  {
+    "id": "10",
+    "type":"accessory",
+    "name": "Mặt bàn phím Linx 7900",
+    "model": "Bàn phím",
+    "img": "https://i.ibb.co/zSb0G68/banphim79.png",
+    "imgDetail": "https://i.ibb.co/zSb0G68/banphim79.png",
+    "description": "Sử dụng tương thích cho máy in Linx 7900",
+    "slide": "false"
+  },
+  {
+    "id": "11",
+    "type":"accessory",
+    "name": "Pin Cmos",
+    "model": "Khác",
+    "img": "https://i.ibb.co/4sDxGfV/pin59.png",
+    "imgDetail": "https://i.ibb.co/4sDxGfV/pin59.png",
+    "description": "Sử dụng tương thích cho máy in Linx 4900 5900 7900",
+    "slide": "false"
+  },
+  {
+    "id": "12",
+    "type":"accessory",
+    "name": "Màn hình Linx 5900",
+    "model": "Màn hình",
+    "img": "https://i.ibb.co/Jt0TVHZ/manhinh59.png",
+    "imgDetail": "https://i.ibb.co/Jt0TVHZ/manhinh59.png",
+    "description": "Sử dụng tương thích cho máy in Linx 5900",
+    "slide": "false"
+  },
+  {
+    "id": "13",
+    "type":"accessory",
+    "name": "Bơm Linx",
+    "model": "Bơm",
+    "img": "https://i.ibb.co/KbqX2Ck/bom.png",
+    "imgDetail": "https://i.ibb.co/KbqX2Ck/bom.png",
+    "description": "Sử dụng tương thích cho máy in Linx 4900 5900 7900",
+    "slide": "false"
+  },
+  {
+    "id": "14",
+    "type":"accessory",
+    "name": "Damper Linx 7900",
+    "model": "Lọc",
+    "img": "https://i.ibb.co/4VjdDH7/damper79.png",
+    "imgDetail": "https://i.ibb.co/4VjdDH7/damper79.png",
+    "description": "Sử dụng tương thích cho máy in Linx 5900 7900",
+    "slide": "false"
+  },
+  {
+    "id": "15",
+    "type":"accessory",
+    "name": "Board chính Linx 5900 7900",
+    "model": "Board",
+    "img": "https://i.ibb.co/6Ph7dJk/board59.png",
+    "imgDetail": "https://i.ibb.co/6Ph7dJk/board59.png",
+    "description": "Sử dụng tương thích cho máy in Linx 5900 7900",
+    "slide": "false"
+  },
+  {
+    "id": "16",
+    "type":"accessory",
+    "name": "Lọc chính Linx 89xx",
+    "model": "Lọc",
+    "img": "https://i.ibb.co/51zwFKD/loc89.png",
+    "imgDetail": "https://i.ibb.co/51zwFKD/loc89.png",
+    "description": "Sử dụng tương thích cho máy in Linx 88xx 89xx",
+    "slide": "false"
+  },
+  {
+    "id": "17",
+    "type":"accessory",
+    "name": "Board cao áp Linx",
+    "model": "Board",
+    "img": "https://i.ibb.co/qgxXn4H/boardcaoap.png",
+    "imgDetail": "https://i.ibb.co/qgxXn4H/boardcaoap.png",
+    "description": "Sử dụng tương thích cho máy in Linx 4900 5900 7900",
+    "slide": "false"
+  },
+  {
+    "id": "18",
+    "type":"accessory",
+    "name": "Nắp đầu in Linx",
+    "model": "Khác",
+    "img": "https://i.ibb.co/Qrs1MDT/napdauin59.png",
+    "imgDetail": "https://i.ibb.co/Qrs1MDT/napdauin59.png",
+    "description": "Sử dụng tương thích cho máy in Linx 4900 5900 7900",
+    "slide": "false"
+  },
+  {
+    "id": "19",
+    "type":"accessory",
+    "name": "Màn hình 89xx",
+    "model": "Màn hình",
+    "img": "https://i.ibb.co/1Zy9Nsx/manhinh89.png",
+    "imgDetail": "https://i.ibb.co/1Zy9Nsx/manhinh89.png",
+    "description": "Sử dụng tương thích cho máy in Linx 89xx",
+    "slide": "false"
+  },
+  {
+    "id": "20",
+    "type":"accessory",
+    "name": "Béc phun 88xx 89xx",
+    "model": "Khác",
+    "img": "https://i.ibb.co/1MB2jVG/bec89.png",
+    "imgDetail": "https://i.ibb.co/1MB2jVG/bec89.png",
+    "description": "Sử dụng tương thích cho máy in Linx 88xx 89xx",
+    "slide": "false"
+  },
+  {
+    "id": "21",
+    "type":"accessory",
+    "name": "Board chính 88xx 89xx",
+    "model": "Board",
+    "img": "https://i.ibb.co/LhbdmK2/board79.png",
+    "imgDetail": "https://i.ibb.co/LhbdmK2/board79.png",
+    "description": "Sử dụng tương thích cho máy in Linx 88xx 89xx",
+    "slide": "false"
+  },
+  {
+    "id": "22",
+    "type":"accessory",
+    "name": "Bộ lọc chính Spectrum",
+    "model": "Lọc",
+    "img": "https://i.ibb.co/khF7N7m/locspectrum.png",
+    "imgDetail": "https://i.ibb.co/khF7N7m/locspectrum.png",
+    "description": "Sử dụng tương thích cho máy in Linx 7900 Spectrum",
+    "slide": "false"
+  },
+  {
+    "id": "23",
+    "type":"accessory",
+    "name": "Màn hình 4900",
+    "model": "Màn hình",
+    "img": "https://i.ibb.co/YPfCWsb/manhinh49.png",
+    "imgDetail": "https://i.ibb.co/YPfCWsb/manhinh49.png",
+    "description": "Sử dụng tương thích cho máy in Linx 4900",
+    "slide": "false"
+  },
+
+
+
+
+
+
+
+  {
+    "id": "201",
+    "type":"ink",
+    "name": "Mực đen - 500ml",
+    "model": "Mực đen",
+    "capacity": "500ml",
+    "img": "https://i.ibb.co/1qTW6p6/1014-500-59.jpg",
+    "imgDetail": "https://i.ibb.co/1qTW6p6/1014-500-59.jpg",
+    "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7300, 7900",
+    "slide": "false"
+  },
+  {
+    "id": "202",
+    "type":"ink",
+    "name": "Mực đen - 1000ml",
+    "model": "Mực đen",
+    "capacity": "1000ml",
+    "img": "https://i.ibb.co/dbvy6xG/1014-1000-59.jpg",
+    "imgDetail": "https://i.ibb.co/dbvy6xG/1014-1000-59.jpg",
+    "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7300, 7900",
+    "slide": "false"
+  },
+  {
+    "id": "203",
+    "type":"ink",
+    "name": "Mực vàng - 500ml",
+    "model": "Mực vàng",
+    "capacity": "500ml",
+    "img": "https://i.ibb.co/wcc6wzK/1039-500-59.jpg",
+    "imgDetail": "https://i.ibb.co/wcc6wzK/1039-500-59.jpg",
+    "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7300, 7900",
+    "slide": "false"
+  },
+  {
+    "id": "204",
+    "type":"ink",
+    "name": "Mực vàng - 1000ml",
+    "model": "Mực vàng",
+    "capacity": "500ml",
+    "img": "https://i.ibb.co/4dfSdG0/1039-1000-59.jpg",
+    "imgDetail": "https://i.ibb.co/4dfSdG0/1039-1000-59.jpg",
+    "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7300, 7900",
+    "slide": "false"
+  },
+  {
+    "id": "205",
+    "type":"ink",
+    "name": "Mực trắng - 500ml",
+    "model": "Mực trắng",
+    "capacity": "500ml",
+    "img": "https://i.ibb.co/7RYPWy9/1059-500-59.jpg",
+    "imgDetail": "https://i.ibb.co/7RYPWy9/1059-500-59.jpg",
+    "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7300, 7900",
+    "slide": "false"
+  },
+  {
+    "id": "206",
+    "type":"ink",
+    "name": "Mực trắng - 1000ml",
+    "model": "Mực trắng",
+    "capacity": "1000ml",
+    "img": "https://i.ibb.co/M5Z2Fpn/1059-100-59.jpg",
+    "imgDetail": "https://i.ibb.co/M5Z2Fpn/1059-100-59.jpg",
+    "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7300, 7900",
+    "slide": "false"
+  },
+  {
+    "id": "207",
+    "type":"ink",
+    "name": "Mực đen máy 8900 - 500ml",
+    "model": "Mực đen",
+    "capacity": "500ml",
+    "img": "https://i.ibb.co/Gsf2w5H/1014-89.jpg",
+    "imgDetail": "https://i.ibb.co/Gsf2w5H/1014-89.jpg",
+    "description": "Sử dụng tương thích cho máy in Linx 8800, 8900",
+    "slide": "false"
+  },
+  {
+    "id": "208",
+    "type":"ink",
+    "name": "Dung môi máy 8900 - 1000ml",
+    "model": "Dung môi",
+    "capacity": "1000ml",
+    "img": "https://i.ibb.co/F7f1mb2/1505-89.jpg",
+    "imgDetail": "https://i.ibb.co/F7f1mb2/1505-89.jpg",
+    "description": "Sử dụng tương thích cho máy in Linx 8800, 8900",
+    "slide": "false"
+  },
+  {
+    "id": "209",
+    "type":"ink",
+    "name": "Dung môi - 1000ml",
+    "model": "Dung môi",
+    "capacity": "1000ml",
+    "img": "https://i.ibb.co/s2gk6vW/1505-500-59.jpg",
+    "imgDetail": "https://i.ibb.co/s2gk6vW/1505-500-59.jpg",
+    "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7300, 7900",
+    "slide": "false"
+  },
+  {
+    "id": "210",
+    "type":"ink",
+    "name": "Mực và Dung môi máy 8900",
+    "model": "Mực và dung môi",
+    "capacity": "1000ml",
+    "img": "https://i.ibb.co/6YkJCVb/combo-1014-89.jpg",
+    "imgDetail": "https://i.ibb.co/6YkJCVb/combo-1014-89.jpg",
+    "description": "Sử dụng tương thích cho máy in Linx 4900 5900 5900",
+    "slide": "false"
   }
 ]

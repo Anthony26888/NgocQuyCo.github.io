@@ -23,7 +23,7 @@
           <template v-slot:activator="{ props }">
             <router-link to="/San-pham" style="text-decoration: none; color: inherit;">
               <v-btn v-bind="props" class="title-app"> SẢN PHẨM </v-btn>
-            </router-link>            
+            </router-link>
           </template>
 
           <v-list width="300">
@@ -53,19 +53,17 @@
 
         <v-divider></v-divider>
 
-        <router-link to="/San-pham" style="text-decoration: none; color: inherit;">
-          <v-list-group value="Actions">
-            <template v-slot:activator="{ props }">
-              <v-list-item v-bind="props" title="SẢN PHẨM"></v-list-item>
-            </template>
+        <v-list-group value="Actions">
+          <template v-slot:activator="{ props }">
+            <v-list-item v-bind="props" title="SẢN PHẨM"></v-list-item>
+          </template>
 
-            <div v-for="value in items" :key="value">
-              <router-link :to="value.router" style="text-decoration: none; color: inherit;">
-                <v-list-item link :title="value.title"></v-list-item>
-              </router-link>
-            </div>
-          </v-list-group>
-        </router-link>
+          <div v-for="value in items" :key="value">
+            <router-link :to="value.router" style="text-decoration: none; color: inherit;">
+              <v-list-item link :title="value.title"></v-list-item>
+            </router-link>
+          </div>
+        </v-list-group>
 
         <v-divider></v-divider>
 
@@ -102,16 +100,10 @@ export default {
     return {
       drawer: null,
       items: [
+        { title: "TẤT CẢ SẢN PHẨM", router: "/San-pham" },
         { title: "MÁY IN DATE", router: "/Danh-sach-may-in" },
         { title: "LINH KIỆN", router: "/Danh-sach-linh-kien" },
         { title: "NGUYÊN LIỆU", router: "/Danh-sach-nguyen-lieu" },
-      ],
-      list: [
-        { title: "TRANG CHỦ", router: "/" },
-        { title: "GIỚI THIỆU", router: "/Gioi-thieu" },
-        { title: "SẢN PHẨM", router: "/San-pham" },
-        { title: "LIÊN HỆ", router: "/Lien-he" },
-        { title: "THUÊ MÁY", router: "/Thue-may" }
       ]
     };
   },

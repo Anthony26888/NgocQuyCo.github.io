@@ -1,8 +1,8 @@
 <template>
   <Carousel v-bind="settings" :breakpoints="breakpoints" class="mt-3">
-    <Slide v-for="value in store.Ink.slice(0,10)" :key="value">
+    <Slide v-for="value in store.TIJ" :key="value">
       <router-link to="/Thong-tin-san-pham" style="text-decoration: none; color: inherit;">
-        <v-card class="bg-grey-lighten-4 card animate__flipInX">
+        <v-card class="bg-grey-lighten-4 card animate__animated animate__flipInX">
           <v-img class="img" :src="value.img" @click="store.GetDetail(value.id)"></v-img>
           <v-card-text>
             <h5 class="title-name">{{ value.name }}</h5>
@@ -14,7 +14,7 @@
     <template #addons>
       <Navigation />
     </template>
-  </Carousel>  
+  </Carousel>
 </template>
 
 <script setup>
@@ -48,20 +48,20 @@ export default defineComponent({
       // 700px and up
       700: {
         itemsToShow: 3,
-        snapAlign: 'center',
+        snapAlign: 'start',
       },
       // 1024 and up
       1024: {
         itemsToShow: 3,
-        snapAlign: 'center',
+        snapAlign: 'start',
       },
       1280: {
         itemsToShow: 5,
-        snapAlign: 'center',
+        snapAlign: 'start',
       },
       1920: {
         itemsToShow: 6,
-        snapAlign: 'center',
+        snapAlign: 'start',
       }
     },
   }),
@@ -71,6 +71,7 @@ export default defineComponent({
 h2 {
   font-weight: 700;
 }
+
 
 
 @media only screen and (min-width: 300px) {
@@ -91,10 +92,6 @@ h2 {
     font-size: 12px;
   }
 
-  .title-slide {
-    font-size: 20px;
-    width: 220px
-  }
 }
 
 @media only screen and (min-width: 400px) {
@@ -119,7 +116,7 @@ h2 {
 @media only screen and (min-width: 700px) {
   .card {
     max-width: 230px;
-    height: 300px;
+    height: 300px
   }
 
   .img {
@@ -206,4 +203,5 @@ h2 {
   .title-price {
     font-size: 18px;
   }
-}</style>
+}
+</style>

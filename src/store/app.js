@@ -16,26 +16,42 @@ export const useAppStore = defineStore('app', {
     }
   }, 
   getters:{   
+    CIJ(){
+      return this.products.filter(value => value.type == 'CIJ')
+    },
+
+    TIJ(){
+      return this.products.filter(value => value.type == 'TIJ')
+    },
+
+    Accessory(){
+      return this.products.filter(value => value.type == 'accessory')
+    },
+
+    Ink(){
+      return this.products.filter(value => value.type == 'ink')
+    },
+
     FilterAccessory(){   
       if(this.filter == null){
-        return this.accessory
+        return this.products.filter(value => value.type == 'accessory')
       }
       if(this.filter == "Tất cả"){
-        return this.accessory
+        return this.products.filter(value => value.type == 'accessory')
       }
 
-      return this.accessory.filter(value => value.model== this.filter)
+      return this.products.filter(value => value.model== this.filter)
       
     },
     FilterInk(){   
       if(this.filterInk == null){
-        return this.ink
+        return this.products.filter(value => value.type == 'ink')
       }
       if(this.filterInk == "Tất cả"){
-        return this.ink
+        return this.products.filter(value => value.type == 'ink')
       }
 
-      return this.ink.filter(value => value.model== this.filterInk)
+      return this.products.filter(value => value.model== this.filterInk)
       
     }
   },
@@ -46,14 +62,8 @@ export const useAppStore = defineStore('app', {
     GetFilterInk(title){
       this.filterInk = title
     },
-    GetMachine(id){
+    GetDetail(id){
       this.Info = this.products.find(value => value.id === id)      
-    },
-    GetAccessory(id){
-      this.Info = this.accessory.find(value => value.id === id)
-    },
-    GetInk(id){
-      this.Info = this.ink.find(value => value.id === id)
     }
   }
 })

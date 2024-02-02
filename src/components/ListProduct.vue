@@ -1,6 +1,6 @@
 <template lang="">
   <div v-for="item in items" :key="item">
-    <VRow justify="center" align="center">
+    <VRow justify="center" align="center" >
       <VCol cols xs="12" md="6">
         <router-link :to="item.direction">
           <v-img
@@ -10,9 +10,9 @@
           ></v-img>
         </router-link>
       </VCol>
-      <VCol cols xs="12" md="6" class="mt-3">
+      <VCol cols xs="12" md="6" >
         <v-sheet class="animate__animated animate__backInRight">
-          <h3 class="text-teal-darken-1">{{ item.title }}</h3>
+          <h1 class="text-teal-darken-1 bold">{{ item.title }}</h1>
           <p class="text-muted">
             {{ item.description }}
           </p>
@@ -50,11 +50,15 @@ export default {
           description:
             "Chuyên cung cấp tất cả sản phẩm mực và dung môi cho máy in Linx.",
           img: "https://i.ibb.co/GpnSFtg/ink.png",
-          direction: "/",
+          direction: "/Danh-sach-nguyen-lieu",
         },
       ],
     };
   },
 };
 </script>
-<style lang=""></style>
+<style scoped>
+  .bold{
+    font-weight: 700;
+  }
+</style>
