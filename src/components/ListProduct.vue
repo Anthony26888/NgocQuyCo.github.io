@@ -36,7 +36,7 @@ export default {
           description:
             "Hệ thống Máy phun mực liên tục (CIJ) được sử dụng để in thông tin thay đổi, chẳng hạn như ngày tháng, lô hoặc mã vạch, trên các sản phẩm riêng lẻ khi chúng di chuyển dọc theo dây chuyền sản xuất, bất kể độ xốp, kích thước, hình dạng hoặc kết cấu.",
           img: "https://i.ibb.co/2WZJf3C/listproduct.png",
-          direction: "/Danh-sach-may-in",
+          direction: "/Danh-sach-may-in-date",
         },
         {
           title: "Linh kiện",

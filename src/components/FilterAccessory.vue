@@ -12,7 +12,7 @@
     <div class="d-flex flex-wrap justify-center algin-center p-3">
       <v-card class="bg-grey-lighten-4 card m-1 animate__animated animate__bounceInUp" v-for="item in store.FilterAccessory" :key="item">
         <router-link to="/Thong-tin-san-pham" style="text-decoration: none; color: inherit;">
-          <v-img class="img" :src="item.img" @click="store.GetAccessory(item.id)"></v-img>
+          <v-img class="img" :src="item.img" @click="store.GetDetail(item.id)"></v-img>
           <v-card-text>
             <h5 class="title-name text-center">{{ item.name }}</h5>
             <h6 class="text-red-lighten-1 title-price text-center">Giá: Liên hệ</h6>

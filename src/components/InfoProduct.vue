@@ -12,7 +12,7 @@
       <span>{{ Info.description }}</span>
       <VSpacer />      
       <div class="mt-5 d-flex">
-        <h4 class="text-red">LIÊN HỆ: </h4>
+        <h6 class="text-red mt-2">LIÊN HỆ: </h6>
         <a href="tel:+84918504086" class="ms-2"><h4>0918504086</h4></a>
         <span class="text-muted ms-2">hoặc</span>
         <a href="tel:+84903062501" class="ms-2"><h4>0903062501</h4></a>
