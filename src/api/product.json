@@ -267,6 +267,39 @@
     ],
     "slide": "true"
   },
+  {
+    "id": "109",
+    "type": "LAZER",
+    "model": "KingCode",
+    "name": "Máy khắc laser CO2 KingCode",
+    "img": "https://i.ibb.co/d6xgHj8/1.png",
+    "imgDetail": [    
+      "https://i.ibb.co/d6xgHj8/1.png",
+      "https://i.ibb.co/Lv7MBWF/2.png"      
+    ],
+    "description": "Máy khắc laser CO2 sử dụng công nghệ laser CO2 để quá trình khắc chính xác và chi tiết, đánh dấu, và cắt các vật liệu khác nhau. Máy khắc laser CO2 có thể được sử dụng để đánh dấu trên nhiều loại vật liệu khác nhau, bao gồm gỗ, nhựa, da, cao su, thủy tinh, kim loại mềm, giấy và nhiều vật liệu tự nhiên khác.",
+    "feature": [
+      "Tuổi thọ đầu in laser CO2 lên đến 50.000 giờ.",
+      "Máy khắc laser CO2 có tốc độ khắc nhanh và khả năng tái tạo độ chính xác cao.",
+      "Cấp độ bảo vệ IP65.",
+      "Công nghệ laser không tiêu tốn nguyên liệu, giúp tiết kiệm chi phí và thời gian bảo trì."
+    ],
+    "tech": [
+      "Hệ thống sử dụng hệ điều hành Linux, hỗ trợ cổng USB để nhập dữ liệu in ấn, hỗ trợ thời gian thực.",
+      "Thiết kế thân máy tách rời, dễ dàng lắp đặt, in xoay 360 độ, có thể điều chỉnh góc in tùy ý và thiết bị tinh chỉnh chống va chạm.",
+      "Màn hình 7 inch cảm ứng điện dung siêu rõ nét, chống nhiễu, thân máy hoàn toàn bằng nhôm.",
+      "Máy in phun nhiều đầu trực tuyến, 1-6 đầu phun có thể được sử dụng theo ý muốn.",
+      "Thân máy thon gọn, toàn bộ bằng nhôm, tản nhiệt tốt, thích hợp cho việc in ấn trong thời gian dài.",
+      "Máy vận hành đơn giản và dễ bảo trì."
+    ],
+    "special": [
+      "Kích thước: 210*110*40mm.",
+      "Cổng giao tiếp: Cổng nguồn và quang điện, cổng HDMI, cổng USB.",
+      "Nhiệt độ môi trường từ 0-40 độ, độ ẩm 10-80%",
+      "Hỗ trợ lên tới 10 ngôn ngữ."
+    ],
+    "slide": "true"
+  },
 
 
 

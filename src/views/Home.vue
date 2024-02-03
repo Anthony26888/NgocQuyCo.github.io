@@ -14,7 +14,7 @@
       <!--Printer CIJ-->
       <v-toolbar density="comfortable" class="bg-amber-lighten-3 mt-5">
         <h2 class="text-teal-darken-1 p-3 text-center mt-2">
-          MÁY IN DATE LINX
+          MÁY IN DATE
         </h2>
         <VSpacer />
         <router-link
@@ -44,6 +44,23 @@
         </router-link>
       </v-toolbar>
       <SlideTIJ />
+
+      <!--Printer Lazer-->
+      <v-toolbar density="comfortable" class="bg-amber-lighten-3 mt-5">
+        <h2 class="text-teal-darken-1 p-3 text-center mt-2">
+          MÁY KHẮC LAZER
+        </h2>
+        <VSpacer />
+        <router-link
+          to="/Danh-sach-may-in-thung"
+          style="text-decoration: none; color: inherit"
+        >
+          <v-btn class="bg-teal-darken-1 me-3">
+            <strong class="mx-auto">Xem thêm >></strong>
+          </v-btn>
+        </router-link>
+      </v-toolbar>
+      <SlideLazer />
 
       <!--Accessory-->
       <v-toolbar density="comfortable" class="bg-amber-lighten-3 mt-5">
@@ -86,7 +103,7 @@ import SlideAccessory from "@/components/SlideAccessory.vue";
 import Title from "@/components/TitleHomePage.vue";
 import SlideInk from "@/components/SlideInk.vue";
 import SlideTIJ from "@/components/SlideTIJ.vue";
-
+import SlideLazer from "@/components/SlideLazer.vue";
 </script>
 
 <style scoped>

@@ -20,6 +20,10 @@ export const useAppStore = defineStore('app', {
       return this.products.filter(value => value.type == 'TIJ')
     },
 
+    Lazer(){
+      return this.products.filter(value => value.type == 'LAZER')
+    },
+
     Accessory(){
       return this.products.filter(value => value.type == 'accessory')
     },
