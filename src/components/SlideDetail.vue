@@ -75,13 +75,13 @@ export default {
 
 @media only screen and (min-width: 700px) {
   .slide-btn {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
   }
 
   .slide {
-    width: 140px;
-    height: 140px;
+    width: 110px;
+    height: 110px;
   }
 
 }</style>

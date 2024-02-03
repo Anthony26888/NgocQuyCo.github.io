@@ -2,7 +2,7 @@
     <vContainer>
         <v-breadcrumbs :items="['Trang chủ', 'Sản Phẩm', 'Chi tiết']"></v-breadcrumbs>
         <v-app>
-            <VRow>
+            <VRow class="container mx-auto">
                 <VCol cols xs="12" md="6">
                     <Slide />
                 </VCol>

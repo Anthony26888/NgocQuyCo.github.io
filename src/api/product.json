@@ -130,6 +130,7 @@
     ],
     "slide": "true"
   },
+  
   {
     "id": "105",
     "type": "CIJ",
@@ -202,15 +203,46 @@
   },  
   {
     "id": "107",
+    "type": "CIJ",
+    "model": "Hitachi",
+    "name": "Máy in Hitachi PXR",
+    "img": "https://i.ibb.co/BZVf2x7/1.png",
+    "imgDetail": [
+      "https://i.ibb.co/BZVf2x7/1.png",
+      "https://i.ibb.co/Rh6LxWy/2.png",
+      "https://i.ibb.co/f4N5MQZ/3.png"
+    ],
+    "description": "MÁY IN PHUN DATE CODE HITACHI PXR là máy in phun liên tục không tiếp xúc với sản phẩm bằng cách phun từng giọt mực lên bề mặt cần in tạo thành các định dạng có thể đọc được (ký tự, chữ, số,..)",
+    "feature": [
+      "Vận hành dễ dàng và nhanh chóng bằng màn hình cảm ứng LCD TFT màu 10,4 inch lớn.",
+      "Nội dung bản tin: Date code, Ngày sản xuất – Hạn sử dụng, số lô, số ca, mã vạch, logo, Quy cách sản phẩm.",
+      "Chất liệu in đa dạng như: nhựa, kim loại, giấy, thủy tinh,….",
+      "In được trên mọi vị trí và bề mặt phẳng, cong, lồi, lõm, có thể in từ mọi hướng kể cả từ dưới lên."
+    ],
+    "tech": [
+      "Màn hình cảm ứng LCD TFT màu 10,4 inch lớn.",
+      "Đầu phun 65μm với vòi phun SS với vòi phun SS.",
+      "Vỏ máy 304 SS IP55 tuân thủ RoHS"      
+    ],
+    "special": [
+      "Vỏ máy làm bằng thép không rỉ",
+      "Kết cấu IP55 thích hợp đáp ứng các môi trường khắc nghiệt",
+      "Trọng lượng 25 kg",
+      "Kích thước (15.7 X 12.4 X 20.3)(mm)"
+    ],
+    "slide": "true"
+  },
+  {
+    "id": "108",
     "type": "TIJ",
     "model": "TIJ INKJET",
     "name": "Máy in TIJ VT180",
-    "img": "https://i.ibb.co/VvD7tzZ/vt180.jpg",
-    "imgDetail": [
-      "https://i.ibb.co/VvD7tzZ/vt180.jpg",
-      "https://i.ibb.co/YfqYpn8/vt180-1.webp",
-      "https://i.ibb.co/jMpQxz9/vt180-2.webp",
-      "https://i.ibb.co/P4s4ZvH/vt180-3.webp"
+    "img": "https://i.ibb.co/TBdHhkW/1.png",
+    "imgDetail": [  
+      "https://i.ibb.co/TBdHhkW/1.png",
+      "https://i.ibb.co/KqGJ5jq/2.png",
+      "https://i.ibb.co/k95rHnp/3.png",
+      "https://i.ibb.co/YywkTGB/4.png"
     ],
     "description": "Máy in date tự động TIJ VT180 là loại máy in được  kết hợp với băng tải và dây chuyền sản xuất để tối ưu hóa việc in mã code và hạn sữ dụng lên sản phẩm.",
     "feature": [

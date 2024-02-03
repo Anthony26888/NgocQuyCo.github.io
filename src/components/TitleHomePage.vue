@@ -1,8 +1,8 @@
 <template lang="">
-  <div class="d-flex flex-column justify-content-center algin-item-center text-center animate__animated animate__backInRight">
-    <span class="title-name text-teal-darken-1 ">{{ titleLarge }}</span><br/>    
-    <span class="title-collab text-deep-orange-lighten-2">{{ colab }}</span><br/> 
-    <span class="text-muted title-logan">{{ logan }}</span>    
+  <div class="sheet d-flex flex-column justify-content-center algin-item-center text-center animate__animated animate__backInRight">
+    <span class="title-name text-teal-darken-1 ">{{ titleLarge }}</span>  
+    <span class="title-collab text-deep-orange-lighten-2">{{ colab }}</span>
+    <span class="text-muted title-logan mt-2">{{ logan }}</span>    
   </div>
 </template>
 <script>
@@ -20,9 +20,12 @@ export default {
 </script>
 <style scoped>
 @media only screen and (min-width: 300px) {
+  .sheet{
+    margin-top:-100px
+  }
   .title-name {
     font-family: Inter;
-    font-size: 25px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: 62px;   
@@ -46,9 +49,12 @@ export default {
 }
 
 @media only screen and (min-width: 700px) {
+  .sheet{
+    margin-top:-30px
+  }
   .title-name {
     font-family: Inter;
-    font-size: 28px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 700;
     line-height: 62px;
@@ -74,7 +80,7 @@ export default {
 @media only screen and (min-width: 1024px) {
   .title-name {
     font-family: Inter;
-    font-size: 35px;
+    font-size: 25px;
     font-style: normal;
     font-weight: 700;
     line-height: 62px;
@@ -82,7 +88,7 @@ export default {
   }
   .title-collab {
     font-family: Inter;
-    font-size: 25px;
+    font-size: 22px;
     font-style: normal;
     font-weight: 100;
     line-height: normal;
@@ -90,10 +96,11 @@ export default {
 
   .title-logan {
     font-family: Inter;
-    font-size: 25px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 100;
     line-height: normal;
   }
 }
+
 </style>
