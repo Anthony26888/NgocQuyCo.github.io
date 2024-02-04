@@ -275,7 +275,9 @@
     "img": "https://i.ibb.co/d6xgHj8/1.png",
     "imgDetail": [    
       "https://i.ibb.co/d6xgHj8/1.png",
-      "https://i.ibb.co/Lv7MBWF/2.png"      
+      "https://i.ibb.co/x2MSSBM/Thi-t-k-ch-a-c-t-n.png",
+      "https://i.ibb.co/Lv7MBWF/2.png"
+           
     ],
     "description": "Máy khắc laser CO2 sử dụng công nghệ laser CO2 để quá trình khắc chính xác và chi tiết, đánh dấu, và cắt các vật liệu khác nhau. Máy khắc laser CO2 có thể được sử dụng để đánh dấu trên nhiều loại vật liệu khác nhau, bao gồm gỗ, nhựa, da, cao su, thủy tinh, kim loại mềm, giấy và nhiều vật liệu tự nhiên khác.",
     "feature": [
@@ -298,7 +300,31 @@
       "Nhiệt độ môi trường từ 0-40 độ, độ ẩm 10-80%",
       "Hỗ trợ lên tới 10 ngôn ngữ."
     ],
-    "slide": "true"
+    "table":[
+      {"name":"Bước sóng", "detail":"1064μm"},
+      {"name":"Lớp chất lượng", "detail":"<1.4M2"},
+      {"name":"Nguồn lazer", "detail":"15W/30W/50W"},
+      {"name":"Cách giải nhiệt", "detail":"không khí"},
+      {"name":"Vùng khắc", "detail":"110mm x 110mm / 175mm x 175mm"},
+      {"name":"Tiêu cự", "detail":"170mm"},
+      {"name":"Min - độ rộng nét chữ", "detail":"0.15mm"},
+      {"name":"Min - độ cao chữ", "detail":"0.7mm"},
+      {"name":"Tốc độ", "detail":"1 – 7.000mm/s"},
+      {"name":"Tệp hình ảnh", "detail":"BMP, PLT, AL, DXF"},
+      {"name":"Điện áp", "detail":"AC220, ±10%"},
+      {"name":"Tần số", "detail":"50Hz/60Hz"},
+      {"name":"Kích thước máy", "detail":"(4500x4500x1300)mm"},
+      {"name":"Trọng lượng", "detail":"80kg"},
+      {"name":"Nhiệt độ", "detail":"0-50C, độ ẩm 5%-95%"},
+      {"name":"Công suất", "detail":"1KW"},
+      {"name":"Cấp độ bảo vệ", "detail":"IP65"},
+      {"name":"Mức an toàn", "detail":"4"},
+      {"name":"Chỉnh lên xuống", "detail":"0-450mm"},
+      {"name":"Chỉnh tới - lùi", "detail":"0-250mm"},
+      {"name":"Hướng khắc", "detail":"0, 45, 90, 180"}
+    ],
+    "slide": "true",
+    "tableCheck":"true"
   },
 
 

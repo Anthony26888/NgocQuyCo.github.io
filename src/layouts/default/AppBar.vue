@@ -101,7 +101,7 @@ export default {
       drawer: null,
       items: [
         { title: "TẤT CẢ SẢN PHẨM", router: "/San-pham" },
-        { title: "MÁY IN DATE", router: "/Danh-sach-may-in" },
+        { title: "MÁY IN DATE", router: "/Danh-sach-may-in-date" },
         { title: "LINH KIỆN", router: "/Danh-sach-linh-kien" },
         { title: "NGUYÊN LIỆU", router: "/Danh-sach-nguyen-lieu" },
         { title: "THUÊ MÁY", router: "/Thue-may" },
