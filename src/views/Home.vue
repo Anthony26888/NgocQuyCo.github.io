@@ -52,7 +52,7 @@
         </h2>
         <VSpacer />
         <router-link
-          to="/Danh-sach-may-in-thung"
+          to="/Danh-sach-may-khac-lazer"
           style="text-decoration: none; color: inherit"
         >
           <v-btn class="bg-teal-darken-1 me-3">

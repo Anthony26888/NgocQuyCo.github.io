@@ -12,58 +12,70 @@
       "https://i.ibb.co/jZG6mXx/11.png"
     ],
     "description": "Linx 8900 hoạt động đơn giản hơn so với các dòng máy in phun thông thường khác, giúp gia tăng hiệu quả sản xuất hơn so với trước đó. Công nghệ in không tiếp xúc trực tiếp lên bề mặt sản phẩm trên hệ thống dây chuyền sản xuất.",
-    "feature": [
-      "Số dòng in: 1, 2, 3",
-      "Chiều cao ký tự: 2.1 mm đến 10.7 mm",
-      "Tốc độ in tối đa: 2.92 m/ giây (theo tiêu chuẩn in 1 dòng, với ký tự cao 5 chấm)",
-      "Tốc độ in tối đa: 1.46 m/ giây (in 2 dòng, với ký tự cao 7 chấm)",
-      "Khoảng cách từ đầu in đến sản phẩm: từ 12mm đến 20mm"
-    ],
+    
     "tech": [
       "Đầu in bền với thiết kế kín, nhằm hạn chế sự ma sát và các tác động từ yếu tố bên ngoài môi trường. Đầu in súc rửa tự đông, định kỳ chu kỳ từ 3 tháng đến 6 tháng.",
       "Màn hình điều khiển cảm ứng 10 inches, kháng nước và một số loại dung môi.",
       "Vỏ bọc tiêu chuẩn IP55 – phù hợp với môi trường dội nước.",
       "Máy có tính năng báo khi chuẩn bị hết mực hoặc dung môi. Khả năng tiếp liệu trực tiếp khi đang in, không cần ngừng dây chuyền in."
     ],
-    "special": [
-      "Màn hình cảm ứng đủ màu 7 inch có tấm che polymer chắc chắn, chống dung môi",
-      "Vỏ máy làm bằng thép không gỉ cao cấp, đáp ứng tiêu chuẩn kháng bụi nước IP55",
-      "Dây đầu in dài 2m & 4m cho khách hàng lựa chọn",
-      "Dễ dàng tích hợp dây chuyền sản xuất"
+    "table":[
+      {"name":"Thương hiệu", "detail":"LINX - Anh Quốc"},
+      {"name":"Điện áp", "detail":"220V-50Hz"},
+      {"name":"Công suất", "detail":"150W"},
+      {"name":"Kích thước đầu phun", "detail":"62- 72Micro"},
+      {"name":"Số dòng in", "detail":"tối đa 6 dòng"},
+      {"name":"Chiều cao ký tự", "detail":"1.8- 20mm"},
+      {"name":"Tốc độ in tối đa", "detail":"9.1m/ giây"},
+      {"name":"Số ký tự in tối đa", "detail":"2667 ký tự/s"},
+      {"name":"Tính năng", "detail":"in date, QR code, mã vạch, logo.,.."},
+      {"name":"Chế độ làm việc", "detail":"tự động thông qua cảm biến"},
+      {"name":"Nhiệt độ làm việc", "detail":"5-55 độ C"},
+      {"name":"Kích thước máy", "detail":"440 x 355 x 503mm"},
+      {"name":"Chất liệu máy", "detail":"inox"},
+      {"name":"Tiêu chuẩn chống bụi, ẩm", "detail":"IP55"},
+      {"name":"Trọng lượng", "detail":"24.5kg"}      
     ],
+    "tableCheck":"true",    
     "slide": "true"
   },
   {
     "id": "102",
     "type": "CIJ",
     "model": "Linx",
-    "name": "Máy in Linx 8830",
+    "name": "Máy in Linx 8800",
     "img": "https://i.ibb.co/hFQF21Q/6.png",
-    "description": "Linx 8830 là sản phẩm tâm huyết của chúng tôi, được thiết kế chuẩn mực, duy nhất cho thị trường Việt Nam. Chúng tôi mong rằng với Linx 8830, khách hàng sẽ dễ dàng tiếp cận công nghệ in phun tiên tiến Châu Âu với giá thành Việt Nam",
+    "description": "Linx 8800 là sản phẩm tâm huyết của chúng tôi, được thiết kế chuẩn mực, duy nhất cho thị trường Việt Nam. Chúng tôi mong rằng với Linx 8830, khách hàng sẽ dễ dàng tiếp cận công nghệ in phun tiên tiến Châu Âu với giá thành Việt Nam",
     "imgDetail": [
       "https://i.ibb.co/hFQF21Q/6.png",
       "https://i.ibb.co/r59LdxX/10.png",
       "https://i.ibb.co/yqSdjvg/8.png",
       "https://i.ibb.co/jZG6mXx/11.png"
-    ],
-    "feature": [
-      "In từ 3 đến 6 dòng, gồm: văn bản, ký hiệu và số, mã barcoders.",
-      "Chiều cao ký tự: 1.8mm đến 20 mm",
-      "Tốc độ in tối đa: 9.1m/ giây (theo tiêu chuẩn in 1 dòng, với ký tự cao 5 chấm)",
-      "In ký tự in đậm (lên đến 9 lần) và xoay chiều ký tự in (xoay theo góc 90 độ)"
-    ],
+    ],    
     "tech": [
       "Đầu in bền với thiết kế kín, nhằm hạn chế sự ma sát và các tác động từ yếu tố bên ngoài môi trường. Đầu in súc rửa tự đông, định kỳ chu kỳ từ 3 tháng đến 6 tháng.",
       "Màn hình điều khiển cảm ứng 10 inches, kháng nước và một số loại dung môi.",
       "Vỏ bọc tiêu chuẩn IP55 – phù hợp với môi trường dội nước.",
       "Máy có tính năng báo khi chuẩn bị hết mực hoặc dung môi. Khả năng tiếp liệu trực tiếp khi đang in, không cần ngừng dây chuyền in."
+    ],    
+    "table":[
+      {"name":"Thương hiệu", "detail":"LINX - Anh Quốc"},
+      {"name":"Điện áp", "detail":"220V-50Hz"},
+      {"name":"Công suất", "detail":"200W"},
+      {"name":"Kích thước đầu phun", "detail":"50Micro"},
+      {"name":"Số dòng in", "detail":"tối đa 6 dòng"},
+      {"name":"Chiều cao ký tự", "detail":"1.2- 4.6mm"},
+      {"name":"Tốc độ in tối đa", "detail":"9.1m/ giây"},
+      {"name":"Số ký tự in tối đa", "detail":"2667 ký tự/s"},
+      {"name":"Tính năng", "detail":"in date, QR code, mã vạch, logo.,.."},
+      {"name":"Chế độ làm việc", "detail":"tự động thông qua cảm biến"},
+      {"name":"Nhiệt độ làm việc", "detail":"5-55 độ C"},
+      {"name":"Kích thước máy", "detail":"404 x 347 x 449mm"},
+      {"name":"Chất liệu máy", "detail":"inox"},
+      {"name":"Tiêu chuẩn chống bụi, ẩm", "detail":"IP55"},
+      {"name":"Trọng lượng", "detail":"21kg"}      
     ],
-    "special": [
-      "Màn hình cảm ứng đủ màu 7 inch có tấm che polymer chắc chắn, chống dung môi",
-      "Vỏ máy làm bằng thép không gỉ cao cấp, đáp ứng tiêu chuẩn kháng bụi nước IP55",
-      "Dây đầu in dài 2m & 4m cho khách hàng lựa chọn",
-      "Dễ dàng tích hợp dây chuyền sản xuất"
-    ],
+    "tableCheck":"true",
     "slide": "true"
   },
   {
@@ -79,23 +91,31 @@
       "https://i.ibb.co/s3Qt3Vd/6.png"
     ],
     "description": "Máy in date Linx 7900 là một dòng máy in mạnh mẽ, phù hợp để in trên nhiều dòng sản phẩm, ứng dụng trong nhiều ngành công nghiệp. Các tính năng tự động của máy in Linx 7900 giúp tăng năng suất và giảm lỗi in – nâng cao hiệu quả và giảm chi phí cho doanh nghiệp.",
-    "feature": [
-      "Số dòng in: Từ 1 – 5 dòng",
-      "Tốc độ in tối đa: 8.41 m/s",
-      "Số ký tự in tối đa: 2667",
-      "In nghịch đảo cho những dòng in đối xứng"
-    ],
+    
     "tech": [
-      "Khoảng thời gian dịch vụ định kỳ lên tới 18 tháng hoặc 9000 giờ",
-      "Bảo hành 18 tháng ",
+      "In trên mọi bền mặt, chất liệu, độ sắc nét cao",
+      "Kết nối nhiều dây chuyền sản xuất và đóng gói tự động hoàn toàn",
       "Vỏ bọc tiêu chuẩn IP55 – phù hợp với môi trường dội nước.",
       "Các thiết bị cấu thành có tuổi thọ cao, tiêu chuẩn Anh Quốc, hạn chế tối đa phát sinh lỗi vặt, tiết kiệm chi phí bảo trì và sửa chữa"
+    ],    
+    "table":[
+      {"name":"Thương hiệu", "detail":"LINX - Anh Quốc"},
+      {"name":"Điện áp", "detail":"220V-50Hz"},
+      {"name":"Công suất", "detail":"200W"},
+      {"name":"Kích thước đầu phun", "detail":"50Micro"},
+      {"name":"Số dòng in", "detail":"1-2 dòng"},
+      {"name":"Chiều cao ký tự", "detail":"1.2- 4.6mm"},
+      {"name":"Tốc độ in tối đa", "detail":"6.83m/ giây"},
+      {"name":"Số ký tự in tối đa", "detail":"2667 ký tự/s"},
+      {"name":"Tính năng", "detail":"in date, QR code, mã vạch, logo.,.."},
+      {"name":"Chế độ làm việc", "detail":"tự động thông qua cảm biến"},
+      {"name":"Nhiệt độ làm việc", "detail":"5-55 độ C"},
+      {"name":"Kích thước máy", "detail":"663 x 490 x 240mm"},
+      {"name":"Chất liệu máy", "detail":"inox"},
+      {"name":"Tiêu chuẩn chống bụi, ẩm", "detail":"IP55"},
+      {"name":"Trọng lượng", "detail":"21kg"}      
     ],
-    "special": [
-      "Bề mặt bằng thép không gỉ, kết  cấu cong chống lại các tác nhân bụi bẩn",
-      "Tiêu chuẩn IP55, IP65 (7900 Spectrum)",
-      "Gọn nhẹ chỉ 21kg"
-    ],
+    "tableCheck":"true",
     "slide": "true"
   },
   {
@@ -111,23 +131,31 @@
       "https://i.ibb.co/s3Qt3Vd/6.png"
     ],
     "description": "Dòng máy in phun hạn sử dụng Linx 7300 có đầy đủ các yếu tố cấu thành của 1 máy in date hiện đại, kết cấu gọn nhẹ, có độ tiết kiệm về chi phí đầu tư và cũng như khấu hao trong quá trình vận hành sản xuất. Máy được kết cấu từ các thiết bị cấu thành với tuổi thọ cao, tiêu chuẩn Anh Quốc và quốc tế – máy hạn chế tối đa phát sinh lỗi vặt – tiết kiệm chi phí bảo trì, sửa chữa trong quá trình vận hành.",
-    "feature": [
-      "Tốc độ in: tối đa là 8.41m/s (in 1 dòng)",
-      "Độ cao chữ: từ 1.1-12mm",
-      "In tới 5 dòng văn bản, đồ họa, logo, mã vạch, in 3 dòng, in ma trận thông tin 2D, in nghịch đảo cho các dòng in đối xứng"
-    ],
+    
     "tech": [
       "Giao diện người sử dụng bằng màn hình màu rất dễ sử dụng",
       "In 3 dòng và ma trận thông tin được cung cấp như tiêu chuẩn có sẵn",
       "In 5 dòng được hỗ trợ như là tiêu chuẩn lựa chọn thêm",
       "Tốc độ in nhanh hơn và công cụ truyền thông từ xa có thể được thêm vào khi khách hàng có nhu cầu"
     ],
-    "special": [
-      "Vỏ máy bằng thép không gỉ được thiết kế cong để hạn chế bụi",
-      "Kết cấu IP55 (chống nước) được cung cấp như tiêu chuẩn có sẵn",
-      "Trọng lượng 21kg",
-      "Thiết lập giao diện người sử dụng, với sự lựa chọn hệ thống điều khiển từ xa."
+    "table":[
+      {"name":"Thương hiệu", "detail":"LINX - Anh Quốc"},
+      {"name":"Điện áp", "detail":"220V-50Hz"},
+      {"name":"Công suất", "detail":"200W"},
+      {"name":"Kích thước đầu phun", "detail":"50Micro"},
+      {"name":"Số dòng in", "detail":"1-2 dòng"},
+      {"name":"Chiều cao ký tự", "detail":"1.1-12mm"},
+      {"name":"Tốc độ in tối đa", "detail":"8.41m/s (in 1 dòng)"},
+      {"name":"Số ký tự in tối đa", "detail":"2667 ký tự/s"},
+      {"name":"Tính năng", "detail":"in date, QR code, mã vạch, logo.,.."},
+      {"name":"Chế độ làm việc", "detail":"tự động thông qua cảm biến"},
+      {"name":"Nhiệt độ làm việc", "detail":"5-55 độ C"},
+      {"name":"Kích thước máy", "detail":"700 x 480 x 200mm"},
+      {"name":"Chất liệu máy", "detail":"inox"},
+      {"name":"Tiêu chuẩn chống bụi, ẩm", "detail":"IP55"},
+      {"name":"Trọng lượng", "detail":"24kg"}      
     ],
+    "tableCheck":"true",
     "slide": "true"
   },
   
@@ -144,13 +172,7 @@
       "https://i.ibb.co/s3Qt3Vd/6.png"
     ],
     "description": "Máy in phun công nghiệp Linx 5900 là dòng máy chuyên dụng và phổ thông của Linx. Đảm bảo tính hiệu quả in luôn tốt nhất với chi phí vận hành thấp nhất.",
-    "feature": [
-      "In 3 dòng văn bản và logo là tiêu chuẩn có sẵn",
-      "Tốc độ in tối đa 7.28m/s (in 1 dòng)",
-      "Tốc độ in tối đa: 2.92 m/ giây (theo tiêu chuẩn in 1 dòng, với ký tự cao 5 chấm)",
-      "Độ cao chữ từ 1.4mm tới 10.7mm",
-      "In ký tự xoay (dạng hình tháp)"
-    ],
+    
     "tech": [
       "In date code, Ngày sản xuất – Hạn sử dụng, số lô, số ca, mã vạch, logo, Quy cách sản phẩm.",
       "Chất liệu in đa dạng như: nhựa, kim loại, giấy, thủy tinh,….",
@@ -158,13 +180,25 @@
       "Độ cao chữ từ 1.4mm tới 10.7mm",
       "In ký tự xoay (dạng hình tháp)"
     ],
-    "special": [
-      "Vỏ máy bằng thép không gỉ, được thiết kế cong để hạn chế sự bám bụi",
-      "Kết cấu IP55 là tiêu chuẩn có sẵn",
-      "Trọng lượng chỉ 21kg",
-      "Không yêu cầu khí nén",
-      "Nút khởi động và tắt máy đơn giản"
+    
+    "table":[
+      {"name":"Thương hiệu", "detail":"LINX - Anh Quốc"},
+      {"name":"Điện áp", "detail":"220V-50Hz"},
+      {"name":"Công suất", "detail":"200W"},
+      {"name":"Kích thước đầu phun", "detail":"50Micro"},
+      {"name":"Số dòng in", "detail":"1-2 dòng"},
+      {"name":"Chiều cao ký tự", "detail":"1.2- 4.6mm"},
+      {"name":"Tốc độ in tối đa", "detail":"6.83m/ giây"},
+      {"name":"Số ký tự in tối đa", "detail":"2667 ký tự/s"},
+      {"name":"Tính năng", "detail":"in date, QR code, mã vạch, logo.,.."},
+      {"name":"Chế độ làm việc", "detail":"tự động thông qua cảm biến"},
+      {"name":"Nhiệt độ làm việc", "detail":"5-55 độ C"},
+      {"name":"Kích thước máy", "detail":"663 x 490 x 240mm"},
+      {"name":"Chất liệu máy", "detail":"inox"},
+      {"name":"Tiêu chuẩn chống bụi, ẩm", "detail":"IP55"},
+      {"name":"Trọng lượng", "detail":"21kg"}      
     ],
+    "tableCheck":"true",
     "slide": "true"
   },
   {
@@ -179,12 +213,7 @@
       "https://i.ibb.co/s3Qt3Vd/6.png"
     ],
     "description": "Dòng máy in phun hạn sử dụng Linx 4900 có đầy đủ các yếu tố cấu thành của 1 máy in date hiện đại, kết cấu gọn nhẹ, có độ tiết kiệm về chi phí đầu tư và cũng như khấu hao trong quá trình vận hành sản xuất. Máy được kết cấu từ các thiết bị cấu thành với tuổi thọ cao, tiêu chuẩn Anh Quốc và quốc tế – máy hạn chế tối đa phát sinh lỗi vặt – tiết kiệm chi phí bảo trì, sửa chữa trong quá trình vận hành.",
-    "feature": [
-      "Tốc độ in tối đa 7.28m/s ( in 1 hàng)",
-      "Độ cao của chữ từ 2.1 – 8.8 mm",
-      "In các ký tự vừa có chữ vừa có số ( 1 hoặc 2 hàng) và logo",
-      "Có nhiều màu mực và loại mực để lựa chọn"
-    ],
+    
     "tech": [
       "In lên đến 2 dòng văn bản và logo với tốc độ in tối đa 6.25m/s",
       "Vỏ máy được thiết kế cong với kết cấu IP55 chống bụi và chống nước.",
@@ -193,12 +222,24 @@
       "Không cần phải ngưng hoặc mở máy in để nạp thêm mực, dung môi.",
       "Thiết kế nhỏ gọn không cần hệ thống khí nén."
     ],
-    "special": [
-      "Vỏ máy làm bằng thép không rỉ",
-      "Kết cấu IP55 thích hợp đáp ứng các môi trường khắc nghiệt",
-      "Trọng lượng 20 kg",
-      "Thiết lập giao diện người sử dụng, với sự lựa chọn hệ thống điều khiển từ xa."
+    "table":[
+      {"name":"Thương hiệu", "detail":"LINX - Anh Quốc"},
+      {"name":"Điện áp", "detail":"220V-50Hz"},
+      {"name":"Công suất", "detail":"200W"},
+      {"name":"Kích thước đầu phun", "detail":"50Micro"},
+      {"name":"Số dòng in", "detail":"1-2 dòng"},
+      {"name":"Chiều cao ký tự", "detail":"2.032- 7.62mm"},
+      {"name":"Tốc độ in tối đa", "detail":"6.248m/ giây"},
+      {"name":"Số ký tự in tối đa", "detail":"2667 ký tự/s"},
+      {"name":"Tính năng", "detail":"in date, QR code, mã vạch, logo.,.."},
+      {"name":"Chế độ làm việc", "detail":"tự động thông qua cảm biến"},
+      {"name":"Nhiệt độ làm việc", "detail":"5-55 độ C"},
+      {"name":"Kích thước máy", "detail":"663 x 490 x 240mm"},
+      {"name":"Chất liệu máy", "detail":"inox"},
+      {"name":"Tiêu chuẩn chống bụi, ẩm", "detail":"IP55"},
+      {"name":"Trọng lượng", "detail":"20kg"}      
     ],
+    "tableCheck":"true",
     "slide": "true"
   },  
   {
@@ -213,23 +254,28 @@
       "https://i.ibb.co/f4N5MQZ/3.png"
     ],
     "description": "MÁY IN PHUN DATE CODE HITACHI PXR là máy in phun liên tục không tiếp xúc với sản phẩm bằng cách phun từng giọt mực lên bề mặt cần in tạo thành các định dạng có thể đọc được (ký tự, chữ, số,..)",
-    "feature": [
-      "Vận hành dễ dàng và nhanh chóng bằng màn hình cảm ứng LCD TFT màu 10,4 inch lớn.",
-      "Nội dung bản tin: Date code, Ngày sản xuất – Hạn sử dụng, số lô, số ca, mã vạch, logo, Quy cách sản phẩm.",
-      "Chất liệu in đa dạng như: nhựa, kim loại, giấy, thủy tinh,….",
-      "In được trên mọi vị trí và bề mặt phẳng, cong, lồi, lõm, có thể in từ mọi hướng kể cả từ dưới lên."
-    ],
+    
     "tech": [
       "Màn hình cảm ứng LCD TFT màu 10,4 inch lớn.",
       "Đầu phun 65μm với vòi phun SS với vòi phun SS.",
       "Vỏ máy 304 SS IP55 tuân thủ RoHS"      
+    ],    
+    "table":[
+      {"name":"Thương hiệu", "detail":"Hitachi"},
+      {"name":"Điện áp", "detail":"220V-50Hz"},
+      {"name":"Công suất", "detail":"200W"},
+      {"name":"Kích thước đầu phun", "detail":"50Micro"},
+      {"name":"Số dòng in", "detail":"1-2 dòng"},
+      {"name":"Độ rộng cuộn in", "detail":"38mm"},
+      {"name":"Kích thước chữ in", "detail":"4 x 35mm"},      
+      {"name":"Chế độ làm việc", "detail":"tự động thông qua cảm biến"},
+      {"name":"Nhiệt độ làm việc", "detail":"5-55 độ C"},
+      {"name":"Kích thước máy", "detail":"398 X 314 X 515mm"},
+      {"name":"Chất liệu máy", "detail":"inox"},
+      {"name":"Tiêu chuẩn chống bụi, ẩm", "detail":"IP55"},
+      {"name":"Trọng lượng", "detail":"25kg"}      
     ],
-    "special": [
-      "Vỏ máy làm bằng thép không rỉ",
-      "Kết cấu IP55 thích hợp đáp ứng các môi trường khắc nghiệt",
-      "Trọng lượng 25 kg",
-      "Kích thước (15.7 X 12.4 X 20.3)(mm)"
-    ],
+    "tableCheck":"true",
     "slide": "true"
   },
   {
@@ -245,12 +291,7 @@
       "https://i.ibb.co/YywkTGB/4.png"
     ],
     "description": "Máy in date tự động TIJ VT180 là loại máy in được  kết hợp với băng tải và dây chuyền sản xuất để tối ưu hóa việc in mã code và hạn sữ dụng lên sản phẩm.",
-    "feature": [
-      "Phạm vi lên đến 12.7mm với một đầu phun",
-      "In barcode thời gian thực",
-      "Có phạm vi in 360 độ",
-      "Hỗ trợ lên tới 10 ngôn ngữ khác nhau"
-    ],
+    
     "tech": [
       "Hệ thống sử dụng hệ điều hành Linux, hỗ trợ cổng USB để nhập dữ liệu in ấn, hỗ trợ thời gian thực.",
       "Thiết kế thân máy tách rời, dễ dàng lắp đặt, in xoay 360 độ, có thể điều chỉnh góc in tùy ý và thiết bị tinh chỉnh chống va chạm.",
@@ -259,12 +300,19 @@
       "Thân máy thon gọn, toàn bộ bằng nhôm, tản nhiệt tốt, thích hợp cho việc in ấn trong thời gian dài.",
       "Máy vận hành đơn giản và dễ bảo trì."
     ],
-    "special": [
-      "Kích thước: 210*110*40mm.",
-      "Cổng giao tiếp: Cổng nguồn và quang điện, cổng HDMI, cổng USB.",
-      "Nhiệt độ môi trường từ 0-40 độ, độ ẩm 10-80%",
-      "Hỗ trợ lên tới 10 ngôn ngữ."
+    "table":[      
+      {"name":"Bộ đếm số", "detail":"1-15 số"},
+      {"name":"Tốc độ in", "detail":"40m/phút"},
+      {"name":"Độ phân giải", "detail":"600 DPI"},
+      {"name":"Thuộc tính mực", "detail":"Mực gốc nước, gốc dung môi"},
+      {"name":"Khoảng cách in", "detail":"3-5mm"},      
+      {"name":"Cổng giao tiếp", "detail":"Cổng nguồn và quang điện, cổng HDMI, cổng USB"},
+      {"name":"Môi trường làm việc", "detail":"0-40 độ C, độ ẩm 10-80%"},
+      {"name":"Kích thước máy", "detail":"210 X 110 X 40mm"},
+      {"name":"Chiều cao in", "detail":"1-12.7mm"},
+      {"name":"Các loại hình in", "detail":"hỗ trợ lên tới 10 ngôn ngữ."}     
     ],
+    "tableCheck":"true",
     "slide": "true"
   },
   {
@@ -279,26 +327,13 @@
       "https://i.ibb.co/Lv7MBWF/2.png"
            
     ],
-    "description": "Máy khắc laser CO2 sử dụng công nghệ laser CO2 để quá trình khắc chính xác và chi tiết, đánh dấu, và cắt các vật liệu khác nhau. Máy khắc laser CO2 có thể được sử dụng để đánh dấu trên nhiều loại vật liệu khác nhau, bao gồm gỗ, nhựa, da, cao su, thủy tinh, kim loại mềm, giấy và nhiều vật liệu tự nhiên khác.",
-    "feature": [
-      "Tuổi thọ đầu in laser CO2 lên đến 50.000 giờ.",
-      "Máy khắc laser CO2 có tốc độ khắc nhanh và khả năng tái tạo độ chính xác cao.",
-      "Cấp độ bảo vệ IP65.",
-      "Công nghệ laser không tiêu tốn nguyên liệu, giúp tiết kiệm chi phí và thời gian bảo trì."
-    ],
+    "description": "Máy khắc laser CO2 sử dụng công nghệ laser CO2 để quá trình khắc chính xác và chi tiết, đánh dấu, và cắt các vật liệu khác nhau. Máy khắc laser CO2 có thể được sử dụng để đánh dấu trên nhiều loại vật liệu khác nhau, bao gồm gỗ, nhựa, da, cao su, thủy tinh, kim loại mềm, giấy và nhiều vật liệu tự nhiên khác.",  
     "tech": [
-      "Hệ thống sử dụng hệ điều hành Linux, hỗ trợ cổng USB để nhập dữ liệu in ấn, hỗ trợ thời gian thực.",
-      "Thiết kế thân máy tách rời, dễ dàng lắp đặt, in xoay 360 độ, có thể điều chỉnh góc in tùy ý và thiết bị tinh chỉnh chống va chạm.",
-      "Màn hình 7 inch cảm ứng điện dung siêu rõ nét, chống nhiễu, thân máy hoàn toàn bằng nhôm.",
-      "Máy in phun nhiều đầu trực tuyến, 1-6 đầu phun có thể được sử dụng theo ý muốn.",
-      "Thân máy thon gọn, toàn bộ bằng nhôm, tản nhiệt tốt, thích hợp cho việc in ấn trong thời gian dài.",
-      "Máy vận hành đơn giản và dễ bảo trì."
-    ],
-    "special": [
-      "Kích thước: 210*110*40mm.",
-      "Cổng giao tiếp: Cổng nguồn và quang điện, cổng HDMI, cổng USB.",
-      "Nhiệt độ môi trường từ 0-40 độ, độ ẩm 10-80%",
-      "Hỗ trợ lên tới 10 ngôn ngữ."
+      "Tuổi thọ đầu in laser CO2 lên đến 50.000 giờ.",
+      "Máy khắc laser CO2 có tốc độ khắc nhanh và khả năng tái tạo độ chính xác cao, giúp tiết kiệm thời gian và năng suất sản xuất.",
+      "Cấp độ bảo vệ IP65, đầu in laser fiber đạt tiêu chuẩn với khả năng chống bụi bẩn, ẩm thấp hoạt động dễ dàng trong môi trường sản xuất các ngành công nghiệp khác nhau.",
+      "Thân máy được làm bằng thép không gỉ cao cấp với nhiệt độ hoạt động lên đến 50oC và không cần máy làm mát bằng khí nén.",
+      "Công nghệ laser không tiêu tốn nguyên liệu, giúp tiết kiệm chi phí và thời gian bảo trì."
     ],
     "table":[
       {"name":"Bước sóng", "detail":"1064μm"},
@@ -325,9 +360,99 @@
     ],
     "slide": "true",
     "tableCheck":"true"
+  },  
+  {
+    "id": "110",
+    "type": "LAZER",
+    "model": "KingCode",
+    "name": "Máy khắc laser Fiber KingCode",
+    "img": "https://i.ibb.co/d6xgHj8/1.png",
+    "imgDetail": [    
+      "https://i.ibb.co/d6xgHj8/1.png",
+      "https://i.ibb.co/x2MSSBM/Thi-t-k-ch-a-c-t-n.png",
+      "https://i.ibb.co/Lv7MBWF/2.png"
+           
+    ],
+    "description": "Máy khắc laser fiber sử dụng công nghệ laser fiber để thực hiện quá trình khắc, đánh dấu, và cắt các vật liệu khác nhau. Máy khắc laser fiber thường được sử dụng để làm những công việc như khắc logo, chữ viết, hình ảnh, và mã vạch lên bề mặt vật liệu như kim loại, nhựa, gỗ, da và nhiều vật liệu khác. Tia laser fiber có khả năng tập trung cao và công suất lớn, giúp tạo ra những dấu vết chính xác và sắc nét trên bề mặt vật liệu.",  
+    "tech": [
+      "Tuổi thọ đầu in laser fiber lên đến 100.000 giờ.",
+      "Máy khắc in barcode laser fiber có tốc độ khắc nhanh và khả năng tái tạo độ chính xác cao, giúp tiết kiệm thời gian và năng suất sản xuất. ",
+      "Cấp độ bảo vệ IP65, đầu in laser fiber kingcode đạt tiêu chuẩn với khả năng chống bụi bẩn, ẩm thấp hoạt động dễ dàng trong môi trường sản xuất các ngành công nghiệp khác nhau.",
+      "Thân máy được làm bằng thép không gỉ cao cấp với nhiệt độ hoạt động lên đến 50oC và không cần máy làm mát bằng khí nén.",
+      "Công nghệ in laser không tiêu tốn nguyên liệu, giúp tiết kiệm chi phí và thời gian bảo trì."      
+    ],
+    "table":[
+      {"name":"Bước sóng", "detail":"1.06μm"},
+      {"name":"Lớp chất lượng", "detail":"<1.4M2"},
+      {"name":"Nguồn lazer", "detail":"20W/30W/50W"},
+      {"name":"Cách giải nhiệt", "detail":"không khí"},
+      {"name":"Vùng khắc", "detail":"110mm x 110mm / 175mm x 175mm"},
+      {"name":"Tiêu cự", "detail":"170mm"},
+      {"name":"Min - độ rộng nét chữ", "detail":"0.15mm"},
+      {"name":"Min - độ cao chữ", "detail":"0.7mm"},
+      {"name":"Tốc độ", "detail":"0 – 7.000mm/s"},
+      {"name":"Tệp hình ảnh", "detail":"BMP, PLT, AL, DXF"},
+      {"name":"Điện áp", "detail":"AC220, ±10%"},
+      {"name":"Tần số", "detail":"50Hz/60Hz"},
+      {"name":"Kích thước máy", "detail":"(4500x4500x1300)mm"},
+      {"name":"Trọng lượng", "detail":"80kg"},
+      {"name":"Nhiệt độ", "detail":"0-50C, độ ẩm 5%-95%"},
+      {"name":"Công suất", "detail":"1KW"},
+      {"name":"Cấp độ bảo vệ", "detail":"IP65"},
+      {"name":"Mức an toàn", "detail":"4"},
+      {"name":"Chỉnh lên xuống", "detail":"0-450mm"},
+      {"name":"Chỉnh tới - lùi", "detail":"0-250mm"},
+      {"name":"Hướng khắc", "detail":"0, 45, 90, 180"}
+    ],
+    "slide": "true",
+    "tableCheck":"true"
   },
-
-
+  {
+    "id": "111",
+    "type": "LAZER",
+    "model": "KingCode",
+    "name": "Máy khắc laser UV KingCode",
+    "img": "https://i.ibb.co/d6xgHj8/1.png",
+    "imgDetail": [    
+      "https://i.ibb.co/d6xgHj8/1.png",
+      "https://i.ibb.co/x2MSSBM/Thi-t-k-ch-a-c-t-n.png",
+      "https://i.ibb.co/Lv7MBWF/2.png"
+           
+    ],
+    "description": "Máy khắc laser UV sử dụng công nghệ laser UV là tia cực tím ngắn (UV) để quá trình khắc chính xác và chi tiết, đánh dấu, và cắt các vật liệu khác nhau. Máy khắc laser UV thường được sử dụng để làm những công việc như khắc logo, chữ viết, hình ảnh, và mã vạch trên nhiều vật liệu khác nhau, bao gồm gỗ, nhựa, da, kính, kim loại mà không cần sử dụng mực in hay chất phủ bổ sung. Máy khắc laser UV có độ chính xác cao và tốc độ khắc nhanh, cho phép tạo ra các sản phẩm có hình ảnh sắc nét và chi tiết. Ngoài ra, laser UV cũng có khả năng khắc trên các bề mặt cong và không gây tổn thương cho vật liệu xung quanh.",  
+    "tech": [
+      "Tuổi thọ đầu in laser UV lên đến 50.000 giờ.",
+      "Máy khắc laser UV có tốc độ khắc nhanh và khả năng tái tạo độ chính xác cao, giúp tiết kiệm thời gian và năng suất sản xuất.",
+      "Cấp độ bảo vệ IP65, đầu in laser fiber đạt tiêu chuẩn với khả năng chống bụi bẩn, ẩm thấp hoạt động dễ dàng trong môi trường sản xuất các ngành công nghiệp khác nhau.",
+      "Thân máy được làm bằng thép không gỉ cao cấp với nhiệt độ hoạt động lên đến 50oC và không cần máy làm mát bằng khí nén.",
+      "Công nghệ in laser không tiêu tốn nguyên liệu, giúp tiết kiệm chi phí và thời gian bảo trì."      
+    ],
+    "table":[
+      {"name":"Bước sóng", "detail":"355nm"},
+      {"name":"Lớp chất lượng", "detail":"<1.3M2"},
+      {"name":"Nguồn lazer", "detail":"3W/5W/8W"},
+      {"name":"Cách giải nhiệt", "detail":"nước"},
+      {"name":"Vùng khắc", "detail":"110mm x 110mm / 175mm x 175mm"},
+      {"name":"Tiêu cự", "detail":"170mm"},
+      {"name":"Min - độ rộng nét chữ", "detail":"0.15mm"},
+      {"name":"Min - độ cao chữ", "detail":"0.7mm"},
+      {"name":"Tốc độ", "detail":"2 – 7.000mm/s"},
+      {"name":"Tệp hình ảnh", "detail":"BMP, PLT, AL, DXF"},
+      {"name":"Điện áp", "detail":"AC220, ±10%"},
+      {"name":"Tần số", "detail":"50Hz/60Hz"},
+      {"name":"Kích thước máy", "detail":"(4500x4500x1300)mm"},
+      {"name":"Trọng lượng", "detail":"80kg"},
+      {"name":"Nhiệt độ", "detail":"0-50C, độ ẩm 5%-95%"},
+      {"name":"Công suất", "detail":"1KW"},
+      {"name":"Cấp độ bảo vệ", "detail":"IP65"},
+      {"name":"Mức an toàn", "detail":"4"},
+      {"name":"Chỉnh lên xuống", "detail":"0-450mm"},
+      {"name":"Chỉnh tới - lùi", "detail":"0-250mm"},
+      {"name":"Hướng khắc", "detail":"0, 45, 90, 180"}
+    ],
+    "slide": "true",
+    "tableCheck":"true"
+  },
 
 
 

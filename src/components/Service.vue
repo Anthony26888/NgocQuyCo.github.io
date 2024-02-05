@@ -11,7 +11,7 @@
       <v-list-item>
         <span
           >Máy in phun công nghiệp giá rẻ dùng để in ngày sản xuất, hạn sử dụng,
-          NSX, HSD, lot, code, date...thương hiệu Linx, Hitachi với các ưu điểm
+          NSX, HSD, lot, code, date...thương hiệu Linx, Hitachi, TIJ INKJET, KingCode với các ưu điểm
           vượt trội sau:
         </span>
       </v-list-item>
@@ -44,7 +44,7 @@
       <v-list-item>
         <span
           >Nguyên liệu mực, dung môi, Phụ Tùng Thay Thế dùng cho mọi loại máy in
-          trên thị trường Việt Nam như: Linx, Hitatchi.
+          trên thị trường Việt Nam như: Linx, Hitachi, TIJ INKJET, KingCode
         </span>
       </v-list-item>
       <v-list-item>

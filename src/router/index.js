@@ -42,6 +42,11 @@ const routes = [
         component: () => import(/* webpackChunkName: "home" */ '@/views/FilterTIJ.vue'),
       },
       {
+        path: '/Danh-sach-may-khac-lazer',
+        name: 'FilterLazer',       
+        component: () => import(/* webpackChunkName: "home" */ '@/views/FilterLazer.vue'),
+      },
+      {
         path: '/Danh-sach-nguyen-lieu',
         name: 'FilterInk',       
         component: () => import(/* webpackChunkName: "home" */ '@/views/FilterInk.vue'),

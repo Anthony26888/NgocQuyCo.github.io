@@ -9,7 +9,7 @@
       <VCol cols="12" md="6">
         <v-sheet class="p-md-5 p-sm-2 animate__animated animate__backInRight">
           <h2 class="text-teal-darken-1">{{ item.name }}</h2>
-          <p class="text-muted">Model: {{ item.model }}</p>
+          <p class="text-muted">Thương hiệu: {{ item.model }}</p>
           <v-list lines="one"  v-for="value in item.tech" :key="value">
             <v-list-item  prepend-icon="mdi-check-bold">{{ value }}</v-list-item>
           </v-list>

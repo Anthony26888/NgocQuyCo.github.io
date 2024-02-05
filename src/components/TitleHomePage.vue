@@ -13,7 +13,7 @@ export default {
       titleLarge: "CHUYÊN CUNG CẤP MÁY IN CÔNG NGHIỆP",
       year: "since 2015",
       logan: "Ngọc Quý Technology - Chúng tôi luôn sẵn sàng khi bạn cần!",
-      colab:"Linx - Hitachi -TIJ INKJET"
+      colab:"Linx - Hitachi - TIJ INKJET - KingCode"
     };
   },
 };

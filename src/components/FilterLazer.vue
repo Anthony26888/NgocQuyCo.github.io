@@ -1,5 +1,5 @@
 <template>  
-  <div v-for="item in store.CIJ" :key="item">
+  <div v-for="item in store.Lazer" :key="item">
     <VRow align="center" justify="center">
       <VCol cols="12" md="6">
         <router-link to="/Thong-tin-san-pham">
