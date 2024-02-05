@@ -43,7 +43,7 @@ import Description from "@/components/DescriptionDetail";
 import SlideMachine from "@/components/SlideMachine.vue";
 import SlideAccessory from "@/components/SlideAccessory.vue";
 import SlideInk from "@/components/SlideInk.vue";
-import SlideLazer from "@/components/SlideInk.vue";
+import SlideLazer from "@/components/SlideLazer.vue";
 import Slide from "@/components/SlideDetail.vue"
 import { useAppStore } from "@/store/app";
 const store = useAppStore();
