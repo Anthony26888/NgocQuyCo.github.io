@@ -23,6 +23,9 @@
             <div v-if="store.Info.type == 'TIJ'">
                 <SlideMachine />
             </div>
+            <div v-if="store.Info.type == 'LAZER'">
+                <SlideLazer />
+            </div>
             <div v-if="store.Info.type == 'accessory'">
                 <SlideAccessory />
             </div>
@@ -40,6 +43,7 @@ import Description from "@/components/DescriptionDetail";
 import SlideMachine from "@/components/SlideMachine.vue";
 import SlideAccessory from "@/components/SlideAccessory.vue";
 import SlideInk from "@/components/SlideInk.vue";
+import SlideLazer from "@/components/SlideInk.vue";
 import Slide from "@/components/SlideDetail.vue"
 import { useAppStore } from "@/store/app";
 const store = useAppStore();
