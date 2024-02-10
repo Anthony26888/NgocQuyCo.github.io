@@ -108,35 +108,57 @@
       <v-app-bar-nav-icon class="d-flex d-sm-none" @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
     </v-app-bar>
 
-    <v-navigation-drawer class="mt-4" v-model="drawer" location="right" temporary>
+    <v-navigation-drawer class="mt-4" v-model="drawer" location="left" width="300" temporary>
       <v-list density="compact">
+        <v-list-item title="TRANG CHỦ" value="TC"></v-list-item>
+
+        <v-list-item title="GIỚI THIỆU" value="GT"></v-list-item>
+
         <v-list-item>
-          <router-link to="/Thong-tin-san-pham" style="text-decoration: none; color: inherit">
-            <v-btn variant="text" class="w-100">
-              Trang chủ
-            </v-btn>
-          </router-link>
+          <v-list-group value="Product">
+            <template v-slot:activator="{ props }">
+              <v-list-item v-bind="props" title="SẢN PHẨM" value="SP"></v-list-item>
+            </template>
+
+            <v-list-group value="CIJ">
+              <template v-slot:activator="{ props }">
+                <v-list-item v-bind="props" title="MÁY IN DATE"></v-list-item>
+              </template>
+
+              <v-list-item v-for="value in store.CIJ" :key="value">
+                <v-btn variant="text">{{ value.name }}</v-btn>
+              </v-list-item>
+            </v-list-group>
+
+            <v-list-group value="TIJ">
+              <template v-slot:activator="{ props }">
+                <v-list-item v-bind="props" title="MÁY IN THÙNG"></v-list-item>
+              </template>
+
+              <v-list-item v-for="value in store.TIJ" :key="value">
+                <v-btn variant="text">{{ value.name }}</v-btn>
+              </v-list-item>
+            </v-list-group>
+
+            <v-list-group value="Lazer">
+              <template v-slot:activator="{ props }">
+                <v-list-item v-bind="props" title="MÁY KHẮC LAZER"></v-list-item>
+              </template>
+
+              <v-list-item v-for="value in store.Lazer" :key="value">
+                <v-btn variant="text">{{ value.name }}</v-btn>
+              </v-list-item>
+            </v-list-group>
+
+            <v-list-item title="LINH KIỆN" value="LK"></v-list-item>
+
+            <v-list-item title="NGUYÊN LIỆU" value="NL"></v-list-item>
+
+            <v-list-item title="THUÊ MÁY" value="TM"></v-list-item>
+          </v-list-group>
         </v-list-item>
 
-        <v-divider></v-divider>
-
-        <v-list-group value="Actions">
-          <template v-slot:activator="{ props }">
-            <v-list-item v-bind="props" title="SẢN PHẨM"></v-list-item>
-          </template>
-
-          <div v-for="value in items" :key="value">
-            <router-link :to="value.router" style="text-decoration: none; color: inherit">
-              <v-list-item link :title="value.title"></v-list-item>
-            </router-link>
-          </div>
-        </v-list-group>
-
-        <v-divider></v-divider>
-
-        <router-link to="/Lien-he" style="text-decoration: none; color: inherit">
-          <v-list-item link title="LIÊN THỆ"></v-list-item>
-        </router-link>
+        <v-list-item title="LIÊN HỆ" value="LH"></v-list-item>
       </v-list>
     </v-navigation-drawer>
   </vContainer>
