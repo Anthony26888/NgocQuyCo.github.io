@@ -1,5 +1,5 @@
 <template lang="">
-  <div class="mx-auto">
+  <div class="container">
     <h6 class="text-center text-primary">THÔNG TIN LIÊN HỆ</h6>
     <h1 class="text-center text-teal-darken-1">
       CÔNG TY TNHH NGỌC QUÝ TECHNOLOGY
@@ -65,5 +65,14 @@ h6 {
 
 .sheet {
   width: 200px;
+}
+
+@media only screen and (min-width: 300px) {
+  h1{
+    font-size: 16px;
+  }
+  h4{
+    font-size: 16px;
+  }
 }
 </style>

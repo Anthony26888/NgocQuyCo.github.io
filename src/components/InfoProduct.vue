@@ -11,13 +11,7 @@
     <v-card-text>
       <span>{{ Info.description }}</span>
       <VSpacer />      
-      <h6 class="text-red mt-5">LIÊN HỆ: </h6>
-      <div class="d-flex">        
-        <a href="tel:+84918504086" class="ms-2"><h6>0918504086</h6></a>
-        <span class="text-muted ms-2">hoặc</span>
-        <a href="tel:+84903062501" class="ms-2"><h6>0903062501</h6></a>
-        <span class="text-muted ms-2">(Mr.Hải)</span>
-      </div>
+      <v-btn class="bg-teal-accent-4 mt-5" href="tel:+84918504086">LIÊN HỆ NGAY</v-btn>      
     </v-card-text>
   </v-card>
 </template>

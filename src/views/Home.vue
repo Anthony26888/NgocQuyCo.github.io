@@ -17,10 +17,7 @@
           MÁY IN DATE
         </h2>
         <VSpacer />
-        <router-link
-          to="/Danh-sach-may-in-date"
-          style="text-decoration: none; color: inherit"
-        >
+        <router-link to="/Danh-sach-may-in-date" style="text-decoration: none; color: inherit">
           <v-btn class="bg-teal-darken-1 me-3">
             <strong class="mx-auto">Xem thêm >></strong>
           </v-btn>
@@ -29,15 +26,12 @@
       <SlideMachine />
 
       <!--Printer TIJ-->
-      <v-toolbar density="comfortable" class="bg-amber-lighten-3 mt-5">
+      <v-toolbar density="comfortable" class="bg-amber-lighten-3 mt-2">
         <h2 class="text-teal-darken-1 p-3 text-center mt-2">
           MÁY IN DATE THÙNG
         </h2>
         <VSpacer />
-        <router-link
-          to="/Danh-sach-may-in-thung"
-          style="text-decoration: none; color: inherit"
-        >
+        <router-link to="/Danh-sach-may-in-thung" style="text-decoration: none; color: inherit">
           <v-btn class="bg-teal-darken-1 me-3">
             <strong class="mx-auto">Xem thêm >></strong>
           </v-btn>
@@ -46,15 +40,12 @@
       <SlideTIJ />
 
       <!--Printer Lazer-->
-      <v-toolbar density="comfortable" class="bg-amber-lighten-3 mt-5">
+      <v-toolbar density="comfortable" class="bg-amber-lighten-3 mt-2">
         <h2 class="text-teal-darken-1 p-3 text-center mt-2">
           MÁY KHẮC LAZER
         </h2>
         <VSpacer />
-        <router-link
-          to="/Danh-sach-may-khac-lazer"
-          style="text-decoration: none; color: inherit"
-        >
+        <router-link to="/Danh-sach-may-khac-lazer" style="text-decoration: none; color: inherit">
           <v-btn class="bg-teal-darken-1 me-3">
             <strong class="mx-auto">Xem thêm >></strong>
           </v-btn>
@@ -63,13 +54,10 @@
       <SlideLazer />
 
       <!--Accessory-->
-      <v-toolbar density="comfortable" class="bg-amber-lighten-3 mt-5">
+      <v-toolbar density="comfortable" class="bg-amber-lighten-3 mt-2">
         <h2 class="text-teal-darken-1 p-3 text-center mt-2">LINH KIỆN</h2>
         <VSpacer />
-        <router-link
-          to="/Danh-sach-linh-kien"
-          style="text-decoration: none; color: inherit"
-        >
+        <router-link to="/Danh-sach-linh-kien" style="text-decoration: none; color: inherit">
           <v-btn class="bg-teal-darken-1 me-3">
             <strong class="mx-auto">Xem thêm >></strong>
           </v-btn>
@@ -78,19 +66,16 @@
       <SlideAccessory />
 
       <!--Ink-->
-      <v-toolbar density="comfortable" class="bg-amber-lighten-3 mt-5">
+      <v-toolbar density="comfortable" class="bg-amber-lighten-3 mt-2">
         <h2 class="text-teal-darken-1 p-3 text-center mt-2">NGUYÊN LIỆU</h2>
         <VSpacer />
-        <router-link
-          to="/Danh-sach-nguyen-lieu"
-          style="text-decoration: none; color: inherit"
-        >
+        <router-link to="/Danh-sach-nguyen-lieu" style="text-decoration: none; color: inherit">
           <v-btn class="bg-teal-darken-1 me-3">
             <strong class="mx-auto">Xem thêm >></strong>
           </v-btn>
         </router-link>
       </v-toolbar>
-      <SlideInk />      
+      <SlideInk />
     </v-app>
   </vContainer>
 </template>

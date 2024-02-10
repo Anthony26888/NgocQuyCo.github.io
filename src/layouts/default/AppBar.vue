@@ -44,9 +44,11 @@
             <v-list-item>
               <v-menu location="start" open-on-hover>
                 <template v-slot:activator="{ props }">
-                  <v-btn variant="text" v-bind="props" class="w-100">
-                    MÁY IN THÙNG
-                  </v-btn>
+                  <router-link to="/Danh-sach-may-in-thung" style="text-decoration: none; color: inherit">
+                    <v-btn variant="text" v-bind="props" class="w-100">
+                      MÁY IN THÙNG
+                    </v-btn>
+                  </router-link>
                 </template>
 
                 <v-list class="me-4">
@@ -64,9 +66,11 @@
             <v-list-item>
               <v-menu location="start" open-on-hover>
                 <template v-slot:activator="{ props }">
-                  <v-btn variant="text" v-bind="props" class="w-100">
-                    MÁY KHẮC LAZER
-                  </v-btn>
+                  <router-link to="/Danh-sach-may-in-date" style="text-decoration: none; color: inherit">
+                    <v-btn variant="text" v-bind="props" class="w-100">
+                      MÁY IN DATE
+                    </v-btn>
+                  </router-link>
                 </template>
 
                 <v-list class="me-4">
@@ -110,14 +114,18 @@
 
     <v-navigation-drawer class="mt-4" v-model="drawer" location="left" width="300" temporary>
       <v-list density="compact">
-        <v-list-item title="TRANG CHỦ" value="TC"></v-list-item>
+        <router-link to="/" style="text-decoration: none; color: inherit">
+          <v-list-item class="ms-3 me-3"  value="TC" title="TRANG CHỦ"></v-list-item>
+        </router-link>
 
-        <v-list-item title="GIỚI THIỆU" value="GT"></v-list-item>
+        <router-link to="/Gioi-thieu" style="text-decoration: none; color: inherit">
+          <v-list-item class="ms-3 me-3" value="GT" title="GIỚI THIỆU"></v-list-item>
+        </router-link>        
 
         <v-list-item>
           <v-list-group value="Product">
             <template v-slot:activator="{ props }">
-              <v-list-item v-bind="props" title="SẢN PHẨM" value="SP"></v-list-item>
+              <v-list-item v-bind="props" title="SẢN PHẨM"></v-list-item>              
             </template>
 
             <v-list-group value="CIJ">
@@ -150,15 +158,23 @@
               </v-list-item>
             </v-list-group>
 
-            <v-list-item title="LINH KIỆN" value="LK"></v-list-item>
+            <router-link to="/Linh-kien" style="text-decoration: none; color: inherit">
+              <v-list-item value="GT" title="LINH KIỆN"></v-list-item>
+            </router-link>
 
-            <v-list-item title="NGUYÊN LIỆU" value="NL"></v-list-item>
+            <router-link to="/Nguyen-lieu" style="text-decoration: none; color: inherit">
+              <v-list-item value="GT" title="NGUYÊN LIỆU"></v-list-item>
+            </router-link>
 
-            <v-list-item title="THUÊ MÁY" value="TM"></v-list-item>
+            <router-link to="/Thue-may" style="text-decoration: none; color: inherit">
+              <v-list-item value="GT" title="THUÊ MÁY"></v-list-item>
+            </router-link>
           </v-list-group>
         </v-list-item>
 
-        <v-list-item title="LIÊN HỆ" value="LH"></v-list-item>
+        <router-link to="/Lien-he" style="text-decoration: none; color: inherit">
+          <v-list-item class="ms-3 me-3" value="LH" title="LIÊN HỆ"></v-list-item>
+        </router-link>
       </v-list>
     </v-navigation-drawer>
   </vContainer>
