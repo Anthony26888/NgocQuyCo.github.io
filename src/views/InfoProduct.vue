@@ -10,7 +10,15 @@
                     <InfoProduct />
                 </VCol>
             </VRow>
-            <Description class="mt-5" />
+            <div v-if="store.Info.type == 'CIJ'">
+                <Description class="mt-5" />
+            </div>
+            <div v-if="store.Info.type == 'TIJ'">
+                <Description class="mt-5" />
+            </div>
+            <div v-if="store.Info.type == 'LAZER'">
+                <Description class="mt-5" />
+            </div>
 
             <v-toolbar density="comfortable" class="bg-transparent mt-5">
                 <v-toolbar-title>

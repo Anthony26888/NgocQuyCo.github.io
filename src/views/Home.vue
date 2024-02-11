@@ -76,6 +76,7 @@
         </router-link>
       </v-toolbar>
       <SlideInk />
+
     </v-app>
   </vContainer>
 </template>
@@ -90,6 +91,7 @@ import SlideInk from "@/components/SlideInk.vue";
 import SlideTIJ from "@/components/SlideTIJ.vue";
 import SlideLazer from "@/components/SlideLazer.vue";
 </script>
+
 
 <style scoped>
 @media only screen and (max-width: 700px) {

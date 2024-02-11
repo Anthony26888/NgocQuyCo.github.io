@@ -103,4 +103,30 @@ export default {
   }
 }
 
+@media only screen and (min-width: 1920px) {
+  .title-name {
+    font-family: Inter;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 62px;
+    /* 93.939% */
+  }
+  .title-collab {
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+  }
+
+  .title-logan {
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+  }
+}
+
 </style>
