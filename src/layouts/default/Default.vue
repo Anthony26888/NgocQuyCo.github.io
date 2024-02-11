@@ -10,10 +10,10 @@
       <div class="text-center">
         <v-menu v-model="menu" :close-on-content-click="false" location="end" transition="scale-transition">
           <template v-slot:activator="{ props }">
-            <v-btn color="teal-darken-1" icon="mdi-phone" v-bind="props" :loading="loading" @click="load" size="x-large"></v-btn>
+            <v-btn color="teal-darken-1" icon="mdi-phone" v-bind="props" :loading="loading" @click="load" size="x-large"></v-btn>            
           </template>
 
-          <v-card class="mb-5">
+          <v-card class="mb-3">
             <v-list>
               <v-list-item prepend-avatar="../../assets/Image/logoNG.png" title="Mr.Hải"
                 subtitle="CEO của Ngọc Quý">                
@@ -39,8 +39,7 @@
                     <v-img src="https://classic.vn/wp-content/uploads/2022/07/zalo-icon.png" width="30"></v-img>
                   </div>                  
                   <a class="ms-2" style="text-decoration: none; color: blue" href="https://zalo.me/0903062501"><b>0903062501</b></a>
-                </div>
-                
+                </div>                
               </v-list-item>
             </v-list>
           </v-card>

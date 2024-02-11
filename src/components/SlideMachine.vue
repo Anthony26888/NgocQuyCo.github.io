@@ -2,7 +2,7 @@
   <Carousel v-bind="settings" :breakpoints="breakpoints" class="mt-3">
     <Slide v-for="value in store.CIJ" :key="value">
       <router-link to="/Thong-tin-san-pham" style="text-decoration: none; color: inherit;">
-        <v-card class="bg-grey-lighten-4 card animate__animated animate__flipInX">
+        <v-card class="bg-grey-lighten-4 card animate__animated animate__flipInX" hover>
           <v-img class="img" :src="value.img" @click="store.GetDetail(value.id)"></v-img>
           <v-card-text>
             <h5 class="title-name">{{ value.name }}</h5>
