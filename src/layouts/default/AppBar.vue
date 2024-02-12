@@ -112,7 +112,7 @@
       <v-app-bar-nav-icon class="d-flex d-sm-none" @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
     </v-app-bar>
 
-    <v-navigation-drawer class="mt-4" v-model="drawer" location="left" width="300" temporary>
+    <v-navigation-drawer class="mt-4" v-model="drawer" location="left" width="350" temporary>
       <v-list density="compact">
         <router-link to="/" style="text-decoration: none; color: inherit">
           <v-list-item class="ms-3 me-3"  value="TC" title="TRANG CHỦ"></v-list-item>
@@ -134,7 +134,9 @@
               </template>
 
               <v-list-item v-for="value in store.CIJ" :key="value">
-                <v-btn variant="text">{{ value.name }}</v-btn>
+                <router-link to="/Thong-tin-san-pham" style="text-decoration: none; color: inherit">
+                  <v-btn variant="text" @click="store.GetDetail(value.id)">{{ value.name }}</v-btn>
+                </router-link>                
               </v-list-item>
             </v-list-group>
 
@@ -144,7 +146,9 @@
               </template>
 
               <v-list-item v-for="value in store.TIJ" :key="value">
-                <v-btn variant="text">{{ value.name }}</v-btn>
+                <router-link to="/Thong-tin-san-pham" style="text-decoration: none; color: inherit">
+                  <v-btn variant="text" @click="store.GetDetail(value.id)">{{ value.name }}</v-btn>
+                </router-link>                
               </v-list-item>
             </v-list-group>
 
@@ -154,20 +158,22 @@
               </template>
 
               <v-list-item v-for="value in store.Lazer" :key="value">
-                <v-btn variant="text">{{ value.name }}</v-btn>
+                <router-link to="/Thong-tin-san-pham" style="text-decoration: none; color: inherit">
+                  <v-btn variant="text" @click="store.GetDetail(value.id)">{{ value.name }}</v-btn>
+                </router-link>                
               </v-list-item>
             </v-list-group>
 
             <router-link to="/Linh-kien" style="text-decoration: none; color: inherit">
-              <v-list-item value="GT" title="LINH KIỆN"></v-list-item>
+              <v-list-item value="LK" title="LINH KIỆN"></v-list-item>
             </router-link>
 
             <router-link to="/Nguyen-lieu" style="text-decoration: none; color: inherit">
-              <v-list-item value="GT" title="NGUYÊN LIỆU"></v-list-item>
+              <v-list-item value="NL" title="NGUYÊN LIỆU"></v-list-item>
             </router-link>
 
             <router-link to="/Thue-may" style="text-decoration: none; color: inherit">
-              <v-list-item value="GT" title="THUÊ MÁY"></v-list-item>
+              <v-list-item value="TM" title="THUÊ MÁY"></v-list-item>
             </router-link>
           </v-list-group>
         </v-list-item>
@@ -196,6 +202,7 @@
     font-size: 16px;
   }
 }
+
 </style>
 <script setup>
 import { useAppStore } from "@/store/app";
