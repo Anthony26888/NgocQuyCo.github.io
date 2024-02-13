@@ -1,6 +1,6 @@
 <template>
-  <Carousel v-bind="settings" :breakpoints="breakpoints" class="mt-3">
-    <Slide v-for="value in store.Accessory.slice(0,10)" :key="value">
+  <Carousel v-bind="settings" :breakpoints="breakpoints" class="mt-3" :wrap-around="true" :autoplay="2000">
+    <Slide v-for="value in store.Accessory.slice(0,10)" :key="value" >
       <router-link to="/Thong-tin-san-pham" style="text-decoration: none; color: inherit;">
         <v-card class="bg-grey-lighten-4 card animate__animated animate__flipInX" hover>
           <v-img class="img" :src="value.img" @click="store.GetDetail(value.id)"></v-img>

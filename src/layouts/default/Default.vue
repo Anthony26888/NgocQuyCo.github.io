@@ -8,7 +8,7 @@
         <div class="text-center">
           <v-menu v-model="menu" :close-on-content-click="false" location="end" transition="scale-transition">
             <template v-slot:activator="{ props }">
-              <v-btn color="teal-darken-1" icon="mdi-phone" v-bind="props" :loading="loading" @click="load"
+              <v-btn color="teal-lighten-4" icon="mdi-phone" v-bind="props" :loading="loading" @click="load"
                 size="x-large"></v-btn>
             </template>
 
@@ -46,16 +46,7 @@
         </div>
       </div>
     </div>
-    <div class="spinner container mx-auto" v-show="off">
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
+    <div class="loaderBar" v-show="off"></div>
   </v-app>
 </template>
 
@@ -90,79 +81,56 @@ export default {
 }
 </script>
 <style scoped>
-.spinner {
+.loaderBar {
+  width: calc(160px / 0.707);
+  height: 10px;
+  background: #F9F9F9;
+  border-radius: 10px;
+  border: 1px solid #80CBC4;
   position: relative;
-  width: 60px;
-  height: 60px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  margin-left: -75px;
-}
-
-.spinner span {
-  position: absolute;
   top: 50%;
-  left: var(--left);
-  width: 35px;
-  height: 7px;
-  background: #ffff;
-  animation: dominos 1s ease infinite;
-  box-shadow: 2px 2px 3px 0px black;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  overflow: hidden;
 }
 
-.spinner span:nth-child(1) {
-  --left: 80px;
-  animation-delay: 0.125s;
+.loaderBar::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  border-radius: 5px;
+  background: repeating-linear-gradient(45deg, #26A69A 0 30px, #80CBC4 0 40px) right/200% 100%;
+  animation: fillProgress 2s ease-in-out infinite, lightEffect 1s infinite linear;
+  animation-fill-mode: forwards;
 }
 
-.spinner span:nth-child(2) {
-  --left: 70px;
-  animation-delay: 0.3s;
-}
-
-.spinner span:nth-child(3) {
-  left: 60px;
-  animation-delay: 0.425s;
-}
-
-.spinner span:nth-child(4) {
-  animation-delay: 0.54s;
-  left: 50px;
-}
-
-.spinner span:nth-child(5) {
-  animation-delay: 0.665s;
-  left: 40px;
-}
-
-.spinner span:nth-child(6) {
-  animation-delay: 0.79s;
-  left: 30px;
-}
-
-.spinner span:nth-child(7) {
-  animation-delay: 0.915s;
-  left: 20px;
-}
-
-.spinner span:nth-child(8) {
-  left: 10px;
-}
-
-@keyframes dominos {
-  50% {
-    opacity: 0.7;
+@keyframes fillProgress {
+  0% {
+    width: 0;
   }
 
-  75% {
-    -webkit-transform: rotate(90deg);
-    transform: rotate(90deg);
+  33% {
+    width: 33.333%;
   }
 
-  80% {
-    opacity: 1;
+  66% {
+    width: 66.67%;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes lightEffect {
+  0%, 20%, 40%, 60%, 80%, 100% {
+    background: repeating-linear-gradient(45deg, #26A69A 0 30px, #80CBC4 0 40px) right/200% 100%;
+  }
+
+  10%, 30%, 50%, 70%, 90% {
+    background: repeating-linear-gradient(45deg, #26A69A 0 30px, #80CBC4 0 40px, rgba(255, 255, 255, 0.3) 0 40px) right/200% 100%;
   }
 }
 </style>

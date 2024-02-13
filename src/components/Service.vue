@@ -43,7 +43,7 @@
       </v-list-item>
       <v-list-item>
         <span
-          >Nguyên liệu mực, dung môi, Phụ Tùng Thay Thế dùng cho mọi loại máy in
+          >Nguyên liệu mực, dung môi, linh kiện thay thế dùng cho mọi loại máy in
           trên thị trường Việt Nam như: Linx, Hitachi, TIJ INKJET, KingCode
         </span>
       </v-list-item>

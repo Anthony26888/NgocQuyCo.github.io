@@ -1,11 +1,11 @@
 <template>
-  <Carousel v-bind="settings" :breakpoints="breakpoints" class="mt-3">
+  <Carousel v-bind="settings" :breakpoints="breakpoints" class="mt-3" :wrap-around="true" :autoplay="2000">
     <Slide v-for="value in store.CIJ" :key="value">
       <router-link to="/Thong-tin-san-pham" style="text-decoration: none; color: inherit;">
         <v-card class="bg-grey-lighten-4 card animate__animated animate__flipInX" hover>
           <v-img class="img" :src="value.img" @click="store.GetDetail(value.id)"></v-img>
           <v-card-text>
-            <h5 class="title-name">{{ value.name }}</h5>
+            <h6 class="title-name">{{ value.name }}</h6>
             <h6 class="text-red-lighten-1 title-price">Giá: Liên hệ</h6>
           </v-card-text>
         </v-card>
@@ -39,7 +39,7 @@ export default defineComponent({
   data: () => ({
     // carousel settings
     settings: {
-      itemsToShow: 2,
+      itemsToShow: 2,            
       snapAlign: 'start',
     },
     // breakpoints are mobile first
@@ -68,11 +68,6 @@ export default defineComponent({
 })
 </script>
 <style scoped>
-h2 {
-  font-weight: 700;
-}
-
-
 
 @media only screen and (min-width: 300px) {
   .card {

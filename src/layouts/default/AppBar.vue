@@ -68,7 +68,7 @@
                 <template v-slot:activator="{ props }">
                   <router-link to="/Danh-sach-may-in-date" style="text-decoration: none; color: inherit">
                     <v-btn variant="text" v-bind="props" class="w-100">
-                      MÁY IN DATE
+                      MÁY KHẮC LAZER
                     </v-btn>
                   </router-link>
                 </template>

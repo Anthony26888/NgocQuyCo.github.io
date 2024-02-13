@@ -16,7 +16,7 @@
           <p class="text-muted">
             {{ item.description }}
           </p>
-        </v-sheet>
+        </v-sheet>     
       </VCol>
     </VRow>
     <v-divider :thickness="7"></v-divider>
@@ -32,21 +32,35 @@ export default {
     return {
       items: [
         {
-          title: "Máy in date",
+          title: "MÁY IN DATE",
           description:
             "Hệ thống Máy phun mực liên tục (CIJ) được sử dụng để in thông tin thay đổi, chẳng hạn như ngày tháng, lô hoặc mã vạch, trên các sản phẩm riêng lẻ khi chúng di chuyển dọc theo dây chuyền sản xuất, bất kể độ xốp, kích thước, hình dạng hoặc kết cấu.",
           img: "https://i.ibb.co/2WZJf3C/listproduct.png",
           direction: "/Danh-sach-may-in-date",
         },
         {
-          title: "Linh kiện",
+          title: "MÁY IN THÙNG",
+          description:
+            "Hệ thống Máy phun mực liên tục (CIJ) được sử dụng để in thông tin thay đổi, chẳng hạn như ngày tháng, lô hoặc mã vạch, trên các sản phẩm riêng lẻ khi chúng di chuyển dọc theo dây chuyền sản xuất, bất kể độ xốp, kích thước, hình dạng hoặc kết cấu.",
+          img: "https://i.ibb.co/TBdHhkW/1.png",
+          direction: "/Danh-sach-may-in-thung",
+        },
+        {
+          title: "MÁY KHẮC LAZER",
+          description:
+            "Hệ thống Máy phun mực liên tục (CIJ) được sử dụng để in thông tin thay đổi, chẳng hạn như ngày tháng, lô hoặc mã vạch, trên các sản phẩm riêng lẻ khi chúng di chuyển dọc theo dây chuyền sản xuất, bất kể độ xốp, kích thước, hình dạng hoặc kết cấu.",
+          img: "https://i.ibb.co/d6xgHj8/1.png",
+          direction: "/Danh-sach-may-in-thung",
+        },
+        {
+          title: "LINH KIỆN",
           description:
             "Chuyên cung cấp tất cả các linh kiện máy in Linx. Bao gồm lọc, Board, Màn hình,....",
           img: "https://i.ibb.co/BqmfYZx/accessory.png",
           direction: "/Danh-sach-linh-kien",
         },
         {
-          title: "Nguyên liệu",
+          title: "NGUYÊN LIỆU",
           description:
             "Chuyên cung cấp tất cả sản phẩm mực và dung môi cho máy in Linx.",
           img: "https://i.ibb.co/GpnSFtg/ink.png",
