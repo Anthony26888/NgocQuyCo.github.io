@@ -21,7 +21,7 @@
         <v-card class="mb-3">
           <v-list>
             <v-list-item
-              prepend-avatar="../../assets/Image/logoNG.png"
+              prepend-avatar="../assets/Image/logoNG.png"
               title="Mr.Hải"
               subtitle="CEO của Ngọc Quý"
             >
@@ -105,15 +105,15 @@ export default {
 
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (min-width: 700px) {
     .btn-active {
-        width: 20px;
-        height: 20px;
+        width: 30px;
+        height: 30px;
 
     }
 
     .position {
-        padding: 20px 20px;
+        padding: 30px 30px;
     }
 
 }
