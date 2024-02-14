@@ -37,7 +37,7 @@
                     </div>
                     <div class="d-flex mt-2">
                         <v-icon size="large" color="green-darken-2" icon="mdi-web"></v-icon>
-                        <a class="ms-2" href="http://www.ngocquyco.com.vn">http://www.ngocquyco.com.vn</a>
+                        <a class="ms-2" href="http://ngocquyco.com.vn">http://ngocquyco.com.vn</a>
                     </div>
 
                 </div>

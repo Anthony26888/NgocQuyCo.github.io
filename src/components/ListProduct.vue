@@ -41,28 +41,28 @@ export default {
         {
           title: "MÁY IN THÙNG",
           description:
-            "Hệ thống Máy phun mực liên tục (CIJ) được sử dụng để in thông tin thay đổi, chẳng hạn như ngày tháng, lô hoặc mã vạch, trên các sản phẩm riêng lẻ khi chúng di chuyển dọc theo dây chuyền sản xuất, bất kể độ xốp, kích thước, hình dạng hoặc kết cấu.",
+            "Ứng dụng công nghệ gia nhiệt (Thermal Ink Jet – TIJ) Tiết kiệm chi phí, không cần bảo trì! Máy in tốt trên chất liệu thùng carton, hộp giấy carton, gỗ, vỏ trứng, nhựa cứng, nhựa dẻo, kim loại, nhôm, vật liệu xây dựng.",
           img: "https://i.ibb.co/TBdHhkW/1.png",
           direction: "/Danh-sach-may-in-thung",
         },
         {
           title: "MÁY KHẮC LAZER",
           description:
-            "Hệ thống Máy phun mực liên tục (CIJ) được sử dụng để in thông tin thay đổi, chẳng hạn như ngày tháng, lô hoặc mã vạch, trên các sản phẩm riêng lẻ khi chúng di chuyển dọc theo dây chuyền sản xuất, bất kể độ xốp, kích thước, hình dạng hoặc kết cấu.",
+            "Máy khắc laser là giải pháp lý tưởng hoàn toàn đáp ứng các yêu cầu của khách hàng như: Không tiêu hao nguyên liệu, Hoạt động bền bỉ, vận hành dễ dàng, Thông tin được khắc đảm bảo chắc chắn, khó bị tẩy xóa, n được nhiều loại bản tin khác như như: Barcode, Qr Code, Ngày sản xuất – Hạn sử dụng.",
           img: "https://i.ibb.co/d6xgHj8/1.png",
           direction: "/Danh-sach-may-in-thung",
         },
         {
           title: "LINH KIỆN",
           description:
-            "Chuyên cung cấp tất cả các linh kiện máy in Linx. Bao gồm lọc, Board, Màn hình,....",
+            "Chuyên cung cấp tất cả các linh kiện máy in Linx. Bao gồm lọc, Board, Màn hình....",
           img: "https://i.ibb.co/BqmfYZx/accessory.png",
           direction: "/Danh-sach-linh-kien",
         },
         {
           title: "NGUYÊN LIỆU",
           description:
-            "Chuyên cung cấp tất cả sản phẩm mực và dung môi cho máy in Linx.",
+            "Chuyên cung cấp tất cả sản phẩm mực và dung môi cho máy in date và máy in TIJ.",
           img: "https://i.ibb.co/GpnSFtg/ink.png",
           direction: "/Danh-sach-nguyen-lieu",
         },

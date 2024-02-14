@@ -23,12 +23,19 @@
         <h4 class="mt-2 ms-2 text-red">Hỗ trợ bán hàng</h4>
       </div>
       <div class="d-flex">
-        <v-icon icon="mdi-cellphone" color="primary" size="50"></v-icon>
-        <div class="d-flex">
-          <h4 class="mt-2 ms-2">Mr.Hải:</h4>
-          <a href="tel:+84918504086" class="ms-2 mt-2"><h4>0918504086</h4></a>
-          <span class="text-muted ms-2 mt-2">hoặc</span>
-          <a href="tel:+84903062501" class="ms-2 mt-2"><h4>0903062501</h4></a>
+        <v-icon
+          icon="mdi-cellphone"
+          color="primary"
+          size="50"
+          class="mt-2"
+        ></v-icon>
+        <div>
+          <h4 class="ms-2">Mr.Hải:</h4>
+          <div class="d-flex">
+            <a href="tel:+84918504086" class="ms-2"><h4>0918504086</h4></a>
+            <span class="text-muted ms-2">hoặc</span>
+            <a href="tel:+84903062501" class="ms-2"><h4>0903062501</h4></a>
+          </div>
         </div>
       </div>
     </div>
@@ -67,11 +74,12 @@ h6 {
   width: 200px;
 }
 
-@media only screen and (min-width: 300px) {
-  h1{
+@media only screen and (max-width: 700px) {
+  h1 {
     font-size: 16px;
   }
-  h4{
+
+  h4 {
     font-size: 16px;
   }
 }

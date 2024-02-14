@@ -62,7 +62,7 @@ export default {
       "Luôn hướng đến những giải pháp tối ưu nhất cho khách hàng.",
       "Đội ngũ nhân viên tư vấn, giải đáp nhiệt tình. Hỗ trợ kỹ thuật 24/7.",
     ],
-    row4: "Hãy liên hệ Công ty TNHH Ngọc Quý Technology nếu bạn đang cần nâng cao năng suất, nâng cấp sản phẩm và thiết bị:",
+    row4: "Hãy liên hệ Công ty TNHH Ngọc Quý Technology nếu bạn đang cần nâng cao năng suất, nâng cấp sản phẩm và thiết bị.",
     name: "CÔNG TY TNHH NGỌC QUÝ TECHNOLOGY",
     local: "102/9/2D Đường 100 Bình Thới, Phường 14, Quận 11, TP.Hồ Chí Minh",
     phone: "0918504086 - 0903062501",

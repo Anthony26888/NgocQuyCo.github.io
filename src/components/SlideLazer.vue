@@ -1,5 +1,5 @@
 <template>
-  <Carousel v-bind="settings" :breakpoints="breakpoints" :autoplay="2000" class="mt-3">
+  <Carousel v-bind="settings" :breakpoints="breakpoints" class="mt-3">
     <Slide v-for="value in store.Lazer" :key="value">
       <router-link to="/Thong-tin-san-pham" style="text-decoration: none; color: inherit;">
         <v-card class="bg-grey-lighten-4 card animate__animated animate__flipInX" hover>

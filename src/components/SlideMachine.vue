@@ -1,5 +1,5 @@
 <template>
-  <Carousel v-bind="settings" :breakpoints="breakpoints" class="mt-3" :wrap-around="true" :autoplay="2000">
+  <Carousel v-bind="settings" :breakpoints="breakpoints" class="mt-3" :wrap-around="true" :autoplay="4000" :pauseAutoplayOnHover="true">
     <Slide v-for="value in store.CIJ" :key="value">
       <router-link to="/Thong-tin-san-pham" style="text-decoration: none; color: inherit;">
         <v-card class="bg-grey-lighten-4 card animate__animated animate__flipInX" hover>

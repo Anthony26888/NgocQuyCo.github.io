@@ -66,7 +66,7 @@
             <v-list-item>
               <v-menu location="start" open-on-hover>
                 <template v-slot:activator="{ props }">
-                  <router-link to="/Danh-sach-may-in-date" style="text-decoration: none; color: inherit">
+                  <router-link to="/Danh-sach-may-khac-lazer" style="text-decoration: none; color: inherit">
                     <v-btn variant="text" v-bind="props" class="w-100">
                       MÁY KHẮC LAZER
                     </v-btn>
