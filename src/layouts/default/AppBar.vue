@@ -164,11 +164,11 @@
               </v-list-item>
             </v-list-group>
 
-            <router-link to="/Linh-kien" style="text-decoration: none; color: inherit">
+            <router-link to="/Danh-sach-linh-kien" style="text-decoration: none; color: inherit">
               <v-list-item value="LK" title="LINH KIỆN"></v-list-item>
             </router-link>
 
-            <router-link to="/Nguyen-lieu" style="text-decoration: none; color: inherit">
+            <router-link to="/Danh-sach-nguyen-lieu" style="text-decoration: none; color: inherit">
               <v-list-item value="NL" title="NGUYÊN LIỆU"></v-list-item>
             </router-link>
 

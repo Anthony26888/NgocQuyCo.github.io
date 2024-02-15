@@ -25,20 +25,6 @@
       </v-toolbar>
       <SlideMachine />
 
-      <!--Printer TIJ-->
-      <v-toolbar density="comfortable" class="bg-amber-lighten-3 mt-2">
-        <h2 class="text-teal-darken-1 p-3 text-center mt-2">
-          MÁY IN DATE THÙNG
-        </h2>
-        <VSpacer />
-        <router-link to="/Danh-sach-may-in-thung" style="text-decoration: none; color: inherit">
-          <v-btn class="bg-teal-darken-1 me-3">
-            <strong class="mx-auto">Xem thêm >></strong>
-          </v-btn>
-        </router-link>
-      </v-toolbar>
-      <SlideTIJ />
-
       <!--Printer Lazer-->
       <v-toolbar density="comfortable" class="bg-amber-lighten-3 mt-2">
         <h2 class="text-teal-darken-1 p-3 text-center mt-2">
@@ -52,6 +38,20 @@
         </router-link>
       </v-toolbar>
       <SlideLazer />
+
+      <!--Printer TIJ-->
+      <v-toolbar density="comfortable" class="bg-amber-lighten-3 mt-2">
+        <h2 class="text-teal-darken-1 p-3 text-center mt-2">
+          MÁY IN DATE THÙNG
+        </h2>
+        <VSpacer />
+        <router-link to="/Danh-sach-may-in-thung" style="text-decoration: none; color: inherit">
+          <v-btn class="bg-teal-darken-1 me-3">
+            <strong class="mx-auto">Xem thêm >></strong>
+          </v-btn>
+        </router-link>
+      </v-toolbar>
+      <SlideTIJ />      
 
       <!--Accessory-->
       <v-toolbar density="comfortable" class="bg-amber-lighten-3 mt-2">
