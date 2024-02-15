@@ -22,8 +22,8 @@
           <v-list>
             <v-list-item
               prepend-avatar="../assets/Image/logoNG.png"
-              title="Mr.Hải"
-              subtitle="CEO của Ngọc Quý"
+              title="Lê Minh Hải"
+              subtitle="Phó Giám Đốc"
             >
             </v-list-item>
           </v-list>
@@ -67,6 +67,17 @@
                 >
               </div>
             </v-list-item>
+
+            <v-list-item>
+              <v-icon class="text-teal-darken-1">mdi-email</v-icon>
+              <a
+                class="ms-2"
+                style="text-decoration: none; color: blue"
+                href="mailto:ngocquytechco@gmail.com"
+                ><b>ngocquytechco@gmail.com</b></a
+              >
+            </v-list-item>
+
           </v-list>
         </v-card>
       </v-menu>

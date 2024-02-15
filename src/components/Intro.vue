@@ -45,7 +45,7 @@
       </div>
       <div class="d-flex gap-2">
         <b>Website: </b>
-        <a href="http://www.ngocquyco.com.vn">{{ website }}</a>
+        <a href="http://ngocquytechco.com.vn">{{ website }}</a>
       </div>
     </div>
   </div>
@@ -66,7 +66,7 @@ export default {
     name: "CÔNG TY TNHH NGỌC QUÝ TECHNOLOGY",
     local: "102/9/2D Đường 100 Bình Thới, Phường 14, Quận 11, TP.Hồ Chí Minh",
     phone: "0918504086 - 0903062501",
-    website: "ngocquyco.com.vn",
+    website: "ngocquytechco.com.vn",
   }),
 };
 </script>

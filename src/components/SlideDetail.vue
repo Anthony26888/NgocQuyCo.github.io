@@ -1,26 +1,34 @@
 <template lang="">
-  <v-window v-model="onboarding" v-if="Info.slide == 'true'">
-    <v-window-item v-for="n in Info.imgDetail" :key="`card-${n}`" :value="n">
-      <v-card height="400" class="d-flex justify-center align-center animate__animated animate__bounceInDown animate__delay-0.25s">
-        <v-img :src="n"></v-img>
-      </v-card>
-    </v-window-item>
-  </v-window>
+  <div v-if="Info.slide == 'true'">
+    <v-window v-model="onboarding">
+      <v-window-item v-for="n in Info.imgDetail" :key="n" :value="n">
+        <v-card
+          height="300"
+          class="d-flex justify-center align-center animate__animated animate__bounceInDown animate__delay-0.25s"
+        >
+          <v-img :src="n"></v-img>
+        </v-card>
+      </v-window-item>
+    </v-window>
 
-  <v-card-actions class="justify-center animate__animated animate__bounceInUp animate__delay-1s"  v-if="Info.slide == 'true'">
-    <v-item-group v-model="onboarding" class="text-center" mandatory>
-      <v-item
-        v-for="n in Info.imgDetail"
-        :key="`btn-${n}`"
-        v-slot="{ isSelected, toggle }"
-        :value="n"
-      >
-        <v-btn variant="outlined" @click="toggle" class="slide-btn">
-          <v-img :src="n" class="slide" ></v-img>
-        </v-btn>
-      </v-item>
-    </v-item-group>
-  </v-card-actions>
+    <v-card-actions
+      class="justify-center animate__animated animate__bounceInUp animate__delay-1s"
+    >
+      <v-item-group v-model="onboarding" class="text-center" mandatory>
+        <v-item
+          v-for="n in Info.imgDetail"
+          :key="`btn-${n}`"
+          v-slot="{ isSelected, toggle }"
+          :value="n"
+        >
+          <v-btn variant="outlined" @click="toggle" class="slide-btn">
+            <v-img :src="n" class="slide"></v-img>
+          </v-btn>
+        </v-item>
+      </v-item-group>
+    </v-card-actions>
+  </div>
+
   <v-img
     class="img mx-auto"
     :src="Info.imgDetail"
@@ -70,7 +78,6 @@ export default {
     width: 60px;
     height: 60px;
   }
-
 }
 
 @media only screen and (min-width: 700px) {
@@ -83,5 +90,5 @@ export default {
     width: 110px;
     height: 110px;
   }
-
-}</style>
+}
+</style>
