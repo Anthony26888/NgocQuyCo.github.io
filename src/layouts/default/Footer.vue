@@ -59,6 +59,16 @@
               >ngocquytechco@gmail.com</a
             >
           </div>
+          <div class="d-flex mt-2">
+            <v-icon
+              size="large"
+              color="green-darken-2"
+              icon="mdi-facebook"
+            ></v-icon>
+            <a class="ms-2" href="https://www.facebook.com/people/M%C3%A1y-in-phun-c%C3%B4ng-nghi%E1%BB%87p-Ng%E1%BB%8Dc-Qu%C3%BD/61555545044060/?mibextid=kFxxJD"
+              >Máy in phun công nghiệp- Ngọc Quý</a
+            >
+          </div>
         </div>
         <!--Grid column-->
       </div>

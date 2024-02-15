@@ -51,6 +51,17 @@
           <h4 class="mt-2 ms-2">Mr.Long:</h4>
           <a href="tel:+84941049190" class="mt-2 ms-2"><h4>0941049190</h4></a>
         </div>
+      </div>      
+    </div>
+
+    <div class="mt-5">
+      <div class="d-flex">
+        <v-icon icon="mdi-facebook" color="red" size="50"></v-icon>
+        <h4 class="mt-2 ms-2 text-red">Fanpage</h4>
+      </div>
+      <div class="d-flex">
+        <v-icon icon="mdi-cursor-default-click" color="primary" size="50"></v-icon>
+        <a href="https://www.facebook.com/people/M%C3%A1y-in-phun-c%C3%B4ng-nghi%E1%BB%87p-Ng%E1%BB%8Dc-Qu%C3%BD/61555545044060/?mibextid=kFxxJD" class="mt-2 ms-2"><h4>Máy in phun công nghiệp- Ngọc Quý</h4></a>
       </div>
     </div>
 
