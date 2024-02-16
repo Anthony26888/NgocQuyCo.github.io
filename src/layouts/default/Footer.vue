@@ -33,11 +33,19 @@
               icon="mdi-phone"
             ></v-icon>
             <div class="d-flex ms-2">
-              <a href="tel:+84918504086" class="ms-2">
+              <a
+                href="tel:+84918504086"
+                class="ms-2"
+                style="text-decoration: none; color: blue"
+              >
                 <p>0918504086</p>
               </a>
               <span class="text-muted ms-2">hoặc</span>
-              <a href="tel:+84903062501" class="ms-2">
+              <a
+                href="tel:+84903062501"
+                class="ms-2"
+                style="text-decoration: none; color: blue"
+              >
                 <p>0903062501</p>
               </a>
               <span class="text-muted ms-2">(Mr.Hải)</span>
@@ -45,7 +53,10 @@
           </div>
           <div class="d-flex mt-2">
             <v-icon size="large" color="green-darken-2" icon="mdi-web"></v-icon>
-            <a class="ms-2" href="http://ngocquytechco.com.vn"
+            <a
+              class="ms-2"
+              style="text-decoration: none; color: blue"
+              href="http://ngocquytechco.com.vn"
               >http://ngocquytechco.com.vn</a
             >
           </div>
@@ -55,7 +66,10 @@
               color="green-darken-2"
               icon="mdi-email"
             ></v-icon>
-            <a class="ms-2" href="mailto:ngocquytechco@gmail.com"
+            <a
+              class="ms-2"
+              style="text-decoration: none; color: blue"
+              href="mailto:ngocquytechco@gmail.com"
               >ngocquytechco@gmail.com</a
             >
           </div>
@@ -65,8 +79,11 @@
               color="green-darken-2"
               icon="mdi-facebook"
             ></v-icon>
-            <a class="ms-2" href="https://www.facebook.com/people/M%C3%A1y-in-phun-c%C3%B4ng-nghi%E1%BB%87p-Ng%E1%BB%8Dc-Qu%C3%BD/61555545044060/?mibextid=kFxxJD"
-              >Máy in phun công nghiệp- Ngọc Quý</a
+            <a
+              class="ms-2"
+              style="text-decoration: none; color: blue"
+              href="https://www.facebook.com/people/M%C3%A1y-in-phun-c%C3%B4ng-nghi%E1%BB%87p-Ng%E1%BB%8Dc-Qu%C3%BD/61555545044060/?mibextid=kFxxJD"
+              >Máy in phun công nghiệp - Ngọc Quý</a
             >
           </div>
         </div>

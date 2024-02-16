@@ -4,9 +4,10 @@
       <v-window-item v-for="n in Info.imgDetail" :key="n" :value="n">
         <v-card
           height="300"
-          class="d-flex justify-center align-center animate__animated animate__bounceInDown animate__delay-0.25s"
+          width="300"
+          class="mx-auto"
         >
-          <v-img :src="n"></v-img>
+          <v-img aspect-ratio="1/1" :src="n" height="300" width="300" class=" mx-auto animate__animated animate__bounceInDown animate__delay-0.25s"></v-img>
         </v-card>
       </v-window-item>
     </v-window>
