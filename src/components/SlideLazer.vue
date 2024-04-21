@@ -2,13 +2,15 @@
   <Carousel v-bind="settings" :breakpoints="breakpoints" class="mt-3">
     <Slide v-for="value in store.Lazer" :key="value">
       <router-link to="/Thong-tin-san-pham" style="text-decoration: none; color: inherit;">
-        <v-card class="bg-grey-lighten-4 card animate__animated animate__flipInX" hover>
-          <v-img class="img" :src="value.img" @click="store.GetDetail(value.id)"></v-img>
-          <v-card-text>
-            <h5 class="title-name">{{ value.name }}</h5>
-            <h6 class="text-red-lighten-1 title-price">Giá: Liên hệ</h6>
-          </v-card-text>
-        </v-card>
+        <v-skeleton-loader class="img"  :loading="loading" type="card, list-item-two-line">
+          <v-card class="bg-grey-lighten-4 card animate__animated animate__flipInX" hover>
+            <v-img class="img" :src="value.img" @click="store.GetDetail(value.id)"></v-img>
+            <v-card-text>
+              <h6 class="title-name">{{ value.name }}</h6>
+              <h6 class="text-red-lighten-1 title-price">Giá: Liên hệ</h6>
+            </v-card-text>
+          </v-card>
+        </v-skeleton-loader>
       </router-link>
     </Slide>
     <template #addons>
@@ -36,7 +38,13 @@ export default defineComponent({
     Slide,
     Navigation,
   },
+  mounted() {
+    setTimeout(() =>{
+      this.loading=false
+    },3000)
+  },
   data: () => ({
+    loading: true,
     // carousel settings
     settings: {
       itemsToShow: 2,

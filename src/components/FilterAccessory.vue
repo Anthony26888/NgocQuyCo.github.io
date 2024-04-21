@@ -9,29 +9,34 @@
         </v-slide-group-item>
       </v-slide-group>
     </v-toolbar>
-    <div class="d-flex flex-wrap justify-center algin-center p-3">
-      <v-card class="bg-grey-lighten-4 card m-1 animate__animated animate__bounceInUp" v-for="item in store.FilterAccessory" :key="item" hover>
-        <router-link to="/Thong-tin-san-pham" style="text-decoration: none; color: inherit;">
-          <v-img class="img" :src="item.img" @click="store.GetDetail(item.id)"></v-img>
-          <v-card-text>
-            <h5 class="title-name text-center">{{ item.name }}</h5>
-            <h6 class="text-red-lighten-1 title-price text-center">Giá: Liên hệ</h6>
-          </v-card-text>
-        </router-link>
-      </v-card>
+
+    <div class="d-flex flex-wrap" v-for="item in store.FilterAccessory" :key="item">
+      <v-skeleton-loader type="card" :loading="loading">
+        <v-card class="bg-grey-lighten-4 ma-2" hover>
+          <router-link to="/Thong-tin-san-pham" style="text-decoration: none; color: inherit">
+            <v-img class="img" :src="item.img" @click="store.GetDetail(item.id)"></v-img>
+            <v-card-text>
+              <h5 class="title-name text-center">{{ item.name }}</h5>
+              <h6 class="text-red-lighten-1 title-price text-center">
+                Giá: Liên hệ
+              </h6>
+            </v-card-text>
+          </router-link>
+        </v-card>
+      </v-skeleton-loader>
     </div>
+
   </v-card>
 </template>
 <script setup>
 import { useAppStore } from "@/store/app";
 const store = useAppStore();
-
 </script>
 <script>
 export default {
   data() {
     return {
-
+      loading: true,
       tag: [
         { title: "Tất cả" },
         { title: "Lọc" },
@@ -44,8 +49,10 @@ export default {
       ],
     };
   },
-  methods: {
-
+  mounted() {
+    setTimeout(() => {
+      this.loading = false;
+    }, 1500);
   },
 };
 </script>
@@ -96,7 +103,6 @@ export default {
 
   .img {
     width: 230px;
-
   }
 }
 
@@ -109,7 +115,6 @@ export default {
   .img {
     width: 300px;
     height: 300px;
-
   }
 
   .title-name {

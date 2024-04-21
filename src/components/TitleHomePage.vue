@@ -1,8 +1,10 @@
 <template lang="">
-  <div class="sheet d-flex flex-column justify-content-center algin-item-center text-center animate__animated animate__backInRight">
-    <span class="title-name text-teal-darken-1 ">{{ titleLarge }}</span>  
-    <span class="title-collab text-deep-orange-lighten-2">{{ logan }}</span>
-    <span class="text-muted title-logan mt-2">{{ colab }}</span>    
+  <div class="sheet d-flex flex-column justify-content-center algin-item-center text-center">
+    <v-skeleton-loader type="list-item-three-line" :loading="loading">
+      <span class="title-name text-teal-darken-1 ">{{ titleLarge }}</span>  
+      <span class="title-collab text-deep-orange-lighten-2">{{ logan }}</span>
+      <span class="text-muted title-logan mt-2">{{ colab }}</span>    
+    </v-skeleton-loader>
   </div>
 </template>
 <script>
@@ -10,25 +12,32 @@ import 'animate.css';
 export default {
   data() {
     return {
+      loading:true,
       titleLarge: "NGỌC QUÝ TECHNOLOGY",
       year: "since 2015",
       logan: "Chuyên cung cấp các máy in công nghiệp",
-      colab:"Linx - Hitachi - TIJ INKJET - KingCode"
+      colab: "Linx - Hitachi - TIJ INKJET - KingCode"
     };
+  },
+  mounted() {
+    setTimeout(() =>{
+      this.loading=false
+    },3000)
   },
 };
 </script>
 <style scoped>
 @media only screen and (min-width: 300px) {
-  .sheet{
-    margin-top:-100px
+  .sheet {
+    margin-top: -100px
   }
+
   .title-name {
     font-family: Inter;
     font-size: 25px;
     font-style: normal;
     font-weight: 700;
-    line-height: 62px;   
+    line-height: 62px;
     /* 93.939% */
   }
 
@@ -39,6 +48,7 @@ export default {
     font-weight: 100;
     line-height: normal;
   }
+
   .title-collab {
     font-family: Inter;
     font-size: 18px;
@@ -49,9 +59,10 @@ export default {
 }
 
 @media only screen and (min-width: 700px) {
-  .sheet{
-    margin-top:-30px
+  .sheet {
+    margin-top: -30px
   }
+
   .title-name {
     font-family: Inter;
     font-size: 30px;
@@ -68,6 +79,7 @@ export default {
     font-weight: 100;
     line-height: normal;
   }
+
   .title-collab {
     font-family: Inter;
     font-size: 23px;
@@ -86,6 +98,7 @@ export default {
     line-height: 62px;
     /* 93.939% */
   }
+
   .title-collab {
     font-family: Inter;
     font-size: 20px;
@@ -112,6 +125,7 @@ export default {
     line-height: 62px;
     /* 93.939% */
   }
+
   .title-collab {
     font-family: Inter;
     font-size: 22px;
@@ -138,6 +152,7 @@ export default {
     line-height: 62px;
     /* 93.939% */
   }
+
   .title-collab {
     font-family: Inter;
     font-size: 25px;
@@ -153,6 +168,4 @@ export default {
     font-weight: 100;
     line-height: normal;
   }
-}
-
-</style>
+}</style>

@@ -3,16 +3,20 @@
     <VRow align="center" justify="center">
       <VCol cols="12" md="6">
         <router-link to="/Thong-tin-san-pham">
-          <v-img :src="item.img"  class="mx-auto animate__animated animate__backInLeft"  width="500" height="500" @click="store.GetDetail(item.id)"></v-img>
+          <v-skeleton-loader max-width="100vh" type="image" max-height="400" :loading="loading">
+            <v-img :src="item.img" class="mx-auto" width="500" height="500" @click="store.GetDetail(item.id)"></v-img>
+          </v-skeleton-loader>
         </router-link>        
       </VCol>
       <VCol cols="12" md="6">
-        <v-sheet class="p-md-5 p-sm-2 animate__animated animate__backInRight">
-          <h2 class="text-teal-darken-1">{{ item.name }}</h2>
-          <p class="text-muted">Thương hiệu: {{ item.model }}</p>
-          <v-list lines="one"  v-for="value in item.tech" :key="value">
-            <v-list-item  prepend-icon="mdi-check-bold">{{ value }}</v-list-item>
-          </v-list>
+        <v-sheet class="p-md-5 p-sm-2">
+          <v-skeleton-loader max-width="100vh" type="article, list-item-three-line, list-item-three-line" max-height="400" :loading="loading">
+            <h2 class="text-teal-darken-1">{{ item.name }}</h2>
+            <p class="text-muted">Thương hiệu: {{ item.model }}</p>
+            <v-list lines="one" v-for="value in item.tech" :key="value">
+              <v-list-item prepend-icon="mdi-check-bold">{{ value }}</v-list-item>
+            </v-list>
+          </v-skeleton-loader>
         </v-sheet>
       </VCol>
     </VRow>
@@ -26,7 +30,14 @@ const store = useAppStore();
 <script>
 export default {
   data() {
-    return {};
+    return {
+      loading: true
+    };
+  },
+  mounted() {
+    setTimeout(() => {
+      this.loading = false;
+    }, 1500);
   },
 };
 </script>
