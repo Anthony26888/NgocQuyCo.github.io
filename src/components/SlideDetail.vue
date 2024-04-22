@@ -1,41 +1,45 @@
 <template lang="">
-  <div v-if="Info.slide == 'true'">
-    <v-window v-model="onboarding">
-      <v-window-item v-for="n in Info.imgDetail" :key="n" :value="n">
-        <v-card
-          height="300"
-          width="300"
-          class="mx-auto"
-        >
-          <v-img aspect-ratio="1/1" :src="n" height="300" width="300" class=" mx-auto animate__animated animate__bounceInDown animate__delay-0.25s"></v-img>
-        </v-card>
-      </v-window-item>
-    </v-window>
+  <v-skeleton-loader type="image, button, button, button, button" :loading="loading">
+    <div v-if="Info.slide == 'true'">
+      <v-window v-model="onboarding">
+        <v-window-item v-for="n in Info.imgDetail" :key="n" :value="n">
+          <v-card height="300" width="300" class="mx-auto">
+            <v-img
+              aspect-ratio="1/1"
+              :src="n"
+              height="300"
+              width="300"
+              class="mx-auto animate__animated animate__bounceInDown animate__delay-0.25s"
+            ></v-img>
+          </v-card>
+        </v-window-item>
+      </v-window>
 
-    <v-card-actions
-      class="justify-center animate__animated animate__bounceInUp animate__delay-1s"
-    >
-      <v-item-group v-model="onboarding" class="text-center" mandatory>
-        <v-item
-          v-for="n in Info.imgDetail"
-          :key="`btn-${n}`"
-          v-slot="{ isSelected, toggle }"
-          :value="n"
-        >
-          <v-btn variant="outlined" @click="toggle" class="slide-btn">
-            <v-img :src="n" class="slide"></v-img>
-          </v-btn>
-        </v-item>
-      </v-item-group>
-    </v-card-actions>
-  </div>
+      <v-card-actions
+        class="justify-center animate__animated animate__bounceInUp animate__delay-1s"
+      >
+        <v-item-group v-model="onboarding" class="text-center" mandatory>
+          <v-item
+            v-for="n in Info.imgDetail"
+            :key="`btn-${n}`"
+            v-slot="{ isSelected, toggle }"
+            :value="n"
+          >
+            <v-btn variant="outlined" @click="toggle" class="slide-btn">
+              <v-img :src="n" class="slide"></v-img>
+            </v-btn>
+          </v-item>
+        </v-item-group>
+      </v-card-actions>
+    </div>
 
-  <v-img
-    class="img mx-auto"
-    :src="Info.imgDetail"
-    height="400"
-    v-if="Info.slide == 'false'"
-  ></v-img>
+    <v-img
+      class="img mx-auto"
+      :src="Info.imgDetail"
+      height="400"
+      v-if="Info.slide == 'false'"
+    ></v-img>
+  </v-skeleton-loader>
 </template>
 <script>
 import { useAppStore } from "@/store/app";
@@ -53,7 +57,13 @@ export default {
       tab: null,
       length: 4,
       onboarding: 0,
+      loading: true
     };
+  },
+  mounted() {
+    setTimeout(() => {
+      this.loading = false
+    }, 1500)
   },
 
   methods: {

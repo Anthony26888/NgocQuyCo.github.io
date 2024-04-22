@@ -1,59 +1,77 @@
 <template lang="">
-  <div class="mx-auto container">
-    <h1 class="text-center text-teal-darken-1">
-      CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ KỸ THUẬT NGỌC QUÝ
-    </h1>
-    <div class="mt-3">
-      <p>
-        {{ row1 }}
-      </p>
-      <p>
-        {{ row2 }}
-      </p>
-      <p>
-        {{ row3 }}
-      </p>
-      <!--List-->
-      <v-list-item>
-        <v-list-item v-for="item in list" :key="item">
-          <v-icon
-            size="large"
-            color="green-darken-2"
-            icon="mdi-circle-small"
-          ></v-icon>
-          <b>{{ item }}</b>
+  <v-skeleton-loader type="article, list-item-three-line, list-item-three-line, list-item-three-line, list-item-three-line, list-item-three-line" :loading="loading">
+    <div class="mx-auto container">
+      <h1 class="text-center text-teal-darken-1">
+        CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ KỸ THUẬT NGỌC QUÝ
+      </h1>
+      <div class="mt-3">
+        <p>
+          {{ row1 }}
+        </p>
+        <p>
+          {{ row2 }}
+        </p>
+        <p>
+          {{ row3 }}
+        </p>
+        <!--List-->
+        <v-list-item>
+          <v-list-item v-for="item in list" :key="item">
+            <v-icon
+              size="large"
+              color="green-darken-2"
+              icon="mdi-circle-small"
+            ></v-icon>
+            <b>{{ item }}</b>
+          </v-list-item>
         </v-list-item>
-      </v-list-item>
 
-      <p>
-        {{ row4 }}
-      </p>
-      <h5 class="text-teal-darken-1 text-name mt-5">{{ name }}</h5>
-      <div class="d-flex gap-2">
-        <b>Trụ sở: </b>
-        <p>{{ local }}</p>
-      </div>
-      <div class="d-flex gap-2">
-        <b>Hotline: </b>
-        <a href="tel:+84918504086" class="ms-2" style="text-decoration: none; color: blue">
-          <p>0918504086</p>
-        </a>
-        <span class="text-muted ms-2">hoặc</span>
-        <a href="tel:+84903062501" class="ms-2" style="text-decoration: none; color: blue">
-          <p>0903062501</p>
-        </a>
-      </div>
-      <div class="d-flex gap-2">
-        <b>Website: </b>
-        <a href="http://ngocquytechco.com.vn" style="text-decoration: none; color: blue">{{ website }}</a>
-      </div>
+        <p>
+          {{ row4 }}
+        </p>
+        <h5 class="text-teal-darken-1 text-name mt-5">{{ name }}</h5>
+        <div class="d-flex gap-2">
+          <b>Trụ sở: </b>
+          <p>{{ local }}</p>
+        </div>
+        <div class="d-flex gap-2">
+          <b>Hotline: </b>
+          <a
+            href="tel:+84918504086"
+            class="ms-2"
+            style="text-decoration: none; color: blue"
+          >
+            <p>0918504086</p>
+          </a>
+          <span class="text-muted ms-2">hoặc</span>
+          <a
+            href="tel:+84903062501"
+            class="ms-2"
+            style="text-decoration: none; color: blue"
+          >
+            <p>0903062501</p>
+          </a>
+        </div>
+        <div class="d-flex gap-2">
+          <b>Website: </b>
+          <a
+            href="http://ngocquytechco.com.vn"
+            style="text-decoration: none; color: blue"
+            >{{ website }}</a
+          >
+        </div>
 
-      <div class="d-flex gap-2 mt-3">
-        <b>Fanpage: </b>
-        <a href="https://www.facebook.com/people/M%C3%A1y-in-phun-c%C3%B4ng-nghi%E1%BB%87p-Ng%E1%BB%8Dc-Qu%C3%BD/61555545044060/?mibextid=kFxxJD" style="text-decoration: none; color: blue">{{ fanpage }}</a>
+        <div class="d-flex gap-2 mt-3">
+          <b>Fanpage: </b>
+          <a
+            href="https://www.facebook.com/people/M%C3%A1y-in-phun-c%C3%B4ng-nghi%E1%BB%87p-Ng%E1%BB%8Dc-Qu%C3%BD/61555545044060/?mibextid=kFxxJD"
+            style="text-decoration: none; color: blue"
+            >{{ fanpage }}</a
+          >
+        </div>
       </div>
     </div>
-  </div>
+  </v-skeleton-loader>
 </template>
 <script>
 export default {
@@ -72,8 +90,15 @@ export default {
     local: "102/9/2D Đường 100 Bình Thới, Phường 14, Quận 11, TP.Hồ Chí Minh",
     phone: "0918504086 - 0903062501",
     website: "ngocquytechco.com.vn",
-    fanpage:"Máy in phun công nghiệp- Ngọc Quý"
+    fanpage: "Máy in phun công nghiệp- Ngọc Quý",
+    loading: true,
   }),
+
+  mounted() {
+    setTimeout(() => {
+      this.loading = false;
+    }, 1500);
+  },
 };
 </script>
 <style scoped>
@@ -82,33 +107,32 @@ h6 {
   font-weight: 700;
 }
 @media only screen and (min-width: 300px) {
- h1{
-  font-size: 18px;
- }
- 
+  h1 {
+    font-size: 18px;
+  }
 }
 
 @media only screen and (min-width: 700px) {
- h1{
-  font-size: 20px;
- }
+  h1 {
+    font-size: 20px;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
- h1{
-  font-size: 25px;
- }
+  h1 {
+    font-size: 25px;
+  }
 }
 
 @media only screen and (min-width: 1440px) {
- h1{
-  font-size: 30px;
- }
+  h1 {
+    font-size: 30px;
+  }
 }
 
 @media only screen and (min-width: 1920px) {
- h1{
-  font-size: 40px;
- }
+  h1 {
+    font-size: 40px;
+  }
 }
 </style>

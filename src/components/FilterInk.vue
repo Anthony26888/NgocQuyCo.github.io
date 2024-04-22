@@ -1,24 +1,28 @@
 <template>
   <v-card>
-    <v-toolbar class="p-2">
-      <v-slide-group show-arrows>
-        <v-slide-group-item>
-          <v-chip-group mandatory selected-class="text-success">
-            <v-chip v-for="item in tag" :key="item" @click="store.GetFilterInk(item.title)">{{ item.title }}</v-chip>
-          </v-chip-group>
-        </v-slide-group-item>
-      </v-slide-group>
-    </v-toolbar>
-    <div class="d-flex flex-wrap justify-center algin-center p-3">
-      <v-card class="bg-grey-lighten-4 card m-1 animate__animated animate__bounceInUp" v-for="item in store.FilterInk" :key="item" hover>
-        <router-link to="/Thong-tin-san-pham" style="text-decoration: none; color: inherit;">
-          <v-img class="img" :src="item.img" @click="store.GetDetail(item.id)"></v-img>
-          <v-card-text>
-            <h5 class="title-name text-center">{{ item.name }}</h5>
-            <h6 class="text-red-lighten-1 title-price text-center">Giá: Liên hệ</h6>
+    <v-skeleton-loader type="heading" :loading="loading">
+      <v-toolbar class="p-2">
+        <v-slide-group show-arrows>
+          <v-slide-group-item>
+            <v-chip-group mandatory selected-class="text-success">
+              <v-chip v-for="item in tag" :key="item" @click="store.GetFilterInk(item.title)">{{ item.title }}</v-chip>
+            </v-chip-group>
+          </v-slide-group-item>
+        </v-slide-group>
+      </v-toolbar>
+    </v-skeleton-loader>
+   
+    <div class="d-flex flex-wrap justify-center">
+      <v-skeleton-loader type="card" :loading="loading" class="ma-2 mb-2 rounded-xl card-load"
+        v-for="value in store.FilterInk" :key="value">
+        <v-card class="bg-grey-lighten-4 rounded-xl" hover>
+          <v-img class="img" :src="value.img" @click="store.GetDetail(value.id)"></v-img>
+          <v-card-text class="text-center">
+            <h6 class="title-name">{{ value.name }}</h6>
+            <h6 class="text-red-lighten-1 title-price">Giá: Liên hệ</h6>
           </v-card-text>
-        </router-link>
-      </v-card>
+        </v-card>
+      </v-skeleton-loader>
     </div>
   </v-card>
 </template>
@@ -31,7 +35,7 @@ const store = useAppStore();
 export default {
   data() {
     return {
-
+      loading: true,
       tag: [
         { title: "Tất cả" },
         { title: "Mực đen" },
@@ -42,8 +46,10 @@ export default {
       ],
     };
   },
-  methods: {
-
+  mounted() {
+    setTimeout(() => {
+      this.loading = false;
+    }, 1500);
   },
 };
 </script>
@@ -52,6 +58,10 @@ export default {
   .card {
     max-width: 140px;
     height: 240px;
+  }
+
+  .card-load {
+    width: 140px;
   }
 
   .img {
@@ -73,6 +83,10 @@ export default {
     height: 240px;
   }
 
+  .card-load {
+    width: 160px;
+  }
+
   .img {
     width: 160px;
   }
@@ -92,22 +106,28 @@ export default {
     height: 300px;
   }
 
+  .card-load {
+    width: 230px;
+  }
+
   .img {
     width: 230px;
-
   }
 }
 
 @media only screen and (min-width: 1024px) {
   .card {
-    max-width: 300px;
+    width: 300px;
     height: 410px;
+  }
+
+  .card-load {
+    width: 300px;
   }
 
   .img {
     width: 300px;
     height: 300px;
-
   }
 
   .title-name {

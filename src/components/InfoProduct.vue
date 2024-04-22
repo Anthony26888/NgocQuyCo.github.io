@@ -1,18 +1,25 @@
 <template lang="">
-  <v-card class="card p-3 animate__animated animate__backInRight animate__delay-0.5s" variant="flat">
-    <v-card-item class="">
-      <h1 class="text-teal-accent-4">{{ Info.name }}</h1>
+  <v-card
+    class="card p-3"
+    variant="flat"
+  >
+    <v-skeleton-loader type="article, button" :loading="loading">
+      <v-card-item class="">
+        <h1 class="text-teal-accent-4">{{ Info.name }}</h1>
 
-      <v-card-subtitle
-        ><span>{{ Info.model }}</span></v-card-subtitle
-      >
-    </v-card-item>
+        <v-card-subtitle
+          ><span>{{ Info.model }}</span></v-card-subtitle
+        >
+      </v-card-item>
 
-    <v-card-text>
-      <span>{{ Info.description }}</span>
-      <VSpacer />      
-      <v-btn class="bg-teal-accent-4 mt-5" href="tel:+84918504086">LIÊN HỆ NGAY</v-btn>      
-    </v-card-text>
+      <v-card-text>
+        <span>{{ Info.description }}</span>
+        <VSpacer />
+        <v-btn class="bg-teal-accent-4 mt-5" href="tel:+84918504086"
+          >LIÊN HỆ NGAY</v-btn
+        >
+      </v-card-text>
+    </v-skeleton-loader>
   </v-card>
 </template>
 <script>
@@ -29,7 +36,13 @@ export default {
   data() {
     return {
       tab: null,
+      loading:true
     };
+  },
+  mounted() {
+    setTimeout(() => {
+      this.loading = false
+    }, 1500)
   },
 };
 </script>
@@ -37,6 +50,7 @@ export default {
 p {
   font-size: 15px;
 }
+
 @media only screen and (min-width: 300px) {
   h4 {
     font-size: 15px;
@@ -48,6 +62,7 @@ p {
     width: 500px;
     height: 100px;
   }
+
   h4 {
     font-size: 22px;
   }

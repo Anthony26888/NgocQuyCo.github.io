@@ -27,7 +27,7 @@
 
       <!--Printer Lazer-->
       <v-skeleton-loader type="heading" class="mt-4" :loading="loading">
-        <v-toolbar density="comfortable" class="bg-amber-lighten-3">
+        <v-toolbar density="comfortable" class="bg-amber-lighten-3 ma-2 mb-2">
           <h2 class="text-teal-darken-1 p-3 text-center mt-2">
             MÁY KHẮC LAZER
           </h2>
@@ -84,7 +84,6 @@
           </router-link>
         </v-toolbar>
       </v-skeleton-loader>
-
       <SlideInk />
     </v-app>
   </vContainer>
@@ -112,7 +111,7 @@ export default {
   mounted() {
     setTimeout(() => {
       this.loading = false;
-    }, 3000);
+    }, 1500);
   },
 };
 </script>

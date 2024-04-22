@@ -1,14 +1,9 @@
 <template>
   <v-app>
-    <div v-show="active">
-      <default-bar />
-      <default-view />
-      <Footer/>   
-      <BtnCall/>  
-    </div>
-    <div class="loading" v-show="off">
-      <Loading/>
-    </div>
+    <default-bar />
+    <default-view />
+    <Footer />
+    <BtnCall />
   </v-app>
 </template>
 
@@ -22,31 +17,22 @@ import BtnCall from '@/components/ButtonCall.vue'
 <script>
 export default {
   data() {
-    return {          
-      active: false,    
-      off:true  
+    return {
+
     }
   },
   mounted() {
-    setTimeout(() => (
-      this.active = true,
-      this.off = false
-    ), 2000)
+
   },
   methods: {
-    load() {
-      this.loading = true
-      setTimeout(() => (this.loading = false), 1000)
-    },
   },
 }
 </script>
 <style scoped>
-  .loading{
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
+.loading {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 </style>

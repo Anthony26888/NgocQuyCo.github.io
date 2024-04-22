@@ -22,7 +22,9 @@
 
             <v-toolbar density="comfortable" class="bg-transparent mt-5">
                 <v-toolbar-title>
-                    <h2 class="text-teal-darken-1">Sản phẩm khác</h2>
+                    <v-skeleton-loader type="heading" :loading="loading">
+                        <h2 class="text-teal-darken-1">Sản phẩm khác</h2>
+                    </v-skeleton-loader>                    
                 </v-toolbar-title>
             </v-toolbar>
             <div v-if="store.Info.type == 'CIJ'">
@@ -55,6 +57,21 @@ import SlideLazer from "@/components/SlideLazer.vue";
 import Slide from "@/components/SlideDetail.vue"
 import { useAppStore } from "@/store/app";
 const store = useAppStore();
+</script>
+<script>
+export default {
+  
+  data() {
+    return {      
+      loading: true
+    };
+  },
+  mounted() {
+    setTimeout(() => {
+      this.loading = false
+    }, 1500)
+  },
+};
 </script>
 
 <style scoped></style>
