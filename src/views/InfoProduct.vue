@@ -1,75 +1,28 @@
 <template>
-    <vContainer>
-        <v-breadcrumbs :items="['Trang chủ', 'Sản Phẩm', 'Chi tiết']"></v-breadcrumbs>
-        <v-app>
-            <VRow class="container mx-auto">
-                <VCol cols xs="12" md="6">
-                    <Slide />
-                </VCol>
-                <VCol cols xs="12" md="6">
-                    <InfoProduct />
-                </VCol>
-            </VRow>
-            <div v-if="store.Info.type == 'CIJ'">
-                <Description class="mt-5" />
-            </div>
-            <div v-if="store.Info.type == 'TIJ'">
-                <Description class="mt-5" />
-            </div>
-            <div v-if="store.Info.type == 'LAZER'">
-                <Description class="mt-5" />
-            </div>
-
-            <v-toolbar density="comfortable" class="bg-transparent mt-5">
-                <v-toolbar-title>
-                    <v-skeleton-loader type="heading" :loading="loading">
-                        <h2 class="text-teal-darken-1">Sản phẩm khác</h2>
-                    </v-skeleton-loader>                    
-                </v-toolbar-title>
-            </v-toolbar>
-            <div v-if="store.Info.type == 'CIJ'">
-                <SlideMachine />
-            </div>
-            <div v-if="store.Info.type == 'TIJ'">
-                <SlideMachine />
-            </div>
-            <div v-if="store.Info.type == 'LAZER'">
-                <SlideLazer />
-            </div>
-            <div v-if="store.Info.type == 'accessory'">
-                <SlideAccessory />
-            </div>
-            <div v-if="store.Info.type == 'ink'">
-                <SlideInk />
-            </div>
-            
-        </v-app>
-    </vContainer>
+  <v-main class="bg-grey-lighten-4">
+    <v-container class="pa-2" fluid>
+      <v-breadcrumbs
+        :items="['Trang chủ', 'Sản Phẩm', 'Thông tin sản phẩm']"
+      ></v-breadcrumbs>
+      <InfoProduct/>
+    </v-container>
+  </v-main>
 </template>
 
 <script setup>
 import InfoProduct from "@/components/InfoProduct";
-import Description from "@/components/DescriptionDetail";
-import SlideMachine from "@/components/SlideMachine.vue";
-import SlideAccessory from "@/components/SlideAccessory.vue";
-import SlideInk from "@/components/SlideInk.vue";
-import SlideLazer from "@/components/SlideLazer.vue";
-import Slide from "@/components/SlideDetail.vue"
-import { useAppStore } from "@/store/app";
-const store = useAppStore();
 </script>
 <script>
 export default {
-  
   data() {
-    return {      
-      loading: true
+    return {
+      loading: true,
     };
   },
   mounted() {
     setTimeout(() => {
-      this.loading = false
-    }, 1500)
+      this.loading = false;
+    }, 1500);
   },
 };
 </script>

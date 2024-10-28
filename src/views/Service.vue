@@ -1,15 +1,11 @@
 <template lang="">
-  <vContainer>
-    <v-app>
-      <v-breadcrumbs
-        :items="['Trang chủ', 'Thuê máy']"
-      ></v-breadcrumbs>
+  <v-main>
+    <v-container class="pa-2" fluid>
+      <v-breadcrumbs :items="['Trang chủ', 'Thuê máy']"></v-breadcrumbs>
       <Service />
-      <v-card class="mt-5 bg-teal-lighten-5">
-        <Form />
-      </v-card>
-    </v-app>
-  </vContainer>
+      <Form />
+    </v-container>
+  </v-main>
 </template>
 <script setup>
 import Service from "@/components/Service.vue";

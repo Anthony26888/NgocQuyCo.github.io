@@ -1,12 +1,12 @@
 <template>
-  <footer class="bg-body-tertiary text-center text-lg-start">
+  <v-footer class="bg-amber-lighten-2 text-dark text-center text-lg-start">
     <!-- Grid container -->
     <div class="container p-4">
       <!--Grid row-->
       <div class="row">
         <!--Grid column-->
         <div class="col-md-6 col-sm-12 mb-4 mb-md-0 mb-sm-0">
-          <img src="../../assets/Image/logoNG.png" alt="" srcset="" />
+          <img src="/src/assets/Image/Logo/logoNG.png" alt="" srcset="" />
           <h5 class="text-uppercase text-teal-accent-4">NGỌC QUÝ TECHNOLOGY</h5>
 
           <p>Chúng tôi luôn sẵn sàng khi bạn cần!</p>
@@ -92,7 +92,7 @@
       <!--Grid row-->
     </div>
     <!-- Grid container -->
-  </footer>
+  </v-footer>
 </template>
 
 <script>

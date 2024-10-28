@@ -1,69 +1,67 @@
 // Utilities
-import { defineStore } from 'pinia'
-import products from "@/api/product.json"
-import { useLocalStorage } from "@vueuse/core"
-export const useAppStore = defineStore('app', {
+import { defineStore } from "pinia";
+import axios from "axios";
+import router from "../router/index";
+export const useAppStore = defineStore("app", {
   state: () => {
     return {
-      products, 
-      Info:useLocalStorage("Info", []),  
-      filter:null,
-      filterInk:null
-    }
-  }, 
-  getters:{   
-    CIJ(){
-      return this.products.filter(value => value.type == 'CIJ')
-    },
-
-    TIJ(){
-      return this.products.filter(value => value.type == 'TIJ')
-    },
-
-    Lazer(){
-      return this.products.filter(value => value.type == 'LAZER')
-    },
-
-    Accessory(){
-      return this.products.filter(value => value.type == 'accessory')
-    },
-
-    Ink(){
-      return this.products.filter(value => value.type == 'ink')
-    },
-
-    FilterAccessory(){   
-      if(this.filter == null){
-        return this.products.filter(value => value.type == 'accessory')
-      }
-      if(this.filter == "Tất cả"){
-        return this.products.filter(value => value.type == 'accessory')
-      }
-
-      return this.products.filter(value => value.model== this.filter)
-      
-    },
-    FilterInk(){   
-      if(this.filterInk == null){
-        return this.products.filter(value => value.type == 'ink')
-      }
-      if(this.filterInk == "Tất cả"){
-        return this.products.filter(value => value.type == 'ink')
-      }
-
-      return this.products.filter(value => value.model== this.filterInk)
-      
-    }
+      Url: "http://localhost:3000",
+      UrlImgProduct: "/src/assets/Imgage/Product/",
+      Product: [],
+      ListPrinter: [],
+      ListMaterial: [],
+      ListAccessory: [],
+      ListFilter: [],
+      ListFilterProduct: [],
+      ListCart: [],
+      Search: "",
+      Banner: [],
+      BannerLanding1: [],
+      BannerLanding2: [],
+      BannerLanding3: [],
+      BannerLanding4: [],
+      BannerNewLanding: [],
+    };
   },
-  actions:{ 
-    GetFilter(title){
-      this.filter = title
+  getters: {},
+
+  actions: {
+    async FetchBanner() {
+      const res = await fetch(`${this.Url}/banner`);
+      this.Banner = await res.json();
     },
-    GetFilterInk(title){
-      this.filterInk = title
+    async FetchBannerLanding() {
+      const res = await fetch(`${this.Url}/bannerLanding`);
+      const check = await res.json();
+      this.BannerLanding1 = check[0];
+      this.BannerLanding2 = check[1];
+      this.BannerLanding3 = check[2];
+      this.BannerLanding4 = check[3];
     },
-    GetDetail(id){
-      this.Info = this.products.find(value => value.id === id)      
-    }
-  }
-})
+    async FetchProduct() {
+      const res = await fetch(`${this.Url}/product`);
+      const check = await res.json();
+      this.ListFilter = check;
+      this.ListPrinter = check.filter((value) => value.type == "printer");
+      this.ListMaterial = check.filter((value) => value.type == "material");
+      this.ListAccessory = check.filter((value) => value.type == "accessory");
+    },
+    async FetchNewLanding() {
+      const res = await fetch(`${this.Url}/NewProductLanding`);
+      this.BannerNewLanding = await res.json();
+    },
+    async AddCart(id) {
+      const res = await fetch(`${this.Url}/product/${id}`);
+      const check = await res.json();
+      this.ListCart.push(check);
+      this.SaveCart();
+    },
+    SaveCart() {
+      localStorage.setItem("Cart", JSON.stringify(this.ListCart));
+    },
+    RemoveCart(id) {
+      this.ListCart.splice(id, 1);
+      this.SaveCart();
+    },
+  },
+});

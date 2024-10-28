@@ -1,8 +1,8 @@
 <template lang="">
   <div class="d-flex justify-content-center flex-wrap">
     <v-card
-      class="mx-auto mt-3 bg-grey-lighten-4 card"      
-      v-for="value in item"
+      class="mx-auto mt-3 bg-grey-lighten-4 card"
+      v-for="value in item" :key="value"
     >
       <v-img class="align-end text-white img" height="200" :src="value.image" cover>
       </v-img>

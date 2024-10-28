@@ -1,819 +1,1658 @@
-[
-  {
-    "id": "101",
-    "type": "CIJ",
-    "model": "Linx",
-    "name": "Máy in Linx 8900",
-    "img": "https://i.ibb.co/DtrwDjY/3.png",
-    "imgDetail": [
-      "https://i.ibb.co/DtrwDjY/3.png",
-      "https://i.ibb.co/r59LdxX/10.png",
-      "https://i.ibb.co/mRqxW8b/9.png",
-      "https://i.ibb.co/jZG6mXx/11.png"
-    ],
-    "description": "Linx 8900 hoạt động đơn giản hơn so với các dòng máy in phun thông thường khác, giúp gia tăng hiệu quả sản xuất hơn so với trước đó. Công nghệ in không tiếp xúc trực tiếp lên bề mặt sản phẩm trên hệ thống dây chuyền sản xuất.",
-    
-    "tech": [
-      "Đầu in bền với thiết kế kín, nhằm hạn chế sự ma sát và các tác động từ yếu tố bên ngoài môi trường. Đầu in súc rửa tự đông, định kỳ chu kỳ từ 3 tháng đến 6 tháng.",
-      "Màn hình điều khiển cảm ứng 10 inches, kháng nước và một số loại dung môi.",
-      "Vỏ bọc tiêu chuẩn IP55 – phù hợp với môi trường dội nước.",
-      "Máy có tính năng báo khi chuẩn bị hết mực hoặc dung môi. Khả năng tiếp liệu trực tiếp khi đang in, không cần ngừng dây chuyền in."
-    ],
-    "table":[
-      {"name":"Thương hiệu", "detail":"LINX - Anh Quốc"},
-      {"name":"Điện áp", "detail":"220V-50Hz"},
-      {"name":"Công suất", "detail":"150W"},
-      {"name":"Kích thước đầu phun", "detail":"62- 72Micro"},
-      {"name":"Số dòng in", "detail":"tối đa 6 dòng"},
-      {"name":"Chiều cao ký tự", "detail":"1.8- 20mm"},
-      {"name":"Tốc độ in tối đa", "detail":"9.1m/ giây"},
-      {"name":"Số ký tự in tối đa", "detail":"2667 ký tự/s"},
-      {"name":"Tính năng", "detail":"in date, QR code, mã vạch, logo.,.."},
-      {"name":"Chế độ làm việc", "detail":"tự động thông qua cảm biến"},
-      {"name":"Nhiệt độ làm việc", "detail":"5-55 độ C"},
-      {"name":"Kích thước máy", "detail":"440 x 355 x 503mm"},
-      {"name":"Chất liệu máy", "detail":"inox"},
-      {"name":"Tiêu chuẩn chống bụi, ẩm", "detail":"IP55"},
-      {"name":"Trọng lượng", "detail":"24.5kg"}      
-    ],
-    "tableCheck":"true",    
-    "slide": "true"
-  },
-  {
-    "id": "102",
-    "type": "CIJ",
-    "model": "Linx",
-    "name": "Máy in Linx 8800",
-    "img": "https://i.ibb.co/hFQF21Q/6.png",
-    "description": "Linx 8800 là sản phẩm tâm huyết của chúng tôi, được thiết kế chuẩn mực, duy nhất cho thị trường Việt Nam. Chúng tôi mong rằng với Linx 8830, khách hàng sẽ dễ dàng tiếp cận công nghệ in phun tiên tiến Châu Âu với giá thành Việt Nam",
-    "imgDetail": [
-      "https://i.ibb.co/hFQF21Q/6.png",
-      "https://i.ibb.co/r59LdxX/10.png",
-      "https://i.ibb.co/yqSdjvg/8.png",
-      "https://i.ibb.co/jZG6mXx/11.png"
-    ],    
-    "tech": [
-      "Đầu in bền với thiết kế kín, nhằm hạn chế sự ma sát và các tác động từ yếu tố bên ngoài môi trường. Đầu in súc rửa tự đông, định kỳ chu kỳ từ 3 tháng đến 6 tháng.",
-      "Màn hình điều khiển cảm ứng 10 inches, kháng nước và một số loại dung môi.",
-      "Vỏ bọc tiêu chuẩn IP55 – phù hợp với môi trường dội nước.",
-      "Máy có tính năng báo khi chuẩn bị hết mực hoặc dung môi. Khả năng tiếp liệu trực tiếp khi đang in, không cần ngừng dây chuyền in."
-    ],    
-    "table":[
-      {"name":"Thương hiệu", "detail":"LINX - Anh Quốc"},
-      {"name":"Điện áp", "detail":"220V-50Hz"},
-      {"name":"Công suất", "detail":"200W"},
-      {"name":"Kích thước đầu phun", "detail":"50Micro"},
-      {"name":"Số dòng in", "detail":"tối đa 6 dòng"},
-      {"name":"Chiều cao ký tự", "detail":"1.2- 4.6mm"},
-      {"name":"Tốc độ in tối đa", "detail":"9.1m/ giây"},
-      {"name":"Số ký tự in tối đa", "detail":"2667 ký tự/s"},
-      {"name":"Tính năng", "detail":"in date, QR code, mã vạch, logo.,.."},
-      {"name":"Chế độ làm việc", "detail":"tự động thông qua cảm biến"},
-      {"name":"Nhiệt độ làm việc", "detail":"5-55 độ C"},
-      {"name":"Kích thước máy", "detail":"404 x 347 x 449mm"},
-      {"name":"Chất liệu máy", "detail":"inox"},
-      {"name":"Tiêu chuẩn chống bụi, ẩm", "detail":"IP55"},
-      {"name":"Trọng lượng", "detail":"21kg"}      
-    ],
-    "tableCheck":"true",
-    "slide": "true"
-  },
-  {
-    "id": "103",
-    "type": "CIJ",
-    "model": "Linx",
-    "name": "Máy in Linx 7900",
-    "img": "https://i.ibb.co/4dLBWcn/5.png",
-    "imgDetail": [
-      "https://i.ibb.co/4dLBWcn/5.png",
-      "https://i.ibb.co/zJB9mvz/4.png",
-      "https://i.ibb.co/L6SLkGb/7.png",
-      "https://i.ibb.co/s3Qt3Vd/6.png"
-    ],
-    "description": "Máy in date Linx 7900 là một dòng máy in mạnh mẽ, phù hợp để in trên nhiều dòng sản phẩm, ứng dụng trong nhiều ngành công nghiệp. Các tính năng tự động của máy in Linx 7900 giúp tăng năng suất và giảm lỗi in – nâng cao hiệu quả và giảm chi phí cho doanh nghiệp.",
-    
-    "tech": [
-      "In trên mọi bền mặt, chất liệu, độ sắc nét cao",
-      "Kết nối nhiều dây chuyền sản xuất và đóng gói tự động hoàn toàn",
-      "Vỏ bọc tiêu chuẩn IP55 – phù hợp với môi trường dội nước.",
-      "Các thiết bị cấu thành có tuổi thọ cao, tiêu chuẩn Anh Quốc, hạn chế tối đa phát sinh lỗi vặt, tiết kiệm chi phí bảo trì và sửa chữa"
-    ],    
-    "table":[
-      {"name":"Thương hiệu", "detail":"LINX - Anh Quốc"},
-      {"name":"Điện áp", "detail":"220V-50Hz"},
-      {"name":"Công suất", "detail":"200W"},
-      {"name":"Kích thước đầu phun", "detail":"50Micro"},
-      {"name":"Số dòng in", "detail":"1-2 dòng"},
-      {"name":"Chiều cao ký tự", "detail":"1.2- 4.6mm"},
-      {"name":"Tốc độ in tối đa", "detail":"6.83m/ giây"},
-      {"name":"Số ký tự in tối đa", "detail":"2667 ký tự/s"},
-      {"name":"Tính năng", "detail":"in date, QR code, mã vạch, logo.,.."},
-      {"name":"Chế độ làm việc", "detail":"tự động thông qua cảm biến"},
-      {"name":"Nhiệt độ làm việc", "detail":"5-55 độ C"},
-      {"name":"Kích thước máy", "detail":"663 x 490 x 240mm"},
-      {"name":"Chất liệu máy", "detail":"inox"},
-      {"name":"Tiêu chuẩn chống bụi, ẩm", "detail":"IP55"},
-      {"name":"Trọng lượng", "detail":"21kg"}      
-    ],
-    "tableCheck":"true",
-    "slide": "true"
-  },
-  {
-    "id": "104",
-    "type": "CIJ",
-    "model": "Linx",
-    "name": "Máy in Linx 7300",
-    "img": "https://i.ibb.co/FnyrhmB/1.png",
-    "imgDetail": [
-      "https://i.ibb.co/FnyrhmB/1.png",
-      "https://i.ibb.co/Z1ZKH9V/5.png",
-      "https://i.ibb.co/L6SLkGb/7.png",
-      "https://i.ibb.co/s3Qt3Vd/6.png"
-    ],
-    "description": "Dòng máy in phun hạn sử dụng Linx 7300 có đầy đủ các yếu tố cấu thành của 1 máy in date hiện đại, kết cấu gọn nhẹ, có độ tiết kiệm về chi phí đầu tư và cũng như khấu hao trong quá trình vận hành sản xuất. Máy được kết cấu từ các thiết bị cấu thành với tuổi thọ cao, tiêu chuẩn Anh Quốc và quốc tế – máy hạn chế tối đa phát sinh lỗi vặt – tiết kiệm chi phí bảo trì, sửa chữa trong quá trình vận hành.",
-    
-    "tech": [
-      "Giao diện người sử dụng bằng màn hình màu rất dễ sử dụng",
-      "In 3 dòng và ma trận thông tin được cung cấp như tiêu chuẩn có sẵn",
-      "In 5 dòng được hỗ trợ như là tiêu chuẩn lựa chọn thêm",
-      "Tốc độ in nhanh hơn và công cụ truyền thông từ xa có thể được thêm vào khi khách hàng có nhu cầu"
-    ],
-    "table":[
-      {"name":"Thương hiệu", "detail":"LINX - Anh Quốc"},
-      {"name":"Điện áp", "detail":"220V-50Hz"},
-      {"name":"Công suất", "detail":"200W"},
-      {"name":"Kích thước đầu phun", "detail":"50Micro"},
-      {"name":"Số dòng in", "detail":"1-2 dòng"},
-      {"name":"Chiều cao ký tự", "detail":"1.1-12mm"},
-      {"name":"Tốc độ in tối đa", "detail":"8.41m/s (in 1 dòng)"},
-      {"name":"Số ký tự in tối đa", "detail":"2667 ký tự/s"},
-      {"name":"Tính năng", "detail":"in date, QR code, mã vạch, logo.,.."},
-      {"name":"Chế độ làm việc", "detail":"tự động thông qua cảm biến"},
-      {"name":"Nhiệt độ làm việc", "detail":"5-55 độ C"},
-      {"name":"Kích thước máy", "detail":"700 x 480 x 200mm"},
-      {"name":"Chất liệu máy", "detail":"inox"},
-      {"name":"Tiêu chuẩn chống bụi, ẩm", "detail":"IP55"},
-      {"name":"Trọng lượng", "detail":"24kg"}      
-    ],
-    "tableCheck":"true",
-    "slide": "true"
-  },
-  
-  {
-    "id": "105",
-    "type": "CIJ",
-    "model": "Linx",
-    "name": "Máy in Linx 5900",
-    "img": "https://i.ibb.co/r01c1R9/2.png",
-    "imgDetail": [
-      "https://i.ibb.co/r01c1R9/2.png",
-      "https://i.ibb.co/3Y0V9NS/3.png",
-      "https://i.ibb.co/L6SLkGb/7.png",
-      "https://i.ibb.co/s3Qt3Vd/6.png"
-    ],
-    "description": "Máy in phun công nghiệp Linx 5900 là dòng máy chuyên dụng và phổ thông của Linx. Đảm bảo tính hiệu quả in luôn tốt nhất với chi phí vận hành thấp nhất.",
-    
-    "tech": [
-      "In date code, Ngày sản xuất – Hạn sử dụng, số lô, số ca, mã vạch, logo, Quy cách sản phẩm.",
-      "Chất liệu in đa dạng như: nhựa, kim loại, giấy, thủy tinh,….",
-      "Tốc độ in tối đa 7.28m/s (in 1 dòng)",
-      "Độ cao chữ từ 1.4mm tới 10.7mm",
-      "In ký tự xoay (dạng hình tháp)"
-    ],
-    
-    "table":[
-      {"name":"Thương hiệu", "detail":"LINX - Anh Quốc"},
-      {"name":"Điện áp", "detail":"220V-50Hz"},
-      {"name":"Công suất", "detail":"200W"},
-      {"name":"Kích thước đầu phun", "detail":"50Micro"},
-      {"name":"Số dòng in", "detail":"1-2 dòng"},
-      {"name":"Chiều cao ký tự", "detail":"1.2- 4.6mm"},
-      {"name":"Tốc độ in tối đa", "detail":"6.83m/ giây"},
-      {"name":"Số ký tự in tối đa", "detail":"2667 ký tự/s"},
-      {"name":"Tính năng", "detail":"in date, QR code, mã vạch, logo.,.."},
-      {"name":"Chế độ làm việc", "detail":"tự động thông qua cảm biến"},
-      {"name":"Nhiệt độ làm việc", "detail":"5-55 độ C"},
-      {"name":"Kích thước máy", "detail":"663 x 490 x 240mm"},
-      {"name":"Chất liệu máy", "detail":"inox"},
-      {"name":"Tiêu chuẩn chống bụi, ẩm", "detail":"IP55"},
-      {"name":"Trọng lượng", "detail":"21kg"}      
-    ],
-    "tableCheck":"true",
-    "slide": "true"
-  },
-  {
-    "id": "106",
-    "type": "CIJ",
-    "model": "Linx",
-    "name": "Máy in Linx 4900",
-    "img": "https://i.ibb.co/K64xx49/4.png",
-    "imgDetail": [
-      "https://i.ibb.co/K64xx49/4.png",
-      "https://i.ibb.co/wwM492D/2.png",
-      "https://i.ibb.co/s3Qt3Vd/6.png"
-    ],
-    "description": "Dòng máy in phun hạn sử dụng Linx 4900 có đầy đủ các yếu tố cấu thành của 1 máy in date hiện đại, kết cấu gọn nhẹ, có độ tiết kiệm về chi phí đầu tư và cũng như khấu hao trong quá trình vận hành sản xuất. Máy được kết cấu từ các thiết bị cấu thành với tuổi thọ cao, tiêu chuẩn Anh Quốc và quốc tế – máy hạn chế tối đa phát sinh lỗi vặt – tiết kiệm chi phí bảo trì, sửa chữa trong quá trình vận hành.",
-    
-    "tech": [
-      "In lên đến 2 dòng văn bản và logo với tốc độ in tối đa 6.25m/s",
-      "Vỏ máy được thiết kế cong với kết cấu IP55 chống bụi và chống nước.",
-      "Bộ nhớ lưu trữ đến 50 tin, ngày tháng tự động thay đổi giúp giảm thiểu sự cần thiết phải chỉnh sửa.",
-      "Đầu in được thiết kế đặc biệt siêu chắc không yêu cầu phải điều chỉnh thủ công.",
-      "Không cần phải ngưng hoặc mở máy in để nạp thêm mực, dung môi.",
-      "Thiết kế nhỏ gọn không cần hệ thống khí nén."
-    ],
-    "table":[
-      {"name":"Thương hiệu", "detail":"LINX - Anh Quốc"},
-      {"name":"Điện áp", "detail":"220V-50Hz"},
-      {"name":"Công suất", "detail":"200W"},
-      {"name":"Kích thước đầu phun", "detail":"50Micro"},
-      {"name":"Số dòng in", "detail":"1-2 dòng"},
-      {"name":"Chiều cao ký tự", "detail":"2.032- 7.62mm"},
-      {"name":"Tốc độ in tối đa", "detail":"6.248m/ giây"},
-      {"name":"Số ký tự in tối đa", "detail":"2667 ký tự/s"},
-      {"name":"Tính năng", "detail":"in date, QR code, mã vạch, logo.,.."},
-      {"name":"Chế độ làm việc", "detail":"tự động thông qua cảm biến"},
-      {"name":"Nhiệt độ làm việc", "detail":"5-55 độ C"},
-      {"name":"Kích thước máy", "detail":"663 x 490 x 240mm"},
-      {"name":"Chất liệu máy", "detail":"inox"},
-      {"name":"Tiêu chuẩn chống bụi, ẩm", "detail":"IP55"},
-      {"name":"Trọng lượng", "detail":"20kg"}      
-    ],
-    "tableCheck":"true",
-    "slide": "true"
-  },  
-  {
-    "id": "107",
-    "type": "CIJ",
-    "model": "Hitachi",
-    "name": "Máy in Hitachi PXR",
-    "img": "https://i.ibb.co/BZVf2x7/1.png",
-    "imgDetail": [
-      "https://i.ibb.co/BZVf2x7/1.png",
-      "https://i.ibb.co/Rh6LxWy/2.png",
-      "https://i.ibb.co/f4N5MQZ/3.png"
-    ],
-    "description": "MÁY IN PHUN DATE CODE HITACHI PXR là máy in phun liên tục không tiếp xúc với sản phẩm bằng cách phun từng giọt mực lên bề mặt cần in tạo thành các định dạng có thể đọc được (ký tự, chữ, số,..)",
-    
-    "tech": [
-      "Màn hình cảm ứng LCD TFT màu 10,4 inch lớn.",
-      "Đầu phun 65μm với vòi phun SS với vòi phun SS.",
-      "Vỏ máy 304 SS IP55 tuân thủ RoHS"      
-    ],    
-    "table":[
-      {"name":"Thương hiệu", "detail":"Hitachi"},
-      {"name":"Điện áp", "detail":"220V-50Hz"},
-      {"name":"Công suất", "detail":"200W"},
-      {"name":"Kích thước đầu phun", "detail":"50Micro"},
-      {"name":"Số dòng in", "detail":"1-2 dòng"},
-      {"name":"Độ rộng cuộn in", "detail":"38mm"},
-      {"name":"Kích thước chữ in", "detail":"4 x 35mm"},      
-      {"name":"Chế độ làm việc", "detail":"tự động thông qua cảm biến"},
-      {"name":"Nhiệt độ làm việc", "detail":"5-55 độ C"},
-      {"name":"Kích thước máy", "detail":"398 X 314 X 515mm"},
-      {"name":"Chất liệu máy", "detail":"inox"},
-      {"name":"Tiêu chuẩn chống bụi, ẩm", "detail":"IP55"},
-      {"name":"Trọng lượng", "detail":"25kg"}      
-    ],
-    "tableCheck":"true",
-    "slide": "true"
-  },
-  {
-    "id": "108",
-    "type": "TIJ",
-    "model": "TIJ INKJET",
-    "name": "Máy in TIJ VT180",
-    "img": "https://i.ibb.co/TBdHhkW/1.png",
-    "imgDetail": [  
-      "https://i.ibb.co/TBdHhkW/1.png",
-      "https://i.ibb.co/KqGJ5jq/2.png",
-      "https://i.ibb.co/k95rHnp/3.png",
-      "https://i.ibb.co/YywkTGB/4.png"
-    ],
-    "description": "Máy in date tự động TIJ VT180 là loại máy in được  kết hợp với băng tải và dây chuyền sản xuất để tối ưu hóa việc in mã code và hạn sữ dụng lên sản phẩm.",
-    
-    "tech": [
-      "Hệ thống sử dụng hệ điều hành Linux, hỗ trợ cổng USB để nhập dữ liệu in ấn, hỗ trợ thời gian thực.",
-      "Thiết kế thân máy tách rời, dễ dàng lắp đặt, in xoay 360 độ, có thể điều chỉnh góc in tùy ý và thiết bị tinh chỉnh chống va chạm.",
-      "Màn hình 7 inch cảm ứng điện dung siêu rõ nét, chống nhiễu, thân máy hoàn toàn bằng nhôm.",
-      "Máy in phun nhiều đầu trực tuyến, 1-6 đầu phun có thể được sử dụng theo ý muốn.",
-      "Thân máy thon gọn, toàn bộ bằng nhôm, tản nhiệt tốt, thích hợp cho việc in ấn trong thời gian dài.",
-      "Máy vận hành đơn giản và dễ bảo trì."
-    ],
-    "table":[      
-      {"name":"Bộ đếm số", "detail":"1-15 số"},
-      {"name":"Tốc độ in", "detail":"40m/phút"},
-      {"name":"Độ phân giải", "detail":"600 DPI"},
-      {"name":"Thuộc tính mực", "detail":"Mực gốc nước, gốc dung môi"},
-      {"name":"Khoảng cách in", "detail":"3-5mm"},      
-      {"name":"Cổng giao tiếp", "detail":"Cổng nguồn và quang điện, cổng HDMI, cổng USB"},
-      {"name":"Môi trường làm việc", "detail":"0-40 độ C, độ ẩm 10-80%"},
-      {"name":"Kích thước máy", "detail":"210 X 110 X 40mm"},
-      {"name":"Chiều cao in", "detail":"1-12.7mm"},
-      {"name":"Các loại hình in", "detail":"hỗ trợ lên tới 10 ngôn ngữ."}     
-    ],
-    "tableCheck":"true",
-    "slide": "true"
-  },
-  {
-    "id": "109",
-    "type": "LAZER",
-    "model": "KingCode",
-    "name": "Máy khắc laser CO2 KingCode",
-    "img": "https://i.ibb.co/d6xgHj8/1.png",
-    "imgDetail": [    
-      "https://i.ibb.co/d6xgHj8/1.png",
-      "https://i.ibb.co/x2MSSBM/Thi-t-k-ch-a-c-t-n.png",
-      "https://i.ibb.co/Lv7MBWF/2.png"
-           
-    ],
-    "description": "Máy khắc laser CO2 sử dụng công nghệ laser CO2 để quá trình khắc chính xác và chi tiết, đánh dấu, và cắt các vật liệu khác nhau. Máy khắc laser CO2 có thể được sử dụng để đánh dấu trên nhiều loại vật liệu khác nhau, bao gồm gỗ, nhựa, da, cao su, thủy tinh, kim loại mềm, giấy và nhiều vật liệu tự nhiên khác.",  
-    "tech": [
-      "Tuổi thọ đầu in laser CO2 lên đến 50.000 giờ.",
-      "Máy khắc laser CO2 có tốc độ khắc nhanh và khả năng tái tạo độ chính xác cao, giúp tiết kiệm thời gian và năng suất sản xuất.",
-      "Cấp độ bảo vệ IP65, đầu in laser CO2 đạt tiêu chuẩn với khả năng chống bụi bẩn, ẩm thấp hoạt động dễ dàng trong môi trường sản xuất các ngành công nghiệp khác nhau.",
-      "Thân máy được làm bằng thép không gỉ cao cấp với nhiệt độ hoạt động lên đến 50oC và không cần máy làm mát bằng khí nén.",
-      "Công nghệ laser không tiêu tốn nguyên liệu, giúp tiết kiệm chi phí và thời gian bảo trì."
-    ],
-    "table":[
-      {"name":"Bước sóng", "detail":"1064μm"},
-      {"name":"Lớp chất lượng", "detail":"<1.4M2"},
-      {"name":"Nguồn lazer", "detail":"15W/30W/50W"},
-      {"name":"Cách giải nhiệt", "detail":"không khí"},
-      {"name":"Vùng khắc", "detail":"110mm x 110mm / 175mm x 175mm"},
-      {"name":"Tiêu cự", "detail":"170mm"},
-      {"name":"Min - độ rộng nét chữ", "detail":"0.15mm"},
-      {"name":"Min - độ cao chữ", "detail":"0.7mm"},
-      {"name":"Tốc độ", "detail":"1 – 7.000mm/s"},
-      {"name":"Tệp hình ảnh", "detail":"BMP, PLT, AL, DXF"},
-      {"name":"Điện áp", "detail":"AC220, ±10%"},
-      {"name":"Tần số", "detail":"50Hz/60Hz"},
-      {"name":"Kích thước máy", "detail":"(4500x4500x1300)mm"},
-      {"name":"Trọng lượng", "detail":"80kg"},
-      {"name":"Nhiệt độ", "detail":"0-50C, độ ẩm 5%-95%"},
-      {"name":"Công suất", "detail":"1KW"},
-      {"name":"Cấp độ bảo vệ", "detail":"IP65"},
-      {"name":"Mức an toàn", "detail":"4"},
-      {"name":"Chỉnh lên xuống", "detail":"0-450mm"},
-      {"name":"Chỉnh tới - lùi", "detail":"0-250mm"},
-      {"name":"Hướng khắc", "detail":"0, 45, 90, 180"}
-    ],
-    "slide": "true",
-    "tableCheck":"true"
-  },  
-  {
-    "id": "110",
-    "type": "LAZER",
-    "model": "KingCode",
-    "name": "Máy khắc laser Fiber KingCode",
-    "img": "https://i.ibb.co/d6xgHj8/1.png",
-    "imgDetail": [    
-      "https://i.ibb.co/d6xgHj8/1.png",
-      "https://i.ibb.co/x2MSSBM/Thi-t-k-ch-a-c-t-n.png",
-      "https://i.ibb.co/Lv7MBWF/2.png"
-           
-    ],
-    "description": "Máy khắc laser fiber sử dụng công nghệ laser fiber để thực hiện quá trình khắc, đánh dấu, và cắt các vật liệu khác nhau. Máy khắc laser fiber thường được sử dụng để làm những công việc như khắc logo, chữ viết, hình ảnh, và mã vạch lên bề mặt vật liệu như kim loại, nhựa, gỗ, da và nhiều vật liệu khác. Tia laser fiber có khả năng tập trung cao và công suất lớn, giúp tạo ra những dấu vết chính xác và sắc nét trên bề mặt vật liệu.",  
-    "tech": [
-      "Tuổi thọ đầu in laser fiber lên đến 100.000 giờ.",
-      "Máy khắc in barcode laser fiber có tốc độ khắc nhanh và khả năng tái tạo độ chính xác cao, giúp tiết kiệm thời gian và năng suất sản xuất. ",
-      "Cấp độ bảo vệ IP65, đầu in laser fiber kingcode đạt tiêu chuẩn với khả năng chống bụi bẩn, ẩm thấp hoạt động dễ dàng trong môi trường sản xuất các ngành công nghiệp khác nhau.",
-      "Thân máy được làm bằng thép không gỉ cao cấp với nhiệt độ hoạt động lên đến 50oC và không cần máy làm mát bằng khí nén.",
-      "Công nghệ in laser không tiêu tốn nguyên liệu, giúp tiết kiệm chi phí và thời gian bảo trì."      
-    ],
-    "table":[
-      {"name":"Bước sóng", "detail":"1.06μm"},
-      {"name":"Lớp chất lượng", "detail":"<1.4M2"},
-      {"name":"Nguồn lazer", "detail":"20W/30W/50W"},
-      {"name":"Cách giải nhiệt", "detail":"không khí"},
-      {"name":"Vùng khắc", "detail":"110mm x 110mm / 175mm x 175mm"},
-      {"name":"Tiêu cự", "detail":"170mm"},
-      {"name":"Min - độ rộng nét chữ", "detail":"0.15mm"},
-      {"name":"Min - độ cao chữ", "detail":"0.7mm"},
-      {"name":"Tốc độ", "detail":"0 – 7.000mm/s"},
-      {"name":"Tệp hình ảnh", "detail":"BMP, PLT, AL, DXF"},
-      {"name":"Điện áp", "detail":"AC220, ±10%"},
-      {"name":"Tần số", "detail":"50Hz/60Hz"},
-      {"name":"Kích thước máy", "detail":"(4500x4500x1300)mm"},
-      {"name":"Trọng lượng", "detail":"80kg"},
-      {"name":"Nhiệt độ", "detail":"0-50C, độ ẩm 5%-95%"},
-      {"name":"Công suất", "detail":"1KW"},
-      {"name":"Cấp độ bảo vệ", "detail":"IP65"},
-      {"name":"Mức an toàn", "detail":"4"},
-      {"name":"Chỉnh lên xuống", "detail":"0-450mm"},
-      {"name":"Chỉnh tới - lùi", "detail":"0-250mm"},
-      {"name":"Hướng khắc", "detail":"0, 45, 90, 180"}
-    ],
-    "slide": "true",
-    "tableCheck":"true"
-  },
-  {
-    "id": "111",
-    "type": "LAZER",
-    "model": "KingCode",
-    "name": "Máy khắc laser UV KingCode",
-    "img": "https://i.ibb.co/d6xgHj8/1.png",
-    "imgDetail": [    
-      "https://i.ibb.co/d6xgHj8/1.png",
-      "https://i.ibb.co/x2MSSBM/Thi-t-k-ch-a-c-t-n.png",
-      "https://i.ibb.co/Lv7MBWF/2.png"
-           
-    ],
-    "description": "Máy khắc laser UV sử dụng công nghệ laser UV là tia cực tím ngắn (UV) để quá trình khắc chính xác và chi tiết, đánh dấu, và cắt các vật liệu khác nhau. Máy khắc laser UV thường được sử dụng để làm những công việc như khắc logo, chữ viết, hình ảnh, và mã vạch trên nhiều vật liệu khác nhau, bao gồm gỗ, nhựa, da, kính, kim loại mà không cần sử dụng mực in hay chất phủ bổ sung. Máy khắc laser UV có độ chính xác cao và tốc độ khắc nhanh, cho phép tạo ra các sản phẩm có hình ảnh sắc nét và chi tiết. Ngoài ra, laser UV cũng có khả năng khắc trên các bề mặt cong và không gây tổn thương cho vật liệu xung quanh.",  
-    "tech": [
-      "Tuổi thọ đầu in laser UV lên đến 50.000 giờ.",
-      "Máy khắc laser UV có tốc độ khắc nhanh và khả năng tái tạo độ chính xác cao, giúp tiết kiệm thời gian và năng suất sản xuất.",
-      "Cấp độ bảo vệ IP65, đầu in laser UV đạt tiêu chuẩn với khả năng chống bụi bẩn, ẩm thấp hoạt động dễ dàng trong môi trường sản xuất các ngành công nghiệp khác nhau.",
-      "Thân máy được làm bằng thép không gỉ cao cấp với nhiệt độ hoạt động lên đến 50oC và không cần máy làm mát bằng khí nén.",
-      "Công nghệ in laser không tiêu tốn nguyên liệu, giúp tiết kiệm chi phí và thời gian bảo trì."      
-    ],
-    "table":[
-      {"name":"Bước sóng", "detail":"355nm"},
-      {"name":"Lớp chất lượng", "detail":"<1.3M2"},
-      {"name":"Nguồn lazer", "detail":"3W/5W/8W"},
-      {"name":"Cách giải nhiệt", "detail":"nước"},
-      {"name":"Vùng khắc", "detail":"110mm x 110mm / 175mm x 175mm"},
-      {"name":"Tiêu cự", "detail":"170mm"},
-      {"name":"Min - độ rộng nét chữ", "detail":"0.15mm"},
-      {"name":"Min - độ cao chữ", "detail":"0.7mm"},
-      {"name":"Tốc độ", "detail":"2 – 7.000mm/s"},
-      {"name":"Tệp hình ảnh", "detail":"BMP, PLT, AL, DXF"},
-      {"name":"Điện áp", "detail":"AC220, ±10%"},
-      {"name":"Tần số", "detail":"50Hz/60Hz"},
-      {"name":"Kích thước máy", "detail":"(4500x4500x1300)mm"},
-      {"name":"Trọng lượng", "detail":"80kg"},
-      {"name":"Nhiệt độ", "detail":"0-50C, độ ẩm 5%-95%"},
-      {"name":"Công suất", "detail":"1KW"},
-      {"name":"Cấp độ bảo vệ", "detail":"IP65"},
-      {"name":"Mức an toàn", "detail":"4"},
-      {"name":"Chỉnh lên xuống", "detail":"0-450mm"},
-      {"name":"Chỉnh tới - lùi", "detail":"0-250mm"},
-      {"name":"Hướng khắc", "detail":"0, 45, 90, 180"}
-    ],
-    "slide": "true",
-    "tableCheck":"true"
-  },
-
-
-
-
-
-
-  {
-    "id": "1",
-    "type":"accessory",
-    "name": "Bộ lọc chính Linx",
-    "model": "Lọc",
-    "img": "https://i.ibb.co/t8Lb9fC/4.png",
-    "imgDetail": "https://i.ibb.co/t8Lb9fC/4.png",
-    "description": "Sử dụng tương thích cho máy in Linx 4900, 5900",
-    "slide": "false"
-  },
-  {
-    "id": "2",
-    "type":"accessory",
-    "name": "Lọc mực Linx",
-    "model": "Lọc",
-    "img": "https://i.ibb.co/JQBSwdy/2.png",
-    "imgDetail": "https://i.ibb.co/JQBSwdy/2.png",
-    "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7900",
-    "slide": "false"
-  },
-  {
-    "id": "3",
-    "type":"accessory",
-    "name": "Lọc dung môi Linx",
-    "model": "Lọc",
-    "img": "https://i.ibb.co/99NTPmG/8.png",
-    "imgDetail": "https://i.ibb.co/99NTPmG/8.png",
-    "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7900",
-    "slide": "false"
-  },
-  {
-    "id": "24",
-    "type":"accessory",
-    "name": "Lọc 3 nhánh Linx",
-    "model": "Lọc",
-    "img": "https://i.ibb.co/ngpVtj0/1.png",
-    "imgDetail": "https://i.ibb.co/ngpVtj0/1.png",
-    "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7900",
-    "slide": "false"
-  },
-  {
-    "id": "4",
-    "type":"accessory",
-    "name": "Damper Linx",
-    "model": "Lọc",
-    "img": "https://i.ibb.co/J7vCwnv/3.png",
-    "imgDetail": "https://i.ibb.co/J7vCwnv/3.png",
-    "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7900",
-    "slide": "false"
-  },
-  {
-    "id": "5",
-    "type":"accessory",
-    "name": "Van 3 chiều Linx",
-    "model": "Van",
-    "img": "https://i.ibb.co/8cwJcBz/10.png",
-    "imgDetail": "https://i.ibb.co/8cwJcBz/10.png",
-    "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7900",
-    "slide": "false"
-  },
-  {
-    "id": "6",
-    "type":"accessory",
-    "name": "Mặt bàn phím Linx 4900",
-    "model": "Bàn phím",
-    "img": "https://i.ibb.co/WKkw36d/6.png",
-    "imgDetail": "https://i.ibb.co/WKkw36d/6.png",
-    "description": "Sử dụng tương thích cho máy in Linx 4900",
-    "slide": "false"
-  },
-  {
-    "id": "7",
-    "type":"accessory",
-    "name": "Mặt bàn phím Linx 5900",
-    "model": "Bàn phím",
-    "img": "https://i.ibb.co/mT1R1ss/5.png",
-    "imgDetail": "https://i.ibb.co/mT1R1ss/5.png",
-    "description": "Sử dụng tương thích cho máy in Linx 5900",
-    "slide": "false"
-  },
-  {
-    "id": "8",
-    "type":"accessory",
-    "name": "Board nguồn Linx",
-    "model": "Board",
-    "img": "https://i.ibb.co/G0H2Jxt/7.png",
-    "imgDetail": "https://i.ibb.co/G0H2Jxt/7.png",
-    "description": "Sử dụng tương thích cho máy in Linx 5900",
-    "slide": "false"
-  },
-  {
-    "id": "9",
-    "type":"accessory",
-    "name": "Mainifold Linx",
-    "model": "Khác",
-    "img": "https://i.ibb.co/MDm8XmP/9.png",
-    "imgDetail": "https://i.ibb.co/MDm8XmP/9.png",
-    "description": "Sử dụng tương thích cho máy in Linx 4900 5900 5900",
-    "slide": "false"
-  },
-  {
-    "id": "10",
-    "type":"accessory",
-    "name": "Mặt bàn phím Linx 7900",
-    "model": "Bàn phím",
-    "img": "https://i.ibb.co/zSb0G68/banphim79.png",
-    "imgDetail": "https://i.ibb.co/zSb0G68/banphim79.png",
-    "description": "Sử dụng tương thích cho máy in Linx 7900",
-    "slide": "false"
-  },
-  {
-    "id": "11",
-    "type":"accessory",
-    "name": "Pin Cmos",
-    "model": "Khác",
-    "img": "https://i.ibb.co/4sDxGfV/pin59.png",
-    "imgDetail": "https://i.ibb.co/4sDxGfV/pin59.png",
-    "description": "Sử dụng tương thích cho máy in Linx 4900 5900 7900",
-    "slide": "false"
-  },
-  {
-    "id": "12",
-    "type":"accessory",
-    "name": "Màn hình Linx 5900",
-    "model": "Màn hình",
-    "img": "https://i.ibb.co/Jt0TVHZ/manhinh59.png",
-    "imgDetail": "https://i.ibb.co/Jt0TVHZ/manhinh59.png",
-    "description": "Sử dụng tương thích cho máy in Linx 5900",
-    "slide": "false"
-  },
-  {
-    "id": "13",
-    "type":"accessory",
-    "name": "Bơm Linx",
-    "model": "Bơm",
-    "img": "https://i.ibb.co/KbqX2Ck/bom.png",
-    "imgDetail": "https://i.ibb.co/KbqX2Ck/bom.png",
-    "description": "Sử dụng tương thích cho máy in Linx 4900 5900 7900",
-    "slide": "false"
-  },
-  {
-    "id": "14",
-    "type":"accessory",
-    "name": "Damper Linx 7900",
-    "model": "Lọc",
-    "img": "https://i.ibb.co/4VjdDH7/damper79.png",
-    "imgDetail": "https://i.ibb.co/4VjdDH7/damper79.png",
-    "description": "Sử dụng tương thích cho máy in Linx 5900 7900",
-    "slide": "false"
-  },
-  {
-    "id": "15",
-    "type":"accessory",
-    "name": "Board chính Linx 5900 7900",
-    "model": "Board",
-    "img": "https://i.ibb.co/6Ph7dJk/board59.png",
-    "imgDetail": "https://i.ibb.co/6Ph7dJk/board59.png",
-    "description": "Sử dụng tương thích cho máy in Linx 5900 7900",
-    "slide": "false"
-  },
-  {
-    "id": "16",
-    "type":"accessory",
-    "name": "Lọc chính Linx 89xx",
-    "model": "Lọc",
-    "img": "https://i.ibb.co/51zwFKD/loc89.png",
-    "imgDetail": "https://i.ibb.co/51zwFKD/loc89.png",
-    "description": "Sử dụng tương thích cho máy in Linx 88xx 89xx",
-    "slide": "false"
-  },
-  {
-    "id": "17",
-    "type":"accessory",
-    "name": "Board cao áp Linx",
-    "model": "Board",
-    "img": "https://i.ibb.co/qgxXn4H/boardcaoap.png",
-    "imgDetail": "https://i.ibb.co/qgxXn4H/boardcaoap.png",
-    "description": "Sử dụng tương thích cho máy in Linx 4900 5900 7900",
-    "slide": "false"
-  },
-  {
-    "id": "18",
-    "type":"accessory",
-    "name": "Nắp đầu in Linx",
-    "model": "Khác",
-    "img": "https://i.ibb.co/Qrs1MDT/napdauin59.png",
-    "imgDetail": "https://i.ibb.co/Qrs1MDT/napdauin59.png",
-    "description": "Sử dụng tương thích cho máy in Linx 4900 5900 7900",
-    "slide": "false"
-  },
-  {
-    "id": "19",
-    "type":"accessory",
-    "name": "Màn hình 89xx",
-    "model": "Màn hình",
-    "img": "https://i.ibb.co/1Zy9Nsx/manhinh89.png",
-    "imgDetail": "https://i.ibb.co/1Zy9Nsx/manhinh89.png",
-    "description": "Sử dụng tương thích cho máy in Linx 89xx",
-    "slide": "false"
-  },
-  {
-    "id": "20",
-    "type":"accessory",
-    "name": "Béc phun 88xx 89xx",
-    "model": "Khác",
-    "img": "https://i.ibb.co/1MB2jVG/bec89.png",
-    "imgDetail": "https://i.ibb.co/1MB2jVG/bec89.png",
-    "description": "Sử dụng tương thích cho máy in Linx 88xx 89xx",
-    "slide": "false"
-  },
-  {
-    "id": "21",
-    "type":"accessory",
-    "name": "Board chính 88xx 89xx",
-    "model": "Board",
-    "img": "https://i.ibb.co/LhbdmK2/board79.png",
-    "imgDetail": "https://i.ibb.co/LhbdmK2/board79.png",
-    "description": "Sử dụng tương thích cho máy in Linx 88xx 89xx",
-    "slide": "false"
-  },
-  {
-    "id": "22",
-    "type":"accessory",
-    "name": "Bộ lọc chính Spectrum",
-    "model": "Lọc",
-    "img": "https://i.ibb.co/khF7N7m/locspectrum.png",
-    "imgDetail": "https://i.ibb.co/khF7N7m/locspectrum.png",
-    "description": "Sử dụng tương thích cho máy in Linx 7900 Spectrum",
-    "slide": "false"
-  },
-  {
-    "id": "23",
-    "type":"accessory",
-    "name": "Màn hình 4900",
-    "model": "Màn hình",
-    "img": "https://i.ibb.co/YPfCWsb/manhinh49.png",
-    "imgDetail": "https://i.ibb.co/YPfCWsb/manhinh49.png",
-    "description": "Sử dụng tương thích cho máy in Linx 4900",
-    "slide": "false"
-  },
-
-
-
-
-
-
-
-  {
-    "id": "201",
-    "type":"ink",
-    "name": "Mực đen - 500ml",
-    "model": "Mực đen",
-    "capacity": "500ml",
-    "img": "https://i.ibb.co/1qTW6p6/1014-500-59.jpg",
-    "imgDetail": "https://i.ibb.co/1qTW6p6/1014-500-59.jpg",
-    "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7300, 7900",
-    "slide": "false"
-  },
-  {
-    "id": "202",
-    "type":"ink",
-    "name": "Mực đen - 1000ml",
-    "model": "Mực đen",
-    "capacity": "1000ml",
-    "img": "https://i.ibb.co/dbvy6xG/1014-1000-59.jpg",
-    "imgDetail": "https://i.ibb.co/dbvy6xG/1014-1000-59.jpg",
-    "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7300, 7900",
-    "slide": "false"
-  },
-  {
-    "id": "203",
-    "type":"ink",
-    "name": "Mực vàng - 500ml",
-    "model": "Mực vàng",
-    "capacity": "500ml",
-    "img": "https://i.ibb.co/wcc6wzK/1039-500-59.jpg",
-    "imgDetail": "https://i.ibb.co/wcc6wzK/1039-500-59.jpg",
-    "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7300, 7900",
-    "slide": "false"
-  },
-  {
-    "id": "204",
-    "type":"ink",
-    "name": "Mực vàng - 1000ml",
-    "model": "Mực vàng",
-    "capacity": "500ml",
-    "img": "https://i.ibb.co/4dfSdG0/1039-1000-59.jpg",
-    "imgDetail": "https://i.ibb.co/4dfSdG0/1039-1000-59.jpg",
-    "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7300, 7900",
-    "slide": "false"
-  },
-  {
-    "id": "205",
-    "type":"ink",
-    "name": "Mực trắng - 500ml",
-    "model": "Mực trắng",
-    "capacity": "500ml",
-    "img": "https://i.ibb.co/7RYPWy9/1059-500-59.jpg",
-    "imgDetail": "https://i.ibb.co/7RYPWy9/1059-500-59.jpg",
-    "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7300, 7900",
-    "slide": "false"
-  },
-  {
-    "id": "206",
-    "type":"ink",
-    "name": "Mực trắng - 1000ml",
-    "model": "Mực trắng",
-    "capacity": "1000ml",
-    "img": "https://i.ibb.co/M5Z2Fpn/1059-100-59.jpg",
-    "imgDetail": "https://i.ibb.co/M5Z2Fpn/1059-100-59.jpg",
-    "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7300, 7900",
-    "slide": "false"
-  },
-  {
-    "id": "207",
-    "type":"ink",
-    "name": "Mực đen máy 8900 - 500ml",
-    "model": "Mực đen",
-    "capacity": "500ml",
-    "img": "https://i.ibb.co/Gsf2w5H/1014-89.jpg",
-    "imgDetail": "https://i.ibb.co/Gsf2w5H/1014-89.jpg",
-    "description": "Sử dụng tương thích cho máy in Linx 8800, 8900",
-    "slide": "false"
-  },
-  {
-    "id": "208",
-    "type":"ink",
-    "name": "Dung môi máy 8900 - 1000ml",
-    "model": "Dung môi",
-    "capacity": "1000ml",
-    "img": "https://i.ibb.co/F7f1mb2/1505-89.jpg",
-    "imgDetail": "https://i.ibb.co/F7f1mb2/1505-89.jpg",
-    "description": "Sử dụng tương thích cho máy in Linx 8800, 8900",
-    "slide": "false"
-  },
-  {
-    "id": "209",
-    "type":"ink",
-    "name": "Dung môi - 1000ml",
-    "model": "Dung môi",
-    "capacity": "1000ml",
-    "img": "https://i.ibb.co/s2gk6vW/1505-500-59.jpg",
-    "imgDetail": "https://i.ibb.co/s2gk6vW/1505-500-59.jpg",
-    "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7300, 7900",
-    "slide": "false"
-  },
-  {
-    "id": "210",
-    "type":"ink",
-    "name": "Mực và Dung môi máy 8900",
-    "model": "Mực và dung môi",
-    "capacity": "1000ml",
-    "img": "https://i.ibb.co/6YkJCVb/combo-1014-89.jpg",
-    "imgDetail": "https://i.ibb.co/6YkJCVb/combo-1014-89.jpg",
-    "description": "Sử dụng tương thích cho máy in Linx 4900 5900 5900",
-    "slide": "false"
-  }
-]
+{
+  "product": [
+    {
+      "id": "101",
+      "type": "printer",
+      "model": "CIJ",
+      "brand": "Linx",
+      "name": "Máy in Linx 8900",
+      "img": "May8900-1.png",
+      "imgDetail": [
+        "May8900-1.png",
+        "May8900-2.png",
+        "May8900-3.png",
+        "May8900-4.png"
+      ],
+      "description": "Linx 8900 hoạt động đơn giản hơn so với các dòng máy in phun thông thường khác, giúp gia tăng hiệu quả sản xuất hơn so với trước đó. Công nghệ in không tiếp xúc trực tiếp lên bề mặt sản phẩm trên hệ thống dây chuyền sản xuất.",
+      "tech": [
+        "Đầu in bền với thiết kế kín, nhằm hạn chế sự ma sát và các tác động từ yếu tố bên ngoài môi trường. Đầu in súc rửa tự đông, định kỳ chu kỳ từ 3 tháng đến 6 tháng.",
+        "Màn hình điều khiển cảm ứng 10 inches, kháng nước và một số loại dung môi.",
+        "Vỏ bọc tiêu chuẩn IP55 – phù hợp với môi trường dội nước.",
+        "Máy có tính năng báo khi chuẩn bị hết mực hoặc dung môi. Khả năng tiếp liệu trực tiếp khi đang in, không cần ngừng dây chuyền in."
+      ],
+      "table": [
+        {
+          "name": "Thương hiệu",
+          "detail": "LINX - Anh Quốc"
+        },
+        {
+          "name": "Điện áp",
+          "detail": "220V-50Hz"
+        },
+        {
+          "name": "Công suất",
+          "detail": "150W"
+        },
+        {
+          "name": "Kích thước đầu phun",
+          "detail": "62- 72Micro"
+        },
+        {
+          "name": "Số dòng in",
+          "detail": "tối đa 6 dòng"
+        },
+        {
+          "name": "Chiều cao ký tự",
+          "detail": "1.8- 20mm"
+        },
+        {
+          "name": "Tốc độ in tối đa",
+          "detail": "9.1m/ giây"
+        },
+        {
+          "name": "Số ký tự in tối đa",
+          "detail": "2667 ký tự/s"
+        },
+        {
+          "name": "Tính năng",
+          "detail": "in date, QR code, mã vạch, logo.,.."
+        },
+        {
+          "name": "Chế độ làm việc",
+          "detail": "tự động thông qua cảm biến"
+        },
+        {
+          "name": "Nhiệt độ làm việc",
+          "detail": "5-55 độ C"
+        },
+        {
+          "name": "Kích thước máy",
+          "detail": "440 x 355 x 503mm"
+        },
+        {
+          "name": "Chất liệu máy",
+          "detail": "inox"
+        },
+        {
+          "name": "Tiêu chuẩn chống bụi, ẩm",
+          "detail": "IP55"
+        },
+        {
+          "name": "Trọng lượng",
+          "detail": "24.5kg"
+        }
+      ],
+      "review": [
+        {
+          "id": 1,
+          "name": "Nguyễn Tấn Phát",
+          "star": 4.5,
+          "text": "Sản phẩm hoàn thiện tốt"
+        },
+        {
+          "id": 2,
+          "name": "Nguyễn Thanh Tùng",
+          "star": 5,
+          "text": "Giao hàng và lắp đặt nhanh"
+        },
+        {
+          "id": 3,
+          "name": "Trịnh Trần Phương Tuấn",
+          "star": 4,
+          "text": "Rất tốt!"
+        }
+      ]
+    },
+    {
+      "id": "102",
+      "type": "printer",
+      "model": "CIJ",
+      "brand": "Linx",
+      "name": "Máy in Linx 8800",
+      "description": "Linx 8800 là sản phẩm tâm huyết của chúng tôi, được thiết kế chuẩn mực, duy nhất cho thị trường Việt Nam. Chúng tôi mong rằng với Linx 8830, khách hàng sẽ dễ dàng tiếp cận công nghệ in phun tiên tiến Châu Âu với giá thành Việt Nam",
+      "img": "May8800-1.png",
+      "imgDetail": [
+        "May8800-1.png",
+        "May8800-2.png",
+        "May8800-3.png",
+        "May8800-4.png"
+      ],
+      "tech": [
+        "Đầu in bền với thiết kế kín, nhằm hạn chế sự ma sát và các tác động từ yếu tố bên ngoài môi trường. Đầu in súc rửa tự đông, định kỳ chu kỳ từ 3 tháng đến 6 tháng.",
+        "Màn hình điều khiển cảm ứng 10 inches, kháng nước và một số loại dung môi.",
+        "Vỏ bọc tiêu chuẩn IP55 – phù hợp với môi trường dội nước.",
+        "Máy có tính năng báo khi chuẩn bị hết mực hoặc dung môi. Khả năng tiếp liệu trực tiếp khi đang in, không cần ngừng dây chuyền in."
+      ],
+      "table": [
+        {
+          "name": "Thương hiệu",
+          "detail": "LINX - Anh Quốc"
+        },
+        {
+          "name": "Điện áp",
+          "detail": "220V-50Hz"
+        },
+        {
+          "name": "Công suất",
+          "detail": "200W"
+        },
+        {
+          "name": "Kích thước đầu phun",
+          "detail": "50Micro"
+        },
+        {
+          "name": "Số dòng in",
+          "detail": "tối đa 6 dòng"
+        },
+        {
+          "name": "Chiều cao ký tự",
+          "detail": "1.2- 4.6mm"
+        },
+        {
+          "name": "Tốc độ in tối đa",
+          "detail": "9.1m/ giây"
+        },
+        {
+          "name": "Số ký tự in tối đa",
+          "detail": "2667 ký tự/s"
+        },
+        {
+          "name": "Tính năng",
+          "detail": "in date, QR code, mã vạch, logo.,.."
+        },
+        {
+          "name": "Chế độ làm việc",
+          "detail": "tự động thông qua cảm biến"
+        },
+        {
+          "name": "Nhiệt độ làm việc",
+          "detail": "5-55 độ C"
+        },
+        {
+          "name": "Kích thước máy",
+          "detail": "404 x 347 x 449mm"
+        },
+        {
+          "name": "Chất liệu máy",
+          "detail": "inox"
+        },
+        {
+          "name": "Tiêu chuẩn chống bụi, ẩm",
+          "detail": "IP55"
+        },
+        {
+          "name": "Trọng lượng",
+          "detail": "21kg"
+        }
+      ],
+      "review": [
+        {
+          "id": 1,
+          "name": "Nguyễn Tấn Phát",
+          "star": 4.5,
+          "text": "Sản phẩm hoàn thiện tốt"
+        },
+        {
+          "id": 2,
+          "name": "Nguyễn Thanh Tùng",
+          "star": 5,
+          "text": "Giao hàng và lắp đặt nhanh"
+        },
+        {
+          "id": 3,
+          "name": "Trịnh Trần Phương Tuấn",
+          "star": 4,
+          "text": "Rất tốt!"
+        }
+      ]
+    },
+    {
+      "id": "103",
+      "type": "printer",
+      "model": "CIJ",
+      "brand": "Linx",
+      "name": "Máy in Linx 7900",
+      "img": "May7900-1.png",
+      "imgDetail": [
+        "May7900-1.png",
+        "May7900-2.png",
+        "May7900-3.png",
+        "May7900-4.png"
+      ],
+      "description": "Máy in date Linx 7900 là một dòng máy in mạnh mẽ, phù hợp để in trên nhiều dòng sản phẩm, ứng dụng trong nhiều ngành công nghiệp. Các tính năng tự động của máy in Linx 7900 giúp tăng năng suất và giảm lỗi in – nâng cao hiệu quả và giảm chi phí cho doanh nghiệp.",
+      "tech": [
+        "In trên mọi bền mặt, chất liệu, độ sắc nét cao",
+        "Kết nối nhiều dây chuyền sản xuất và đóng gói tự động hoàn toàn",
+        "Vỏ bọc tiêu chuẩn IP55 – phù hợp với môi trường dội nước.",
+        "Các thiết bị cấu thành có tuổi thọ cao, tiêu chuẩn Anh Quốc, hạn chế tối đa phát sinh lỗi vặt, tiết kiệm chi phí bảo trì và sửa chữa"
+      ],
+      "table": [
+        {
+          "name": "Thương hiệu",
+          "detail": "LINX - Anh Quốc"
+        },
+        {
+          "name": "Điện áp",
+          "detail": "220V-50Hz"
+        },
+        {
+          "name": "Công suất",
+          "detail": "200W"
+        },
+        {
+          "name": "Kích thước đầu phun",
+          "detail": "50Micro"
+        },
+        {
+          "name": "Số dòng in",
+          "detail": "1-2 dòng"
+        },
+        {
+          "name": "Chiều cao ký tự",
+          "detail": "1.2- 4.6mm"
+        },
+        {
+          "name": "Tốc độ in tối đa",
+          "detail": "6.83m/ giây"
+        },
+        {
+          "name": "Số ký tự in tối đa",
+          "detail": "2667 ký tự/s"
+        },
+        {
+          "name": "Tính năng",
+          "detail": "in date, QR code, mã vạch, logo.,.."
+        },
+        {
+          "name": "Chế độ làm việc",
+          "detail": "tự động thông qua cảm biến"
+        },
+        {
+          "name": "Nhiệt độ làm việc",
+          "detail": "5-55 độ C"
+        },
+        {
+          "name": "Kích thước máy",
+          "detail": "663 x 490 x 240mm"
+        },
+        {
+          "name": "Chất liệu máy",
+          "detail": "inox"
+        },
+        {
+          "name": "Tiêu chuẩn chống bụi, ẩm",
+          "detail": "IP55"
+        },
+        {
+          "name": "Trọng lượng",
+          "detail": "21kg"
+        }
+      ],
+      "review": [
+        {
+          "id": 1,
+          "name": "Nguyễn Tấn Phát",
+          "star": 4.5,
+          "text": "Sản phẩm hoàn thiện tốt"
+        },
+        {
+          "id": 2,
+          "name": "Nguyễn Thanh Tùng",
+          "star": 5,
+          "text": "Giao hàng và lắp đặt nhanh"
+        },
+        {
+          "id": 3,
+          "name": "Trịnh Trần Phương Tuấn",
+          "star": 4,
+          "text": "Rất tốt!"
+        }
+      ]
+    },
+    {
+      "id": "104",
+      "type": "printer",
+      "model": "CIJ",
+      "brand": "Linx",
+      "name": "Máy in Linx 7300",
+      "img": "May7300-1.png",
+      "imgDetail": [
+        "May7300-1.png",
+        "May7300-2.png",
+        "May7300-3.png",
+        "May7300-4.png"
+      ],
+      "description": "Dòng máy in phun hạn sử dụng Linx 7300 có đầy đủ các yếu tố cấu thành của 1 máy in date hiện đại, kết cấu gọn nhẹ, có độ tiết kiệm về chi phí đầu tư và cũng như khấu hao trong quá trình vận hành sản xuất. Máy được kết cấu từ các thiết bị cấu thành với tuổi thọ cao, tiêu chuẩn Anh Quốc và quốc tế – máy hạn chế tối đa phát sinh lỗi vặt – tiết kiệm chi phí bảo trì, sửa chữa trong quá trình vận hành.",
+      "tech": [
+        "Giao diện người sử dụng bằng màn hình màu rất dễ sử dụng",
+        "In 3 dòng và ma trận thông tin được cung cấp như tiêu chuẩn có sẵn",
+        "In 5 dòng được hỗ trợ như là tiêu chuẩn lựa chọn thêm",
+        "Tốc độ in nhanh hơn và công cụ truyền thông từ xa có thể được thêm vào khi khách hàng có nhu cầu"
+      ],
+      "table": [
+        {
+          "name": "Thương hiệu",
+          "detail": "LINX - Anh Quốc"
+        },
+        {
+          "name": "Điện áp",
+          "detail": "220V-50Hz"
+        },
+        {
+          "name": "Công suất",
+          "detail": "200W"
+        },
+        {
+          "name": "Kích thước đầu phun",
+          "detail": "50Micro"
+        },
+        {
+          "name": "Số dòng in",
+          "detail": "1-2 dòng"
+        },
+        {
+          "name": "Chiều cao ký tự",
+          "detail": "1.1-12mm"
+        },
+        {
+          "name": "Tốc độ in tối đa",
+          "detail": "8.41m/s (in 1 dòng)"
+        },
+        {
+          "name": "Số ký tự in tối đa",
+          "detail": "2667 ký tự/s"
+        },
+        {
+          "name": "Tính năng",
+          "detail": "in date, QR code, mã vạch, logo.,.."
+        },
+        {
+          "name": "Chế độ làm việc",
+          "detail": "tự động thông qua cảm biến"
+        },
+        {
+          "name": "Nhiệt độ làm việc",
+          "detail": "5-55 độ C"
+        },
+        {
+          "name": "Kích thước máy",
+          "detail": "700 x 480 x 200mm"
+        },
+        {
+          "name": "Chất liệu máy",
+          "detail": "inox"
+        },
+        {
+          "name": "Tiêu chuẩn chống bụi, ẩm",
+          "detail": "IP55"
+        },
+        {
+          "name": "Trọng lượng",
+          "detail": "24kg"
+        }
+      ],
+      "review": [
+        {
+          "id": 1,
+          "name": "Nguyễn Tấn Phát",
+          "star": 4.5,
+          "text": "Sản phẩm hoàn thiện tốt"
+        },
+        {
+          "id": 2,
+          "name": "Nguyễn Thanh Tùng",
+          "star": 5,
+          "text": "Giao hàng và lắp đặt nhanh"
+        },
+        {
+          "id": 3,
+          "name": "Trịnh Trần Phương Tuấn",
+          "star": 4,
+          "text": "Rất tốt!"
+        }
+      ]
+    },
+    {
+      "id": "105",
+      "type": "printer",
+      "model": "CIJ",
+      "brand": "Linx",
+      "name": "Máy in Linx 5900",
+      "img": "May5900-1.png",
+      "imgDetail": [
+        "May5900-1.png",
+        "May5900-2.png",
+        "May5900-3.png",
+        "May5900-4.png"
+      ],
+      "description": "Máy in phun công nghiệp Linx 5900 là dòng máy chuyên dụng và phổ thông của Linx. Đảm bảo tính hiệu quả in luôn tốt nhất với chi phí vận hành thấp nhất.",
+      "tech": [
+        "In date code, Ngày sản xuất – Hạn sử dụng, số lô, số ca, mã vạch, logo, Quy cách sản phẩm.",
+        "Chất liệu in đa dạng như: nhựa, kim loại, giấy, thủy tinh,….",
+        "Tốc độ in tối đa 7.28m/s (in 1 dòng)",
+        "Độ cao chữ từ 1.4mm tới 10.7mm",
+        "In ký tự xoay (dạng hình tháp)"
+      ],
+      "table": [
+        {
+          "name": "Thương hiệu",
+          "detail": "LINX - Anh Quốc"
+        },
+        {
+          "name": "Điện áp",
+          "detail": "220V-50Hz"
+        },
+        {
+          "name": "Công suất",
+          "detail": "200W"
+        },
+        {
+          "name": "Kích thước đầu phun",
+          "detail": "50Micro"
+        },
+        {
+          "name": "Số dòng in",
+          "detail": "1-2 dòng"
+        },
+        {
+          "name": "Chiều cao ký tự",
+          "detail": "1.2- 4.6mm"
+        },
+        {
+          "name": "Tốc độ in tối đa",
+          "detail": "6.83m/ giây"
+        },
+        {
+          "name": "Số ký tự in tối đa",
+          "detail": "2667 ký tự/s"
+        },
+        {
+          "name": "Tính năng",
+          "detail": "in date, QR code, mã vạch, logo.,.."
+        },
+        {
+          "name": "Chế độ làm việc",
+          "detail": "tự động thông qua cảm biến"
+        },
+        {
+          "name": "Nhiệt độ làm việc",
+          "detail": "5-55 độ C"
+        },
+        {
+          "name": "Kích thước máy",
+          "detail": "663 x 490 x 240mm"
+        },
+        {
+          "name": "Chất liệu máy",
+          "detail": "inox"
+        },
+        {
+          "name": "Tiêu chuẩn chống bụi, ẩm",
+          "detail": "IP55"
+        },
+        {
+          "name": "Trọng lượng",
+          "detail": "21kg"
+        }
+      ],
+      "review": [
+        {
+          "id": 1,
+          "name": "Nguyễn Tấn Phát",
+          "star": 4.5,
+          "text": "Sản phẩm hoàn thiện tốt"
+        },
+        {
+          "id": 2,
+          "name": "Nguyễn Thanh Tùng",
+          "star": 5,
+          "text": "Giao hàng và lắp đặt nhanh"
+        },
+        {
+          "id": 3,
+          "name": "Trịnh Trần Phương Tuấn",
+          "star": 4,
+          "text": "Rất tốt!"
+        }
+      ]
+    },
+    {
+      "id": "106",
+      "type": "printer",
+      "model": "CIJ",
+      "brand": "Linx",
+      "name": "Máy in Linx 4900",
+      "img": "May4900-1.png",
+      "imgDetail": [
+        "May4900-1.png",
+        "May4900-2.png",
+        "May4900-3.png"
+      ],
+      "description": "Dòng máy in phun hạn sử dụng Linx 4900 có đầy đủ các yếu tố cấu thành của 1 máy in date hiện đại, kết cấu gọn nhẹ, có độ tiết kiệm về chi phí đầu tư và cũng như khấu hao trong quá trình vận hành sản xuất. Máy được kết cấu từ các thiết bị cấu thành với tuổi thọ cao, tiêu chuẩn Anh Quốc và quốc tế – máy hạn chế tối đa phát sinh lỗi vặt – tiết kiệm chi phí bảo trì, sửa chữa trong quá trình vận hành.",
+      "tech": [
+        "In lên đến 2 dòng văn bản và logo với tốc độ in tối đa 6.25m/s",
+        "Vỏ máy được thiết kế cong với kết cấu IP55 chống bụi và chống nước.",
+        "Bộ nhớ lưu trữ đến 50 tin, ngày tháng tự động thay đổi giúp giảm thiểu sự cần thiết phải chỉnh sửa.",
+        "Đầu in được thiết kế đặc biệt siêu chắc không yêu cầu phải điều chỉnh thủ công.",
+        "Không cần phải ngưng hoặc mở máy in để nạp thêm mực, dung môi.",
+        "Thiết kế nhỏ gọn không cần hệ thống khí nén."
+      ],
+      "table": [
+        {
+          "name": "Thương hiệu",
+          "detail": "LINX - Anh Quốc"
+        },
+        {
+          "name": "Điện áp",
+          "detail": "220V-50Hz"
+        },
+        {
+          "name": "Công suất",
+          "detail": "200W"
+        },
+        {
+          "name": "Kích thước đầu phun",
+          "detail": "50Micro"
+        },
+        {
+          "name": "Số dòng in",
+          "detail": "1-2 dòng"
+        },
+        {
+          "name": "Chiều cao ký tự",
+          "detail": "2.032- 7.62mm"
+        },
+        {
+          "name": "Tốc độ in tối đa",
+          "detail": "6.248m/ giây"
+        },
+        {
+          "name": "Số ký tự in tối đa",
+          "detail": "2667 ký tự/s"
+        },
+        {
+          "name": "Tính năng",
+          "detail": "in date, QR code, mã vạch, logo.,.."
+        },
+        {
+          "name": "Chế độ làm việc",
+          "detail": "tự động thông qua cảm biến"
+        },
+        {
+          "name": "Nhiệt độ làm việc",
+          "detail": "5-55 độ C"
+        },
+        {
+          "name": "Kích thước máy",
+          "detail": "663 x 490 x 240mm"
+        },
+        {
+          "name": "Chất liệu máy",
+          "detail": "inox"
+        },
+        {
+          "name": "Tiêu chuẩn chống bụi, ẩm",
+          "detail": "IP55"
+        },
+        {
+          "name": "Trọng lượng",
+          "detail": "20kg"
+        }
+      ],
+      "review": [
+        {
+          "id": 1,
+          "name": "Nguyễn Tấn Phát",
+          "star": 4.5,
+          "text": "Sản phẩm hoàn thiện tốt"
+        },
+        {
+          "id": 2,
+          "name": "Nguyễn Thanh Tùng",
+          "star": 5,
+          "text": "Giao hàng và lắp đặt nhanh"
+        },
+        {
+          "id": 3,
+          "name": "Trịnh Trần Phương Tuấn",
+          "star": 4,
+          "text": "Rất tốt!"
+        }
+      ]
+    },
+    {
+      "id": "108",
+      "type": "printer",
+      "model": "TIJ",
+      "brand": "TIJ INKJET",
+      "name": "Máy in TIJ VT180",
+      "img": "MayVT180-1.png",
+      "imgDetail": [
+        "MayVT180-1.png",
+        "MayVT180-2.png",
+        "MayVT180-2.png",
+        "MayVT180-4.png"
+      ],
+      "description": "Máy in date tự động TIJ VT180 là loại máy in được  kết hợp với băng tải và dây chuyền sản xuất để tối ưu hóa việc in mã code và hạn sữ dụng lên sản phẩm.",
+      "tech": [
+        "Hệ thống sử dụng hệ điều hành Linux, hỗ trợ cổng USB để nhập dữ liệu in ấn, hỗ trợ thời gian thực.",
+        "Thiết kế thân máy tách rời, dễ dàng lắp đặt, in xoay 360 độ, có thể điều chỉnh góc in tùy ý và thiết bị tinh chỉnh chống va chạm.",
+        "Màn hình 7 inch cảm ứng điện dung siêu rõ nét, chống nhiễu, thân máy hoàn toàn bằng nhôm.",
+        "Máy in phun nhiều đầu trực tuyến, 1-6 đầu phun có thể được sử dụng theo ý muốn.",
+        "Thân máy thon gọn, toàn bộ bằng nhôm, tản nhiệt tốt, thích hợp cho việc in ấn trong thời gian dài.",
+        "Máy vận hành đơn giản và dễ bảo trì."
+      ],
+      "table": [
+        {
+          "name": "Bộ đếm số",
+          "detail": "1-15 số"
+        },
+        {
+          "name": "Tốc độ in",
+          "detail": "40m/phút"
+        },
+        {
+          "name": "Độ phân giải",
+          "detail": "600 DPI"
+        },
+        {
+          "name": "Thuộc tính mực",
+          "detail": "Mực gốc nước, gốc dung môi"
+        },
+        {
+          "name": "Khoảng cách in",
+          "detail": "3-5mm"
+        },
+        {
+          "name": "Cổng giao tiếp",
+          "detail": "Cổng nguồn và quang điện, cổng HDMI, cổng USB"
+        },
+        {
+          "name": "Môi trường làm việc",
+          "detail": "0-40 độ C, độ ẩm 10-80%"
+        },
+        {
+          "name": "Kích thước máy",
+          "detail": "210 X 110 X 40mm"
+        },
+        {
+          "name": "Chiều cao in",
+          "detail": "1-12.7mm"
+        },
+        {
+          "name": "Các loại hình in",
+          "detail": "hỗ trợ lên tới 10 ngôn ngữ."
+        }
+      ],
+      "review": [
+        {
+          "id": 1,
+          "name": "Nguyễn Tấn Phát",
+          "star": 4.5,
+          "text": "Sản phẩm hoàn thiện tốt"
+        },
+        {
+          "id": 2,
+          "name": "Nguyễn Thanh Tùng",
+          "star": 5,
+          "text": "Giao hàng và lắp đặt nhanh"
+        },
+        {
+          "id": 3,
+          "name": "Trịnh Trần Phương Tuấn",
+          "star": 4,
+          "text": "Rất tốt!"
+        }
+      ]
+    },
+    {
+      "id": "109",
+      "type": "printer",
+      "model": "lazer",
+      "brand": "KingCode",
+      "name": "Máy khắc laser CO2",
+      "img": "MayLazerKingCode-1.png",
+      "imgDetail": [
+        "MayLazerKingCode-1.png",
+        "MayLazerKingCode-2.png",
+        "MayLazerKingCode-3.png"
+      ],
+      "description": "Máy khắc laser CO2 sử dụng công nghệ laser CO2 để quá trình khắc chính xác và chi tiết, đánh dấu, và cắt các vật liệu khác nhau. Máy khắc laser CO2 có thể được sử dụng để đánh dấu trên nhiều loại vật liệu khác nhau, bao gồm gỗ, nhựa, da, cao su, thủy tinh, kim loại mềm, giấy và nhiều vật liệu tự nhiên khác.",
+      "tech": [
+        "Tuổi thọ đầu in laser CO2 lên đến 50.000 giờ.",
+        "Máy khắc laser CO2 có tốc độ khắc nhanh và khả năng tái tạo độ chính xác cao, giúp tiết kiệm thời gian và năng suất sản xuất.",
+        "Cấp độ bảo vệ IP65, đầu in laser CO2 đạt tiêu chuẩn với khả năng chống bụi bẩn, ẩm thấp hoạt động dễ dàng trong môi trường sản xuất các ngành công nghiệp khác nhau.",
+        "Thân máy được làm bằng thép không gỉ cao cấp với nhiệt độ hoạt động lên đến 50oC và không cần máy làm mát bằng khí nén.",
+        "Công nghệ laser không tiêu tốn nguyên liệu, giúp tiết kiệm chi phí và thời gian bảo trì."
+      ],
+      "table": [
+        {
+          "name": "Bước sóng",
+          "detail": "1064μm"
+        },
+        {
+          "name": "Lớp chất lượng",
+          "detail": "<1.4M2"
+        },
+        {
+          "name": "Nguồn lazer",
+          "detail": "15W/30W/50W"
+        },
+        {
+          "name": "Cách giải nhiệt",
+          "detail": "không khí"
+        },
+        {
+          "name": "Vùng khắc",
+          "detail": "110mm x 110mm / 175mm x 175mm"
+        },
+        {
+          "name": "Tiêu cự",
+          "detail": "170mm"
+        },
+        {
+          "name": "Min - độ rộng nét chữ",
+          "detail": "0.15mm"
+        },
+        {
+          "name": "Min - độ cao chữ",
+          "detail": "0.7mm"
+        },
+        {
+          "name": "Tốc độ",
+          "detail": "1 – 7.000mm/s"
+        },
+        {
+          "name": "Tệp hình ảnh",
+          "detail": "BMP, PLT, AL, DXF"
+        },
+        {
+          "name": "Điện áp",
+          "detail": "AC220, ±10%"
+        },
+        {
+          "name": "Tần số",
+          "detail": "50Hz/60Hz"
+        },
+        {
+          "name": "Kích thước máy",
+          "detail": "(4500x4500x1300)mm"
+        },
+        {
+          "name": "Trọng lượng",
+          "detail": "80kg"
+        },
+        {
+          "name": "Nhiệt độ",
+          "detail": "0-50C, độ ẩm 5%-95%"
+        },
+        {
+          "name": "Công suất",
+          "detail": "1KW"
+        },
+        {
+          "name": "Cấp độ bảo vệ",
+          "detail": "IP65"
+        },
+        {
+          "name": "Mức an toàn",
+          "detail": "4"
+        },
+        {
+          "name": "Chỉnh lên xuống",
+          "detail": "0-450mm"
+        },
+        {
+          "name": "Chỉnh tới - lùi",
+          "detail": "0-250mm"
+        },
+        {
+          "name": "Hướng khắc",
+          "detail": "0, 45, 90, 180"
+        }
+      ],
+      "review": [
+        {
+          "id": 1,
+          "name": "Nguyễn Tấn Phát",
+          "star": 4.5,
+          "text": "Sản phẩm hoàn thiện tốt"
+        },
+        {
+          "id": 2,
+          "name": "Nguyễn Thanh Tùng",
+          "star": 5,
+          "text": "Giao hàng và lắp đặt nhanh"
+        },
+        {
+          "id": 3,
+          "name": "Trịnh Trần Phương Tuấn",
+          "star": 4,
+          "text": "Rất tốt!"
+        }
+      ]
+    },
+    {
+      "id": "110",
+      "type": "printer",
+      "model": "lazer",
+      "brand": "KingCode",
+      "name": "Máy khắc laser Fiber",
+      "img": "MayLazerKingCode-1.png",
+      "imgDetail": [
+        "MayLazerKingCode-1.png",
+        "MayLazerKingCode-2.png",
+        "MayLazerKingCode-3.png"
+      ],
+      "description": "Máy khắc laser fiber sử dụng công nghệ laser fiber để thực hiện quá trình khắc, đánh dấu, và cắt các vật liệu khác nhau. Máy khắc laser fiber thường được sử dụng để làm những công việc như khắc logo, chữ viết, hình ảnh, và mã vạch lên bề mặt vật liệu như kim loại, nhựa, gỗ, da và nhiều vật liệu khác. Tia laser fiber có khả năng tập trung cao và công suất lớn, giúp tạo ra những dấu vết chính xác và sắc nét trên bề mặt vật liệu.",
+      "tech": [
+        "Tuổi thọ đầu in laser fiber lên đến 100.000 giờ.",
+        "Máy khắc in barcode laser fiber có tốc độ khắc nhanh và khả năng tái tạo độ chính xác cao, giúp tiết kiệm thời gian và năng suất sản xuất. ",
+        "Cấp độ bảo vệ IP65, đầu in laser fiber kingcode đạt tiêu chuẩn với khả năng chống bụi bẩn, ẩm thấp hoạt động dễ dàng trong môi trường sản xuất các ngành công nghiệp khác nhau.",
+        "Thân máy được làm bằng thép không gỉ cao cấp với nhiệt độ hoạt động lên đến 50oC và không cần máy làm mát bằng khí nén.",
+        "Công nghệ in laser không tiêu tốn nguyên liệu, giúp tiết kiệm chi phí và thời gian bảo trì."
+      ],
+      "table": [
+        {
+          "name": "Bước sóng",
+          "detail": "1.06μm"
+        },
+        {
+          "name": "Lớp chất lượng",
+          "detail": "<1.4M2"
+        },
+        {
+          "name": "Nguồn lazer",
+          "detail": "20W/30W/50W"
+        },
+        {
+          "name": "Cách giải nhiệt",
+          "detail": "không khí"
+        },
+        {
+          "name": "Vùng khắc",
+          "detail": "110mm x 110mm / 175mm x 175mm"
+        },
+        {
+          "name": "Tiêu cự",
+          "detail": "170mm"
+        },
+        {
+          "name": "Min - độ rộng nét chữ",
+          "detail": "0.15mm"
+        },
+        {
+          "name": "Min - độ cao chữ",
+          "detail": "0.7mm"
+        },
+        {
+          "name": "Tốc độ",
+          "detail": "0 – 7.000mm/s"
+        },
+        {
+          "name": "Tệp hình ảnh",
+          "detail": "BMP, PLT, AL, DXF"
+        },
+        {
+          "name": "Điện áp",
+          "detail": "AC220, ±10%"
+        },
+        {
+          "name": "Tần số",
+          "detail": "50Hz/60Hz"
+        },
+        {
+          "name": "Kích thước máy",
+          "detail": "(4500x4500x1300)mm"
+        },
+        {
+          "name": "Trọng lượng",
+          "detail": "80kg"
+        },
+        {
+          "name": "Nhiệt độ",
+          "detail": "0-50C, độ ẩm 5%-95%"
+        },
+        {
+          "name": "Công suất",
+          "detail": "1KW"
+        },
+        {
+          "name": "Cấp độ bảo vệ",
+          "detail": "IP65"
+        },
+        {
+          "name": "Mức an toàn",
+          "detail": "4"
+        },
+        {
+          "name": "Chỉnh lên xuống",
+          "detail": "0-450mm"
+        },
+        {
+          "name": "Chỉnh tới - lùi",
+          "detail": "0-250mm"
+        },
+        {
+          "name": "Hướng khắc",
+          "detail": "0, 45, 90, 180"
+        }
+      ],
+      "review": [
+        {
+          "id": 1,
+          "name": "Nguyễn Tấn Phát",
+          "star": 4.5,
+          "text": "Sản phẩm hoàn thiện tốt"
+        },
+        {
+          "id": 2,
+          "name": "Nguyễn Thanh Tùng",
+          "star": 5,
+          "text": "Giao hàng và lắp đặt nhanh"
+        },
+        {
+          "id": 3,
+          "name": "Trịnh Trần Phương Tuấn",
+          "star": 4,
+          "text": "Rất tốt!"
+        }
+      ]
+    },
+    {
+      "id": "111",
+      "type": "printer",
+      "model": "lazer",
+      "brand": "KingCode",
+      "name": "Máy khắc laser UV",
+      "img": "MayLazerKingCode-1.png",
+      "imgDetail": [
+        "MayLazerKingCode-1.png",
+        "MayLazerKingCode-2.png",
+        "MayLazerKingCode-3.png"
+      ],
+      "description": "Máy khắc laser UV sử dụng công nghệ laser UV là tia cực tím ngắn (UV) để quá trình khắc chính xác và chi tiết, đánh dấu, và cắt các vật liệu khác nhau. Máy khắc laser UV thường được sử dụng để làm những công việc như khắc logo, chữ viết, hình ảnh, và mã vạch trên nhiều vật liệu khác nhau, bao gồm gỗ, nhựa, da, kính, kim loại mà không cần sử dụng mực in hay chất phủ bổ sung. Máy khắc laser UV có độ chính xác cao và tốc độ khắc nhanh, cho phép tạo ra các sản phẩm có hình ảnh sắc nét và chi tiết. Ngoài ra, laser UV cũng có khả năng khắc trên các bề mặt cong và không gây tổn thương cho vật liệu xung quanh.",
+      "tech": [
+        "Tuổi thọ đầu in laser UV lên đến 50.000 giờ.",
+        "Máy khắc laser UV có tốc độ khắc nhanh và khả năng tái tạo độ chính xác cao, giúp tiết kiệm thời gian và năng suất sản xuất.",
+        "Cấp độ bảo vệ IP65, đầu in laser UV đạt tiêu chuẩn với khả năng chống bụi bẩn, ẩm thấp hoạt động dễ dàng trong môi trường sản xuất các ngành công nghiệp khác nhau.",
+        "Thân máy được làm bằng thép không gỉ cao cấp với nhiệt độ hoạt động lên đến 50oC và không cần máy làm mát bằng khí nén.",
+        "Công nghệ in laser không tiêu tốn nguyên liệu, giúp tiết kiệm chi phí và thời gian bảo trì."
+      ],
+      "table": [
+        {
+          "name": "Bước sóng",
+          "detail": "355nm"
+        },
+        {
+          "name": "Lớp chất lượng",
+          "detail": "<1.3M2"
+        },
+        {
+          "name": "Nguồn lazer",
+          "detail": "3W/5W/8W"
+        },
+        {
+          "name": "Cách giải nhiệt",
+          "detail": "nước"
+        },
+        {
+          "name": "Vùng khắc",
+          "detail": "110mm x 110mm / 175mm x 175mm"
+        },
+        {
+          "name": "Tiêu cự",
+          "detail": "170mm"
+        },
+        {
+          "name": "Min - độ rộng nét chữ",
+          "detail": "0.15mm"
+        },
+        {
+          "name": "Min - độ cao chữ",
+          "detail": "0.7mm"
+        },
+        {
+          "name": "Tốc độ",
+          "detail": "2 – 7.000mm/s"
+        },
+        {
+          "name": "Tệp hình ảnh",
+          "detail": "BMP, PLT, AL, DXF"
+        },
+        {
+          "name": "Điện áp",
+          "detail": "AC220, ±10%"
+        },
+        {
+          "name": "Tần số",
+          "detail": "50Hz/60Hz"
+        },
+        {
+          "name": "Kích thước máy",
+          "detail": "(4500x4500x1300)mm"
+        },
+        {
+          "name": "Trọng lượng",
+          "detail": "80kg"
+        },
+        {
+          "name": "Nhiệt độ",
+          "detail": "0-50C, độ ẩm 5%-95%"
+        },
+        {
+          "name": "Công suất",
+          "detail": "1KW"
+        },
+        {
+          "name": "Cấp độ bảo vệ",
+          "detail": "IP65"
+        },
+        {
+          "name": "Mức an toàn",
+          "detail": "4"
+        },
+        {
+          "name": "Chỉnh lên xuống",
+          "detail": "0-450mm"
+        },
+        {
+          "name": "Chỉnh tới - lùi",
+          "detail": "0-250mm"
+        },
+        {
+          "name": "Hướng khắc",
+          "detail": "0, 45, 90, 180"
+        }
+      ],
+      "review": [
+        {
+          "id": 1,
+          "name": "Nguyễn Tấn Phát",
+          "star": 4.5,
+          "text": "Sản phẩm hoàn thiện tốt"
+        },
+        {
+          "id": 2,
+          "name": "Nguyễn Thanh Tùng",
+          "star": 5,
+          "text": "Giao hàng và lắp đặt nhanh"
+        },
+        {
+          "id": 3,
+          "name": "Trịnh Trần Phương Tuấn",
+          "star": 4,
+          "text": "Rất tốt!"
+        }
+      ]
+    },
+    {
+      "id": "201",
+      "type": "material",
+      "name": "Mực đen - 500ml",
+      "model": "Mực đen",
+      "brand": "",
+      "capacity": "500ml",
+      "img": "1014-500-59.jpg",
+      "imgDetail": [
+        "1014-500-59.jpg"
+      ],
+      "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7300, 7900",
+      "slide": "false"
+    },
+    {
+      "id": "202",
+      "type": "material",
+      "name": "Mực đen - 1000ml",
+      "model": "Mực đen",
+      "brand": "",
+      "capacity": "1000ml",
+      "img": "1014-1000-59.jpg",
+      "imgDetail": [
+        "1014-1000-59.jpg"
+      ],
+      "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7300, 7900",
+      "slide": "false"
+    },
+    {
+      "id": "203",
+      "type": "material",
+      "name": "Mực vàng - 500ml",
+      "model": "Mực vàng",
+      "brand": "",
+      "capacity": "500ml",
+      "img": "1039-500-59.jpg",
+      "imgDetail": [
+        "1039-500-59.jpg"
+      ],
+      "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7300, 7900",
+      "slide": "false"
+    },
+    {
+      "id": "204",
+      "type": "material",
+      "name": "Mực vàng - 1000ml",
+      "model": "Mực vàng",
+      "brand": "",
+      "capacity": "500ml",
+      "img": "1039-1000-59.jpg",
+      "imgDetail": [
+        "1039-1000-59.jpg"
+      ],
+      "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7300, 7900",
+      "slide": "false"
+    },
+    {
+      "id": "205",
+      "type": "material",
+      "name": "Mực trắng - 500ml",
+      "model": "Mực trắng",
+      "brand": "",
+      "capacity": "500ml",
+      "img": "1059-500-59.jpg",
+      "imgDetail": [
+        "1059-500-59.jpg"
+      ],
+      "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7300, 7900",
+      "slide": "false"
+    },
+    {
+      "id": "206",
+      "type": "material",
+      "name": "Mực trắng - 1000ml",
+      "model": "Mực trắng",
+      "brand": "",
+      "capacity": "1000ml",
+      "img": "1059-100-59.jpg",
+      "imgDetail": [
+        "1059-100-59.jpg"
+      ],
+      "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7300, 7900",
+      "slide": "false"
+    },
+    {
+      "id": "207",
+      "type": "material",
+      "name": "Mực đen máy 8900 - 500ml",
+      "model": "Mực đen",
+      "brand": "",
+      "capacity": "500ml",
+      "img": "1014-89.jpg",
+      "imgDetail": [
+        "1014-89.jpg"
+      ],
+      "description": "Sử dụng tương thích cho máy in Linx 8800, 8900",
+      "slide": "false"
+    },
+    {
+      "id": "208",
+      "type": "material",
+      "name": "Dung môi máy 8900 - 1000ml",
+      "model": "NL Dung môi",
+      "brand": "",
+      "capacity": "1000ml",
+      "img": "1505-89.jpg",
+      "imgDetail": [
+        "1505-89.jpg"
+      ],
+      "description": "Sử dụng tương thích cho máy in Linx 8800, 8900",
+      "slide": "false"
+    },
+    {
+      "id": "209",
+      "type": "material",
+      "name": "Dung môi - 1000ml",
+      "model": "NL Dung môi",
+      "brand": "",
+      "capacity": "1000ml",
+      "img": "1505-500-59.jpg",
+      "imgDetail": [
+        "1505-500-59.jpg"
+      ],
+      "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7300, 7900",
+      "slide": "false"
+    },
+    {
+      "id": "210",
+      "type": "material",
+      "name": "Mực và Dung môi máy 8900",
+      "model": "Mực và dung môi",
+      "brand": "",
+      "capacity": "1000ml",
+      "img": "combo-1014-89.jpg",
+      "imgDetail": [
+        "combo-1014-89.jpg"
+      ],
+      "description": "Sử dụng tương thích cho máy in Linx 4900 5900 5900",
+      "slide": "false"
+    },
+    {
+      "id": "1",
+      "type": "accessory",
+      "name": "Bộ lọc chính Linx",
+      "model": "Lọc",
+      "brand": "Linx",
+      "img": "BoLocChinh59.png",
+      "imgDetail": [
+        "BoLocChinh59.png"
+      ],
+      "description": "Sử dụng tương thích cho máy in Linx 4900, 5900",
+      "slide": "false"
+    },
+    {
+      "id": "2",
+      "type": "accessory",
+      "name": "Lọc mực Linx",
+      "model": "Lọc",
+      "brand": "Linx",
+      "img": "LocMuc59.png",
+      "imgDetail": [
+        "LocMuc59.png"
+      ],
+      "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7900",
+      "slide": "false"
+    },
+    {
+      "id": "3",
+      "type": "accessory",
+      "name": "Lọc dung môi Linx",
+      "model": "Lọc",
+      "brand": "Linx",
+      "img": "LocDungMoi59.png",
+      "imgDetail": [
+        "LocDungMoi59.png"
+      ],
+      "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7900",
+      "slide": "false"
+    },
+    {
+      "id": "24",
+      "type": "accessory",
+      "name": "Lọc 3 nhánh Linx",
+      "model": "Lọc",
+      "brand": "Linx",
+      "img": "Loc3Nhanh.png",
+      "imgDetail": [
+        "Loc3Nhanh.png"
+      ],
+      "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7900",
+      "slide": "false"
+    },
+    {
+      "id": "4",
+      "type": "accessory",
+      "name": "Damper Linx",
+      "model": "Lọc",
+      "brand": "Linx",
+      "img": "Damper59Linx.png",
+      "imgDetail": [
+        "Damper59Linx.png"
+      ],
+      "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7900",
+      "slide": "false"
+    },
+    {
+      "id": "5",
+      "type": "accessory",
+      "name": "Van 3 chiều Linx",
+      "model": "Van",
+      "brand": "Linx",
+      "img": "Van3Chieu.png",
+      "imgDetail": [
+        "Van3Chieu.png"
+      ],
+      "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7900",
+      "slide": "false"
+    },
+    {
+      "id": "6",
+      "type": "accessory",
+      "name": "Mặt bàn phím Linx 4900",
+      "model": "Bàn phím",
+      "brand": "Linx",
+      "img": "BanPhim49.png",
+      "imgDetail": [
+        "BanPhim49.png"
+      ],
+      "description": "Sử dụng tương thích cho máy in Linx 4900",
+      "slide": "false"
+    },
+    {
+      "id": "7",
+      "type": "accessory",
+      "name": "Mặt bàn phím Linx 5900",
+      "model": "Bàn phím",
+      "brand": "Linx",
+      "img": "BanPhim59.png",
+      "imgDetail": [
+        "BanPhim59.png"
+      ],
+      "description": "Sử dụng tương thích cho máy in Linx 5900",
+      "slide": "false"
+    },
+    {
+      "id": "8",
+      "type": "accessory",
+      "name": "Board nguồn Linx",
+      "model": "Board",
+      "brand": "Linx",
+      "img": "BoardNguon59.png",
+      "imgDetail": [
+        "BoardNguon59.png"
+      ],
+      "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7900",
+      "slide": "false"
+    },
+    {
+      "id": "9",
+      "type": "accessory",
+      "name": "Mainifold Linx",
+      "model": "Van",
+      "brand": "Linx",
+      "img": "ManifoldLinx.png",
+      "imgDetail": [
+        "ManifoldLinx.png"
+      ],
+      "description": "Sử dụng tương thích cho máy in Linx 4900 5900 5900",
+      "slide": "false"
+    },
+    {
+      "id": "10",
+      "type": "accessory",
+      "name": "Mặt bàn phím Linx 7900",
+      "model": "Bàn phím",
+      "brand": "Linx",
+      "img": "BanPhim79.png",
+      "imgDetail": [
+        "Banphim79.png"
+      ],
+      "description": "Sử dụng tương thích cho máy in Linx 7900",
+      "slide": "false"
+    },
+    {
+      "id": "11",
+      "type": "accessory",
+      "name": "Pin Cmos",
+      "model": "Board",
+      "brand": "Linx",
+      "img": "pin59.png",
+      "imgDetail": [
+        "pin59.png"
+      ],
+      "description": "Sử dụng tương thích cho máy in Linx 4900 5900 7900",
+      "slide": "false"
+    },
+    {
+      "id": "12",
+      "type": "accessory",
+      "name": "Màn hình Linx 5900",
+      "model": "LK Màn hình",
+      "brand": "Linx",
+      "img": "manhinh59.png",
+      "imgDetail": [
+        "manhinh59.png"
+      ],
+      "description": "Sử dụng tương thích cho máy in Linx 5900",
+      "slide": "false"
+    },
+    {
+      "id": "13",
+      "type": "accessory",
+      "name": "Bơm Linx",
+      "model": "Bơm",
+      "brand": "Linx",
+      "img": "bom59.png",
+      "imgDetail": [
+        "bom59.png"
+      ],
+      "description": "Sử dụng tương thích cho máy in Linx 4900 5900 7900",
+      "slide": "false"
+    },
+    {
+      "id": "14",
+      "type": "accessory",
+      "name": "Damper Linx 7900",
+      "model": "Lọc",
+      "brand": "Linx",
+      "img": "damper79.png",
+      "imgDetail": [
+        "damper79.png"
+      ],
+      "description": "Sử dụng tương thích cho máy in Linx 5900 7900",
+      "slide": "false"
+    },
+    {
+      "id": "15",
+      "type": "accessory",
+      "name": "Board chính Linx 5900 7900",
+      "model": "Board",
+      "brand": "Linx",
+      "img": "board59.png",
+      "imgDetail": [
+        "board59.png"
+      ],
+      "description": "Sử dụng tương thích cho máy in Linx 5900 7900",
+      "slide": "false"
+    },
+    {
+      "id": "16",
+      "type": "accessory",
+      "name": "Lọc chính Linx 89xx",
+      "model": "Lọc",
+      "brand": "Linx",
+      "img": "loc89.png",
+      "imgDetail": [
+        "loc89.png"
+      ],
+      "description": "Sử dụng tương thích cho máy in Linx 88xx 89xx",
+      "slide": "false"
+    },
+    {
+      "id": "17",
+      "type": "accessory",
+      "name": "Board cao áp Linx",
+      "model": "Board",
+      "brand": "Linx",
+      "img": "boardcaoap59.png",
+      "imgDetail": [
+        "boardcaoap59.png"
+      ],
+      "description": "Sử dụng tương thích cho máy in Linx 4900 5900 7900",
+      "slide": "false"
+    },
+    {
+      "id": "18",
+      "type": "accessory",
+      "name": "Nắp đầu in Linx",
+      "model": "LK Đầu in",
+      "brand": "Linx",
+      "img": "napdauin59.png",
+      "imgDetail": [
+        "napdauin59.png"
+      ],
+      "description": "Sử dụng tương thích cho máy in Linx 4900 5900 7900",
+      "slide": "false"
+    },
+    {
+      "id": "19",
+      "type": "accessory",
+      "name": "Màn hình 89xx",
+      "model": "LK Màn hình",
+      "brand": "Linx",
+      "img": "manhinh89.png",
+      "imgDetail": [
+        "manhinh89.png"
+      ],
+      "description": "Sử dụng tương thích cho máy in Linx 89xx",
+      "slide": "false"
+    },
+    {
+      "id": "20",
+      "type": "accessory",
+      "name": "Béc phun 88xx 89xx",
+      "model": "LK Đầu in",
+      "brand": "Linx",
+      "img": "bec89.png",
+      "imgDetail": [
+        "bec89.png"
+      ],
+      "description": "Sử dụng tương thích cho máy in Linx 88xx 89xx",
+      "slide": "false"
+    },
+    {
+      "id": "21",
+      "type": "accessory",
+      "name": "Board chính 88xx 89xx",
+      "model": "Board",
+      "brand": "Linx",
+      "img": "board79.png",
+      "imgDetail": [
+        "board79.png"
+      ],
+      "description": "Sử dụng tương thích cho máy in Linx 88xx 89xx",
+      "slide": "false"
+    },
+    {
+      "id": "22",
+      "type": "accessory",
+      "name": "Bộ lọc chính Spectrum",
+      "model": "Lọc",
+      "brand": "Linx",
+      "img": "locspectrum.png",
+      "imgDetail": [
+        "locspectrum.png"
+      ],
+      "description": "Sử dụng tương thích cho máy in Linx 7900 Spectrum",
+      "slide": "false"
+    },
+    {
+      "id": "23",
+      "type": "accessory",
+      "name": "Màn hình 4900",
+      "model": "LK Màn hình",
+      "brand": "Linx",
+      "img": "manhinh49.png",
+      "imgDetail": [
+        "manhinh49.png"
+      ],
+      "description": "Sử dụng tương thích cho máy in Linx 4900",
+      "slide": "false"
+    }
+  ],
+  "banner": [
+    {
+      "id": "01",
+      "name": "banner-1",
+      "img": "Banner-1.png"
+    },
+    {
+      "id": "02",
+      "name": "banner-2",
+      "img": "Banner-2.png"
+    },
+    {
+      "id": "03",
+      "name": "banner-3",
+      "img": "Banner-3.png"
+    },
+    {
+      "id": "04",
+      "name": "banner-4",
+      "img": "Banner-4.png"
+    }
+  ],
+  "bannerProduct": [
+    {
+      "id": "01",
+      "name": "banner-1",
+      "img": "banner-product-1.png",
+      "title": "Máy in phun date",
+      "description": "Hệ thống Máy phun mực liên tục (CIJ) được sử dụng để in thông tin thay đổi, chẳng hạn như ngày tháng, lô hoặc mã vạch, trên các sản phẩm riêng lẻ khi chúng di chuyển dọc theo dây chuyền sản xuất, bất kể độ xốp, kích thước, hình dạng hoặc kết cấu."
+    },
+    {
+      "id": "02",
+      "name": "banner-2",
+      "img": "banner-product-2.png",
+      "title": "Máy khắc lazer",
+      "description": "Máy khắc laser là giải pháp lý tưởng hoàn toàn đáp ứng các yêu cầu của khách hàng như: Không tiêu hao nguyên liệu, Hoạt động bền bỉ, vận hành dễ dàng, Thông tin được khắc đảm bảo chắc chắn, khó bị tẩy xóa, n được nhiều loại bản tin khác như như: Barcode, Qr Code, Ngày sản xuất – Hạn sử dụng."
+    },
+    {
+      "id": "03",
+      "name": "banner-3",
+      "img": "banner-product-3.png",
+      "title": "Máy in thùng",
+      "description": "Ứng dụng công nghệ gia nhiệt (Thermal Ink Jet – TIJ) Tiết kiệm chi phí, không cần bảo trì! Máy in tốt trên chất liệu thùng carton, hộp giấy carton, gỗ, vỏ trứng, nhựa cứng, nhựa dẻo, kim loại, nhôm, vật liệu xây dựng."
+    },
+    {
+      "id": "04",
+      "name": "banner-4",
+      "img": "banner-product-4.png",
+      "title": "Nguyên liệu",
+      "description": "Chuyên cung cấp tất cả sản phẩm mực và dung môi cho máy in date và máy in TIJ."
+    }
+  ],
+  "bannerLanding": [
+    {
+      "id": "01",
+      "name": "banner-1",
+      "img": "all-product.png",
+      "title": "Máy in date công nghiệp",
+      "description": "Công ty TNHH Ngoc Quý Tech chuyên cung cấp các sản phẩm in date công nghiệp với những thương hiệu lớn như Linx, KingCode, TIJ... .."
+    },
+    {
+      "id": "02",
+      "name": "banner-2",
+      "img": "solution-landing.png",
+      "title": "Cung cấp giải pháp in date công nghiệp",
+      "description": "Chuyên cung cấp các giải pháp in date công nghiệp như: In ngày hạn sản xuất, BarCode, khắc lazer bề mặt sản phẩm..."
+    },
+    {
+      "id": "03",
+      "name": "banner-4",
+      "img": "banner-landing-4.png",
+      "title": "Nguyên liệu",
+      "description": "Chuyên cung cấp tất cả sản phẩm mực và dung môi cho máy in date và máy in TIJ."
+    },
+    {
+      "id": "04",
+      "name": "banner-5",
+      "img": "repair-landing.png",
+      "title": "Dịch vụ sửa chữa 24/7",
+      "description": "Đội ngũ kỹ thuật chuyên nghiệp luôn hỗ trợ khách hàng một cách nhanh chóng."
+    }
+  ],
+  "NewProductLanding": [
+    {
+      "id": "01",
+      "img": "New1.png",
+      "router": "109",
+      "type": "printer"
+    },
+    {
+      "id": "02",
+      "img": "BestSale.png",
+      "router": "101",
+      "type": "printer"
+    },
+    {
+      "id": "03",
+      "img": "New2.png",
+      "router": "108",
+      "type": "printer"
+    }
+  ],
+  "cart": [
+    {
+      "id": "109",
+      "name": "Máy khắc laser CO2",
+      "img": "MayLazerKingCode-1.png",
+      "ip": "183.80.2.210"
+    },
+    {
+      "id": "101",
+      "name": "Máy in Linx 8900",
+      "img": "May8900-1.png",
+      "ip": "183.80.2.210"
+    }
+  ]
+}

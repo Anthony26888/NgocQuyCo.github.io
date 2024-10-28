@@ -1,77 +1,67 @@
 <template lang="">
-  <v-skeleton-loader type="article, list-item-three-line, list-item-three-line, list-item-three-line, list-item-three-line, list-item-three-line" :loading="loading">
-    <div class="mx-auto container">
-      <h1 class="text-center text-teal-darken-1">
-        CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ KỸ THUẬT NGỌC QUÝ
-      </h1>
-      <div class="mt-3">
-        <p>
-          {{ row1 }}
-        </p>
-        <p>
-          {{ row2 }}
-        </p>
-        <p>
-          {{ row3 }}
-        </p>
-        <!--List-->
-        <v-list-item>
-          <v-list-item v-for="item in list" :key="item">
-            <v-icon
-              size="large"
-              color="green-darken-2"
-              icon="mdi-circle-small"
-            ></v-icon>
-            <b>{{ item }}</b>
-          </v-list-item>
-        </v-list-item>
-
-        <p>
-          {{ row4 }}
-        </p>
-        <h5 class="text-teal-darken-1 text-name mt-5">{{ name }}</h5>
-        <div class="d-flex gap-2">
-          <b>Trụ sở: </b>
-          <p>{{ local }}</p>
-        </div>
-        <div class="d-flex gap-2">
-          <b>Hotline: </b>
-          <a
-            href="tel:+84918504086"
-            class="ms-2"
-            style="text-decoration: none; color: blue"
-          >
-            <p>0918504086</p>
-          </a>
-          <span class="text-muted ms-2">hoặc</span>
-          <a
-            href="tel:+84903062501"
-            class="ms-2"
-            style="text-decoration: none; color: blue"
-          >
-            <p>0903062501</p>
-          </a>
-        </div>
-        <div class="d-flex gap-2">
-          <b>Website: </b>
-          <a
-            href="http://ngocquytechco.com.vn"
-            style="text-decoration: none; color: blue"
-            >{{ website }}</a
-          >
-        </div>
-
-        <div class="d-flex gap-2 mt-3">
-          <b>Fanpage: </b>
-          <a
-            href="https://www.facebook.com/people/M%C3%A1y-in-phun-c%C3%B4ng-nghi%E1%BB%87p-Ng%E1%BB%8Dc-Qu%C3%BD/61555545044060/?mibextid=kFxxJD"
-            style="text-decoration: none; color: blue"
-            >{{ fanpage }}</a
-          >
-        </div>
-      </div>
-    </div>
-  </v-skeleton-loader>
+  <v-card variant="text">
+    <v-card-title>
+      <p class="display-6 text-center text-teal-darken-1 text-wrap">
+         Giới thiệu
+      </p>
+    </v-card-title>
+    <v-card-text>
+      <v-row cols="auto">
+        <v-col>
+          <v-img
+            src="/src/assets/Image/Banner/Banner-1.png"
+            height="300"
+          ></v-img>
+        </v-col>
+        <v-col>
+          <v-card>
+            <v-card-title>Ngọc Quý Technology</v-card-title>
+            <v-card-text>
+              <p>
+                {{ row1 }}
+              </p>
+              <p>
+                {{ row2 }}
+              </p>
+            </v-card-text>
+          </v-card>
+        </v-col>
+      </v-row>
+      <v-row cols="auto">
+        <v-col>
+          <v-card>
+            <v-card-title
+              >Quyền lợi khi đến với Ngọc Quý Technology</v-card-title
+            >
+            <v-card-text>
+              <p>
+                {{ row3 }}
+              </p>
+              <v-list>
+                <v-list-item v-for="item in list" :key="item">
+                  <v-icon
+                    size="large"
+                    color="green-darken-2"
+                    icon="mdi-circle-small"
+                  ></v-icon>
+                  <b>{{ item }}</b>
+                </v-list-item>
+              </v-list>
+              <p>
+                {{ row4 }}
+              </p>
+            </v-card-text>
+          </v-card>
+        </v-col>
+        <v-col>
+          <v-img
+            src="/src/assets/Image/Banner/loi-ich.jpg"
+            height="300"
+          ></v-img>
+        </v-col>
+      </v-row>
+    </v-card-text>
+  </v-card>
 </template>
 <script>
 export default {

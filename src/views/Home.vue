@@ -1,107 +1,66 @@
 <template>
-  <vContainer>
-    <v-app>
-      <VRow justify="center" align="center">
-        <VCol cols xs="12" md="6">
-          <carousels />
-        </VCol>
-        <VCol cols xs="12" md="6">
-          <Title />
-        </VCol>
-      </VRow>
-      <Select class="mt-3" />
-
-      <!--Printer CIJ-->
-      <v-skeleton-loader type="heading" class="mt-4" :loading="loading">
-        <v-toolbar density="comfortable" class="bg-amber-lighten-3">
-          <h2 class="text-teal-darken-1 p-3 text-center mt-2">MÁY IN DATE</h2>
-          <VSpacer />
-          <router-link to="/Danh-sach-may-in-date" style="text-decoration: none; color: inherit">
-            <v-btn class="bg-teal-darken-1 me-3">
-              <strong class="mx-auto">Xem thêm >></strong>
-            </v-btn>
-          </router-link>
-        </v-toolbar>
-      </v-skeleton-loader>
-      <SlideMachine />
-
-      <!--Printer Lazer-->
-      <v-skeleton-loader type="heading" class="mt-4" :loading="loading">
-        <v-toolbar density="comfortable" class="bg-amber-lighten-3 ma-2 mb-2">
-          <h2 class="text-teal-darken-1 p-3 text-center mt-2">
-            MÁY KHẮC LAZER
-          </h2>
-          <VSpacer />
-          <router-link to="/Danh-sach-may-khac-lazer" style="text-decoration: none; color: inherit">
-            <v-btn class="bg-teal-darken-1 me-3">
-              <strong class="mx-auto">Xem thêm >></strong>
-            </v-btn>
-          </router-link>
-        </v-toolbar>
-      </v-skeleton-loader>
-      <SlideLazer />
-
-      <!--Printer TIJ-->
-      <v-skeleton-loader type="heading" class="mt-4" :loading="loading">
-        <v-toolbar density="comfortable" class="bg-amber-lighten-3">
-          <h2 class="text-teal-darken-1 p-3 text-center mt-2">
-            MÁY IN DATE THÙNG
-          </h2>
-          <VSpacer />
-          <router-link to="/Danh-sach-may-in-thung" style="text-decoration: none; color: inherit">
-            <v-btn class="bg-teal-darken-1 me-3">
-              <strong class="mx-auto">Xem thêm >></strong>
-            </v-btn>
-          </router-link>
-        </v-toolbar>
-      </v-skeleton-loader>
-
-      <SlideTIJ />
-
-      <!--Accessory-->
-      <v-skeleton-loader type="heading" class="mt-4" :loading="loading">
-        <v-toolbar density="comfortable" class="bg-amber-lighten-3">
-          <h2 class="text-teal-darken-1 p-3 text-center mt-2">LINH KIỆN</h2>
-          <VSpacer />
-          <router-link to="/Danh-sach-linh-kien" style="text-decoration: none; color: inherit">
-            <v-btn class="bg-teal-darken-1 me-3">
-              <strong class="mx-auto">Xem thêm >></strong>
-            </v-btn>
-          </router-link>
-        </v-toolbar>
-      </v-skeleton-loader>
-      <SlideAccessory />
-
-      <!--Ink-->
-      <v-skeleton-loader type="heading" class="mt-4" :loading="loading">
-        <v-toolbar density="comfortable" class="bg-amber-lighten-3">
-          <h2 class="text-teal-darken-1 p-3 text-center mt-2">NGUYÊN LIỆU</h2>
-          <VSpacer />
-          <router-link to="/Danh-sach-nguyen-lieu" style="text-decoration: none; color: inherit">
-            <v-btn class="bg-teal-darken-1 me-3">
-              <strong class="mx-auto">Xem thêm >></strong>
-            </v-btn>
-          </router-link>
-        </v-toolbar>
-      </v-skeleton-loader>
-      <SlideInk />
-    </v-app>
-  </vContainer>
+  <v-main class="bg-grey-lighten-4">
+    <v-lazy
+      :min-height="200"
+      :options="{ threshold: 0.5 }"
+      transition="fade-transition"
+    >
+      <v-container class="pa-2" fluid>
+        <v-row cols="auto" algin="center" justify="center">
+          <v-col cols="12">
+            <Carousels />
+          </v-col>
+          <v-container>
+            <v-divider class="mx-4"></v-divider>
+          </v-container>
+          <v-col cols="12">
+            <SlideNewProduct />
+          </v-col>
+          <v-container>
+            <v-divider class="mx-4"></v-divider>
+          </v-container>
+          <v-col cols="12">
+            <SlideNumber />
+          </v-col>
+          <v-container>
+            <v-divider class="mx-4"></v-divider>
+          </v-container>
+          <v-col cols="12">
+            <SlideMachine />
+            <v-container>
+              <v-divider class="mx-4"></v-divider>
+            </v-container>
+            <SlideAccessory />
+            <v-container>
+              <v-divider class="mx-4"></v-divider>
+            </v-container>
+            <SlideMaterial />
+          </v-col>
+          <v-container>
+            <v-divider class="mx-4"></v-divider>
+          </v-container>
+          <v-col cols="12">
+            <SlideService />
+          </v-col>
+        </v-row>
+      </v-container>
+    </v-lazy>
+  </v-main>
 </template>
 
 <script setup>
-import carousels from "@/components/carousels";
+import Carousels from "@/components/carousels";
 import Select from "@/components/SelectPage.vue";
-import SlideMachine from "@/components/SlideMachine.vue";
-import SlideAccessory from "@/components/SlideAccessory.vue";
-import Title from "@/components/TitleHomePage.vue";
-import SlideInk from "@/components/SlideInk.vue";
-import SlideTIJ from "@/components/SlideTIJ.vue";
-import SlideLazer from "@/components/SlideLazer.vue";
+import SlideNewProduct from "@/components/NewProductLanding.vue";
+import SlideMaterial from "@/components/SlideMaterialLanding.vue";
+import SlideAccessory from "@/components/SlideAccessoryLanding.vue";
+import SlideService from "@/components/ServiceLanding.vue";
+import SlideMachine from "@/components/SlideProductLanding.vue";
+import SlideNumber from "@/components/NumberLanding.vue";
 </script>
+
 <script>
 export default {
-  name: "Home",
   data() {
     return {
       loading: true,
