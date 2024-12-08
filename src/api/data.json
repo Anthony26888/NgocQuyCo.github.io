@@ -523,11 +523,7 @@
       "brand": "Linx",
       "name": "Máy in Linx 4900",
       "img": "May4900-1.png",
-      "imgDetail": [
-        "May4900-1.png",
-        "May4900-2.png",
-        "May4900-3.png"
-      ],
+      "imgDetail": ["May4900-1.png", "May4900-2.png", "May4900-3.png"],
       "description": "Dòng máy in phun hạn sử dụng Linx 4900 có đầy đủ các yếu tố cấu thành của 1 máy in date hiện đại, kết cấu gọn nhẹ, có độ tiết kiệm về chi phí đầu tư và cũng như khấu hao trong quá trình vận hành sản xuất. Máy được kết cấu từ các thiết bị cấu thành với tuổi thọ cao, tiêu chuẩn Anh Quốc và quốc tế – máy hạn chế tối đa phát sinh lỗi vặt – tiết kiệm chi phí bảo trì, sửa chữa trong quá trình vận hành.",
       "tech": [
         "In lên đến 2 dòng văn bản và logo với tốc độ in tối đa 6.25m/s",
@@ -1094,9 +1090,7 @@
       "brand": "",
       "capacity": "500ml",
       "img": "1014-500-59.jpg",
-      "imgDetail": [
-        "1014-500-59.jpg"
-      ],
+      "imgDetail": ["1014-500-59.jpg"],
       "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7300, 7900",
       "slide": "false"
     },
@@ -1108,9 +1102,7 @@
       "brand": "",
       "capacity": "1000ml",
       "img": "1014-1000-59.jpg",
-      "imgDetail": [
-        "1014-1000-59.jpg"
-      ],
+      "imgDetail": ["1014-1000-59.jpg"],
       "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7300, 7900",
       "slide": "false"
     },
@@ -1122,9 +1114,7 @@
       "brand": "",
       "capacity": "500ml",
       "img": "1039-500-59.jpg",
-      "imgDetail": [
-        "1039-500-59.jpg"
-      ],
+      "imgDetail": ["1039-500-59.jpg"],
       "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7300, 7900",
       "slide": "false"
     },
@@ -1136,9 +1126,7 @@
       "brand": "",
       "capacity": "500ml",
       "img": "1039-1000-59.jpg",
-      "imgDetail": [
-        "1039-1000-59.jpg"
-      ],
+      "imgDetail": ["1039-1000-59.jpg"],
       "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7300, 7900",
       "slide": "false"
     },
@@ -1150,9 +1138,7 @@
       "brand": "",
       "capacity": "500ml",
       "img": "1059-500-59.jpg",
-      "imgDetail": [
-        "1059-500-59.jpg"
-      ],
+      "imgDetail": ["1059-500-59.jpg"],
       "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7300, 7900",
       "slide": "false"
     },
@@ -1164,9 +1150,7 @@
       "brand": "",
       "capacity": "1000ml",
       "img": "1059-100-59.jpg",
-      "imgDetail": [
-        "1059-100-59.jpg"
-      ],
+      "imgDetail": ["1059-100-59.jpg"],
       "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7300, 7900",
       "slide": "false"
     },
@@ -1178,9 +1162,7 @@
       "brand": "",
       "capacity": "500ml",
       "img": "1014-89.jpg",
-      "imgDetail": [
-        "1014-89.jpg"
-      ],
+      "imgDetail": ["1014-89.jpg"],
       "description": "Sử dụng tương thích cho máy in Linx 8800, 8900",
       "slide": "false"
     },
@@ -1192,9 +1174,7 @@
       "brand": "",
       "capacity": "1000ml",
       "img": "1505-89.jpg",
-      "imgDetail": [
-        "1505-89.jpg"
-      ],
+      "imgDetail": ["1505-89.jpg"],
       "description": "Sử dụng tương thích cho máy in Linx 8800, 8900",
       "slide": "false"
     },
@@ -1206,9 +1186,7 @@
       "brand": "",
       "capacity": "1000ml",
       "img": "1505-500-59.jpg",
-      "imgDetail": [
-        "1505-500-59.jpg"
-      ],
+      "imgDetail": ["1505-500-59.jpg"],
       "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7300, 7900",
       "slide": "false"
     },
@@ -1220,9 +1198,7 @@
       "brand": "",
       "capacity": "1000ml",
       "img": "combo-1014-89.jpg",
-      "imgDetail": [
-        "combo-1014-89.jpg"
-      ],
+      "imgDetail": ["combo-1014-89.jpg"],
       "description": "Sử dụng tương thích cho máy in Linx 4900 5900 5900",
       "slide": "false"
     },
@@ -1233,9 +1209,7 @@
       "model": "Lọc",
       "brand": "Linx",
       "img": "BoLocChinh59.png",
-      "imgDetail": [
-        "BoLocChinh59.png"
-      ],
+      "imgDetail": ["BoLocChinh59.png"],
       "description": "Sử dụng tương thích cho máy in Linx 4900, 5900",
       "slide": "false"
     },
@@ -1246,9 +1220,7 @@
       "model": "Lọc",
       "brand": "Linx",
       "img": "LocMuc59.png",
-      "imgDetail": [
-        "LocMuc59.png"
-      ],
+      "imgDetail": ["LocMuc59.png"],
       "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7900",
       "slide": "false"
     },
@@ -1259,9 +1231,7 @@
       "model": "Lọc",
       "brand": "Linx",
       "img": "LocDungMoi59.png",
-      "imgDetail": [
-        "LocDungMoi59.png"
-      ],
+      "imgDetail": ["LocDungMoi59.png"],
       "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7900",
       "slide": "false"
     },
@@ -1272,9 +1242,7 @@
       "model": "Lọc",
       "brand": "Linx",
       "img": "Loc3Nhanh.png",
-      "imgDetail": [
-        "Loc3Nhanh.png"
-      ],
+      "imgDetail": ["Loc3Nhanh.png"],
       "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7900",
       "slide": "false"
     },
@@ -1285,9 +1253,7 @@
       "model": "Lọc",
       "brand": "Linx",
       "img": "Damper59Linx.png",
-      "imgDetail": [
-        "Damper59Linx.png"
-      ],
+      "imgDetail": ["Damper59Linx.png"],
       "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7900",
       "slide": "false"
     },
@@ -1298,9 +1264,7 @@
       "model": "Van",
       "brand": "Linx",
       "img": "Van3Chieu.png",
-      "imgDetail": [
-        "Van3Chieu.png"
-      ],
+      "imgDetail": ["Van3Chieu.png"],
       "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7900",
       "slide": "false"
     },
@@ -1311,9 +1275,7 @@
       "model": "Bàn phím",
       "brand": "Linx",
       "img": "BanPhim49.png",
-      "imgDetail": [
-        "BanPhim49.png"
-      ],
+      "imgDetail": ["BanPhim49.png"],
       "description": "Sử dụng tương thích cho máy in Linx 4900",
       "slide": "false"
     },
@@ -1324,9 +1286,7 @@
       "model": "Bàn phím",
       "brand": "Linx",
       "img": "BanPhim59.png",
-      "imgDetail": [
-        "BanPhim59.png"
-      ],
+      "imgDetail": ["BanPhim59.png"],
       "description": "Sử dụng tương thích cho máy in Linx 5900",
       "slide": "false"
     },
@@ -1337,9 +1297,7 @@
       "model": "Board",
       "brand": "Linx",
       "img": "BoardNguon59.png",
-      "imgDetail": [
-        "BoardNguon59.png"
-      ],
+      "imgDetail": ["BoardNguon59.png"],
       "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7900",
       "slide": "false"
     },
@@ -1350,9 +1308,7 @@
       "model": "Van",
       "brand": "Linx",
       "img": "ManifoldLinx.png",
-      "imgDetail": [
-        "ManifoldLinx.png"
-      ],
+      "imgDetail": ["ManifoldLinx.png"],
       "description": "Sử dụng tương thích cho máy in Linx 4900 5900 5900",
       "slide": "false"
     },
@@ -1363,9 +1319,7 @@
       "model": "Bàn phím",
       "brand": "Linx",
       "img": "BanPhim79.png",
-      "imgDetail": [
-        "Banphim79.png"
-      ],
+      "imgDetail": ["Banphim79.png"],
       "description": "Sử dụng tương thích cho máy in Linx 7900",
       "slide": "false"
     },
@@ -1376,9 +1330,7 @@
       "model": "Board",
       "brand": "Linx",
       "img": "pin59.png",
-      "imgDetail": [
-        "pin59.png"
-      ],
+      "imgDetail": ["pin59.png"],
       "description": "Sử dụng tương thích cho máy in Linx 4900 5900 7900",
       "slide": "false"
     },
@@ -1389,9 +1341,7 @@
       "model": "LK Màn hình",
       "brand": "Linx",
       "img": "manhinh59.png",
-      "imgDetail": [
-        "manhinh59.png"
-      ],
+      "imgDetail": ["manhinh59.png"],
       "description": "Sử dụng tương thích cho máy in Linx 5900",
       "slide": "false"
     },
@@ -1402,9 +1352,7 @@
       "model": "Bơm",
       "brand": "Linx",
       "img": "bom59.png",
-      "imgDetail": [
-        "bom59.png"
-      ],
+      "imgDetail": ["bom59.png"],
       "description": "Sử dụng tương thích cho máy in Linx 4900 5900 7900",
       "slide": "false"
     },
@@ -1415,9 +1363,7 @@
       "model": "Lọc",
       "brand": "Linx",
       "img": "damper79.png",
-      "imgDetail": [
-        "damper79.png"
-      ],
+      "imgDetail": ["damper79.png"],
       "description": "Sử dụng tương thích cho máy in Linx 5900 7900",
       "slide": "false"
     },
@@ -1428,9 +1374,7 @@
       "model": "Board",
       "brand": "Linx",
       "img": "board59.png",
-      "imgDetail": [
-        "board59.png"
-      ],
+      "imgDetail": ["board59.png"],
       "description": "Sử dụng tương thích cho máy in Linx 5900 7900",
       "slide": "false"
     },
@@ -1441,9 +1385,7 @@
       "model": "Lọc",
       "brand": "Linx",
       "img": "loc89.png",
-      "imgDetail": [
-        "loc89.png"
-      ],
+      "imgDetail": ["loc89.png"],
       "description": "Sử dụng tương thích cho máy in Linx 88xx 89xx",
       "slide": "false"
     },
@@ -1454,9 +1396,7 @@
       "model": "Board",
       "brand": "Linx",
       "img": "boardcaoap59.png",
-      "imgDetail": [
-        "boardcaoap59.png"
-      ],
+      "imgDetail": ["boardcaoap59.png"],
       "description": "Sử dụng tương thích cho máy in Linx 4900 5900 7900",
       "slide": "false"
     },
@@ -1467,9 +1407,7 @@
       "model": "LK Đầu in",
       "brand": "Linx",
       "img": "napdauin59.png",
-      "imgDetail": [
-        "napdauin59.png"
-      ],
+      "imgDetail": ["napdauin59.png"],
       "description": "Sử dụng tương thích cho máy in Linx 4900 5900 7900",
       "slide": "false"
     },
@@ -1480,9 +1418,7 @@
       "model": "LK Màn hình",
       "brand": "Linx",
       "img": "manhinh89.png",
-      "imgDetail": [
-        "manhinh89.png"
-      ],
+      "imgDetail": ["manhinh89.png"],
       "description": "Sử dụng tương thích cho máy in Linx 89xx",
       "slide": "false"
     },
@@ -1493,9 +1429,7 @@
       "model": "LK Đầu in",
       "brand": "Linx",
       "img": "bec89.png",
-      "imgDetail": [
-        "bec89.png"
-      ],
+      "imgDetail": ["bec89.png"],
       "description": "Sử dụng tương thích cho máy in Linx 88xx 89xx",
       "slide": "false"
     },
@@ -1506,9 +1440,7 @@
       "model": "Board",
       "brand": "Linx",
       "img": "board79.png",
-      "imgDetail": [
-        "board79.png"
-      ],
+      "imgDetail": ["board79.png"],
       "description": "Sử dụng tương thích cho máy in Linx 88xx 89xx",
       "slide": "false"
     },
@@ -1519,9 +1451,7 @@
       "model": "Lọc",
       "brand": "Linx",
       "img": "locspectrum.png",
-      "imgDetail": [
-        "locspectrum.png"
-      ],
+      "imgDetail": ["locspectrum.png"],
       "description": "Sử dụng tương thích cho máy in Linx 7900 Spectrum",
       "slide": "false"
     },
@@ -1532,9 +1462,7 @@
       "model": "LK Màn hình",
       "brand": "Linx",
       "img": "manhinh49.png",
-      "imgDetail": [
-        "manhinh49.png"
-      ],
+      "imgDetail": ["manhinh49.png"],
       "description": "Sử dụng tương thích cho máy in Linx 4900",
       "slide": "false"
     }

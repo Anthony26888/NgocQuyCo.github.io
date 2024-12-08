@@ -1,5 +1,5 @@
 <template>
-  <v-card>
+  <v-card class="bg-grey-lighten-1">
     <v-card-text>
       <v-container>
         <v-row>
@@ -72,7 +72,7 @@ const fontsize = computed(() => {
 <script>
 export default {
   components: {
-    'vue3-autocounter': Vue3autocounter
+    "vue3-autocounter": Vue3autocounter,
   },
   mounted() {
     setTimeout(() => {

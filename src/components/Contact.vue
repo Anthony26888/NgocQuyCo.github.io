@@ -1,10 +1,5 @@
 <template lang="">
   <v-card variant="text">
-    <v-card-title>
-      <h3 class="display-5 text-center text-teal-darken-1 text-wrap">
-        THÔNG TIN LIÊN HỆ
-      </h3>
-    </v-card-title>
     <v-card-text>
       <v-card class="p-5">
         <div class="mt-3">

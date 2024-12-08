@@ -1,115 +1,60 @@
 <template>
-
-    <v-row>
-      <v-col>
-        <router-link to="/San-pham" class="text-decoration-none">
-          <v-card :width="widthCard" :height="heightCard" variant="text">
-            <v-img src="/src/assets/Image/Banner/May8900-1-removebg-preview.png" class="hoverImg" :height="heightImg"></v-img>
-            <p class="text-center text-muted" :style="`font-size:${fontsize}px`">Máy in phun</p>
-          </v-card>
-        </router-link>
-      </v-col>
-      <v-col>
-        <router-link to="/Giai-phap" class="text-decoration-none">
-          <v-card :width="widthCard" :height="heightCard" variant="text">
-            <v-img src="/src/assets/Image/Banner/MayLazerKingCode-1-removebg-preview.png" class="hoverImg" :height="heightImg"></v-img>
-            <p class="text-center text-muted" :style="`font-size:${fontsize}px`">Máy in lazer</p>
-          </v-card>
-        </router-link>
-      </v-col>
-      <v-col>
-        <router-link to="/Thue-may" class="text-decoration-none">
-          <v-card :width="widthCard" :height="heightCard" variant="text">
-            <v-img src="/src/assets/Image/Banner/MayVT180-1-removebg-preview.png" class="hoverImg" :height="heightImg"></v-img>
-            <p class="text-center text-muted" :style="`font-size:${fontsize}px`">Máy in thùng</p>
-          </v-card>
-        </router-link>
-      </v-col>
-      <v-col>
-        <router-link to="/Lien-he" class="text-decoration-none">
-          <v-card :width="widthCard" :height="heightCard" variant="text">
-            <v-img src="/src/assets/Image/Banner/ink-removebg-preview.png" :height="heightImg"></v-img>
-            <p class="text-center text-muted" :style="`font-size:${fontsize}px`">Nguyên liệu</p>
-          </v-card>
-        </router-link>
-      </v-col>
-    </v-row>
+  <v-card>
+    <v-card-text>
+      <v-container>
+        <v-row>
+          <v-col class="text-center">
+            <h1 class="text-center text-danger">10</h1>
+            <p :style="`font-size:${fontsize}px`" class="text-center">
+              Năm thành lập
+            </p>
+          </v-col>
+          <v-col class="text-center">
+            <h1 class="text-center text-danger">
+              <vue3-autocounter
+                ref="counter"
+                :startAmount="0"
+                :endAmount="200"
+                :duration="3"
+                prefix=""
+                suffix="+"
+                separator=""
+                decimalSeparator=""
+                :decimals="0"
+                :autoinit="true"
+              />
+            </h1>
+            <p :style="`font-size:${fontsize}px`" class="text-center">
+              Khách hàng đồng hành
+            </p>
+          </v-col>
+          <v-col class="text-center">
+            <h1 class="text-center text-danger">300 +</h1>
+            <p :style="`font-size:${fontsize}px`" class="text-center">
+              Thiết bị đã bán ra
+            </p>
+          </v-col>
+        </v-row>
+      </v-container>
+    </v-card-text>
+  </v-card>
 </template>
+
 <script setup>
-import { useAppStore } from "@/store/app";
+import Vue3autocounter from "vue3-autocounter";
 import { computed } from "vue";
 import { useDisplay } from "vuetify";
 
 const { name } = useDisplay();
 
-const widthCard = computed(() => {
-  // name is reactive and
-  // must use .value
-  switch (name.value) {
-    case "xs":
-      return 70;
-    case "sm":
-      return 70;
-    case "md":
-      return 160;
-    case "lg":
-      return 170;
-    case "xl":
-      return 200;
-    case "xxl":
-      return 50;
-  }
-
-  return undefined;
-});
-const heightCard = computed(() => {
-  // name is reactive and
-  // must use .value
-  switch (name.value) {
-    case "xs":
-      return 90;
-    case "sm":
-      return 90;
-    case "md":
-      return 250;
-    case "lg":
-      return 250;
-    case "xl":
-      return 250;
-    case "xxl":
-      return 1920;
-  }
-
-  return undefined;
-});
-const heightImg = computed(() => {
-  // name is reactive and
-  // must use .value
-  switch (name.value) {
-    case "xs":
-      return 390;
-    case "sm":
-      return 50;
-    case "md":
-      return 195;
-    case "lg":
-      return 205;
-    case "xl":
-      return 180;
-    case "xxl":
-      return 1920;
-  }
-
-  return undefined;
-});
 const fontsize = computed(() => {
   // name is reactive and
   // must use .value
   switch (name.value) {
     case "xs":
-      return 8;
+      return 6;
     case "sm":
-      return 12;
+      return 8;
     case "md":
       return 20;
     case "lg":
@@ -122,31 +67,24 @@ const fontsize = computed(() => {
 
   return undefined;
 });
-const store = useAppStore();
-store.FetchProduct();
 </script>
+
 <script>
 export default {
-  name: "AboutUs",
-  data() {
-    return {
-      loading: true,
-    };
+  components: {
+    "vue3-autocounter": Vue3autocounter,
   },
   mounted() {
     setTimeout(() => {
-      this.loading = false;
-    }, 1500);
+      const count = 0;
+      this.n = count + 1;
+    }, 100);
+  },
+  data() {
+    return {
+      n: 200,
+    };
   },
 };
 </script>
-
-<style scoped>
-.text {
-  text-decoration: none;
-}
-.hoverImg{
-  transform: scale(1.2, 1.2);
-}
-/* From Uiverse.io by nikk7007 */
-</style>
+<style scoped></style>

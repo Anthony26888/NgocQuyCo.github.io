@@ -8,7 +8,7 @@
     }}</v-card-subtitle>
     <v-card-actions>
       <v-spacer />
-      <v-btn variant="outlined" class="bg-primary" @click="RoutePush()"
+      <v-btn variant="outlined" class="bg-teal-darken-1" @click="RoutePush()"
         >Mua ngay</v-btn
       >
       <v-spacer />

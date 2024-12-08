@@ -40,6 +40,16 @@ const routes = [
         path: '/Gioi-thieu',
         name: 'Intro',
         component: () => import(/* webpackChunkName: "home" */ '@/views/Intro.vue'),
+      },
+      {
+        path: '/Gio-hang',
+        name: 'Cart',
+        component: () => import(/* webpackChunkName: "home" */ '@/views/Cart.vue'),
+      },
+      {
+        path: '/Admin',
+        name: 'Admin',
+        component: () => import(/* webpackChunkName: "home" */ '@/views/Admin.vue'),
       }
     ],
   },

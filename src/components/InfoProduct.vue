@@ -19,19 +19,33 @@
           >
           </v-img>
         </v-card>
-        <v-row cols="auto" justify="center" class="mt-2" :width="WidthImgLarge">
-          <v-col cols="3" v-for="item in InformationProductImg" :key="item">
-            <v-card>
-              <v-img
-                :src="`/src/assets/Image/Product/${item}`"
-                cover
-                :height="HeightImgSmall"
-                :width="WidthImgSmall"
-                @click="ChangeImg(item)"
-              ></v-img>
-            </v-card>
-          </v-col>
-        </v-row>
+        <v-item-group selected-class="bg-primary">
+          <v-container>
+            <v-row
+              cols="auto"
+              justify="center"
+              class="mt-2"
+              :width="WidthImgLarge"
+            >
+              <v-col cols="3" v-for="item in InformationProductImg" :key="item">
+                <v-item v-slot="{ isSelected, toggle }">
+                  <v-card
+                    :border="isSelected ? 'success md' : false"
+                    @click="toggle"
+                  >
+                    <v-img
+                      :src="`/src/assets/Image/Product/${item}`"
+                      cover
+                      :height="HeightImgSmall"
+                      :width="WidthImgSmall"
+                      @click="ChangeImg(item)"
+                    ></v-img>
+                  </v-card>
+                </v-item>
+              </v-col>
+            </v-row>
+          </v-container>
+        </v-item-group>
       </v-col>
       <v-col col="12" xs="12" sm="12" md="6" lg="6" xl="6" xxl="6">
         <v-card variant="text">
@@ -46,15 +60,9 @@
                 size="large"
                 variant="outlined"
                 class="text-capitalize"
-                @click="store.AddCart($route.params.id)"
-                ><v-icon>mdi mdi-cart</v-icon></v-btn
-              >
-              <v-btn
-                variant="tonal"
-                size="large"
                 color="primary"
-                class="text-capitalize"
-                >Đặt ngay</v-btn
+                @click="store.AddCart($route.params.id)"
+                ><v-icon>mdi mdi-cart</v-icon>Đặt ngay</v-btn
               >
             </v-card-actions>
             <p class="text-overline font-weight-bold adj">Đặc điểm:</p>
@@ -75,7 +83,7 @@
                 ><h3 class="text-h4 text-capition">Đặc tính</h3></v-card-title
               >
               <v-card-text>
-                <v-table>
+                <v-table height="400px">
                   <thead>
                     <tr>
                       <th class="text-left font-weight-bold">Thuộc tính</th>
@@ -83,12 +91,13 @@
                     </tr>
                   </thead>
                   <tbody>
-                    <tr v-for="item in InformationProduct.table" :key="item">
+                    <tr v-for="item in InformationProductTable" :key="item">
                       <td>{{ item.name }}</td>
                       <td>{{ item.detail }}</td>
                     </tr>
                   </tbody>
                 </v-table>
+                <p class="text-muted text-center mt-5" v-if="InformationProductTable.length == 0">Chưa có thông tin</p>
               </v-card-text>
             </v-card>
           </v-col>
@@ -119,7 +128,9 @@
                     </v-list-item-subtitle>
                     <v-list-item-text>{{ item.text }}</v-list-item-text>
                   </v-list-item>
+
                 </v-list>
+                <p class="text-muted text-center mt-5" v-if="InformationProductReview.length == 0">Chưa có nhận xét</p>
               </v-card-text>
             </v-card>
           </v-col>
@@ -127,9 +138,9 @@
       </v-col>
     </v-row>
   </v-card>
-  <SlideProduct v-if="(InformationProductType = 'printer')" />
-  <SlideAccessory v-else-if="(InformationProductType = 'accessory')" />
-  <SlideMaterial v-else />
+  <SlideProduct v-if="InformationProductType == 'printer'" />
+  <SlideMaterial v-else-if="InformationProductType == 'material'" />
+  <SlideAccessory v-else />
 </template>
 <script setup>
 import { computed } from "vue";
@@ -155,7 +166,7 @@ const HeightImgSmall = computed(() => {
     case "lg":
       return 100;
     case "xl":
-      return 150;
+      return 100;
   }
 
   return undefined;
@@ -228,19 +239,18 @@ const store = useAppStore();
 export default {
   data() {
     return {
-      tab: null,
-      loading: true,
       ImageLarge: "",
       InformationProduct: [],
       InformationProductImg: [],
       InformationProductReview: [],
+      InformationProductTable: [],
       InformationProductType: "",
       intervalId: null,
     };
   },
   mounted() {
     this.FetchProduct();
-    this.intervalId = setInterval(this.FetchProduct, 2000);
+    this.intervalId = setInterval(this.FetchProduct, 1000);
   },
   beforeUnmount() {
     // Clear the interval when the component is destroyed
@@ -253,11 +263,13 @@ export default {
     async FetchProduct() {
       try {
         const res = await fetch(
-          `${store.Url}/product/${this.$route.params.id}`
+          `${store.Url}/data/product/${this.$route.params.id}`
         );
         this.InformationProduct = await res.json();
         this.InformationProductImg = this.InformationProduct.imgDetail;
         this.InformationProductReview = this.InformationProduct.review;
+        this.InformationProductTable= this.InformationProduct.table;
+        this.InformationProductType = this.InformationProduct.type
       } catch (error) {
         console.error("Error fetching data:", error);
       }

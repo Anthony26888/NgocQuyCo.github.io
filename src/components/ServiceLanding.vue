@@ -3,9 +3,7 @@
     <div class="container">
       <div class="row justify-content-md-center">
         <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
-          <h2 class="display-5 mb-4 mb-md-5 text-center">
-             Dịch vụ
-          </h2>
+          <h3 class="display-5 text-center text-teal-darken-1">Dịch vụ</h3>
           <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle" />
         </div>
       </div>
@@ -14,39 +12,53 @@
     <div class="container">
       <div class="row gy-5 gy-lg-0 gx-xl-5">
         <div class="col-12 col-lg-4">
-          <div class="card border-0 border-bottom border-primary shadow-sm">
-            <div class="card-body p-4 p-xxl-5">
-              <h2 class="h4 mb-2">Giải pháp</h2>
-              <p class="display-10 text-muted">Công ty Ngọc Quý luôn hỗ trợ và cung cấp những giải pháp tối ưu nhất cho sản phẩm với những yêu cầu từ khách hàng.</p>
-              <a href="#!" class="btn bsb-btn-xl btn-primary rounded-pill"
-                >Chi tiết</a
+          <v-card>
+            <v-img
+              src="@/assets/Image/Banner/solution-landing.png"
+              cover
+            ></v-img>
+            <v-card-title>Giải pháp</v-card-title>
+            <v-card-text>
+              Công ty Ngọc Quý luôn hỗ trợ và cung cấp những giải pháp tối ưu
+              nhất cho sản phẩm với những yêu cầu từ khách hàng.
+            </v-card-text>
+            <v-card-actions>
+              <v-btn color="primary" variant="tonal" class="text-caption"
+                >Chi tiết</v-btn
               >
-            </div>
-          </div>
+            </v-card-actions>
+          </v-card>
         </div>
         <div class="col-12 col-lg-4">
-          <div
-            class="card border-0 border-bottom border-primary shadow-lg pt-md-4 pb-md-4 bsb-pricing-popular"
-          >
-            <div class="card-body p-4 p-xxl-5">
-              <h2 class="h4 mb-2">Sửa chữa</h2>
-              <p class="text-muted">Hỗ trợ sửa chữa và bảo hành cho khách hàng thông qua điện thoại hoặc trực tiếp sửa chữa tại xưởng sản xuất hoặc tại nhà với chi phí cực kì thấp.</p>
-              <a href="#!" class="btn bsb-btn-xl btn-primary rounded-pill"
-                >Chi tiết</a
+          <v-card>
+            <v-img src="@/assets/Image/Banner/repair-landing.png" cover></v-img>
+            <v-card-title>Sữa chữa</v-card-title>
+            <v-card-text>
+              Hỗ trợ sửa chữa và bảo hành cho khách hàng thông qua điện thoại
+              hoặc trực tiếp sửa chữa tại xưởng sản xuất hoặc tại nhà với chi
+              phí cực kì thấp.
+            </v-card-text>
+            <v-card-actions>
+              <v-btn color="primary" variant="tonal" class="text-caption"
+                >Chi tiết</v-btn
               >
-            </div>
-          </div>
+            </v-card-actions>
+          </v-card>
         </div>
         <div class="col-12 col-lg-4">
-          <div class="card border-0 border-bottom border-primary shadow-sm">
-            <div class="card-body p-4 p-xxl-5">
-              <h2 class="h4 mb-2">Thuê máy</h2>
-              <p class="text-muted">Công ty chuyên cung cấp máy mới và hỗ trợ khách hàng thuê máy giúp tiết kiệm tối đa chi phí khách hàng.</p>
-              <a href="#!" class="btn bsb-btn-xl btn-primary rounded-pill"
-                >Chi tiết</a
+          <v-card>
+            <v-img src="@/assets/Image/Banner/all-product.png" cover></v-img>
+            <v-card-title>Thuê máy</v-card-title>
+            <v-card-text>
+              Công ty chuyên cung cấp máy mới và hỗ trợ khách hàng thuê máy giúp
+              tiết kiệm tối đa chi phí khách hàng.
+            </v-card-text>
+            <v-card-actions>
+              <v-btn color="primary" variant="tonal" class="text-caption"
+                >Chi tiết</v-btn
               >
-            </div>
-          </div>
+            </v-card-actions>
+          </v-card>
         </div>
       </div>
     </div>

@@ -1,146 +1,152 @@
 <template>
-  <v-row justify="start" class="px-3">
-    <v-col cols="12" xs="12" sm="12" md="3" lg="3" xl="2">
-      <v-card
-        v-show="FilterDesktop"
-        class="mt-2"
-        title="Sắp xếp"
-        subtitle="Danh mục"
-      >
-        <template v-slot:append>
-          <v-btn
-            color="red"
-            variant="tonal"
-            class="text-capitalize"
-            @click="RouterPush(removal)"
-            >Xoá chọn</v-btn
+  <v-card variant="text">
+    <v-card-text>
+      <v-row justify="start" class="px-3">
+        <v-col cols="12" xs="12" sm="12" md="3" lg="3" xl="2">
+          <v-card
+            v-show="FilterDesktop"
+            class="mt-2"
+            title="Sắp xếp"
+            subtitle="Danh mục"
           >
-        </template>
-        <v-card-text>
-          <v-list density="compact">
-            <v-list-subheader>Máy in phun</v-list-subheader>
+            <template v-slot:append>
+              <v-btn
+                color="red"
+                variant="tonal"
+                class="text-capitalize"
+                @click="RouterPush(removal)"
+                >Xoá chọn</v-btn
+              >
+            </template>
+            <v-card-text>
+              <v-list density="compact">
+                <v-list-subheader>Máy in phun</v-list-subheader>
 
-            <v-list-item
-              v-for="(item, i) in machine"
-              :key="i"
-              :value="item"
-              color="primary"
-              @click="RouterPush(item.value)"
-            >
-              <template v-slot:prepend="{ isActive }">
-                <v-list-item-action start>
-                  <v-checkbox-btn :model-value="isActive"></v-checkbox-btn>
-                </v-list-item-action>
-              </template>
-
-              <v-list-item-title>{{ item.name }}</v-list-item-title>
-            </v-list-item>
-            <v-list-subheader>Linh kiện</v-list-subheader>
-
-            <v-list-item
-              v-for="(item, i) in accessory"
-              :key="i"
-              :value="item"
-              color="primary"
-              @click="RouterPush(item.value)"
-            >
-              <template v-slot:prepend="{ isActive }">
-                <v-list-item-action start>
-                  <v-checkbox-btn :model-value="isActive"></v-checkbox-btn>
-                </v-list-item-action>
-              </template>
-
-              <v-list-item-title>{{ item.name }}</v-list-item-title>
-            </v-list-item>
-            <v-list-subheader>Nguyên liệu</v-list-subheader>
-
-            <v-list-item
-              v-for="(item, i) in material"
-              :key="i"
-              :value="item"
-              color="primary"
-              @click="RouterPush(item.value)"
-            >
-              <template v-slot:prepend="{ isActive }">
-                <v-list-item-action start>
-                  <v-checkbox-btn :model-value="isActive"></v-checkbox-btn>
-                </v-list-item-action>
-              </template>
-
-              <v-list-item-title>{{ item.name }}</v-list-item-title>
-            </v-list-item>
-          </v-list>
-        </v-card-text>
-      </v-card>
-      <v-container class="pa-2" fluid>
-        <v-card title="Sắp xếp" v-show="FilterMobile">
-          <template v-slot:append>
-            <v-btn
-              color="red"
-              variant="tonal"
-              class="text-capitalize"
-              @click="RouterPush(removal)"
-              >Xoá chọn</v-btn
-            >
-          </template>
-          <v-card-text class="d-flex m-2 flex-wrap" justify="center">
-            <v-btn
-              v-for="item in SelectButtonMobile"
-              :key="item"
-              class="ma-2 pa-2 text-capitalize"
-              variant="outlined"
-              :size="sizeButton"
-              @click="RouterPush(item.value)"
-            >
-              {{ item.name }}
-            </v-btn>
-          </v-card-text>
-        </v-card>
-      </v-container>
-    </v-col>
-    <v-col cols="auto" xs="12" sm="12" md="9" lg="9" xl="10">
-      <v-card variant="text">
-        <v-container class="pa-2" fluid>
-          <v-row dense justify="start">
-            <v-col
-              v-for="item in Product"
-              :key="item.name"
-              xs="1"
-              sm="4"
-              md="4"
-              lg="3"
-              xl="2"
-            >
-              <v-hover v-slot="{ isHovering, props }" open-delay="100">
-                <v-card
-                  class="pb-3 card cursor-pointers"
-                  :border="isHovering ? 'success md' : false"
-                  v-bind="props"
-                  flat
-                  :width="widthCard"
-                  :height="heightCard"
-                  @click="RouterDetailPage(item.id, item.type)"
+                <v-list-item
+                  v-for="(item, i) in machine"
+                  :key="i"
+                  :value="item"
+                  color="primary"
+                  @click="RouterPush(item.value)"
                 >
-                  <v-img
-                    :src="`/src/assets/Image/Product/${item.img}`"
-                    class="m-3 cursor-pointers rounded"
-                  ></v-img>
-                  <v-divider class="mx-4"></v-divider>
-                  <v-card-title class="text-wrap text-body-1">{{
-                    item.name
-                  }}</v-card-title>
-                  <v-card-subtitle class="text-subtitle-2">{{
-                    item.brand
-                  }}</v-card-subtitle>
-                  <v-card-text class="text-danger">Giá: Liên hệ</v-card-text>
-                </v-card>
-              </v-hover>
-            </v-col>
-          </v-row>
-        </v-container>
-      </v-card>
-    </v-col>
-  </v-row>
+                  <template v-slot:prepend="{ isActive }">
+                    <v-list-item-action start>
+                      <v-checkbox-btn :model-value="isActive"></v-checkbox-btn>
+                    </v-list-item-action>
+                  </template>
+
+                  <v-list-item-title>{{ item.name }}</v-list-item-title>
+                </v-list-item>
+                <v-list-subheader>Linh kiện</v-list-subheader>
+
+                <v-list-item
+                  v-for="(item, i) in accessory"
+                  :key="i"
+                  :value="item"
+                  color="primary"
+                  @click="RouterPush(item.value)"
+                >
+                  <template v-slot:prepend="{ isActive }">
+                    <v-list-item-action start>
+                      <v-checkbox-btn :model-value="isActive"></v-checkbox-btn>
+                    </v-list-item-action>
+                  </template>
+
+                  <v-list-item-title>{{ item.name }}</v-list-item-title>
+                </v-list-item>
+                <v-list-subheader>Nguyên liệu</v-list-subheader>
+
+                <v-list-item
+                  v-for="(item, i) in material"
+                  :key="i"
+                  :value="item"
+                  color="primary"
+                  @click="RouterPush(item.value)"
+                >
+                  <template v-slot:prepend="{ isActive }">
+                    <v-list-item-action start>
+                      <v-checkbox-btn :model-value="isActive"></v-checkbox-btn>
+                    </v-list-item-action>
+                  </template>
+
+                  <v-list-item-title>{{ item.name }}</v-list-item-title>
+                </v-list-item>
+              </v-list>
+            </v-card-text>
+          </v-card>
+          <v-container class="pa-2" fluid>
+            <v-card title="Sắp xếp" v-show="FilterMobile">
+              <template v-slot:append>
+                <v-btn
+                  color="red"
+                  variant="tonal"
+                  class="text-capitalize"
+                  @click="RouterPush(removal)"
+                  >Xoá chọn</v-btn
+                >
+              </template>
+              <v-card-text class="d-flex m-2 flex-wrap" justify="center">
+                <v-btn
+                  v-for="item in SelectButtonMobile"
+                  :key="item"
+                  class="ma-2 pa-2 text-capitalize"
+                  variant="outlined"
+                  :size="sizeButton"
+                  @click="RouterPush(item.value)"
+                >
+                  {{ item.name }}
+                </v-btn>
+              </v-card-text>
+            </v-card>
+          </v-container>
+        </v-col>
+        <v-col cols="auto" xs="12" sm="12" md="9" lg="9" xl="10">
+          <v-card variant="text">
+            <v-container class="pa-2" fluid>
+              <v-row dense justify="start">
+                <v-col
+                  v-for="item in Product"
+                  :key="item.name"
+                  xs="1"
+                  sm="4"
+                  md="4"
+                  lg="3"
+                  xl="2"
+                >
+                  <v-hover v-slot="{ isHovering, props }" open-delay="100">
+                    <v-card
+                      class="pb-3 card cursor-pointers"
+                      :border="isHovering ? 'success md' : false"
+                      v-bind="props"
+                      flat
+                      :width="widthCard"
+                      :height="heightCard"
+                      @click="RouterDetailPage(item.id, item.type)"
+                    >
+                      <v-img
+                        :src="`/src/assets/Image/Product/${item.img}`"
+                        class="m-3 cursor-pointers rounded img-card"
+                      ></v-img>
+                      <v-divider class="mx-4"></v-divider>
+                      <v-card-title class="text-wrap text-body-1">{{
+                        item.name
+                      }}</v-card-title>
+                      <v-card-subtitle class="text-subtitle-2">{{
+                        item.brand
+                      }}</v-card-subtitle>
+                      <v-card-text class="text-danger"
+                        >Giá: Liên hệ</v-card-text
+                      >
+                    </v-card>
+                  </v-hover>
+                </v-col>
+              </v-row>
+            </v-container>
+          </v-card>
+        </v-col>
+      </v-row>
+    </v-card-text>
+  </v-card>
 </template>
 <script setup>
 import { useAppStore } from "@/store/app";
@@ -283,18 +289,18 @@ export default {
     async FetchProduct() {
       if (this.SelectRoute == "") {
         const res = await fetch(
-          `${this.Url}/product?type=${this.$route.params.id}`
+          `${this.Url}/data/product?type=${this.$route.params.id}`
         );
         return (this.Product = await res.json());
       }
       if (this.SelectRoute !== "") {
         const res = await fetch(
-          `${this.Url}/product?model=${this.$route.params.id}`
+          `${this.Url}/data/product?model=${this.$route.params.id}`
         );
         return (this.Product = await res.json());
       }
       if (this.$route.params.id == "all") {
-        const res = await fetch(`${this.Url}/product`);
+        const res = await fetch(`${this.Url}/data/product`);
         return (this.Product = await res.json());
       }
     },
@@ -311,18 +317,21 @@ export default {
         return router.push({ name: "San-pham", params: { id: value } });
       }
       if (value == "all") {
-        this.SelectRoute = value
+        this.SelectRoute = value;
         return router.push({ name: "San-pham", params: { id: value } });
       }
     },
-    RouterDetailPage(value, type){
-      router.push({name: "DetailProduct", params: {type: type, id: value}})
-    }
+    RouterDetailPage(value, type) {
+      router.push({ name: "DetailProduct", params: { type: type, id: value } });
+    },
   },
 };
 </script>
 <style scoped>
 .bold {
   font-weight: 700;
+}
+.img-card img {
+  mix-blend-mode: darken;
 }
 </style>
