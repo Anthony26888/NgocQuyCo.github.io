@@ -5,11 +5,11 @@ const fs = require("fs");
 const path = require("path");
 const cors = require("cors");
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 // Use CORS middleware
 app.use(
   cors({
-    origin: "http://localhost:3000", // Replace with your client's origin
+    origin: `http://localhost:${PORT}`, // Replace with your client's origin
     methods: ["GET", "POST", "PATCH", "DELETE"], // Allowed HTTP methods
     allowedHeaders: ["Content-Type"], // Allowed headers
   })
@@ -23,21 +23,26 @@ const storage = multer.diskStorage({
     cb(null, "assets/Image/Product"); // folder to save images
   },
   filename: (req, file, cb) => {
-    cb(null, Date.now() + path.extname(file.originalname)); // unique filename
+    const uniqueSuffix = `${file.originalname}`;
+    cb(null, uniqueSuffix);
   },
 });
 
 const upload = multer({ storage: storage });
 
-// Endpoint to handle image upload
-app.post("/upload-single", upload.single("image"), (req, res) => {
-  try {
-    res.status(200).json({
-      message: "Image uploaded successfully",
-      filePath: req.file.path,
+
+app.listen(PORT, () => {
+  console.log(`Server started on http://localhost:${PORT}`);
+});
+
+app.post('/upload-single', upload.single('image'), (req, res) => {
+  if (req.file) {
+    res.json({
+      success: true,
+      imageUrl: `assets/Image/Product/${req.file.filename}`, // Return the image path
     });
-  } catch (err) {
-    res.status(500).json({ error: "Error uploading image" });
+  } else {
+    res.status(400).json({ success: false, message: 'Image upload failed' });
   }
 });
 
@@ -45,7 +50,7 @@ app.post("/upload-multiple", upload.array("images", 10), (req, res) => {
   try {
     const uploadedFiles = req.files.map((file) => ({
       originalName: file.originalname,
-      fileName: file.filename,
+      fileName: file.originalname,
       path: file.path,
     }));
 
@@ -76,27 +81,11 @@ const readJSONFile = (callback) => {
   });
 };
 
-app.get("/data", async (req, res) => {
-  readJSONFile((err, jsonData) => {
-    if (err) {
-      console.error("Error reading the file:", err);
-      res.status(500).send("Internal Server Error");
-      return;
-    }
-
-    try {
-      res.json(jsonData); // Send JSON response
-    } catch (parseErr) {
-      console.error("Error parsing JSON:", parseErr);
-      res.status(500).send("Internal Server Error");
-    }
-  });
-});
-
-app.get("/data/product", async (req, res) => {
+app.get("/data/:arrayName", async (req, res) => {
+  const {arrayName} = req.params
   const { type } = req.query;
   const { model } = req.query;
-
+  const { location } = req.query
   readJSONFile((err, jsonData) => {
     if (err) {
       console.error("Error reading the file:", err);
@@ -105,14 +94,17 @@ app.get("/data/product", async (req, res) => {
     }
 
     try {
-      let FilterProduct = jsonData.product;
+      let Filter = jsonData[arrayName];
       if (type) {
-        FilterProduct = FilterProduct.filter((value) => value.type === type);
+        Filter = Filter.filter((value) => value.type === type);
       }
       if (model) {
-        FilterProduct = FilterProduct.filter((value) => value.model === model);
+        Filter = Filter.filter((value) => value.model === model);
       }
-      res.json(FilterProduct); // Send JSON response
+      if (location) {
+        Filter = Filter.filter((item) => item.location === location);
+      }
+      res.json(Filter); // Send JSON response
     } catch (parseErr) {
       console.error("Error parsing JSON:", parseErr);
       res.status(500).send("Internal Server Error");
@@ -120,47 +112,36 @@ app.get("/data/product", async (req, res) => {
   });
 });
 
-app.post("/product/post", async (req, res) => {
-  const  array  = req.body;
-  console.log(array)
-  if (!array) {
-    return res.status(400).json({ message: "Array data is required." });
-  }
+app.get("/data/:arrayName/:id", async (req, res) => {
 
-
-  fs.writeFile("api/data.json", JSON.stringify(array, null, 2), (err) => {
-    if (err) {
-      console.error("Error writing to file", err);
-      return res.status(500).json({ message: "Failed to save array to file" });
-    }
-    res.status(200).json({ message: "Array saved successfully!" });
-  });
-});
-
-
-app.get("/data/product/:id", async (req, res) => {
-  const ProductId = req.params.id;
-
+  const {arrayName, id} = req.params
+  const ItemId = id
   readJSONFile((err, jsonData) => {
     if (err) {
       console.error("Error reading the file:", err);
       res.status(500).send("Internal Server Error");
       return;
     }
-    const FilterId = jsonData.product.find((p) => p.id === ProductId);
+    const FilterId = jsonData[arrayName].find((p) => p.id === ItemId);
     if (FilterId) {
       res.json(FilterId);
     } else {
       res
         .status(404)
-        .send({ message: `Project with ID ${ProductId} not found` });
+        .send({ message: `Project with ID ${ItemId} not found` });
     }
   });
 });
-app.get("/banner-carousels", async (req, res) => {
-  const filePath = path.join(__dirname, "api/data.json");
 
-  fs.readFile(filePath, "utf8", (err, data) => {
+app.post("/data/post/:arrayName", async (req, res) => {
+  const {arrayName} = req.params
+  const array = req.body;
+  console.log(array);
+  if (!array) {
+    return res.status(400).json({ message: "Array data is required." });
+  }
+
+  readJSONFile((err, jsonData) => {
     if (err) {
       console.error("Error reading the file:", err);
       res.status(500).send("Internal Server Error");
@@ -168,8 +149,22 @@ app.get("/banner-carousels", async (req, res) => {
     }
 
     try {
-      const jsonData = JSON.parse(data);
-      res.json(jsonData.bannercarousles); // Send JSON response
+      jsonData[arrayName].push(array);
+      fs.writeFile(
+        "api/data.json",
+        JSON.stringify(jsonData, null, 2),
+        (err) => {
+          if (err) {
+            console.error("Error writing to file", err);
+            return res
+              .status(500)
+              .json({ message: "Failed to save array to file" });
+          }
+          res
+            .status(200)
+            .json({ message: "Array saved successfully!", data: array });
+        }
+      );
     } catch (parseErr) {
       console.error("Error parsing JSON:", parseErr);
       res.status(500).send("Internal Server Error");
@@ -177,10 +172,16 @@ app.get("/banner-carousels", async (req, res) => {
   });
 });
 
-app.get("/banner-product", async (req, res) => {
-  const filePath = path.join(__dirname, "api/data.json");
+app.patch("/data/patch/:arrayName/:id", async (req, res) => {
+  const array = req.body
+  const { arrayName, id }= req.params
+  const ProductId = id
+  console.log(array);
+  if (!array) {
+    return res.status(400).json({ message: "Array data is required." });
+  }
 
-  fs.readFile(filePath, "utf8", (err, data) => {
+  readJSONFile((err, jsonData) => {
     if (err) {
       console.error("Error reading the file:", err);
       res.status(500).send("Internal Server Error");
@@ -188,8 +189,27 @@ app.get("/banner-product", async (req, res) => {
     }
 
     try {
-      const jsonData = JSON.parse(data);
-      res.json(jsonData.bannerProduct); // Send JSON response
+      if (!jsonData[arrayName]) {
+        return res.status(400).json({ message: `Array "${arrayName}" not found` });
+      }
+      const itemIndex = jsonData[arrayName].findIndex(item => item.id === ProductId);
+      if (itemIndex === -1) return res.status(404).json({ error: 'Item not found' });
+      jsonData[arrayName][itemIndex] = array
+      fs.writeFile(
+        "api/data.json",
+        JSON.stringify(jsonData, null, 2),
+        (err) => {
+          if (err) {
+            console.error("Error writing to file", err);
+            return res
+              .status(500)
+              .json({ message: "Failed to save array to file" });
+          }
+          res
+            .status(200)
+            .json({ message: "Array saved successfully!", data: array });
+        }
+      );
     } catch (parseErr) {
       console.error("Error parsing JSON:", parseErr);
       res.status(500).send("Internal Server Error");
@@ -197,10 +217,10 @@ app.get("/banner-product", async (req, res) => {
   });
 });
 
-app.get("/banner-landing", async (req, res) => {
-  const filePath = path.join(__dirname, "api/data.json");
-
-  fs.readFile(filePath, "utf8", (err, data) => {
+app.delete("/data/delete/:arrayName/:id", async (req, res) => {
+  const { arrayName, id} = req.params;
+  const ProductId = id
+  readJSONFile((err, jsonData) => {
     if (err) {
       console.error("Error reading the file:", err);
       res.status(500).send("Internal Server Error");
@@ -208,28 +228,25 @@ app.get("/banner-landing", async (req, res) => {
     }
 
     try {
-      const jsonData = JSON.parse(data);
-      res.json(jsonData.bannerLanding); // Send JSON response
-    } catch (parseErr) {
-      console.error("Error parsing JSON:", parseErr);
-      res.status(500).send("Internal Server Error");
-    }
-  });
-});
-
-app.get("/banner-new-product", async (req, res) => {
-  const filePath = path.join(__dirname, "api/data.json");
-
-  fs.readFile(filePath, "utf8", (err, data) => {
-    if (err) {
-      console.error("Error reading the file:", err);
-      res.status(500).send("Internal Server Error");
-      return;
-    }
-
-    try {
-      const jsonData = JSON.parse(data);
-      res.json(jsonData.NewProductLanding); // Send JSON response
+      if (!jsonData[arrayName]) {
+        return res.status(400).json({ message: `Array "${arrayName}" not found` });
+      }
+      jsonData[arrayName] = jsonData[arrayName].filter(item => item.id !== ProductId);
+      fs.writeFile(
+        "api/data.json",
+        JSON.stringify(jsonData, null, 2),
+        (err) => {
+          if (err) {
+            console.error("Error writing to file", err);
+            return res
+              .status(500)
+              .json({ message: "Failed to save array to file" });
+          }
+          res
+            .status(200)
+            .json({ message: "Array delete successfully!" });
+        }
+      );
     } catch (parseErr) {
       console.error("Error parsing JSON:", parseErr);
       res.status(500).send("Internal Server Error");

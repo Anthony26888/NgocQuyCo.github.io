@@ -2,11 +2,10 @@
   "product": [
     {
       "id": "101",
-      "type": "printer",
+      "type": "Máy in",
       "model": "CIJ",
       "brand": "Linx",
       "name": "Máy in Linx 8900",
-      "img": "May8900-1.png",
       "imgDetail": [
         "May8900-1.png",
         "May8900-2.png",
@@ -22,62 +21,77 @@
       ],
       "table": [
         {
+          "id": "00",
           "name": "Thương hiệu",
           "detail": "LINX - Anh Quốc"
         },
         {
+          "id": "01",
           "name": "Điện áp",
           "detail": "220V-50Hz"
         },
         {
+          "id": "02",
           "name": "Công suất",
           "detail": "150W"
         },
         {
+          "id": "03",
           "name": "Kích thước đầu phun",
           "detail": "62- 72Micro"
         },
         {
+          "id": "04",
           "name": "Số dòng in",
           "detail": "tối đa 6 dòng"
         },
         {
+          "id": "05",
           "name": "Chiều cao ký tự",
           "detail": "1.8- 20mm"
         },
         {
+          "id": "06",
           "name": "Tốc độ in tối đa",
           "detail": "9.1m/ giây"
         },
         {
+          "id": "07",
           "name": "Số ký tự in tối đa",
           "detail": "2667 ký tự/s"
         },
         {
+          "id": "08",
           "name": "Tính năng",
           "detail": "in date, QR code, mã vạch, logo.,.."
         },
         {
+          "id": "09",
           "name": "Chế độ làm việc",
           "detail": "tự động thông qua cảm biến"
         },
         {
+          "id": "10",
           "name": "Nhiệt độ làm việc",
           "detail": "5-55 độ C"
         },
         {
+          "id": "11",
           "name": "Kích thước máy",
           "detail": "440 x 355 x 503mm"
         },
         {
+          "id": "12",
           "name": "Chất liệu máy",
           "detail": "inox"
         },
         {
+          "id": "13",
           "name": "Tiêu chuẩn chống bụi, ẩm",
           "detail": "IP55"
         },
         {
+          "id": "14",
           "name": "Trọng lượng",
           "detail": "24.5kg"
         }
@@ -105,12 +119,11 @@
     },
     {
       "id": "102",
-      "type": "printer",
+      "type": "Máy in",
       "model": "CIJ",
       "brand": "Linx",
       "name": "Máy in Linx 8800",
       "description": "Linx 8800 là sản phẩm tâm huyết của chúng tôi, được thiết kế chuẩn mực, duy nhất cho thị trường Việt Nam. Chúng tôi mong rằng với Linx 8830, khách hàng sẽ dễ dàng tiếp cận công nghệ in phun tiên tiến Châu Âu với giá thành Việt Nam",
-      "img": "May8800-1.png",
       "imgDetail": [
         "May8800-1.png",
         "May8800-2.png",
@@ -208,7 +221,7 @@
     },
     {
       "id": "103",
-      "type": "printer",
+      "type": "Máy in",
       "model": "CIJ",
       "brand": "Linx",
       "name": "Máy in Linx 7900",
@@ -311,7 +324,7 @@
     },
     {
       "id": "104",
-      "type": "printer",
+      "type": "Máy in",
       "model": "CIJ",
       "brand": "Linx",
       "name": "Máy in Linx 7300",
@@ -414,7 +427,7 @@
     },
     {
       "id": "105",
-      "type": "printer",
+      "type": "Máy in",
       "model": "CIJ",
       "brand": "Linx",
       "name": "Máy in Linx 5900",
@@ -518,12 +531,16 @@
     },
     {
       "id": "106",
-      "type": "printer",
+      "type": "Máy in",
       "model": "CIJ",
       "brand": "Linx",
       "name": "Máy in Linx 4900",
       "img": "May4900-1.png",
-      "imgDetail": ["May4900-1.png", "May4900-2.png", "May4900-3.png"],
+      "imgDetail": [
+        "May4900-1.png",
+        "May4900-2.png",
+        "May4900-3.png"
+      ],
       "description": "Dòng máy in phun hạn sử dụng Linx 4900 có đầy đủ các yếu tố cấu thành của 1 máy in date hiện đại, kết cấu gọn nhẹ, có độ tiết kiệm về chi phí đầu tư và cũng như khấu hao trong quá trình vận hành sản xuất. Máy được kết cấu từ các thiết bị cấu thành với tuổi thọ cao, tiêu chuẩn Anh Quốc và quốc tế – máy hạn chế tối đa phát sinh lỗi vặt – tiết kiệm chi phí bảo trì, sửa chữa trong quá trình vận hành.",
       "tech": [
         "In lên đến 2 dòng văn bản và logo với tốc độ in tối đa 6.25m/s",
@@ -618,7 +635,7 @@
     },
     {
       "id": "108",
-      "type": "printer",
+      "type": "Máy in",
       "model": "TIJ",
       "brand": "TIJ INKJET",
       "name": "Máy in TIJ VT180",
@@ -703,7 +720,7 @@
     },
     {
       "id": "109",
-      "type": "printer",
+      "type": "Máy in",
       "model": "lazer",
       "brand": "KingCode",
       "name": "Máy khắc laser CO2",
@@ -830,7 +847,7 @@
     },
     {
       "id": "110",
-      "type": "printer",
+      "type": "Máy in",
       "model": "lazer",
       "brand": "KingCode",
       "name": "Máy khắc laser Fiber",
@@ -957,7 +974,7 @@
     },
     {
       "id": "111",
-      "type": "printer",
+      "type": "Máy in",
       "model": "lazer",
       "brand": "KingCode",
       "name": "Máy khắc laser UV",
@@ -1084,489 +1101,578 @@
     },
     {
       "id": "201",
-      "type": "material",
+      "type": "Nguyên liệu",
       "name": "Mực đen - 500ml",
       "model": "Mực đen",
       "brand": "",
       "capacity": "500ml",
-      "img": "1014-500-59.jpg",
-      "imgDetail": ["1014-500-59.jpg"],
+      "imgDetail": [
+        "1014-500-59.jpg"
+      ],
       "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7300, 7900",
       "slide": "false"
     },
     {
       "id": "202",
-      "type": "material",
+      "type": "Nguyên liệu",
       "name": "Mực đen - 1000ml",
       "model": "Mực đen",
       "brand": "",
       "capacity": "1000ml",
-      "img": "1014-1000-59.jpg",
-      "imgDetail": ["1014-1000-59.jpg"],
+      "imgDetail": [
+        "1014-1000-59.jpg"
+      ],
       "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7300, 7900",
       "slide": "false"
     },
     {
       "id": "203",
-      "type": "material",
+      "type": "Nguyên liệu",
       "name": "Mực vàng - 500ml",
       "model": "Mực vàng",
       "brand": "",
       "capacity": "500ml",
-      "img": "1039-500-59.jpg",
-      "imgDetail": ["1039-500-59.jpg"],
+      "imgDetail": [
+        "1039-500-59.jpg"
+      ],
       "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7300, 7900",
       "slide": "false"
     },
     {
       "id": "204",
-      "type": "material",
+      "type": "Nguyên liệu",
       "name": "Mực vàng - 1000ml",
       "model": "Mực vàng",
       "brand": "",
       "capacity": "500ml",
-      "img": "1039-1000-59.jpg",
-      "imgDetail": ["1039-1000-59.jpg"],
+      "imgDetail": [
+        "1039-1000-59.jpg"
+      ],
       "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7300, 7900",
       "slide": "false"
     },
     {
       "id": "205",
-      "type": "material",
+      "type": "Nguyên liệu",
       "name": "Mực trắng - 500ml",
       "model": "Mực trắng",
       "brand": "",
       "capacity": "500ml",
-      "img": "1059-500-59.jpg",
-      "imgDetail": ["1059-500-59.jpg"],
+      "imgDetail": [
+        "1059-500-59.jpg"
+      ],
       "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7300, 7900",
       "slide": "false"
     },
     {
       "id": "206",
-      "type": "material",
+      "type": "Nguyên liệu",
       "name": "Mực trắng - 1000ml",
       "model": "Mực trắng",
       "brand": "",
       "capacity": "1000ml",
-      "img": "1059-100-59.jpg",
-      "imgDetail": ["1059-100-59.jpg"],
+      "imgDetail": [
+        "1059-100-59.jpg"
+      ],
       "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7300, 7900",
       "slide": "false"
     },
     {
       "id": "207",
-      "type": "material",
+      "type": "Nguyên liệu",
       "name": "Mực đen máy 8900 - 500ml",
       "model": "Mực đen",
       "brand": "",
       "capacity": "500ml",
-      "img": "1014-89.jpg",
-      "imgDetail": ["1014-89.jpg"],
+      "imgDetail": [
+        "1014-89.jpg"
+      ],
       "description": "Sử dụng tương thích cho máy in Linx 8800, 8900",
       "slide": "false"
     },
     {
       "id": "208",
-      "type": "material",
+      "type": "Nguyên liệu",
       "name": "Dung môi máy 8900 - 1000ml",
       "model": "NL Dung môi",
       "brand": "",
       "capacity": "1000ml",
-      "img": "1505-89.jpg",
-      "imgDetail": ["1505-89.jpg"],
+      "imgDetail": [
+        "1505-89.jpg"
+      ],
       "description": "Sử dụng tương thích cho máy in Linx 8800, 8900",
       "slide": "false"
     },
     {
       "id": "209",
-      "type": "material",
+      "type": "Nguyên liệu",
       "name": "Dung môi - 1000ml",
       "model": "NL Dung môi",
       "brand": "",
       "capacity": "1000ml",
-      "img": "1505-500-59.jpg",
-      "imgDetail": ["1505-500-59.jpg"],
+      "imgDetail": [
+        "1505-500-59.jpg"
+      ],
       "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7300, 7900",
       "slide": "false"
     },
     {
       "id": "210",
-      "type": "material",
+      "type": "Nguyên liệu",
       "name": "Mực và Dung môi máy 8900",
       "model": "Mực và dung môi",
       "brand": "",
       "capacity": "1000ml",
-      "img": "combo-1014-89.jpg",
-      "imgDetail": ["combo-1014-89.jpg"],
+      "imgDetail": [
+        "combo-1014-89.jpg"
+      ],
       "description": "Sử dụng tương thích cho máy in Linx 4900 5900 5900",
       "slide": "false"
     },
     {
       "id": "1",
-      "type": "accessory",
+      "type": "Linh kiện",
       "name": "Bộ lọc chính Linx",
       "model": "Lọc",
       "brand": "Linx",
-      "img": "BoLocChinh59.png",
-      "imgDetail": ["BoLocChinh59.png"],
+      "imgDetail": [
+        "BoLocChinh59.png"
+      ],
       "description": "Sử dụng tương thích cho máy in Linx 4900, 5900",
       "slide": "false"
     },
     {
       "id": "2",
-      "type": "accessory",
+      "type": "Linh kiện",
       "name": "Lọc mực Linx",
       "model": "Lọc",
       "brand": "Linx",
-      "img": "LocMuc59.png",
-      "imgDetail": ["LocMuc59.png"],
+      "imgDetail": [
+        "LocMuc59.png"
+      ],
       "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7900",
       "slide": "false"
     },
     {
       "id": "3",
-      "type": "accessory",
+      "type": "Linh kiện",
       "name": "Lọc dung môi Linx",
       "model": "Lọc",
       "brand": "Linx",
-      "img": "LocDungMoi59.png",
-      "imgDetail": ["LocDungMoi59.png"],
+      "imgDetail": [
+        "LocDungMoi59.png"
+      ],
       "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7900",
       "slide": "false"
     },
     {
       "id": "24",
-      "type": "accessory",
+      "type": "Linh kiện",
       "name": "Lọc 3 nhánh Linx",
       "model": "Lọc",
       "brand": "Linx",
-      "img": "Loc3Nhanh.png",
-      "imgDetail": ["Loc3Nhanh.png"],
+      "imgDetail": [
+        "Loc3Nhanh.png"
+      ],
       "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7900",
       "slide": "false"
     },
     {
       "id": "4",
-      "type": "accessory",
+      "type": "Linh kiện",
       "name": "Damper Linx",
       "model": "Lọc",
       "brand": "Linx",
-      "img": "Damper59Linx.png",
-      "imgDetail": ["Damper59Linx.png"],
+      "imgDetail": [
+        "Damper59Linx.png"
+      ],
       "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7900",
       "slide": "false"
     },
     {
       "id": "5",
-      "type": "accessory",
+      "type": "Linh kiện",
       "name": "Van 3 chiều Linx",
       "model": "Van",
       "brand": "Linx",
-      "img": "Van3Chieu.png",
-      "imgDetail": ["Van3Chieu.png"],
+      "imgDetail": [
+        "Van3Chieu.png"
+      ],
       "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7900",
       "slide": "false"
     },
     {
       "id": "6",
-      "type": "accessory",
+      "type": "Linh kiện",
       "name": "Mặt bàn phím Linx 4900",
       "model": "Bàn phím",
       "brand": "Linx",
-      "img": "BanPhim49.png",
-      "imgDetail": ["BanPhim49.png"],
+      "imgDetail": [
+        "BanPhim49.png"
+      ],
       "description": "Sử dụng tương thích cho máy in Linx 4900",
       "slide": "false"
     },
     {
       "id": "7",
-      "type": "accessory",
+      "type": "Linh kiện",
       "name": "Mặt bàn phím Linx 5900",
       "model": "Bàn phím",
       "brand": "Linx",
-      "img": "BanPhim59.png",
-      "imgDetail": ["BanPhim59.png"],
+      "imgDetail": [
+        "BanPhim59.png"
+      ],
       "description": "Sử dụng tương thích cho máy in Linx 5900",
       "slide": "false"
     },
     {
       "id": "8",
-      "type": "accessory",
+      "type": "Linh kiện",
       "name": "Board nguồn Linx",
       "model": "Board",
       "brand": "Linx",
-      "img": "BoardNguon59.png",
-      "imgDetail": ["BoardNguon59.png"],
+      "imgDetail": [
+        "BoardNguon59.png"
+      ],
       "description": "Sử dụng tương thích cho máy in Linx 4900, 5900, 7900",
       "slide": "false"
     },
     {
       "id": "9",
-      "type": "accessory",
+      "type": "Linh kiện",
       "name": "Mainifold Linx",
       "model": "Van",
       "brand": "Linx",
-      "img": "ManifoldLinx.png",
-      "imgDetail": ["ManifoldLinx.png"],
+      "imgDetail": [
+        "ManifoldLinx.png"
+      ],
       "description": "Sử dụng tương thích cho máy in Linx 4900 5900 5900",
       "slide": "false"
     },
     {
       "id": "10",
-      "type": "accessory",
+      "type": "Linh kiện",
       "name": "Mặt bàn phím Linx 7900",
       "model": "Bàn phím",
       "brand": "Linx",
-      "img": "BanPhim79.png",
-      "imgDetail": ["Banphim79.png"],
+      "imgDetail": [
+        "Banphim79.png"
+      ],
       "description": "Sử dụng tương thích cho máy in Linx 7900",
       "slide": "false"
     },
     {
       "id": "11",
-      "type": "accessory",
+      "type": "Linh kiện",
       "name": "Pin Cmos",
       "model": "Board",
       "brand": "Linx",
-      "img": "pin59.png",
-      "imgDetail": ["pin59.png"],
+      "imgDetail": [
+        "pin59.png"
+      ],
       "description": "Sử dụng tương thích cho máy in Linx 4900 5900 7900",
       "slide": "false"
     },
     {
       "id": "12",
-      "type": "accessory",
+      "type": "Linh kiện",
       "name": "Màn hình Linx 5900",
       "model": "LK Màn hình",
       "brand": "Linx",
-      "img": "manhinh59.png",
-      "imgDetail": ["manhinh59.png"],
+      "imgDetail": [
+        "manhinh59.png"
+      ],
       "description": "Sử dụng tương thích cho máy in Linx 5900",
       "slide": "false"
     },
     {
       "id": "13",
-      "type": "accessory",
+      "type": "Linh kiện",
       "name": "Bơm Linx",
       "model": "Bơm",
       "brand": "Linx",
-      "img": "bom59.png",
-      "imgDetail": ["bom59.png"],
+      "imgDetail": [
+        "bom59.png"
+      ],
       "description": "Sử dụng tương thích cho máy in Linx 4900 5900 7900",
       "slide": "false"
     },
     {
       "id": "14",
-      "type": "accessory",
+      "type": "Linh kiện",
       "name": "Damper Linx 7900",
       "model": "Lọc",
       "brand": "Linx",
-      "img": "damper79.png",
-      "imgDetail": ["damper79.png"],
+      "imgDetail": [
+        "damper79.png"
+      ],
       "description": "Sử dụng tương thích cho máy in Linx 5900 7900",
       "slide": "false"
     },
     {
       "id": "15",
-      "type": "accessory",
+      "type": "Linh kiện",
       "name": "Board chính Linx 5900 7900",
       "model": "Board",
       "brand": "Linx",
-      "img": "board59.png",
-      "imgDetail": ["board59.png"],
+      "imgDetail": [
+        "board59.png"
+      ],
       "description": "Sử dụng tương thích cho máy in Linx 5900 7900",
       "slide": "false"
     },
     {
       "id": "16",
-      "type": "accessory",
+      "type": "Linh kiện",
       "name": "Lọc chính Linx 89xx",
       "model": "Lọc",
       "brand": "Linx",
-      "img": "loc89.png",
-      "imgDetail": ["loc89.png"],
+      "imgDetail": [
+        "loc89.png"
+      ],
       "description": "Sử dụng tương thích cho máy in Linx 88xx 89xx",
       "slide": "false"
     },
     {
       "id": "17",
-      "type": "accessory",
+      "type": "Linh kiện",
       "name": "Board cao áp Linx",
       "model": "Board",
       "brand": "Linx",
-      "img": "boardcaoap59.png",
-      "imgDetail": ["boardcaoap59.png"],
+      "imgDetail": [
+        "boardcaoap59.png"
+      ],
       "description": "Sử dụng tương thích cho máy in Linx 4900 5900 7900",
       "slide": "false"
     },
     {
       "id": "18",
-      "type": "accessory",
+      "type": "Linh kiện",
       "name": "Nắp đầu in Linx",
       "model": "LK Đầu in",
       "brand": "Linx",
-      "img": "napdauin59.png",
-      "imgDetail": ["napdauin59.png"],
+      "imgDetail": [
+        "napdauin59.png"
+      ],
       "description": "Sử dụng tương thích cho máy in Linx 4900 5900 7900",
       "slide": "false"
     },
     {
       "id": "19",
-      "type": "accessory",
+      "type": "Linh kiện",
       "name": "Màn hình 89xx",
       "model": "LK Màn hình",
       "brand": "Linx",
-      "img": "manhinh89.png",
-      "imgDetail": ["manhinh89.png"],
+      "imgDetail": [
+        "manhinh89.png"
+      ],
       "description": "Sử dụng tương thích cho máy in Linx 89xx",
       "slide": "false"
     },
     {
       "id": "20",
-      "type": "accessory",
+      "type": "Linh kiện",
       "name": "Béc phun 88xx 89xx",
       "model": "LK Đầu in",
       "brand": "Linx",
-      "img": "bec89.png",
-      "imgDetail": ["bec89.png"],
+      "imgDetail": [
+        "bec89.png"
+      ],
       "description": "Sử dụng tương thích cho máy in Linx 88xx 89xx",
       "slide": "false"
     },
     {
       "id": "21",
-      "type": "accessory",
+      "type": "Linh kiện",
       "name": "Board chính 88xx 89xx",
       "model": "Board",
       "brand": "Linx",
-      "img": "board79.png",
-      "imgDetail": ["board79.png"],
+      "imgDetail": [
+        "board79.png"
+      ],
       "description": "Sử dụng tương thích cho máy in Linx 88xx 89xx",
       "slide": "false"
     },
     {
       "id": "22",
-      "type": "accessory",
+      "type": "Linh kiện",
       "name": "Bộ lọc chính Spectrum",
       "model": "Lọc",
       "brand": "Linx",
-      "img": "locspectrum.png",
-      "imgDetail": ["locspectrum.png"],
+      "imgDetail": [
+        "locspectrum.png"
+      ],
       "description": "Sử dụng tương thích cho máy in Linx 7900 Spectrum",
       "slide": "false"
     },
     {
       "id": "23",
-      "type": "accessory",
+      "type": "Linh kiện",
       "name": "Màn hình 4900",
       "model": "LK Màn hình",
       "brand": "Linx",
-      "img": "manhinh49.png",
-      "imgDetail": ["manhinh49.png"],
+      "imgDetail": [
+        "manhinh49.png"
+      ],
       "description": "Sử dụng tương thích cho máy in Linx 4900",
       "slide": "false"
+    },
+    {
+      "id": "578c73eb-566e-495b-bcbb-c2d6106a165c",
+      "name": "Máy in Satu",
+      "brand": "Sato",
+      "type": "Máy in",
+      "model": "CIJ",
+      "tech": [
+        ""
+      ],
+      "imgDetail": [
+        "In-nhan-cuon-SATO-768x774.jpg",
+        "sato-1-150x150.jpg",
+        "sato-2-150x150.jpg",
+        "sato-3-150x150.jpg"
+      ],
+      "table": [
+        {
+          "name": "Thương hiệu",
+          "detail": ""
+        },
+        {
+          "name": "Điện áp",
+          "detail": ""
+        },
+        {
+          "name": "Công suất",
+          "detail": ""
+        },
+        {
+          "name": "Nhiệt độ làm việc",
+          "detail": ""
+        },
+        {
+          "name": "Kích thước máy",
+          "detail": ""
+        },
+        {
+          "name": "Chất liệu máy",
+          "detail": ""
+        },
+        {
+          "name": "Tiêu chuẩn chống bụi, ẩm",
+          "detail": ""
+        },
+        {
+          "name": "Kích thước đầu phun",
+          "detail": ""
+        },
+        {
+          "name": "Số dòng in",
+          "detail": ""
+        },
+        {
+          "name": "Chiều cao ký tự",
+          "detail": ""
+        },
+        {
+          "name": "Tốc độ in tối đa",
+          "detail": ""
+        },
+        {
+          "name": "Số ký tự in tối đa",
+          "detail": ""
+        },
+        {
+          "name": "Tính năng",
+          "detail": ""
+        },
+        {
+          "name": "Chế độ làm việc",
+          "detail": ""
+        }
+      ],
+      "review": []
     }
   ],
   "banner": [
     {
       "id": "01",
-      "name": "banner-1",
-      "img": "Banner-1.png"
+      "location": "Quảng cáo",
+      "name": "Banner quảng cáo 1",
+      "img": "May8900-1.png",
+      "title": "",
+      "description": ""
     },
     {
       "id": "02",
-      "name": "banner-2",
-      "img": "Banner-2.png"
+      "location": "Quảng cáo",
+      "name": "Banner quảng cáo 2",
+      "img": "May5900-1.png",
+      "title": "",
+      "description": ""
     },
     {
       "id": "03",
-      "name": "banner-3",
-      "img": "Banner-3.png"
+      "location": "Quảng cáo",
+      "name": "Banner quảng cáo 3",
+      "img": "May4900-1.png",
+      "title": "",
+      "description": ""
     },
     {
       "id": "04",
-      "name": "banner-4",
-      "img": "Banner-4.png"
-    }
-  ],
-  "bannerProduct": [
-    {
-      "id": "01",
-      "name": "banner-1",
-      "img": "banner-product-1.png",
-      "title": "Máy in phun date",
-      "description": "Hệ thống Máy phun mực liên tục (CIJ) được sử dụng để in thông tin thay đổi, chẳng hạn như ngày tháng, lô hoặc mã vạch, trên các sản phẩm riêng lẻ khi chúng di chuyển dọc theo dây chuyền sản xuất, bất kể độ xốp, kích thước, hình dạng hoặc kết cấu."
+      "location": "Quảng cáo",
+      "name": "Banner quảng cáo 4",
+      "img": "MayLazerKingCode-1.png",
+      "title": "",
+      "description": ""
     },
     {
-      "id": "02",
-      "name": "banner-2",
-      "img": "banner-product-2.png",
-      "title": "Máy khắc lazer",
-      "description": "Máy khắc laser là giải pháp lý tưởng hoàn toàn đáp ứng các yêu cầu của khách hàng như: Không tiêu hao nguyên liệu, Hoạt động bền bỉ, vận hành dễ dàng, Thông tin được khắc đảm bảo chắc chắn, khó bị tẩy xóa, n được nhiều loại bản tin khác như như: Barcode, Qr Code, Ngày sản xuất – Hạn sử dụng."
-    },
-    {
-      "id": "03",
-      "name": "banner-3",
-      "img": "banner-product-3.png",
-      "title": "Máy in thùng",
-      "description": "Ứng dụng công nghệ gia nhiệt (Thermal Ink Jet – TIJ) Tiết kiệm chi phí, không cần bảo trì! Máy in tốt trên chất liệu thùng carton, hộp giấy carton, gỗ, vỏ trứng, nhựa cứng, nhựa dẻo, kim loại, nhôm, vật liệu xây dựng."
-    },
-    {
-      "id": "04",
-      "name": "banner-4",
-      "img": "banner-product-4.png",
-      "title": "Nguyên liệu",
-      "description": "Chuyên cung cấp tất cả sản phẩm mực và dung môi cho máy in date và máy in TIJ."
-    }
-  ],
-  "bannerLanding": [
-    {
-      "id": "01",
-      "name": "banner-1",
-      "img": "all-product.png",
-      "title": "Máy in date công nghiệp",
-      "description": "Công ty TNHH Ngoc Quý Tech chuyên cung cấp các sản phẩm in date công nghiệp với những thương hiệu lớn như Linx, KingCode, TIJ... .."
-    },
-    {
-      "id": "02",
-      "name": "banner-2",
-      "img": "solution-landing.png",
-      "title": "Cung cấp giải pháp in date công nghiệp",
-      "description": "Chuyên cung cấp các giải pháp in date công nghiệp như: In ngày hạn sản xuất, BarCode, khắc lazer bề mặt sản phẩm..."
-    },
-    {
-      "id": "03",
-      "name": "banner-4",
-      "img": "banner-landing-4.png",
-      "title": "Nguyên liệu",
-      "description": "Chuyên cung cấp tất cả sản phẩm mực và dung môi cho máy in date và máy in TIJ."
-    },
-    {
-      "id": "04",
-      "name": "banner-5",
-      "img": "repair-landing.png",
-      "title": "Dịch vụ sửa chữa 24/7",
-      "description": "Đội ngũ kỹ thuật chuyên nghiệp luôn hỗ trợ khách hàng một cách nhanh chóng."
-    }
-  ],
-  "NewProductLanding": [
-    {
-      "id": "01",
+      "id": "05",
+      "location": "Sản phẩm mới",
+      "name": "Sản phẩm bán chạy 1",
       "img": "New1.png",
-      "router": "109",
-      "type": "printer"
+      "title": "",
+      "description": ""
     },
     {
-      "id": "02",
-      "img": "BestSale.png",
-      "router": "101",
-      "type": "printer"
-    },
-    {
-      "id": "03",
+      "id": "06",
+      "location": "Sản phẩm mới",
+      "name": "Sản phẩm bán chạỵ 2",
       "img": "New2.png",
-      "router": "108",
-      "type": "printer"
+      "title": "",
+      "description": ""
+    },
+    {
+      "id": "07",
+      "location": "Sản phẩm mới",
+      "name": "Sản phẩm bán tốt nhất",
+      "img": "BestSale.png",
+      "title": "",
+      "description": ""
+    },
+    {
+      "id": "08",
+      "location": "Dịch vụ",
+      "name": "Dịch vụ 1",
+      "img": "Service-banner-1.png",
+      "title": "Giải pháp",
+      "description": "Công ty Ngọc Quý luôn hỗ trợ và cung cấp những giải pháp tối ưu nhất cho sản phẩm với những yêu cầu từ khách hàng.sản phẩm với những yêu cầu từ khách hàng."
+    },
+    {
+      "id": "09",
+      "location": "Dịch vụ",
+      "name": "Dịch vụ 2",
+      "img": "Service-banner-2.png",
+      "title": "Sữa chữa",
+      "description": "Hỗ trợ sửa chữa và bảo hành cho khách hàng thông qua điện thoại hoặc trực tiếp sửa chữa tại xưởng sản xuất hoặc tại nhà với chi phí cực kì thấp."
+    },
+    {
+      "id": "10",
+      "location": "Dịch vụ",
+      "name": "Dịch vụ 3",
+      "img": "Service-banner-3.png",
+      "title": "Thuê máy",
+      "description": "Công ty chuyên cung cấp máy mới và hỗ trợ khách hàng thuê máy giúp tiết kiệm tối đa chi phí khách hàng."
     }
   ],
   "cart": [

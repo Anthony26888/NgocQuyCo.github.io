@@ -1,5 +1,5 @@
 <template>
-  <v-sheet class="mx-auto bg-grey-lighten-4" :max-width="width" rounded>
+  <v-sheet class="mx-auto bg-grey-lighten-3" :max-width="width" rounded>
     <v-card variant="text" title="Nguyên Liệu">
       <template v-slot:append>
         <v-btn
@@ -28,7 +28,7 @@
                 @click="RouterDetailPage(item.id, item.type)"
               >
                 <v-img
-                  :src="`/src/assets/Image/Product/${item.img}`"
+                  :src="`/src/assets/Image/Product/${item.imgDetail[0]}`"
                   class="m-3 cursor-pointers rounded"
                 ></v-img>
                 <v-divider class="mx-4"></v-divider>

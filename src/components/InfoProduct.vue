@@ -5,7 +5,7 @@
         <v-card>
           <v-img
             v-if="ImageLarge == ''"
-            :src="`/src/assets/Image/Product/${InformationProduct.img}`"
+            :src="`/src/assets/Image/Product/${InformationProduct.imgDetail[0]}`"
             :width="WidthImgLarge"
             :height="HeightImgLarge"
             cover

@@ -1,6 +1,6 @@
 <template>
-  <v-card class="card" max-height="500">
-    <v-row  cols="auto">
+  <v-card class="card">
+    <v-row cols="auto">
       <v-col cols="5">
         <v-card variant="text">
           <v-card-title
@@ -27,7 +27,7 @@
           cycle
         >
           <v-carousel-item
-            v-for="item in store.Banner"
+            v-for="item in CarouselsBanner"
             :key="item"
             :src="`/src/assets/Image/Banner/${item.img}`"
             max-height="500"
@@ -40,17 +40,25 @@
 </template>
 <script setup>
 import { useAppStore } from "@/store/app";
-const store = useAppStore();
-store.FetchBanner();
 </script>
 <script>
+const store = useAppStore();
 export default {
   data() {
     return {
       model: 0,
+      CarouselsBanner : null
     };
   },
-  methods: {},
+  created() {
+    this.FetchCarouselsBanner()
+  },
+  methods: {
+    async FetchCarouselsBanner() {
+      const res = await fetch(`${store.Url}/data/banner?location=Quảng%20cáo`);
+      this.CarouselsBanner = await res.json();
+    },
+  },
 };
 </script>
 <style scoped>
@@ -59,8 +67,8 @@ export default {
     height: 900px;
   }
 }
-.card{
-  margin-top: 20px;
+.card {
+  margin-top: -60px;
   padding: 10px;
 }
 </style>

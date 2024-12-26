@@ -270,9 +270,9 @@ export default {
         { name: "Combo", value: "Mực và dung môi" },
       ],
       SelectButtonMobile: [
-        { name: "Máy in", value: "printer" },
-        { name: "Linh kiện", value: "accessory" },
-        { name: "Nguyên liệu", value: "material" },
+        { name: "Máy in", value: "Máy in" },
+        { name: "Linh kiện", value: "Linh kiện" },
+        { name: "Nguyên liệu", value: "Nguyên liệu" },
       ],
 
       removal: "all",
@@ -299,7 +299,7 @@ export default {
         );
         return (this.Product = await res.json());
       }
-      if (this.$route.params.id == "all") {
+      if (this.$route.params.id == "tat-ca-san-pham") {
         const res = await fetch(`${this.Url}/data/product`);
         return (this.Product = await res.json());
       }

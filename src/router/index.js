@@ -45,11 +45,42 @@ const routes = [
         path: '/Gio-hang',
         name: 'Cart',
         component: () => import(/* webpackChunkName: "home" */ '@/views/Cart.vue'),
+      }
+    ],
+  },
+  {
+    path: '/Admin',
+    component: () => import('@/layouts/admin/Default.vue'),
+    children: [
+      {
+        path: '',
+        name: 'EditCompany',
+        component: () => import(/* webpackChunkName: "home" */ '@/components/Admin-Info.vue'),
       },
       {
-        path: '/Admin',
-        name: 'Admin',
-        component: () => import(/* webpackChunkName: "home" */ '@/views/Admin.vue'),
+        path: '/Admin/Danh-sach-san-pham',
+        name: 'Danh sách sản phẩm',
+        component: () => import(/* webpackChunkName: "home" */ '@/components/Admin-Product.vue'),
+      },
+      {
+        path: '/Admin/Danh-sach-san-pham/Tao-san-pham-moi',
+        name: 'Tạo mới sản phẩm',
+        component: () => import(/* webpackChunkName: "home" */ '@/components/Admin-FormNewProduct.vue'),
+      },
+      {
+        path: '/Admin/Danh-sach-san-pham/Chinh-sua-san-pham/:id',
+        name: 'Chỉnh sửa sản phẩm',
+        component: () => import(/* webpackChunkName: "home" */ '@/components/Admin-FormEditProduct.vue'),
+      },
+      {
+        path: '/Admin/Danh-sach-Banner',
+        name: 'Danh sách Banner',
+        component: () => import(/* webpackChunkName: "home" */ '@/components/Admin-Banner.vue'),
+      },
+      {
+        path: '/Admin/Danh-sach-Banner/Chinh-sua-Banner/:id',
+        name: 'Chỉnh sửa Banner',
+        component: () => import(/* webpackChunkName: "home" */ '@/components/Admin-FormEditBanner.vue'),
       }
     ],
   },

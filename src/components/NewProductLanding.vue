@@ -17,7 +17,7 @@
     <v-card-text>
       <div class="container">
         <v-row cols="auto" justify="center">
-          <v-col cols="4" v-for="item in store.BannerNewLanding" :key="item">
+          <v-col cols="4" v-for="item in BannerNewProduct" :key="item">
             <v-hover>
               <template v-slot:default="{ isHovering, props }">
                 <v-card
@@ -48,8 +48,7 @@ import { useAppStore } from "@/store/app";
 import { computed } from "vue";
 import { useDisplay } from "vuetify";
 import router from "../router/index";
-const store = useAppStore();
-store.FetchNewLanding();
+
 const { name } = useDisplay();
 
 const WidthImg = computed(() => {
@@ -83,16 +82,25 @@ const HeightImg = computed(() => {
 </script>
 
 <script>
+const store = useAppStore();
 export default {
   data() {
     return {
-      ShopNow: "",
+      BannerNewProduct:[],
       h1: "Sản phẩm mới",
       Subtitle:
         "Ngọc Quý luôn mang đến những sản phẩm chất lượng và cao cấp nhất đến với khách hàng, với độ chính xác cao và bền bỉ. Ngọc Quý sẽ là sự lựa chọn ",
     };
+
+  },
+  created(){
+    this.FetchNewProductBanner()
   },
   methods: {
+    async FetchNewProductBanner() {
+      const res = await fetch(`${store.Url}/data/banner?location=Sản%20phẩm%20mới`);
+      this.BannerNewProduct = await res.json();
+    },
     RoutePush() {
       router.push({ name: "San-pham", params: { id: "all" } });
     },

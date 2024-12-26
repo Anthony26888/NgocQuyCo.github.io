@@ -1,19 +1,21 @@
 <template>
-  <v-app>
-    <default-bar />
-    <v-container fluid class="bg-grey-lighten-3">
-      <default-view />
-      <BtnCall />
+  <v-app class="bg-grey-lighten-3">
+    <v-container fluid>
+      <v-row>
+        <v-col cols="3">
+          <default-bar />
+        </v-col>
+        <v-col cols="9">
+          <default-view />
+        </v-col>
+      </v-row>
     </v-container>
-    <Footer />
   </v-app>
 </template>
 
 <script setup>
 import DefaultBar from "./AppBar.vue";
-import Footer from "./Footer.vue";
 import DefaultView from "./View.vue";
-import BtnCall from "@/components/ButtonCall.vue";
 </script>
 <script>
 export default {

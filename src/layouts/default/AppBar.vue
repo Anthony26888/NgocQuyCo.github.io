@@ -127,15 +127,15 @@ export default {
       itemNav: [
         {
           name: "Máy in",
-          router: "printer",
+          router: "Máy in",
         },
         {
           name: "Linh kiện",
-          router: "accessory",
+          router: "Linh kiện",
         },
         {
           name: "Nguyên liệu",
-          router: "material",
+          router: "Nguyên liệu",
         },
       ],
       open: ["Product"],

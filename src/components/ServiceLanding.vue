@@ -1,78 +1,53 @@
 <template>
   <section class="bsb-pricing-2 bg-grey-lighten-4 py-3 py-xl-8">
     <div class="container">
-      <div class="row justify-content-md-center">
-        <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
-          <h3 class="display-5 text-center text-teal-darken-1">Dịch vụ</h3>
-          <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle" />
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="row gy-5 gy-lg-0 gx-xl-5">
-        <div class="col-12 col-lg-4">
-          <v-card>
-            <v-img
-              src="@/assets/Image/Banner/solution-landing.png"
-              cover
-            ></v-img>
-            <v-card-title>Giải pháp</v-card-title>
-            <v-card-text>
-              Công ty Ngọc Quý luôn hỗ trợ và cung cấp những giải pháp tối ưu
-              nhất cho sản phẩm với những yêu cầu từ khách hàng.
-            </v-card-text>
-            <v-card-actions>
-              <v-btn color="primary" variant="tonal" class="text-caption"
-                >Chi tiết</v-btn
-              >
-            </v-card-actions>
-          </v-card>
-        </div>
-        <div class="col-12 col-lg-4">
-          <v-card>
-            <v-img src="@/assets/Image/Banner/repair-landing.png" cover></v-img>
-            <v-card-title>Sữa chữa</v-card-title>
-            <v-card-text>
-              Hỗ trợ sửa chữa và bảo hành cho khách hàng thông qua điện thoại
-              hoặc trực tiếp sửa chữa tại xưởng sản xuất hoặc tại nhà với chi
-              phí cực kì thấp.
-            </v-card-text>
-            <v-card-actions>
-              <v-btn color="primary" variant="tonal" class="text-caption"
-                >Chi tiết</v-btn
-              >
-            </v-card-actions>
-          </v-card>
-        </div>
-        <div class="col-12 col-lg-4">
-          <v-card>
-            <v-img src="@/assets/Image/Banner/all-product.png" cover></v-img>
-            <v-card-title>Thuê máy</v-card-title>
-            <v-card-text>
-              Công ty chuyên cung cấp máy mới và hỗ trợ khách hàng thuê máy giúp
-              tiết kiệm tối đa chi phí khách hàng.
-            </v-card-text>
-            <v-card-actions>
-              <v-btn color="primary" variant="tonal" class="text-caption"
-                >Chi tiết</v-btn
-              >
-            </v-card-actions>
-          </v-card>
-        </div>
-      </div>
+      <v-card variant="text">
+        <v-card-title
+          ><h3 class="display-5 text-center text-teal-darken-1">
+            {{ Title }}
+          </h3></v-card-title
+        >
+        <v-card-subtitle class="text-center text-wrap">{{
+          Subtitle
+        }}</v-card-subtitle>
+        <v-divider width="300" class="mx-auto"></v-divider>
+        <v-spacer />
+        <v-card-text>
+          <div class="row gy-5 gy-lg-0 gx-xl-5">
+            <div
+              class="col-12 col-lg-4"
+              v-for="item in BannerService"
+              :key="item"
+            >
+              <v-card>
+                <v-img
+                  :src="`/src/assets/Image/Banner/${item.img}`"
+                  cover
+                ></v-img>
+                <v-card-title>{{ item.title }}</v-card-title>
+                <v-card-text>
+                  {{ item.description }}
+                </v-card-text>
+                <v-card-actions>
+                  <v-btn color="primary" variant="tonal" class="text-caption"
+                    >Chi tiết</v-btn
+                  >
+                </v-card-actions>
+              </v-card>
+            </div>
+          </div>
+        </v-card-text>
+      </v-card>
     </div>
   </section>
 </template>
 
 <script setup>
 import { useAppStore } from "@/store/app";
-const store = useAppStore();
-store.FetchProduct();
-store.FetchBannerLanding();
 </script>
 
 <script>
+const store = useAppStore();
 export default {
   mounted() {
     setTimeout(() => {
@@ -81,12 +56,20 @@ export default {
   },
   data() {
     return {
-      Url: "http://localhost:3000",
-      loading: true,
-      h1: "Dịch vụ",
+      BannerService: null,
+      Title:"Dịch vụ",
       Subtitle:
         "Ngọc Quý luôn mang đến những giải pháp tốt nhất đến cho khách hàng đồng thời theo đó là những dịch vụ như thuê máy và hỗ trợ sửa chữa bảo hành kịp thời và nhanh chóng.",
     };
+  },
+  created() {
+    this.FetchServiceBanner();
+  },
+  methods: {
+    async FetchServiceBanner() {
+      const res = await fetch(`${store.Url}/data/banner?location=Dịch%20vụ`);
+      this.BannerService = await res.json();
+    },
   },
 };
 </script>
